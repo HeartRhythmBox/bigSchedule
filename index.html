@@ -22,27 +22,70 @@
 .slot5 {width: 15%;}
 .break3 {width: 2%;}
 .slot6 {width: 10%;}
-.myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;overflow-x: scroll}
+.myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;
+min-width: 800px;overflow-x: scroll}
 .day01 {border: 0.2vmax solid orange}
 .day02 {border: 0.2vmax solid lightskyblue}
 .day03 {border: 0.2vmax solid purple}
 .day04 {border: 0.2vmax solid red}
 th {font-weight: bold}
 th, td {border: 0.1vmax dotted #555555}
-td {cursor: pointer;}
+.colorL {width:fit-content;height: fit-content}
+
+
 
 </style>
 
 <body>
 
-<div class="sans w3-center w3-row" style="font-size: 3vmax;">APHRS 2019 Schedule</div>
+<div class="w3-center w3-content w3-padding w3-border-bottom">
+    <span class="sans"  style="font-size: 3vmax;">APHRS 2019 Schedule</span>
+    <span class="cursive" style="font-size:2.2vmax;color:dimgray"> . . Unofficial </span>
+</div>
 <div class="cursive w3-center w3-row w3-wide" style="font-size: 1.1vmax;color:darkgray">
 make it happen by t'Thon
 </div>
 
+<!--menu-->
+<div class="w3-bottom w3-center">
+<div class="w3-bar w3-sand sans w3-mobile w3-large">
+  <a href="#top" class="w3-bar-item w3-button w3-round-large w3-border">&uArr; to top</a>
+  <a href="#Thurs" class="w3-bar-item w3-button w3-round-large w3-border">Thursday</a>
+  <a href="#Fri" class="w3-bar-item w3-button w3-round-large w3-border">Friday</a>
+  <a href="#Sat" class="w3-bar-item w3-button w3-round-large w3-border">Saturday</a>
+  <a href="#Sun" class="w3-bar-item w3-button w3-round-large w3-border">Sunday</a>
+
+</div></div>
+
+<!--color code-->
+<div id="colorCode" class="sans w3-center w3-medium" style="margin: 2vmax">
+    <div class="w3-bar">
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div class="w3-bar-item colorL w3-round w3-border"></div>
+      <div id="cToggle" class="w3-bar-item w3-button w3-round w3-border" onclick="colorToggle()">
+        Turn OFF Colors</div>
+    </div>
+  
+</div>
+
+
+
 <!--thursday-->
 <div id="Thurs" class="sans w3-center w3-orange w3-text-white w3-bold" 
-style="font-size: 2.5vmax;margin-top: 1.5vmax">Thursday</div>
+style="font-size: 2.5vmax;margin-top: 1.5vmax">Thursday
+<div class="cursive" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
+</div>
 <table class="sans myTable day01">
   <tr>
     <th class="room"></th><th class="slot1"></th><th class="break1"></th>
@@ -154,9 +197,12 @@ style="font-size: 2.5vmax;margin-top: 1.5vmax">Thursday</div>
     </tr>
 </table>
 
+<div id="demo"></div>
 <!--Friday-->
 <div id="Fri" class="sans w3-center w3-blue w3-text-white w3-bold" 
-style="font-size: 2.5vmax;">Friday</div>
+style="font-size: 2.5vmax;">Friday
+<div class="cursive" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
+</div>
 <table class="sans myTable day02">
   <tr>
     <th class="room"></th><th class="slot1"></th><th class="break1"></th>
@@ -270,7 +316,9 @@ style="font-size: 2.5vmax;">Friday</div>
 
 <!--Sat-->
 <div id="Sat" class="sans w3-center w3-purple w3-text-white w3-bold" 
-style="font-size: 2.5vmax;">Saturday</div>
+style="font-size: 2.5vmax;">Saturday
+<div class="cursive" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
+</div>
 <table class="sans myTable day03">
   <tr>
     <th class="room"></th><th class="slot1"></th><th class="break1"></th>
@@ -384,7 +432,9 @@ style="font-size: 2.5vmax;">Saturday</div>
 
 <!--Sun-->
 <div id="Sun" class="sans w3-center w3-red w3-text-white w3-bold" 
-style="font-size: 2.5vmax;">Sunday</div>
+style="font-size: 2.5vmax;">Sunday
+<div class="cursive" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
+</div>
 <table class="sans myTable day04">
   <tr>
     <th class="room"></th><th class="slot1"></th><th class="break1"></th>
@@ -496,6 +546,34 @@ style="font-size: 2.5vmax;">Sunday</div>
     </tr>
 </table>
 
+<!--popUp-->
+<div id="popUp" class="w3-modal sans">
+  <div class="w3-modal-content w3-card-4">
+    <div class="w3-teal w3-container">
+      <span onclick="document.getElementById('popUp').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+      <div id="code" style="font-size: 1.5vmax;color: #ddd"></div>
+      <div style="font-size:1.5vmax" class="w3-border-bottom">
+      <span id="date"></span>&nbsp;&nbsp;
+      <span id="time"></span>&nbsp;&nbsp;&nbsp;
+      <span id="room"></span>
+      </div> 
+      <div id="title" style="font-weight:bold;font-size:2vmax;margin-top:0.5vmax"></div>
+      <div style="font-size:1.5vmax">
+      <span id="topic"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="track"></span></div>
+      
+      <div class="w3-container w3-padding w3-white" style="font-size: 1.5vmax;margin-top: 0.5vmax">
+      <div id="mod"></div>
+      <div id="sub1"></div>
+      <div id="sub2"></div>
+      <div id="sub3"></div>
+      <div id="sub4"></div>
+      <div id="sub5"></div>
+      <div id="sub6"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -513,7 +591,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Update on stroke prevention in AF",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "The latest update on anticoagulation in AF ",
@@ -548,7 +626,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Education Sym",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -583,7 +661,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Medical management for AF",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Antiarrhythmic agent for AF: revisited",
@@ -618,7 +696,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "AF and clinical outcomes",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Is AF a marker or mechanism of stroke?",
@@ -653,7 +731,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Syncope 2019: What's new and notable?",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Emerging concepts in diagnosis and treatment of syncope by pacing (30 mins)",
@@ -688,7 +766,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "APHRS Submersion Program",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -723,7 +801,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "How to read, write, review, and enjoy a research paper: an editor perspective (APHRS/EHRA/HRS)",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "How to be a good writer.",
@@ -758,7 +836,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Best AF ablation strategy for�",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Paroxysmal",
@@ -793,7 +871,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Extracting the latest guidelines",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "AF ",
@@ -828,7 +906,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "LQTs",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "Long QT syndrome toward Precision Medicine (25 mins)",
@@ -863,7 +941,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Sprs: ECG/EGM? --Prystowsky?",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -898,7 +976,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "The \"MAD\" (Mitral annular disjuction) arrhythmic syndrome (Joint with Imaging) (Mod2: Rungroj K.)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "The disjunction and risk of sudden cardiac death",
@@ -933,7 +1011,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Lunch Sym XL",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -968,7 +1046,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Seth Worley: How to have fun implanting an LV lead",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "",
@@ -1003,7 +1081,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Seth Worley: How to have fun implanting an LV lead",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "",
@@ -1038,7 +1116,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Seth Worley: How to have fun implanting an LV lead",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "",
@@ -1073,7 +1151,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Seth Worley: How to have fun implanting an LV lead",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "",
@@ -1108,7 +1186,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Seth Worley: How to have fun implanting an LV lead",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "",
@@ -1143,7 +1221,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Lunch sym L",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -1178,7 +1256,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Opening Ceremony",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -1213,7 +1291,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Keynote: SADS, SUDS, or whatever, it's about right ventricle.",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "",
@@ -1248,7 +1326,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Lunch Symp XL",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -1283,7 +1361,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "How to differentiate tachycardia mechanisms: from ECG to EGM",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "AVNRT",
@@ -1318,7 +1396,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "Accessory Pathway Revisited",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Mapping and ablating an oblique pathway",
@@ -1353,7 +1431,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "Focal Atrial Tachycardia: How to approach",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Localize the focus of AT from past history and ECG.",
@@ -1388,7 +1466,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "How to prevent complications from SVT ablation",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "How to avoid AV block during AVNRT or septal pathway ablation",
@@ -1423,7 +1501,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "Troubleshooting long-RP tachycardia (lecture + cases discussion)",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Tips and Tricks from the expert (30 mins)",
@@ -1458,7 +1536,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Lunch Sym M",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -1493,7 +1571,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Genetic for cardiac arrhythmia ",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Genetic of cardiac arrhythmia: what have we learned from the whole genome association study?",
@@ -1528,7 +1606,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Investigation of Sudden Cardiac Arrest/Death in the youngs",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Essential Hx, Family Hx, and basic test",
@@ -1563,7 +1641,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Genetic Testing 101",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Genetic testing in NGS era (Apichai Kong)",
@@ -1598,7 +1676,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Important of advance cardiac imaging in sudden cardiac death evaluation : case based approach",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -1633,7 +1711,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "J-wave Syndromes",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Genetic Basis",
@@ -1668,7 +1746,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "AF and HF",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Pathogenesis",
@@ -1703,7 +1781,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Education Sym",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -1738,7 +1816,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "How to avoid complications from CIED implantations",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Complications of CIED implantation, insights from large scale data",
@@ -1773,7 +1851,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Education Sym",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -1808,7 +1886,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "How to avoid complications from AF ablation",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "OACs management to avoid stroke and bleeding",
@@ -1843,7 +1921,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Anatomy for Congenital Heart Disease",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "TBD",
@@ -1878,7 +1956,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -1913,7 +1991,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -1948,7 +2026,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Education Sym",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -1983,7 +2061,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -2018,7 +2096,7 @@ var schedule = [
    "Rm Code": "L13",
    "Rm": "Lotus 13",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -2053,7 +2131,7 @@ var schedule = [
    "Rm Code": "L13",
    "Rm": "Lotus 13",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -2088,7 +2166,7 @@ var schedule = [
    "Rm Code": "L14",
    "Rm": "Lotus 14",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -2123,7 +2201,7 @@ var schedule = [
    "Rm Code": "L14",
    "Rm": "Lotus 14",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -2158,7 +2236,7 @@ var schedule = [
    "Rm Code": "L15",
    "Rm": "Lotus 15",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -2193,7 +2271,7 @@ var schedule = [
    "Rm Code": "L15",
    "Rm": "Lotus 15",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -2228,7 +2306,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "How to manage ventricular arrhythmias during and post MI",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "How to manage lethal ventricular arrhythmias during acute MI",
@@ -2263,7 +2341,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "Approach to epicardial VT",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "How to consider patients for epicardial ablation: Utility of ECG",
@@ -2298,7 +2376,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "Epicardial Ablation - How to Get in Safely and Perform Effective Ablation",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "The basic steps",
@@ -2333,7 +2411,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "Neuromodulation of Ventricular Arrhythmias and Heart Failure",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Autonomic regulation of ventricular arrhythmias and heart failure",
@@ -2368,7 +2446,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "Catheter ablation of ventricular arrhythmias: a case-based approach",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "Mapping and ablating intramural VT: a case based approach",
@@ -2403,7 +2481,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Lunch Sym M",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -2438,7 +2516,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Anatomy/Imaging for Electrophysiologist",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Cardiac imaging for electrophysiologist: the basic",
@@ -2473,7 +2551,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Computer modeling/ECG/Signal Processing",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Non-invasive localization of atrial F wave activity from 64-channel magnetocardiography signals",
@@ -2508,7 +2586,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Education Sym",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -2543,7 +2621,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Arrhythmic disease modeling",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Maturation of pluripotent stem cell-derived cardiomyocytes",
@@ -2578,7 +2656,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Anticoagulation Managements in special situations",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Acute illness",
@@ -2613,7 +2691,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Lunch Sym M",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -2648,7 +2726,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Mananging CIEDs outside EP lab",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Undergoing MRI",
@@ -2683,7 +2761,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Interrogating CIEDs: What do I need to know",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Pacemaker",
@@ -2718,7 +2796,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Education Sym",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -2753,7 +2831,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "How to live arrhythmias free. (APHRS/EHRA)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Caffeine and Arrhythmias: Time to Grind the Data.",
@@ -2788,7 +2866,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Interesting cases from my labs/clinics",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -2823,7 +2901,7 @@ var schedule = [
    "Rm Code": "L8",
    "Rm": "Lotus 8",
    "Main_Title": "YIA 6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -2858,7 +2936,7 @@ var schedule = [
    "Rm Code": "L8",
    "Rm": "Lotus 8",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -2893,7 +2971,7 @@ var schedule = [
    "Rm Code": "L8",
    "Rm": "Lotus 8",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -2928,7 +3006,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "YIA 6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -2963,7 +3041,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -2998,7 +3076,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -3033,7 +3111,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "New insight on mechanisms of AF",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -3068,7 +3146,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "What can AF registries tell us?",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "CV outcomes in AF: lesson learned from GARFIELD",
@@ -3103,7 +3181,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Sprs: Cryoablation: Tips and Tricks",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -3138,7 +3216,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Perioperative management of OACs",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Cardioversion",
@@ -3173,7 +3251,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Non-PVI AF Ablation: when, why, and how",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Evidence of non-PV triggers:results from clinical trials",
@@ -3208,7 +3286,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Lunch Sym L",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -3243,7 +3321,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Morning with Dr. Jackman (I): AVNRT",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "Five Atrionodal connections ",
@@ -3278,7 +3356,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Morning with Dr.Jackman (II): AVNRT",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "Anatomical Definition of the Different Forms of AVNRT",
@@ -3313,7 +3391,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Morning with Dr. Jackman (III): AVNRT",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "Targeting the Atrial End of the Four Slow Pathways",
@@ -3348,7 +3426,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Inherited Cardiomyopathies",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "The final common pathway (J Towbin)",
@@ -3383,7 +3461,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "How do I change my practice after the big trials.",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "DANISH",
@@ -3418,7 +3496,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Post TAVR Cardiac Conduction Abnormalities (Joint session with intervention)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "How to predict and prevent: the perspective from interventionists",
@@ -3453,7 +3531,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Lead extraction mini symposium (I)",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Will lead extraction ever be a \"safe\" procedure?",
@@ -3488,7 +3566,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Lead extraction mini symposium (II)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Necessary equipment and setup for lead extraction procedure",
@@ -3523,7 +3601,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Ambulatory Monitoring (APHRS & ISHNE joint session)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Standardization of Ambulatory Monitoring: What should we do?",
@@ -3558,7 +3636,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Sprs: How to implant a subcutaenous ICD.",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -3593,7 +3671,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Indications and Utilizations of CIEDs in special situations",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Extending AV delay: how long should it be allowed?",
@@ -3628,7 +3706,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Lunch Sym L",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -3663,7 +3741,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Athlete Screening and Arrhythmic Management (APHRS/EHRA/HRS)",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Should we screen an athlete before sport participation?",
@@ -3698,7 +3776,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Plenary Session on AF (1)",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "Stroke prevention in AF: State of the art",
@@ -3733,7 +3811,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Plenary Session on AF (2)",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "Two decades of PVI",
@@ -3768,7 +3846,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Debates: 1. His pacing vs CRT, 2. The \"Wearable\"; nonprescribed consumer ECG recordings and heart rate detectors: a huge pain or a huge opportunity? (APHRS/HRS)",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 4,
    "no Mods": 4,
    "SubT1": "Patients with mid-range LVEF (35-50%) who require RV pacing should receive His bundle pacing.",
@@ -3803,7 +3881,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Debates: 1. Is LAAO beneficial for prevention of stroke in AF patient? 2. Is catheter ablation indicated in asymptomatic Brugada? (mod 2: P sanders)",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 4,
    "no Mods": 4,
    "SubT1": "Y, LAAO is beneficial. (Shephal Doshi)",
@@ -3838,7 +3916,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Lunch Symp XL",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -3873,7 +3951,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "Anatomy for Electrophysiologist I (RA, Septum, and CS)",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "General anatomy and the neighbors",
@@ -3908,7 +3986,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "Anatomy for Electrophysiologist II (Conduction system & LA)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Anatomy and electrical anatomy of cardiac conduction system ",
@@ -3943,7 +4021,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "Anatomy for Electrophysiologist III (RV/LV & Pericardium)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "RV and LV",
@@ -3978,7 +4056,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "Antiarrhythmic Agents: the current and the new target",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Antiarrhythmic effect of statin: Role of acetylcholine activated potassium current",
@@ -4013,7 +4091,7 @@ var schedule = [
    "Rm Code": "L1/2",
    "Rm": "Lotus 1-2",
    "Main_Title": "Atrial flutter revisited",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Basic resetting and entrainment mapping",
@@ -4048,7 +4126,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "ARVC: What's the latest?",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "What's new in the genetic and molecular biology?",
@@ -4083,7 +4161,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Risk stratification of SCD",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "ECG - a forgotten Tool for Risk Stratification",
@@ -4118,7 +4196,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "HCM: Genetic Factor and Morphologic Features",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Genetic causes of HCM",
@@ -4153,7 +4231,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "HCM: Clinical Course and Management",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Clinical Spectrum of HCM",
@@ -4188,7 +4266,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "The current roles of subQ ICD",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "The current status of subQ ICD",
@@ -4223,7 +4301,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Jr EP: Difficult AF Management Cases (AADs, OACs, Ablation, LAAO)",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -4258,7 +4336,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "PVCs and Poor LV",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Mechanisms of PVCs induced cardiomyopathy",
@@ -4293,7 +4371,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Sprs: What's new in CRT optimization?",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -4328,7 +4406,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Sprs: Cardiac Contractility Modulation",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -4363,7 +4441,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "How to respond to a CRT non-responder",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "How to choose LV lead location",
@@ -4398,7 +4476,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -4433,7 +4511,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -4468,7 +4546,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -4503,7 +4581,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -4538,7 +4616,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -4573,7 +4651,7 @@ var schedule = [
    "Rm Code": "L13",
    "Rm": "Lotus 13",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -4608,7 +4686,7 @@ var schedule = [
    "Rm Code": "L13",
    "Rm": "Lotus 13",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -4643,7 +4721,7 @@ var schedule = [
    "Rm Code": "L14",
    "Rm": "Lotus 14",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -4678,7 +4756,7 @@ var schedule = [
    "Rm Code": "L14",
    "Rm": "Lotus 14",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -4713,7 +4791,7 @@ var schedule = [
    "Rm Code": "L15",
    "Rm": "Lotus 15",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -4748,7 +4826,7 @@ var schedule = [
    "Rm Code": "L15",
    "Rm": "Lotus 15",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -4783,7 +4861,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "Electrical storm: update and interesting cases",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Step-wise approach",
@@ -4818,7 +4896,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "Imaging-guided VT ablation",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Wall thickness",
@@ -4853,7 +4931,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "Catheter ablation for non-ischemic VT (ARVC, Sarcoidosis, DCM, Myocarditis)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Overview: approach and outcomes",
@@ -4888,7 +4966,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "Sprs: VT mapping: New Tools",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -4923,7 +5001,7 @@ var schedule = [
    "Rm Code": "L3/4",
    "Rm": "Lotus 3-4",
    "Main_Title": "Update in mapping system and ablation technique for VT ablation",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Non-invasive cardiac radioablation: a 10-min outpatient ablation",
@@ -4958,7 +5036,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Lunch Sym M",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -4993,7 +5071,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Arrhythmogenesis",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Calmodulin regulation of Calcium and Sodium channels and arrhythmogenesis",
@@ -5028,7 +5106,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Unusual and uncommon genetic causes of arrhythmia",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Short QT syndrome: a rare but dangerous ion channelopathy",
@@ -5063,7 +5141,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Genetic and mechanism of arrhythmogenic cardiomyopathy",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Arrhythmogenic beta-Adrenergic Signaling in Cardiac Hypertrophy: Role of Small-Conductance Calcium-Activated Potassium Channels via Activation of CaMKII",
@@ -5098,7 +5176,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Biomarkers for AF and other arrhythmias",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Coagulant and fibrinolytics marker in AF",
@@ -5133,7 +5211,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Anatomy, Pathology, and clinical Correlation",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Cardiac fibroblast, atrial fibrosis, and atrial fibrillation",
@@ -5168,7 +5246,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Lunch Sym M",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -5203,7 +5281,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Patient centred arrhythmia management: Team, Tools, and Technology",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Ambulatory ECG Technology for Syncope/Collapse: Physician and Patient Perspectives",
@@ -5238,7 +5316,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Remote monitoring: challenges and opportunities",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Utility of home monitoring for CIEDs in Asia-Pacific region",
@@ -5273,7 +5351,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Psychological Issues and End-of-life care",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Psychological and life-style impact of an ICD shock",
@@ -5308,7 +5386,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Saving more lives from out-of-hospital cardiac arrest (APHRS/EHRA)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Setting up a first responder App system for the City of Bangkok: Special aspects, project plan and first results. (Alexander Kleehaus)",
@@ -5343,7 +5421,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Setting up new EP labs/Clinics",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Essential Equipments for a new EP lab",
@@ -5378,7 +5456,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Lunch Sym M",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -5413,7 +5491,7 @@ var schedule = [
    "Rm Code": "L8",
    "Rm": "Lotus 8",
    "Main_Title": "YIA 6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -5448,7 +5526,7 @@ var schedule = [
    "Rm Code": "L8",
    "Rm": "Lotus 8",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -5483,7 +5561,7 @@ var schedule = [
    "Rm Code": "L8",
    "Rm": "Lotus 8",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -5518,7 +5596,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "YIA 6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -5553,7 +5631,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -5588,7 +5666,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -5623,7 +5701,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "New Tools and Technology for AF ablation",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Pulse-electric fields Ablation",
@@ -5658,7 +5736,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Approach to post AF Ablation arrhythmias",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -5693,7 +5771,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "How to manage atrial fibrillation in an integrated manner: Easy as ABC",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "How to avoid stroke",
@@ -5728,7 +5806,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Sprs: LAA Occluder",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -5763,7 +5841,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "Risk factors and comorbidities management in AF",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Obesity and AF",
@@ -5798,7 +5876,7 @@ var schedule = [
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
    "Main_Title": "APHRS/HF Joint Session?",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -5833,7 +5911,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Live",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "",
@@ -5868,7 +5946,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Live",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "",
@@ -5903,7 +5981,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Live",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "",
@@ -5938,7 +6016,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Live",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "",
@@ -5973,7 +6051,7 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Live",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "",
@@ -6008,7 +6086,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Wearable ICD",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Technology overview",
@@ -6043,7 +6121,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Sprs: Leadless Pacemaker",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -6078,7 +6156,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -6113,7 +6191,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Spsr: His bundle pacing",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -6148,7 +6226,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Interesting CIEDs cases",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "Lead extraction from His bundle location ",
@@ -6183,7 +6261,7 @@ var schedule = [
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
    "Main_Title": "Lunch Sym L",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -6218,7 +6296,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Radiation Safety and Ergonomic in EP Lab ",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Challenges in radiation protection in medicine.",
@@ -6253,7 +6331,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Artificial Intelligence & Machine Learning (Mod: Sarana Boon)",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "Understanding AI and Machine Learning and the potential impact to healthcare system",
@@ -6288,7 +6366,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Genomic Editing (Mod: Piyamitr Sritara)",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "The new and CRISPR era of genomic editing",
@@ -6323,7 +6401,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Augmented reality and Virtual reality in medical education, research, and practice (Mod: Sirin A.)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Personalized image-based simulation for research and treatment of cardiac arrhythmia: the \"VIRTUAL HEART\" approach",
@@ -6358,7 +6436,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Controversies in AF Ablation (TEE, ablation strategy, eso protection, anesthesia, OAC discont, AFL + PVI, and etc.)",
-   "no subTs": 5,
+   "no_subTs": 5,
    "no Spks": 5,
    "no Mods": 2,
    "SubT1": "",
@@ -6393,7 +6471,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Lunch Symp XL",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -6428,7 +6506,7 @@ var schedule = [
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "Controversies in device therapy (MPP, CCM, His pacing, AVN abl+CRT, Optimal AVD, single PPM vs leadless)",
-   "no subTs": 5,
+   "no_subTs": 5,
    "no Spks": 5,
    "no Mods": 2,
    "SubT1": "",
@@ -6463,7 +6541,7 @@ var schedule = [
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "ICD for primary prevention in HCM, Brugada, DCM: Differences in guidelines (APHRS/EHRA/HRS)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "HCM",
@@ -6498,7 +6576,7 @@ var schedule = [
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "Thinking out loud: the latest CLAIMS, CONCEPTS, and CONTEROVERSIES in cardiac electrophysiology",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Thirty-second definition of AF should be adjusted. (J Steinberg)",
@@ -6533,7 +6611,7 @@ var schedule = [
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "Afternoon with Dr.David Hayes (I)",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "Paced ECG Interpretation",
@@ -6568,7 +6646,7 @@ var schedule = [
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "Afternoon with Dr.David Hayes (II & III)",
-   "no subTs": 1,
+   "no_subTs": 1,
    "no Spks": 1,
    "no Mods": 3,
    "SubT1": "Case Troubleshooting for pacemakers",
@@ -6603,7 +6681,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -6638,7 +6716,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -6673,7 +6751,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "BrS: Genetic & Pathogenesis",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Genotype & Phenotype Correlation in BrS",
@@ -6708,7 +6786,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "BrS: therapeutic options (non-ablative)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Asymptomatic BrS: what to do",
@@ -6743,7 +6821,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Catheter ablation for BrS: Targets & Techniques",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Ventricular arrhythmias ablation in BrS: Current and future ",
@@ -6778,7 +6856,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Approach to Idiopathic ventricular arrhythmias",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "ECG to localize the origin of ventricular arrhythmia",
@@ -6813,7 +6891,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Catheter ablation for idiopathic ventricular arrhythmias",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "How to ablate Idiopathic VA from ventricular summit",
@@ -6848,7 +6926,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Ablation of VF substrate in inherited arrhythmia syndromes",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Epicardial mapping of LQTS patient",
@@ -6883,7 +6961,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "LQTs: Genetics & Rare Forms",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Genetic substrate",
@@ -6918,7 +6996,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "LQTs: Pathophysiology & Management",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Pathophysiological substrate",
@@ -6953,7 +7031,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Junior EP Session: What do I do now?",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -6988,7 +7066,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Mapping and ablating atrial arrhythmias in specific population",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -7023,7 +7101,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Maheim Pathway",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "The variant of Maheim pathway",
@@ -7058,7 +7136,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Education Sym",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -7093,7 +7171,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Complex accessory pathway: How to ablate",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "How to recognize the presence of multiple pathways",
@@ -7128,7 +7206,7 @@ var schedule = [
    "Rm Code": "L13",
    "Rm": "Lotus 13",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -7163,7 +7241,7 @@ var schedule = [
    "Rm Code": "L13",
    "Rm": "Lotus 13",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -7198,7 +7276,7 @@ var schedule = [
    "Rm Code": "L14",
    "Rm": "Lotus 14",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -7233,7 +7311,7 @@ var schedule = [
    "Rm Code": "L14",
    "Rm": "Lotus 14",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -7268,7 +7346,7 @@ var schedule = [
    "Rm Code": "L15",
    "Rm": "Lotus 15",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -7303,7 +7381,7 @@ var schedule = [
    "Rm Code": "L15",
    "Rm": "Lotus 15",
    "Main_Title": "10 abs",
-   "no subTs": 10,
+   "no_subTs": 10,
    "no Spks": 10,
    "no Mods": 4,
    "SubT1": "",
@@ -7338,7 +7416,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Autonomic Nervous System",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Autonomic control and atrial arrhythmias",
@@ -7373,7 +7451,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "New research on Defibrillation and Pacing",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "The cardiac pacemaker power sounce: Evolution and Revelution",
@@ -7408,7 +7486,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Genetic and genomic in pathophysiology and management of AF",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Genetic of AF: results from genome-wide screening",
@@ -7443,7 +7521,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Atrial remodelling",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "New electrophysiological evidence of progression of the AF substrate",
@@ -7478,7 +7556,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "AF Pathogenesis",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Arrhythmogenesis of pulmonary vein cardiomyocytes",
@@ -7513,7 +7591,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Lunch Sym M",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -7548,7 +7626,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "??Spot ECGs Diagnosis (C. Israel)",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -7583,7 +7661,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "CPVT: Pathophysiological substrate & Risk Stratification",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "CPVT: 25 years of research",
@@ -7618,7 +7696,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Surgical Ablation of AF",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Surgical ablation for AF: current status and recommendations",
@@ -7653,7 +7731,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Education Sym",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -7688,7 +7766,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Syncope: pathophysiology and clinical management",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Hemodynamic parameters and baroreflex sensitivity during head-up tilt test in patients with neurally mediated syncope",
@@ -7723,7 +7801,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Lunch Sym M",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -7758,7 +7836,7 @@ var schedule = [
    "Rm Code": "L8",
    "Rm": "Lotus 8",
    "Main_Title": "YIA 6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -7793,7 +7871,7 @@ var schedule = [
    "Rm Code": "L8",
    "Rm": "Lotus 8",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -7828,7 +7906,7 @@ var schedule = [
    "Rm Code": "L8",
    "Rm": "Lotus 8",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -7863,7 +7941,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "YIA 6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -7898,7 +7976,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -7933,7 +8011,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "6 abs",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "",
@@ -7968,7 +8046,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Plenary session on Brugada syndrome (1)",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "Genetic and pathophysiology of BrS",
@@ -8003,7 +8081,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Plenary session on Brugada syndrome (2)",
-   "no subTs": 2,
+   "no_subTs": 2,
    "no Spks": 2,
    "no Mods": 2,
    "SubT1": "\"BRAVE\" and \"BRAVO\": The Result",
@@ -8038,7 +8116,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Closing Ceremony/Awards",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -8073,7 +8151,7 @@ var schedule = [
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "When should AF be diagnosed? The insight from CIED recordings.",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Clinical significance of AHREs",
@@ -8108,7 +8186,7 @@ var schedule = [
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "Screening and Monitoring arrhythmias (APHRS/ISHNE)",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Wearable monitoring and opportunistic screening: State of the art",
@@ -8143,7 +8221,7 @@ var schedule = [
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "The future of CIEDs",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Cyber security of CIEDs: is it a real threat?",
@@ -8178,7 +8256,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Ablation of inherited ventricular arrhythmia: an interesting case",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "Ablation strategies for BrS: an interesting case",
@@ -8213,7 +8291,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Ablation of ventricular arrhythmias in hemodynamically unstable patients: How to safely perform",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Mapping strategy for ischemic VT",
@@ -8248,7 +8326,7 @@ var schedule = [
    "Rm Code": "L10",
    "Rm": "Lotus 10",
    "Main_Title": "Organizing a multidisciplinary clinics in electrophysiology",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "How to organize a successful heart failure & CRT clinic",
@@ -8283,7 +8361,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Can AF ablation be more productive and effective?",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Shifting from volume-based to value-based care: A strategic approach",
@@ -8318,7 +8396,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "Junior EP session: Difficult AF and VT Ablation Cases",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -8353,7 +8431,7 @@ var schedule = [
    "Rm Code": "L11",
    "Rm": "Lotus 11",
    "Main_Title": "New strategy to ablate persistent AF",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Role of non-PV triggers in persistent AF",
@@ -8388,7 +8466,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Junior Ep session: CIEDs complication cases",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 4,
    "SubT1": "",
@@ -8423,7 +8501,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "SCD: gender and regional variations",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "SUDS and SUNDS: The South-East Asia View",
@@ -8458,7 +8536,7 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Advice from senior Eps (Board exam, radiation, physical strain, work-life, education/research opps, when to stop being the main operator) (APHRS/EHRA/HRS)",
-   "no subTs": 5,
+   "no_subTs": 5,
    "no Spks": 5,
    "no Mods": 2,
    "SubT1": "",
@@ -8493,7 +8571,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Novel research and novel therapeutic of arrhythmia",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "Machine Learning and Simulations Guide Therapies for Arrhythmias",
@@ -8528,7 +8606,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "Susceptible genes and modifiers for cardiac arrhythmia",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Fibroblast growth factor: a novel therapeutic strategy for AF",
@@ -8563,7 +8641,7 @@ var schedule = [
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
    "Main_Title": "",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -8598,7 +8676,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Catheter ablation: Tools, Techniques, and Post procedural care",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "",
@@ -8633,7 +8711,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Sprs: Interesting cases",
-   "no subTs": 0,
+   "no_subTs": 0,
    "no Spks": 0,
    "no Mods": 0,
    "SubT1": "",
@@ -8668,7 +8746,7 @@ var schedule = [
    "Rm Code": "L7",
    "Rm": "Lotus 7",
    "Main_Title": "Genetic Counseling in EP",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "Case selection and pre-test counselling",
@@ -8703,7 +8781,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "Overcome challenging cases of AT/AFL/SVT",
-   "no subTs": 6,
+   "no_subTs": 6,
    "no Spks": 6,
    "no Mods": 3,
    "SubT1": "AVNRT with persistent LSVC",
@@ -8738,7 +8816,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "Controversies in SVT ablation",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "One echo should be acceptable endpoint for AVNRT ablation",
@@ -8773,7 +8851,7 @@ var schedule = [
    "Rm Code": "L9",
    "Rm": "Lotus 9",
    "Main_Title": "SVT localization insights from ECG",
-   "no subTs": 4,
+   "no_subTs": 4,
    "no Spks": 4,
    "no Mods": 3,
    "SubT1": "From P wave morphology to the site of origin",
@@ -8807,6 +8885,11 @@ var room = ["CC","ballB","ballA","ballC","L13","L14","L15","L1/2","L3/4","L5/6",
 "L11","L12","L1/4"]
 var dayNo = ["01","02","03","04"]
 
+
+var topicColor = ["papayawhip","tan","thistle","yellowgreen","azure","palegoldenrod",
+    "mistyrose","palegreen","pink","plum","powderblue","whitesmoke","moccasin"]
+var topic = ["Abs","AF","AP","BS","nonMed","CIED","Gen","HF","Ped","SCD","SVT","Syn","VT"];
+
 window.onload = showData();
 
 function showData() {
@@ -8818,6 +8901,14 @@ function showData() {
     allCode.push(schedule[n].Code);
   }
   
+    //colorLegend
+    var strip = document.getElementsByClassName('colorL')
+    var i;
+    for (i=0;i<strip.length;i++){
+      strip[i].innerHTML = topic[i];
+      strip[i].style.backgroundColor = topicColor[i];
+    }
+
     //header
     var i;
     for (i=0;i<time.length;i++){
@@ -8840,6 +8931,7 @@ function showData() {
        
     //match code
     var i,j,col,index01,index02,index03,index04;
+    var clickable = [];var indexL=[];
     for (i=0;i<(row.length-1);i++){
         var j=11;var k=i*j;
         for (col=1;col<timeCode.length;col++){
@@ -8847,22 +8939,120 @@ function showData() {
           var code02 = dayNo[1]+room[i]+"-"+timeCode[col];   
           var code03 = dayNo[2]+room[i]+"-"+timeCode[col];
           var code04 = dayNo[3]+room[i]+"-"+timeCode[col]; 
+          
           index01 = allCode.indexOf(code01);
           if (index01 != -1){
-          tData[k+col].innerHTML = schedule[index01].Main_Title;}
+          tData[k+col].innerHTML = schedule[index01].Main_Title;
+          clickable.push (tData[k+col]);indexL.push(index01);
+          }
           index02 = allCode.indexOf(code02);
           if (index02 != -1){
-          tData[k+(17*11)+col].innerHTML = schedule[index02].Main_Title;}
+          tData[k+(17*11)+col].innerHTML = schedule[index02].Main_Title;
+          clickable.push (tData[k+(17*11)+col]);indexL.push(index02);
+          }
           index03 = allCode.indexOf(code03);
           if (index03 != -1){
-          tData[k+(17*22)+col].innerHTML = schedule[index03].Main_Title;}
+          tData[k+(17*22)+col].innerHTML = schedule[index03].Main_Title;
+          clickable.push (tData[k+(17*22)+col]);indexL.push(index03);
+          }
           index04 = allCode.indexOf(code04);
           if (index04 != -1){
-          tData[k+(17*33)+col].innerHTML = schedule[index04].Main_Title;}
+          tData[k+(17*33)+col].innerHTML = schedule[index04].Main_Title;
+          clickable.push (tData[k+(17*33)+col]);indexL.push(index04);
+          }
         }
     }
-  
+
+ 
+
+    //manage active cells
+    clickable.forEach(function(item,index){
+      item.style.cursor = "pointer";
+      var mainIndex = indexL[index];
+      item.onclick = function(){ showDetail(mainIndex)};
+      var t = schedule[mainIndex].Topic;
+      var cIndex = topic.indexOf(t);
+      item.style.backgroundColor = topicColor[cIndex];
+      document.getElementById('demo').innerHTML = topicColor[cIndex];
+    }) 
+    
 }
+
+function showDetail(d) {
+  document.getElementById("popUp").style.display = "block";
+  document.getElementById("code").innerHTML = schedule[d].Code;
+  document.getElementById("title").innerHTML = schedule[d].Main_Title;
+  document.getElementById("date").innerHTML = schedule[d].Date;
+  document.getElementById("time").innerHTML = schedule[d].Time;
+  document.getElementById("room").innerHTML = schedule[d].Rm;
+  document.getElementById("topic").innerHTML = "Topic: "+ schedule[d].Topic + "  "+ schedule[d].CoTopic+" ";
+  document.getElementById("track").innerHTML = "Track: "+ schedule[d].Track;
+  document.getElementById("mod").innerHTML = "Mods/Panels: "+ schedule[d].Mod1 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
+  + schedule[d].Mod2 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'  + schedule[d].Mod3 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + schedule[d].Mod4 ;
+     
+  document.getElementById("sub1").innerHTML = "1: " + schedule[d].SubT1 + "  " + "(" + schedule[d].Spk1 + ")";
+  document.getElementById("sub2").innerHTML = "2: " + schedule[d].SubT2 + "  " + "(" + schedule[d].Spk2 + ")";
+  document.getElementById("sub3").innerHTML = "3: " + schedule[d].SubT3 + "  " + "(" + schedule[d].Spk3 + ")";
+  document.getElementById("sub4").innerHTML = "4: " + schedule[d].SubT4 + "  " + "(" + schedule[d].Spk4 + ")";
+  document.getElementById("sub5").innerHTML = "5: " + schedule[d].SubT5 + "  " + "(" + schedule[d].Spk5 + ")";
+  document.getElementById("sub6").innerHTML = "6: " + schedule[d].SubT6 + "  " + "(" + schedule[d].Spk6 + ")";
+  
+  //check numbers of subtopics
+  var subN = schedule[d].no_subTs;
+  if (subN == 5) {
+    document.getElementById("sub6").innerHTML="";}
+  else if (subN==4) {
+    document.getElementById("sub6").innerHTML="";
+    document.getElementById("sub5").innerHTML="";
+  }
+  else if (subN==3){
+    document.getElementById("sub6").innerHTML="";
+    document.getElementById("sub5").innerHTML="";
+    document.getElementById("sub4").innerHTML="";  
+  }
+  else if (subN==2){
+    document.getElementById("sub6").innerHTML="";
+    document.getElementById("sub5").innerHTML="";
+    document.getElementById("sub4").innerHTML="";
+    document.getElementById("sub3").innerHTML="";  
+  }
+  else if (subN==1){
+    document.getElementById("sub6").innerHTML="";
+    document.getElementById("sub5").innerHTML="";
+    document.getElementById("sub4").innerHTML="";
+    document.getElementById("sub3").innerHTML="";
+    document.getElementById("sub2").innerHTML="";  
+  }
+  else if (subN==0){
+    document.getElementById("sub6").innerHTML="";
+    document.getElementById("sub5").innerHTML="";
+    document.getElementById("sub4").innerHTML="";
+    document.getElementById("sub3").innerHTML="";
+    document.getElementById("sub2").innerHTML="";
+    document.getElementById("sub1").innerHTML="No SubTopic"
+  }
+
+}
+
+var colorful = 1;
+function colorToggle() {
+  if (colorful ==1){
+    var tData =document.getElementsByTagName("td");
+    colorful = 0;
+    document.getElementById("cToggle").innerHTML ="Turn On Colors";
+    var i;
+    for (i=0;i<tData.length;i++){
+      tData[i].style.backgroundColor ="white";
+    }
+  } 
+  else {
+    colorful = 1;
+    document.getElementById("cToggle").innerHTML ="Turn OFF Colors";
+    showData();
+  }
+}   
+  
+
 
 
 </script>
