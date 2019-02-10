@@ -48,12 +48,12 @@ make it happen by t'Thon
 
 <!--menu-->
 <div class="w3-bottom w3-center">
-<div class="w3-bar w3-sand sans w3-mobile w3-large">
-  <a href="#top" class="w3-bar-item w3-button w3-round-large w3-border">&uArr; to top</a>
-  <a href="#Thurs" class="w3-bar-item w3-button w3-round-large w3-border">Thursday</a>
-  <a href="#Fri" class="w3-bar-item w3-button w3-round-large w3-border">Friday</a>
-  <a href="#Sat" class="w3-bar-item w3-button w3-round-large w3-border">Saturday</a>
-  <a href="#Sun" class="w3-bar-item w3-button w3-round-large w3-border">Sunday</a>
+<div class="w3-bar w3-card-4  sans w3-mobile w3-large">
+  <a href="#top" class="w3-bar-item w3-sand w3-button w3-round-large w3-border">&uArr; to top</a>
+  <a href="#Thurs" class="w3-bar-item w3-sand w3-button w3-round-large w3-border">Thursday</a>
+  <a href="#Fri" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Friday</a>
+  <a href="#Sat" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Saturday</a>
+  <a href="#Sun" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Sunday</a>
 
 </div></div>
 
@@ -8973,7 +8973,6 @@ function showData() {
       var t = schedule[mainIndex].Topic;
       var cIndex = topic.indexOf(t);
       item.style.backgroundColor = topicColor[cIndex];
-      document.getElementById('demo').innerHTML = topicColor[cIndex];
     }) 
     
 }
