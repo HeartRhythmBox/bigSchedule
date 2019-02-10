@@ -35,7 +35,7 @@ overflow-x: auto}
 th {font-weight: bold}
 th, td {border: 0.1vmax dotted #555555}
 .colorL {width:fit-content;height: fit-content}
-
+.topicL {font-size:1.5vmax}
 
 
 </style>
@@ -46,7 +46,7 @@ th, td {border: 0.1vmax dotted #555555}
     <span class="sans"  style="font-size: 3vmax;">APHRS 2019 Schedule</span>
     <span class="cursive" style="font-size:2.2vmax;color:dimgray"> . . Unofficial </span>
 </div>
-<div class="cursive w3-center w3-row w3-wide" style="font-size: 1.1vmax;color:darkgray">
+<div class="cursive w3-center w3-row w3-wide" style="font-size: 1.1vmax;color:darkgray;margin-bottom: 3vmax">
 make it happen by t'Thon
 </div>
 
@@ -58,11 +58,25 @@ make it happen by t'Thon
   <a href="#Fri" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Friday</a>
   <a href="#Sat" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Saturday</a>
   <a href="#Sun" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Sunday</a>
+  <a href="#scheduleList" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Schedule List</a>
 
 </div></div>
 
+<!--subH1-->
+<div id="aag" class="w3-container" style="background:#f3f3f3;margin-top: 5vmax;">
+<div class="w3-row w3-center sans">
+  <div class="w3-row w3-wide" style="font-size:2.5vmax;font-weight: 900">
+  SCHEDULE <span class="cursive">at a glance</span><br>
+  <a href="#scheduleList" class="w3-button w3-border w3-round w3-light-grey sans w3-medium w3-padding-small"
+    style="margin-left:2vmax">
+    click here for schedule in list format.
+  </a>
+  </div>
+</div>
+
+
 <!--color code-->
-<div id="colorCode" class="sans w3-center w3-medium" style="margin: 2vmax">
+<div id="colorCode" class="sans w3-center w3-medium">
     <div class="w3-bar">
       <div class="w3-bar-item colorL w3-round w3-border"></div>
       <div class="w3-bar-item colorL w3-round w3-border"></div>
@@ -82,12 +96,13 @@ make it happen by t'Thon
     </div>
   
 </div>
+</div>
 
 
 
 <!--thursday-->
 <div id="Thurs" class="sans w3-center w3-orange w3-text-white w3-bold" 
-style="font-size: 2.5vmax;margin-top: 1.5vmax">Thursday
+style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
 <div class="cursive" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
 </div>
 <table class="sans myTable day01">
@@ -560,8 +575,11 @@ style="font-size: 2.5vmax;">Sunday
       <div style="font-size:1.5vmax" class="w3-border-bottom">
       <span id="date"></span>&nbsp;&nbsp;
       <span id="time"></span>&nbsp;&nbsp;&nbsp;
-      <span id="room"></span>
+      <span id="room"></span>&nbsp;&nbsp;&nbsp;
+      <div style="font-size: 1.2vmax;color:#ddd">
+          <span id="type"></span><span id="typeD"></span></div>
       </div> 
+      
       <div id="title" style="font-weight:bold;font-size:2vmax;margin-top:0.5vmax"></div>
       <div style="font-size:1.5vmax">
       <span id="topic"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="track"></span></div>
@@ -580,6 +598,82 @@ style="font-size: 2.5vmax;">Sunday
 </div>
 
 
+<!--#scheduleList-->
+<div id="scheduleList" class="w3-container" style="background:#f3f3f3;margin: 5vmax 0;">
+    <div class="w3-row w3-center sans">
+      <div class="w3-row w3-wide" style="font-size:2.5vmax;font-weight: 900">
+      SCHEDULE List<br>
+      <a href="#aag" class="w3-button w3-border w3-round w3-light-grey sans w3-medium w3-padding-small"
+        style="margin-left:2vmax">
+        click here for schedule at-a-glance.
+      </a>
+      </div>
+    </div>
+</div>
+<!--filters-->
+<div class="w3-cell-row w3-center w3-border-bottom sans" style="font-size:2vmax;margin: 5vmax 0">
+    <div class="w3-cell cursive">choose your filter(s)</div>
+    <div class="w3-cell w3-center">
+      <div class="w3-dropdown-hover">
+      <button class="w3-button w3-padding-small">Topics</button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',0)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',1)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',2)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',3)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',4)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',5)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',6)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',7)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',8)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',9)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',10)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',11)"></div>
+        <div class="w3-bar-item w3-button topicL" onclick="showL('t',12)"></div>
+      </div>
+      </div>
+  </div>
+  <div class="w3-cell w3-center">
+      <div class="w3-dropdown-hover">
+      <button class="w3-button w3-padding-small">Tracks</button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a></div>
+      </div>
+  </div>
+  <div class="w3-cell w3-center">
+      <div class="w3-dropdown-hover">
+      <button class="w3-button w3-padding-small">Session Types</button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+      
+      </div>
+      </div>
+  </div>
+  <div class="w3-cell w3-center">
+      <div class="w3-dropdown-hover">
+      <button class="w3-button w3-padding-small">Speakers</button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a></div>
+      </div>
+  </div>
+  <div class="w3-cell w3-center">
+    <div class="w3-button w3-round w3-border" onclick="showL('all')">show all</div>
+  </div>
+  <div class="w3-cell w3-center">
+      <div class="w3-button w3-round w3-border" onclick="showL('clear')">clear</div>
+    </div>
+</div>
+<div id="resultSum" class="sans w3-row w3-padding w3-blue" style="font-size: 2vmax">Showing None.
+</div> 
+<div id="result" class="sans w3-container w3-padding" 
+style="margin-bottom: 5vmax;border: 0.2vmax solid darkgrey;font-size:1.8vmax"></div>
+
 
 <script>
 // core data
@@ -588,7 +682,7 @@ var schedule = [
    "Code": "01ballA-1",
    "Date": "10/24/2019",
    "Topic": "AF",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -623,7 +717,7 @@ var schedule = [
    "Code": "01ballA-2",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -658,7 +752,7 @@ var schedule = [
    "Code": "01ballA-3",
    "Date": "10/24/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -693,7 +787,7 @@ var schedule = [
    "Code": "01ballA-4",
    "Date": "10/24/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -728,7 +822,7 @@ var schedule = [
    "Code": "01ballA-5",
    "Date": "10/24/2019",
    "Topic": "Syn",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -763,7 +857,7 @@ var schedule = [
    "Code": "01ballA-6",
    "Date": "10/24/2019",
    "Topic": "CIED",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "Joint",
    "Time Slot": "6",
    "Time": "16:45-17:45",
@@ -798,7 +892,7 @@ var schedule = [
    "Code": "01ballB-1",
    "Date": "10/24/2019",
    "Topic": "nonMed",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "Joint",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -833,7 +927,7 @@ var schedule = [
    "Code": "01ballB-2",
    "Date": "10/24/2019",
    "Topic": "AF",
-   "Session Type": "VP",
+   "Session_Type": "VP",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -868,7 +962,7 @@ var schedule = [
    "Code": "01ballB-3",
    "Date": "10/24/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -903,7 +997,7 @@ var schedule = [
    "Code": "01ballB-4",
    "Date": "10/24/2019",
    "Topic": "SCD",
-   "Session Type": "Ple",
+   "Session_Type": "Ple",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -938,7 +1032,7 @@ var schedule = [
    "Code": "01ballB-5",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -973,7 +1067,7 @@ var schedule = [
    "Code": "01ballB-6",
    "Date": "10/24/2019",
    "Topic": "SCD",
-   "Session Type": "Rn'F",
+   "Session_Type": "Rn'F",
    "Track": "Joint",
    "Time Slot": "6",
    "Time": "16:45-17:45",
@@ -1008,7 +1102,7 @@ var schedule = [
    "Code": "01ballB-lunch",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -1043,7 +1137,7 @@ var schedule = [
    "Code": "01ballC-1",
    "Date": "10/24/2019",
    "Topic": "CIED",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -1078,7 +1172,7 @@ var schedule = [
    "Code": "01ballC-2",
    "Date": "10/24/2019",
    "Topic": "CIED",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -1113,7 +1207,7 @@ var schedule = [
    "Code": "01ballC-3",
    "Date": "10/24/2019",
    "Topic": "CIED",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -1148,7 +1242,7 @@ var schedule = [
    "Code": "01ballC-4",
    "Date": "10/24/2019",
    "Topic": "CIED",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -1183,7 +1277,7 @@ var schedule = [
    "Code": "01ballC-5",
    "Date": "10/24/2019",
    "Topic": "CIED",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -1218,7 +1312,7 @@ var schedule = [
    "Code": "01ballC-lunch",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -1253,7 +1347,7 @@ var schedule = [
    "Code": "01CC-2",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "CM",
+   "Session_Type": "CM",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -1288,7 +1382,7 @@ var schedule = [
    "Code": "01CC-3",
    "Date": "10/24/2019",
    "Topic": "SCD",
-   "Session Type": "Ple",
+   "Session_Type": "Ple",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -1323,7 +1417,7 @@ var schedule = [
    "Code": "01CC-lunch",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -1358,7 +1452,7 @@ var schedule = [
    "Code": "01L1/2-1",
    "Date": "10/24/2019",
    "Topic": "SVT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -1393,7 +1487,7 @@ var schedule = [
    "Code": "01L1/2-2",
    "Date": "10/24/2019",
    "Topic": "SVT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -1428,7 +1522,7 @@ var schedule = [
    "Code": "01L1/2-3",
    "Date": "10/24/2019",
    "Topic": "SVT",
-   "Session Type": "101",
+   "Session_Type": "101",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -1463,7 +1557,7 @@ var schedule = [
    "Code": "01L1/2-4",
    "Date": "10/24/2019",
    "Topic": "SVT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -1498,7 +1592,7 @@ var schedule = [
    "Code": "01L1/2-5",
    "Date": "10/24/2019",
    "Topic": "SVT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -1533,7 +1627,7 @@ var schedule = [
    "Code": "01L7-lunch",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -1568,7 +1662,7 @@ var schedule = [
    "Code": "01L10-1",
    "Date": "10/24/2019",
    "Topic": "SCD",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -1603,7 +1697,7 @@ var schedule = [
    "Code": "01L10-2",
    "Date": "10/24/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -1638,7 +1732,7 @@ var schedule = [
    "Code": "01L10-3",
    "Date": "10/24/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -1673,7 +1767,7 @@ var schedule = [
    "Code": "01L10-4",
    "Date": "10/24/2019",
    "Topic": "SCD",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -1708,7 +1802,7 @@ var schedule = [
    "Code": "01L10-5",
    "Date": "10/24/2019",
    "Topic": "SCD",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -1743,7 +1837,7 @@ var schedule = [
    "Code": "01L11-1",
    "Date": "10/24/2019",
    "Topic": "HF",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -1778,7 +1872,7 @@ var schedule = [
    "Code": "01L11-2",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -1813,7 +1907,7 @@ var schedule = [
    "Code": "01L11-3",
    "Date": "10/24/2019",
    "Topic": "CIED",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -1848,7 +1942,7 @@ var schedule = [
    "Code": "01L11-4",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -1883,7 +1977,7 @@ var schedule = [
    "Code": "01L11-5",
    "Date": "10/24/2019",
    "Topic": "AF",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -1918,7 +2012,7 @@ var schedule = [
    "Code": "01L12-1",
    "Date": "10/24/2019",
    "Topic": "Ped",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -1953,7 +2047,7 @@ var schedule = [
    "Code": "01L12-2",
    "Date": "10/24/2019",
    "Topic": "Ped",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -1988,7 +2082,7 @@ var schedule = [
    "Code": "01L12-3",
    "Date": "10/24/2019",
    "Topic": "Ped",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -2023,7 +2117,7 @@ var schedule = [
    "Code": "01L12-4",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -2058,7 +2152,7 @@ var schedule = [
    "Code": "01L12-5",
    "Date": "10/24/2019",
    "Topic": "Ped",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -2093,7 +2187,7 @@ var schedule = [
    "Code": "01L13-1",
    "Date": "10/24/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -2128,7 +2222,7 @@ var schedule = [
    "Code": "01L13-5",
    "Date": "10/24/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -2163,7 +2257,7 @@ var schedule = [
    "Code": "01L14-1",
    "Date": "10/24/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -2198,7 +2292,7 @@ var schedule = [
    "Code": "01L14-5",
    "Date": "10/24/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -2233,7 +2327,7 @@ var schedule = [
    "Code": "01L15-1",
    "Date": "10/24/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -2268,7 +2362,7 @@ var schedule = [
    "Code": "01L15-5",
    "Date": "10/24/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -2303,7 +2397,7 @@ var schedule = [
    "Code": "01L3/4-1",
    "Date": "10/24/2019",
    "Topic": "VT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -2338,7 +2432,7 @@ var schedule = [
    "Code": "01L3/4-2",
    "Date": "10/24/2019",
    "Topic": "VT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -2373,7 +2467,7 @@ var schedule = [
    "Code": "01L3/4-3",
    "Date": "10/24/2019",
    "Topic": "VT",
-   "Session Type": "101",
+   "Session_Type": "101",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -2408,7 +2502,7 @@ var schedule = [
    "Code": "01L3/4-4",
    "Date": "10/24/2019",
    "Topic": "VT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -2443,7 +2537,7 @@ var schedule = [
    "Code": "01L3/4-5",
    "Date": "10/24/2019",
    "Topic": "VT",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -2478,7 +2572,7 @@ var schedule = [
    "Code": "01L10-lunch",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -2513,7 +2607,7 @@ var schedule = [
    "Code": "01L5/6-1",
    "Date": "10/24/2019",
    "Topic": "BS",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -2548,7 +2642,7 @@ var schedule = [
    "Code": "01L5/6-2",
    "Date": "10/24/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -2583,7 +2677,7 @@ var schedule = [
    "Code": "01L5/6-3",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -2618,7 +2712,7 @@ var schedule = [
    "Code": "01L5/6-4",
    "Date": "10/24/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -2653,7 +2747,7 @@ var schedule = [
    "Code": "01L5/6-5",
    "Date": "10/24/2019",
    "Topic": "AF",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -2688,7 +2782,7 @@ var schedule = [
    "Code": "01L11-lunch",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -2723,7 +2817,7 @@ var schedule = [
    "Code": "01L7-1",
    "Date": "10/24/2019",
    "Topic": "AP",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -2758,7 +2852,7 @@ var schedule = [
    "Code": "01L7-2",
    "Date": "10/24/2019",
    "Topic": "AP",
-   "Session Type": "101",
+   "Session_Type": "101",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -2793,7 +2887,7 @@ var schedule = [
    "Code": "01L7-3",
    "Date": "10/24/2019",
    "Topic": "",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -2828,7 +2922,7 @@ var schedule = [
    "Code": "01L7-4",
    "Date": "10/24/2019",
    "Topic": "Gen",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -2863,7 +2957,7 @@ var schedule = [
    "Code": "01L7-5",
    "Date": "10/24/2019",
    "Topic": "AP",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -2898,7 +2992,7 @@ var schedule = [
    "Code": "01L8-1",
    "Date": "10/24/2019",
    "Topic": "Abs",
-   "Session Type": "YIA",
+   "Session_Type": "YIA",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -2933,7 +3027,7 @@ var schedule = [
    "Code": "01L8-4",
    "Date": "10/24/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -2968,7 +3062,7 @@ var schedule = [
    "Code": "01L8-5",
    "Date": "10/24/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -3003,7 +3097,7 @@ var schedule = [
    "Code": "01L9-1",
    "Date": "10/24/2019",
    "Topic": "Abs",
-   "Session Type": "YIA",
+   "Session_Type": "YIA",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -3038,7 +3132,7 @@ var schedule = [
    "Code": "01L9-4",
    "Date": "10/24/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -3073,7 +3167,7 @@ var schedule = [
    "Code": "01L9-5",
    "Date": "10/24/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -3108,7 +3202,7 @@ var schedule = [
    "Code": "02ballA-1",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -3143,7 +3237,7 @@ var schedule = [
    "Code": "02ballA-2",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -3178,7 +3272,7 @@ var schedule = [
    "Code": "02ballA-3",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -3213,7 +3307,7 @@ var schedule = [
    "Code": "02ballA-4",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -3248,7 +3342,7 @@ var schedule = [
    "Code": "02ballA-5",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -3283,7 +3377,7 @@ var schedule = [
    "Code": "02ballA-lunch",
    "Date": "10/25/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -3318,7 +3412,7 @@ var schedule = [
    "Code": "02ballB-1",
    "Date": "10/25/2019",
    "Topic": "SVT",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -3353,7 +3447,7 @@ var schedule = [
    "Code": "02ballB-2",
    "Date": "10/25/2019",
    "Topic": "SVT",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -3388,7 +3482,7 @@ var schedule = [
    "Code": "02ballB-3",
    "Date": "10/25/2019",
    "Topic": "SVT",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -3423,7 +3517,7 @@ var schedule = [
    "Code": "02ballB-4",
    "Date": "10/25/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -3458,7 +3552,7 @@ var schedule = [
    "Code": "02ballB-5",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "VP",
+   "Session_Type": "VP",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -3493,7 +3587,7 @@ var schedule = [
    "Code": "02ballB-6",
    "Date": "10/25/2019",
    "Topic": "CIED",
-   "Session Type": "Rn'F",
+   "Session_Type": "Rn'F",
    "Track": "Joint",
    "Time Slot": "6",
    "Time": "16:45-17:45",
@@ -3528,7 +3622,7 @@ var schedule = [
    "Code": "02ballC-1",
    "Date": "10/25/2019",
    "Topic": "CIED",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -3563,7 +3657,7 @@ var schedule = [
    "Code": "02ballC-2",
    "Date": "10/25/2019",
    "Topic": "AP",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -3598,7 +3692,7 @@ var schedule = [
    "Code": "02ballC-3",
    "Date": "10/25/2019",
    "Topic": "Gen",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "Joint",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -3633,7 +3727,7 @@ var schedule = [
    "Code": "02ballC-4",
    "Date": "10/25/2019",
    "Topic": "CIED",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -3668,7 +3762,7 @@ var schedule = [
    "Code": "02ballC-5",
    "Date": "10/25/2019",
    "Topic": "CIED",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -3703,7 +3797,7 @@ var schedule = [
    "Code": "02ballC-lunch",
    "Date": "10/25/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -3738,7 +3832,7 @@ var schedule = [
    "Code": "02CC-1",
    "Date": "10/25/2019",
    "Topic": "SCD",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "Joint",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -3773,7 +3867,7 @@ var schedule = [
    "Code": "02CC-2",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "Ple",
+   "Session_Type": "Ple",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -3808,7 +3902,7 @@ var schedule = [
    "Code": "02CC-3",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "Ple",
+   "Session_Type": "Ple",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -3843,7 +3937,7 @@ var schedule = [
    "Code": "02CC-4",
    "Date": "10/25/2019",
    "Topic": "CIED",
-   "Session Type": "Db",
+   "Session_Type": "Db",
    "Track": "Joint",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -3878,7 +3972,7 @@ var schedule = [
    "Code": "02CC-5",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "Db",
+   "Session_Type": "Db",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -3913,7 +4007,7 @@ var schedule = [
    "Code": "02CC-lunch",
    "Date": "10/25/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -3948,7 +4042,7 @@ var schedule = [
    "Code": "02L1/2-1",
    "Date": "10/25/2019",
    "Topic": "SVT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -3983,7 +4077,7 @@ var schedule = [
    "Code": "02L1/2-2",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -4018,7 +4112,7 @@ var schedule = [
    "Code": "02L1/2-3",
    "Date": "10/25/2019",
    "Topic": "VT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -4053,7 +4147,7 @@ var schedule = [
    "Code": "02L1/2-4",
    "Date": "10/25/2019",
    "Topic": "Gen",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -4088,7 +4182,7 @@ var schedule = [
    "Code": "02L1/2-5",
    "Date": "10/25/2019",
    "Topic": "SVT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -4123,7 +4217,7 @@ var schedule = [
    "Code": "02L10-1",
    "Date": "10/25/2019",
    "Topic": "SCD",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -4158,7 +4252,7 @@ var schedule = [
    "Code": "02L10-2",
    "Date": "10/25/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -4193,7 +4287,7 @@ var schedule = [
    "Code": "02L10-3",
    "Date": "10/25/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -4228,7 +4322,7 @@ var schedule = [
    "Code": "02L10-4",
    "Date": "10/25/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -4263,7 +4357,7 @@ var schedule = [
    "Code": "02L10-5",
    "Date": "10/25/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -4298,7 +4392,7 @@ var schedule = [
    "Code": "02L11-1",
    "Date": "10/25/2019",
    "Topic": "AF",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "JR",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -4333,7 +4427,7 @@ var schedule = [
    "Code": "02L11-2",
    "Date": "10/25/2019",
    "Topic": "HF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -4368,7 +4462,7 @@ var schedule = [
    "Code": "02L11-3",
    "Date": "10/25/2019",
    "Topic": "HF",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -4403,7 +4497,7 @@ var schedule = [
    "Code": "02L11-4",
    "Date": "10/25/2019",
    "Topic": "HF",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -4438,7 +4532,7 @@ var schedule = [
    "Code": "02L11-5",
    "Date": "10/25/2019",
    "Topic": "HF",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -4473,7 +4567,7 @@ var schedule = [
    "Code": "02L12-1",
    "Date": "10/25/2019",
    "Topic": "Ped",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -4508,7 +4602,7 @@ var schedule = [
    "Code": "02L12-2",
    "Date": "10/25/2019",
    "Topic": "Ped",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -4543,7 +4637,7 @@ var schedule = [
    "Code": "02L12-3",
    "Date": "10/25/2019",
    "Topic": "Ped",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -4578,7 +4672,7 @@ var schedule = [
    "Code": "02L12-4",
    "Date": "10/25/2019",
    "Topic": "Ped",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -4613,7 +4707,7 @@ var schedule = [
    "Code": "02L12-5",
    "Date": "10/25/2019",
    "Topic": "Ped",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -4648,7 +4742,7 @@ var schedule = [
    "Code": "02L13-1",
    "Date": "10/25/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -4683,7 +4777,7 @@ var schedule = [
    "Code": "02L13-5",
    "Date": "10/25/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -4718,7 +4812,7 @@ var schedule = [
    "Code": "02L14-1",
    "Date": "10/25/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -4753,7 +4847,7 @@ var schedule = [
    "Code": "02L14-5",
    "Date": "10/25/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -4788,7 +4882,7 @@ var schedule = [
    "Code": "02L15-1",
    "Date": "10/25/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -4823,7 +4917,7 @@ var schedule = [
    "Code": "02L15-5",
    "Date": "10/25/2019",
    "Topic": "mPos",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -4858,7 +4952,7 @@ var schedule = [
    "Code": "02L3/4-1",
    "Date": "10/25/2019",
    "Topic": "VT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -4893,7 +4987,7 @@ var schedule = [
    "Code": "02L3/4-2",
    "Date": "10/25/2019",
    "Topic": "VT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -4928,7 +5022,7 @@ var schedule = [
    "Code": "02L3/4-3",
    "Date": "10/25/2019",
    "Topic": "VT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -4963,7 +5057,7 @@ var schedule = [
    "Code": "02L3/4-4",
    "Date": "10/25/2019",
    "Topic": "VT",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -4998,7 +5092,7 @@ var schedule = [
    "Code": "02L3/4-5",
    "Date": "10/25/2019",
    "Topic": "VT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -5033,7 +5127,7 @@ var schedule = [
    "Code": "02L11-lunch",
    "Date": "10/25/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -5068,7 +5162,7 @@ var schedule = [
    "Code": "02L5/6-1",
    "Date": "10/25/2019",
    "Topic": "BS",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -5103,7 +5197,7 @@ var schedule = [
    "Code": "02L5/6-2",
    "Date": "10/25/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -5138,7 +5232,7 @@ var schedule = [
    "Code": "02L5/6-3",
    "Date": "10/25/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -5173,7 +5267,7 @@ var schedule = [
    "Code": "02L5/6-4",
    "Date": "10/25/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -5208,7 +5302,7 @@ var schedule = [
    "Code": "02L5/6-5",
    "Date": "10/25/2019",
    "Topic": "BS",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -5243,7 +5337,7 @@ var schedule = [
    "Code": "02L10-lunch",
    "Date": "10/25/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -5278,7 +5372,7 @@ var schedule = [
    "Code": "02L7-1",
    "Date": "10/25/2019",
    "Topic": "AP",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -5313,7 +5407,7 @@ var schedule = [
    "Code": "02L7-2",
    "Date": "10/25/2019",
    "Topic": "CIED",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -5348,7 +5442,7 @@ var schedule = [
    "Code": "02L7-3",
    "Date": "10/25/2019",
    "Topic": "AP",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -5383,7 +5477,7 @@ var schedule = [
    "Code": "02L7-4",
    "Date": "10/25/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "Joint",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -5418,7 +5512,7 @@ var schedule = [
    "Code": "02L7-5",
    "Date": "10/25/2019",
    "Topic": "AP",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -5453,7 +5547,7 @@ var schedule = [
    "Code": "02L7-lunch",
    "Date": "10/25/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -5488,7 +5582,7 @@ var schedule = [
    "Code": "02L8-1",
    "Date": "10/25/2019",
    "Topic": "Abs",
-   "Session Type": "YIA",
+   "Session_Type": "YIA",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -5523,7 +5617,7 @@ var schedule = [
    "Code": "02L8-4",
    "Date": "10/25/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -5558,7 +5652,7 @@ var schedule = [
    "Code": "02L8-5",
    "Date": "10/25/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -5593,7 +5687,7 @@ var schedule = [
    "Code": "02L9-1",
    "Date": "10/25/2019",
    "Topic": "Abs",
-   "Session Type": "YIA",
+   "Session_Type": "YIA",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -5628,7 +5722,7 @@ var schedule = [
    "Code": "02L9-4",
    "Date": "10/25/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -5663,7 +5757,7 @@ var schedule = [
    "Code": "02L9-5",
    "Date": "10/25/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -5698,7 +5792,7 @@ var schedule = [
    "Code": "03ballA-1",
    "Date": "10/26/2019",
    "Topic": "AF",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -5733,7 +5827,7 @@ var schedule = [
    "Code": "03ballA-2",
    "Date": "10/26/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -5768,7 +5862,7 @@ var schedule = [
    "Code": "03ballA-3",
    "Date": "10/26/2019",
    "Topic": "AF",
-   "Session Type": "101",
+   "Session_Type": "101",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -5803,7 +5897,7 @@ var schedule = [
    "Code": "03ballA-4",
    "Date": "10/26/2019",
    "Topic": "AF",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -5838,7 +5932,7 @@ var schedule = [
    "Code": "03ballA-5",
    "Date": "10/26/2019",
    "Topic": "AF",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -5873,7 +5967,7 @@ var schedule = [
    "Code": "03ballA-6",
    "Date": "10/26/2019",
    "Topic": "HF",
-   "Session Type": "Rn'F",
+   "Session_Type": "Rn'F",
    "Track": "Joint",
    "Time Slot": "6",
    "Time": "16:45-17:45",
@@ -5908,7 +6002,7 @@ var schedule = [
    "Code": "03ballB-1",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Live",
+   "Session_Type": "Live",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -5943,7 +6037,7 @@ var schedule = [
    "Code": "03ballB-2",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Live",
+   "Session_Type": "Live",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -5978,7 +6072,7 @@ var schedule = [
    "Code": "03ballB-3",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Live",
+   "Session_Type": "Live",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -6013,7 +6107,7 @@ var schedule = [
    "Code": "03ballB-4",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Live",
+   "Session_Type": "Live",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -6048,7 +6142,7 @@ var schedule = [
    "Code": "03ballB-5",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Live",
+   "Session_Type": "Live",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -6083,7 +6177,7 @@ var schedule = [
    "Code": "03ballC-1",
    "Date": "10/26/2019",
    "Topic": "SCD",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -6118,7 +6212,7 @@ var schedule = [
    "Code": "03ballC-2",
    "Date": "10/26/2019",
    "Topic": "CIED",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -6153,7 +6247,7 @@ var schedule = [
    "Code": "03ballC-3",
    "Date": "10/26/2019",
    "Topic": "Ped",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -6188,7 +6282,7 @@ var schedule = [
    "Code": "03ballC-4",
    "Date": "10/26/2019",
    "Topic": "CIED",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -6223,7 +6317,7 @@ var schedule = [
    "Code": "03ballC-5",
    "Date": "10/26/2019",
    "Topic": "CIED",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -6258,7 +6352,7 @@ var schedule = [
    "Code": "03ballC-lunch",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -6293,7 +6387,7 @@ var schedule = [
    "Code": "03CC-1",
    "Date": "10/26/2019",
    "Topic": "nonMed",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -6328,7 +6422,7 @@ var schedule = [
    "Code": "03CC-2",
    "Date": "10/26/2019",
    "Topic": "nonMed",
-   "Session Type": "Ple",
+   "Session_Type": "Ple",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -6363,7 +6457,7 @@ var schedule = [
    "Code": "03CC-3",
    "Date": "10/26/2019",
    "Topic": "nonMed",
-   "Session Type": "Ple",
+   "Session_Type": "Ple",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -6398,7 +6492,7 @@ var schedule = [
    "Code": "03CC-4",
    "Date": "10/26/2019",
    "Topic": "nonMed",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -6433,7 +6527,7 @@ var schedule = [
    "Code": "03CC-5",
    "Date": "10/26/2019",
    "Topic": "AF",
-   "Session Type": "NSTO",
+   "Session_Type": "NSTO",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -6468,7 +6562,7 @@ var schedule = [
    "Code": "03CC-lunch",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -6503,7 +6597,7 @@ var schedule = [
    "Code": "03L1/4-1",
    "Date": "10/26/2019",
    "Topic": "CIED",
-   "Session Type": "NSTO",
+   "Session_Type": "NSTO",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -6538,7 +6632,7 @@ var schedule = [
    "Code": "03L1/4-2",
    "Date": "10/26/2019",
    "Topic": "CIED",
-   "Session Type": "VP",
+   "Session_Type": "VP",
    "Track": "Joint",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -6573,7 +6667,7 @@ var schedule = [
    "Code": "03L1/4-3",
    "Date": "10/26/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -6608,7 +6702,7 @@ var schedule = [
    "Code": "03L1/4-4",
    "Date": "10/26/2019",
    "Topic": "CIED",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -6643,7 +6737,7 @@ var schedule = [
    "Code": "03L1/4-5",
    "Date": "10/26/2019",
    "Topic": "CIED",
-   "Session Type": "SP",
+   "Session_Type": "SP",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -6678,7 +6772,7 @@ var schedule = [
    "Code": "03L10-1",
    "Date": "10/26/2019",
    "Topic": "Ped",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -6713,7 +6807,7 @@ var schedule = [
    "Code": "03L10-2",
    "Date": "10/26/2019",
    "Topic": "Ped",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -6748,7 +6842,7 @@ var schedule = [
    "Code": "03L10-3",
    "Date": "10/26/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -6783,7 +6877,7 @@ var schedule = [
    "Code": "03L10-4",
    "Date": "10/26/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -6818,7 +6912,7 @@ var schedule = [
    "Code": "03L10-5",
    "Date": "10/26/2019",
    "Topic": "VT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -6853,7 +6947,7 @@ var schedule = [
    "Code": "03L11-1",
    "Date": "10/26/2019",
    "Topic": "VT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -6888,7 +6982,7 @@ var schedule = [
    "Code": "03L11-2",
    "Date": "10/26/2019",
    "Topic": "VT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -6923,7 +7017,7 @@ var schedule = [
    "Code": "03L11-3",
    "Date": "10/26/2019",
    "Topic": "VT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -6958,7 +7052,7 @@ var schedule = [
    "Code": "03L11-4",
    "Date": "10/26/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -6993,7 +7087,7 @@ var schedule = [
    "Code": "03L11-5",
    "Date": "10/26/2019",
    "Topic": "SCD",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -7028,7 +7122,7 @@ var schedule = [
    "Code": "03L12-1",
    "Date": "10/26/2019",
    "Topic": "SVT",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "JR",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -7063,7 +7157,7 @@ var schedule = [
    "Code": "03L12-2",
    "Date": "10/26/2019",
    "Topic": "SVT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -7098,7 +7192,7 @@ var schedule = [
    "Code": "03L12-3",
    "Date": "10/26/2019",
    "Topic": "SVT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -7133,7 +7227,7 @@ var schedule = [
    "Code": "03L12-4",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -7168,7 +7262,7 @@ var schedule = [
    "Code": "03L12-5",
    "Date": "10/26/2019",
    "Topic": "SVT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -7203,7 +7297,7 @@ var schedule = [
    "Code": "03L13-1",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -7238,7 +7332,7 @@ var schedule = [
    "Code": "03L13-5",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -7273,7 +7367,7 @@ var schedule = [
    "Code": "03L14-1",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -7308,7 +7402,7 @@ var schedule = [
    "Code": "03L14-5",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -7343,7 +7437,7 @@ var schedule = [
    "Code": "03L15-1",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -7378,7 +7472,7 @@ var schedule = [
    "Code": "03L15-5",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "mPos",
+   "Session_Type": "mPos",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -7413,7 +7507,7 @@ var schedule = [
    "Code": "03L5/6-1",
    "Date": "10/26/2019",
    "Topic": "BS",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -7448,7 +7542,7 @@ var schedule = [
    "Code": "03L5/6-2",
    "Date": "10/26/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -7483,7 +7577,7 @@ var schedule = [
    "Code": "03L5/6-3",
    "Date": "10/26/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -7518,7 +7612,7 @@ var schedule = [
    "Code": "03L5/6-4",
    "Date": "10/26/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -7553,7 +7647,7 @@ var schedule = [
    "Code": "03L5/6-5",
    "Date": "10/26/2019",
    "Topic": "BS",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -7588,7 +7682,7 @@ var schedule = [
    "Code": "03L5/6-lunch",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -7623,7 +7717,7 @@ var schedule = [
    "Code": "03L7-5",
    "Date": "10/26/2019",
    "Topic": "Gen",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -7658,7 +7752,7 @@ var schedule = [
    "Code": "03L7-2",
    "Date": "10/26/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -7693,7 +7787,7 @@ var schedule = [
    "Code": "03L7-3",
    "Date": "10/26/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -7728,7 +7822,7 @@ var schedule = [
    "Code": "03L7-4",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -7763,7 +7857,7 @@ var schedule = [
    "Code": "03L7-1",
    "Date": "10/26/2019",
    "Topic": "Syn",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -7798,7 +7892,7 @@ var schedule = [
    "Code": "03L7-lunch",
    "Date": "10/26/2019",
    "Topic": "",
-   "Session Type": "Lunch",
+   "Session_Type": "Lunch",
    "Track": "",
    "Time Slot": "lunch",
    "Time": "12:00-13:30",
@@ -7833,7 +7927,7 @@ var schedule = [
    "Code": "03L8-1",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "YIA",
+   "Session_Type": "YIA",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -7868,7 +7962,7 @@ var schedule = [
    "Code": "03L8-4",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -7903,7 +7997,7 @@ var schedule = [
    "Code": "03L8-5",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -7938,7 +8032,7 @@ var schedule = [
    "Code": "03L9-1",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "YIA",
+   "Session_Type": "YIA",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -7973,7 +8067,7 @@ var schedule = [
    "Code": "03L9-4",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "4",
    "Time": "13:30-14:30",
@@ -8008,7 +8102,7 @@ var schedule = [
    "Code": "03L9-5",
    "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session Type": "Abs",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
@@ -8043,7 +8137,7 @@ var schedule = [
    "Code": "04CC-1",
    "Date": "10/27/2019",
    "Topic": "SCD",
-   "Session Type": "Ple",
+   "Session_Type": "Ple",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8078,7 +8172,7 @@ var schedule = [
    "Code": "04CC-2",
    "Date": "10/27/2019",
    "Topic": "SCD",
-   "Session Type": "Ple",
+   "Session_Type": "Ple",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -8113,7 +8207,7 @@ var schedule = [
    "Code": "04CC-3",
    "Date": "10/27/2019",
    "Topic": "",
-   "Session Type": "CM",
+   "Session_Type": "CM",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -8148,7 +8242,7 @@ var schedule = [
    "Code": "04L1/4-1",
    "Date": "10/27/2019",
    "Topic": "CIED",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8183,7 +8277,7 @@ var schedule = [
    "Code": "04L1/4-2",
    "Date": "10/27/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -8218,7 +8312,7 @@ var schedule = [
    "Code": "04L1/4-3",
    "Date": "10/27/2019",
    "Topic": "CIED",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -8253,7 +8347,7 @@ var schedule = [
    "Code": "04L10-1",
    "Date": "10/27/2019",
    "Topic": "VT",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8288,7 +8382,7 @@ var schedule = [
    "Code": "04L10-2",
    "Date": "10/27/2019",
    "Topic": "VT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -8323,7 +8417,7 @@ var schedule = [
    "Code": "04L10-3",
    "Date": "10/27/2019",
    "Topic": "Gen",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -8358,7 +8452,7 @@ var schedule = [
    "Code": "04L11-1",
    "Date": "10/27/2019",
    "Topic": "AF",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8393,7 +8487,7 @@ var schedule = [
    "Code": "04L11-2",
    "Date": "10/27/2019",
    "Topic": "AF",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "JR",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -8428,7 +8522,7 @@ var schedule = [
    "Code": "04L11-3",
    "Date": "10/27/2019",
    "Topic": "AF",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -8463,7 +8557,7 @@ var schedule = [
    "Code": "04L12-1",
    "Date": "10/27/2019",
    "Topic": "CIED",
-   "Session Type": "CBS",
+   "Session_Type": "CBS",
    "Track": "JR",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8498,7 +8592,7 @@ var schedule = [
    "Code": "04L12-2",
    "Date": "10/27/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -8533,7 +8627,7 @@ var schedule = [
    "Code": "04L12-3",
    "Date": "10/27/2019",
    "Topic": "nonMed",
-   "Session Type": "NSTO",
+   "Session_Type": "NSTO",
    "Track": "Joint",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -8568,7 +8662,7 @@ var schedule = [
    "Code": "04L5/6-1",
    "Date": "10/27/2019",
    "Topic": "BS",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8603,7 +8697,7 @@ var schedule = [
    "Code": "04L5/6-2",
    "Date": "10/27/2019",
    "Topic": "BS",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -8638,7 +8732,7 @@ var schedule = [
    "Code": "04L5/6-3",
    "Date": "10/27/2019",
    "Topic": "SCD",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -8673,7 +8767,7 @@ var schedule = [
    "Code": "04L7-1",
    "Date": "10/27/2019",
    "Topic": "AP",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8708,7 +8802,7 @@ var schedule = [
    "Code": "04L7-2",
    "Date": "10/27/2019",
    "Topic": "Syn",
-   "Session Type": "Sponsor",
+   "Session_Type": "Sponsor",
    "Track": "Spsr",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -8743,7 +8837,7 @@ var schedule = [
    "Code": "04L7-3",
    "Date": "10/27/2019",
    "Topic": "AP",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -8778,7 +8872,7 @@ var schedule = [
    "Code": "04L9-1",
    "Date": "10/27/2019",
    "Topic": "SVT",
-   "Session Type": "CL90",
+   "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8813,7 +8907,7 @@ var schedule = [
    "Code": "04L9-2",
    "Date": "10/27/2019",
    "Topic": "SVT",
-   "Session Type": "VP",
+   "Session_Type": "VP",
    "Track": "",
    "Time Slot": "2",
    "Time": "10:00-11:00",
@@ -8848,7 +8942,7 @@ var schedule = [
    "Code": "04L9-3",
    "Date": "10/27/2019",
    "Topic": "SVT",
-   "Session Type": "CL60",
+   "Session_Type": "CL60",
    "Track": "",
    "Time Slot": "3",
    "Time": "11:00-12:00",
@@ -8891,10 +8985,21 @@ var dayNo = ["01","02","03","04"]
 
 
 var topicColor = ["papayawhip","tan","thistle","yellowgreen","azure","palegoldenrod",
-    "mistyrose","palegreen","pink","plum","powderblue","whitesmoke","moccasin"]
+    "mistyrose","palegreen","pink","plum","powderblue","khaki","moccasin"]
 var topic = ["Abs","AF","AP","BS","nonMed","CIED","Gen","HF","Ped","SCD","SVT","Syn","VT"];
+var sessionType = ["101","Abs","CM","CBS","CL60","CL90","Db","Live","Lunch","mPos","NSTO",
+"Ple","SP","VP","YIA","Rn'F","Sponsor"]
+var sessionTypeDetail = ["101 in 1hr (basic how-to session)",
+"Oral Abstract","Ceremony","Case based scenarios",
+"Core Lectures 60mins","Core Lectures 90mins", "Debates", "Live cases","Lunch Symposium",
+"Moderated Poster", "No-slides-talk-only (Rapid-fired discussion on current controversies)",
+"Plenary Session", "Special Session", "Viewpoints (Sharing different opinions on a topic)",
+"Young Investigator Award", "Rhythm 'N Flow", "Sponsored Education Sym"]
+var track =["Joint","JR","Spsr"]
+var trackD = ["Joint Session", "Junior EPs", "Sponsor"]
 
 window.onload = showData();
+window.onload = createList();
 
 function showData() {
   var head = document.getElementsByTagName("th");
@@ -8987,7 +9092,10 @@ function showDetail(d) {
   document.getElementById("title").innerHTML = schedule[d].Main_Title;
   document.getElementById("date").innerHTML = schedule[d].Date;
   document.getElementById("time").innerHTML = schedule[d].Time;
-  document.getElementById("room").innerHTML = schedule[d].Rm;
+  document.getElementById("room").innerHTML = "Room: " + schedule[d].Rm;
+  document.getElementById("type").innerHTML = "Session Type: " + schedule[d].Session_Type;
+  var typeIndex = sessionType.indexOf(schedule[d].Session_Type);
+  document.getElementById("typeD").innerHTML = " - " + sessionTypeDetail[typeIndex];
   document.getElementById("topic").innerHTML = "Topic: "+ schedule[d].Topic + "  "+ schedule[d].CoTopic+" ";
   document.getElementById("track").innerHTML = "Track: "+ schedule[d].Track;
   document.getElementById("mod").innerHTML = "Mods/Panels: "+ schedule[d].Mod1 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
@@ -9054,7 +9162,136 @@ function colorToggle() {
     showData();
   }
 }   
-  
+
+//create speaker lists
+function createList() {
+  var sList = [];var i;
+  for (i=0;i<schedule.length;i++){
+    sList.push(schedule[i].Spk1);
+    sList.push(schedule[i].Spk2);
+    sList.push(schedule[i].Spk3);
+    sList.push(schedule[i].Spk4);
+    sList.push(schedule[i].Spk5);
+    sList.push(schedule[i].Spk6);
+    sList.push(schedule[i].Mod1);
+    sList.push(schedule[i].Mod2);
+    sList.push(schedule[i].Mod3);
+    sList.push(schedule[i].Mod4);
+  }
+  sList = sList.filter(function(item, index){
+    return sList.indexOf(item)==index;
+  })
+  document.getElementById("demo").innerHTML = sList.length;
+  //topic dropdown
+  var tList = document.getElementsByClassName("topicL");
+  var i;
+  for (i=0;i<tList.length;i++){
+    tList[i].innerHTML = topic[i];
+  }
+
+}
+
+function showL(order,x){
+  var element = document.getElementById("result");
+  element.scrollIntoView({behavior:"smooth", block:"start"});  
+  if (order == 'all') {
+    document.getElementById("resultSum").innerHTML = "Showing all sessions. Total = " + schedule.length +
+    "sessions";
+    document.getElementById("result").innerHTML = "";
+    var n;
+    for (n=0;n<schedule.length;n++){
+      showList(n)
+    }
+  } else if (order =='clear') {
+    document.getElementById("resultSum").innerHTML = "Showing None";
+    document.getElementById("result").innerHTML = "";
+     
+  } else if (order =='t'){
+    document.getElementById("result").innerHTML = "";
+    var y = Number(x);
+    var topicName = topic[y];
+    var s = [];var n;
+    for (n=0;n<schedule.length;n++){
+      if (schedule[n].Topic==topicName){
+        s.push(n)
+      }
+    }
+
+    document.getElementById("resultSum").innerHTML = "Showing sessions by topic. Topic = "+ topicName + 
+    ". Total = "+ s.length;+" sessions."
+    s.forEach(function(item){
+      showList(item)
+    })
+  }
+}
+
+function showList(d){
+  var para1 = document.createElement('P');
+  var para2 = document.createElement('P');
+  var para3 = document.createElement('P');
+  var para4 = document.createElement('P');
+  var para5 = document.createElement('P');
+  var para6 = document.createElement('P');
+  var para7 = document.createElement('P');
+  var para8 = document.createElement('P');
+  var para9 = document.createElement('P');
+  var para10 = document.createElement('P');
+  var para11 = document.createElement('P');
+  var para12 = document.createElement('P');
+  var para13 = document.createElement('P')
+  var typeIndex = sessionType.indexOf(schedule[d].Session_Type);
+
+  var d1 = schedule[d].Code;
+  var d2 = schedule[d].Main_Title;
+  var d3 = schedule[d].Date+ " "+ schedule[d].Time + '\xa0\xa0\xa0'+ "Room: " + schedule[d].Rm 
+  var d4 = "Session Type: " + schedule[d].Session_Type + " - " + sessionTypeDetail[typeIndex] 
+  var d5 = "Topic: "+ schedule[d].Topic + "  "+ schedule[d].CoTopic+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
+  + "Track: "+ schedule[d].Track  
+  var d6 = "Mods/Panels: "+ schedule[d].Mod1 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
+  + schedule[d].Mod2 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'  + schedule[d].Mod3 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
+  + schedule[d].Mod4 
+  var d7 = "1: " + schedule[d].SubT1 + "  " + "(" + schedule[d].Spk1 + ")"
+  var d8 = "2: " + schedule[d].SubT2 + "  " + "(" + schedule[d].Spk2 + ")" 
+  var d9 = "3: " + schedule[d].SubT3 + "  " + "(" + schedule[d].Spk3 + ")" 
+  var d10 = "4: " + schedule[d].SubT4 + "  " + "(" + schedule[d].Spk4 + ")" 
+  var d11 = "5: " + schedule[d].SubT5 + "  " + "(" + schedule[d].Spk5 + ")" 
+  var d12 = "6: " + schedule[d].SubT6 + "  " + "(" + schedule[d].Spk6 + ")"
+
+  var a = document.createTextNode(d1);
+  var b = document.createTextNode(d2);
+  var c = document.createTextNode(d3);
+  var d = document.createTextNode(d4);
+  var e = document.createTextNode(d5);
+  var f = document.createTextNode(d6);
+  var g = document.createTextNode(d7);
+  var h = document.createTextNode(d8);
+  var i = document.createTextNode(d9);
+  var j = document.createTextNode(d10);
+  var k = document.createTextNode(d11);
+  var l = document.createTextNode(d12);
+  var m = document.createTextNode("------------------")
+
+  para1.appendChild(a);para2.appendChild(b);
+  para3.appendChild(c);para4.appendChild(d);  
+  para5.appendChild(e);para6.appendChild(f);
+  para7.appendChild(g);para8.appendChild(h);  
+  para9.appendChild(i);para10.appendChild(j);
+  para11.appendChild(k);para12.appendChild(l);para13.appendChild(m)  
+  document.getElementById("result").appendChild(para1);
+  document.getElementById("result").appendChild(para2);
+  document.getElementById("result").appendChild(para3);
+  document.getElementById("result").appendChild(para4);
+  document.getElementById("result").appendChild(para5);
+  document.getElementById("result").appendChild(para6);
+  document.getElementById("result").appendChild(para7);
+  document.getElementById("result").appendChild(para8);
+  document.getElementById("result").appendChild(para9);
+  document.getElementById("result").appendChild(para10);
+  document.getElementById("result").appendChild(para11);
+  document.getElementById("result").appendChild(para12);
+  document.getElementById("result").appendChild(para13);
+}
+
 
 
 
