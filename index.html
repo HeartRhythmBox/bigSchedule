@@ -23,7 +23,11 @@
 .break3 {width: 2%;}
 .slot6 {width: 10%;}
 .myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;
-min-width: 800px;overflow-x: scroll}
+overflow-x: auto}
+@media only screen and (max-width: 600px) {
+  .myTable {font-size: 0.5vmax}
+}
+
 .day01 {border: 0.2vmax solid orange}
 .day02 {border: 0.2vmax solid lightskyblue}
 .day03 {border: 0.2vmax solid purple}
@@ -48,7 +52,7 @@ make it happen by t'Thon
 
 <!--menu-->
 <div class="w3-bottom w3-center">
-<div class="w3-bar w3-card-4  sans w3-mobile w3-large">
+<div class="w3-bar w3-card-4 sans w3-mobile w3-large">
   <a href="#top" class="w3-bar-item w3-sand w3-button w3-round-large w3-border">&uArr; to top</a>
   <a href="#Thurs" class="w3-bar-item w3-sand w3-button w3-round-large w3-border">Thursday</a>
   <a href="#Fri" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Friday</a>
@@ -547,9 +551,9 @@ style="font-size: 2.5vmax;">Sunday
 </table>
 
 <!--popUp-->
-<div id="popUp" class="w3-modal sans">
+<div id="popUp" class="w3-modal sans" style="max-width:100vw">
   <div class="w3-modal-content w3-card-4">
-    <div class="w3-teal w3-container">
+    <div class="w3-teal w3-container w3-mobile">
       <span onclick="document.getElementById('popUp').style.display='none'" 
         class="w3-button w3-display-topright">&times;</span>
       <div id="code" style="font-size: 1.5vmax;color: #ddd"></div>
