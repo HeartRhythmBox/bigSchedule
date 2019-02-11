@@ -72,7 +72,7 @@ make it happen by t'Thon
 <div id="aag" class="w3-container w3-mobile" style="background:#f3f3f3;margin-top: 5vmax;">
 <div class="w3-row w3-center sans">
   <div class="w3-row w3-wide" style="font-size:2.5vmax;font-weight: 900">
-  SCHEDULE <span class="cursive">at a glance</span><br>
+  SCHEDULE <span class="cursive" style="font-weight: 400;color:#555555">at a glance</span><br>
   <a href="#scheduleList" class="w3-button w3-border w3-round w3-light-grey sans w3-medium w3-padding-small"
     style="margin-left:2vmax">
     click here for schedule in list format.
@@ -680,16 +680,20 @@ style="font-size: 2.5vmax;">Sunday
     </div>
     </div>
 </div>
-
-  
-
-  <div class="w3-cell w3-center">
-    <div class="w3-btn" onclick="showL('all')" style="border-bottom: 0.2vmax lightpink solid">show all</div>
+<div class="w3-cell w3-center">
+    <div class="w3-btn w3-padding-small" onclick="showL('all')" style="border-bottom: 0.2vmax lightpink solid">show all</div>
   </div>
   <div class="w3-cell w3-center">
-      <div class="w3-btn" style="border-bottom: 0.2vmax lightgray solid" onclick="showL('clear')">clear</div>
+      <div class="w3-btn w3-padding-small" style="border-bottom: 0.2vmax lightgray solid" onclick="showL('clear')">clear</div>
     </div>
 </div>
+
+<!--speakers filter-->
+<div class="w3-row w3-center cursive w3-padding" style="font-size:2vmax;margin:1vmax 0 0.5vmax 0">
+Speakers search: coming soon.
+<input type="text" placeholder=" search.." id="myInput" class="sans">
+</div>
+
 <div id="resultSum" class="sans w3-row w3-center w3-padding" style="font-size: 2vmax;
 background-color: lightgray">Showing None.
 </div> 
