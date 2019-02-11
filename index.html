@@ -35,35 +35,41 @@ overflow-x: auto}
 th {font-weight: bold}
 th, td {border: 0.1vmax dotted #555555}
 .colorL {width:fit-content;height: fit-content;font-size: 1.1vmax;}
-.topicL, .trkL, .tyL {font-size:1.5vmax}
+.topicL, .trkL, .tyL {font-size:1.5vmax;}
 
 
 </style>
 
 <body>
 
-<div class="w3-center w3-content w3-padding w3-border-bottom">
+<div class="w3-center w3-content w3-padding w3-border-bottom w3-mobile">
     <span class="sans"  style="font-size: 3vmax;">APHRS 2019 Schedule</span>
     <span class="cursive" style="font-size:2.2vmax;color:dimgray"> . . Unofficial </span>
 </div>
-<div class="cursive w3-center w3-row w3-wide" style="font-size: 1.1vmax;color:darkgray;margin-bottom: 3vmax">
+<div class="cursive w3-center w3-mobile w3-row w3-wide" style="font-size: 1.1vmax;color:darkgray;margin-bottom: 3vmax">
 make it happen by t'Thon
 </div>
 
 <!--menu-->
-<div class="w3-bottom w3-center">
-<div class="w3-bar w3-card-4 sans w3-mobile w3-large">
-  <a href="#top" class="w3-bar-item w3-sand w3-button w3-round-large w3-border w3-padding-small">&uArr; to top</a>
-  <a href="#Thurs" class="w3-bar-item w3-sand w3-button w3-round-large w3-border w3-padding-small">Thursday</a>
-  <a href="#Fri" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">Friday</a>
-  <a href="#Sat" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">Saturday</a>
-  <a href="#Sun" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">Sunday</a>
-  <a href="#scheduleList" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">Schedule List</a>
+<div class="w3-bottom w3-center w3-mobile">
+<div class="w3-bar w3-card-4 sans w3-mobile w3-large" style="opacity: 0.9;">
+  <a href="#top" class="w3-bar-item w3-sand w3-button w3-round-large w3-border w3-padding-small">
+    &uArr;to top</a>
+  <a href="#Thurs" class="w3-bar-item w3-sand w3-button w3-round-large w3-border w3-padding-small">
+    Thurs</a>
+  <a href="#Fri" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">
+    Fri</a>
+  <a href="#Sat" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">
+    Sat</a>
+  <a href="#Sun" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">
+    Sun</a>
+  <a href="#scheduleList" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">
+    List</a>
 
 </div></div>
 
 <!--subH1-->
-<div id="aag" class="w3-container" style="background:#f3f3f3;margin-top: 5vmax;">
+<div id="aag" class="w3-container w3-mobile" style="background:#f3f3f3;margin-top: 5vmax;">
 <div class="w3-row w3-center sans">
   <div class="w3-row w3-wide" style="font-size:2.5vmax;font-weight: 900">
   SCHEDULE <span class="cursive">at a glance</span><br>
@@ -612,12 +618,13 @@ style="font-size: 2.5vmax;">Sunday
     </div>
 </div>
 <!--filters-->
-<div class="w3-cell-row w3-center w3-border-bottom sans" style="font-size:2vmax;margin: 5vmax 0">
+<div class="w3-cell-row w3-center sans" style="font-size:2vmax;margin: 5vmax 0 0.5vmax 0">
     <div class="w3-cell cursive">choose your filter(s)</div>
     <!--topic-->
     <div class="w3-cell w3-center">
-      <div class="w3-dropdown-hover  w3-border">
-      <button class="w3-btn w3-padding-small">Topics</button>
+      <div class="w3-dropdown-hover">
+      <button class="w3-btn w3-padding-small w3-white" style="border-bottom: 0.2vmax lightblue solid;">
+      Topics</button>
       <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-border">
         <div class="w3-bar-item w3-button topicL" onclick="showL('t',0)"></div>
         <div class="w3-bar-item w3-button topicL" onclick="showL('t',1)"></div>
@@ -638,8 +645,8 @@ style="font-size: 2.5vmax;">Sunday
 
     <!--track-->
   <div class="w3-cell w3-center">
-      <div class="w3-dropdown-hover w3-border">
-      <button class="w3-btn w3-padding-small">Tracks</button>
+      <div class="w3-dropdown-hover">
+      <button class="w3-btn w3-padding-small w3-white" style="border-bottom: 0.2vmax lightcoral solid;">Tracks</button>
       <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-border">
         <div class="w3-bar-item w3-button trkL" onclick="showL('trk',0)"></div>
         <div class="w3-bar-item w3-button trkL" onclick="showL('trk',1)"></div>
@@ -650,8 +657,8 @@ style="font-size: 2.5vmax;">Sunday
 
   <!--type-->
   <div class="w3-cell w3-center">
-    <div class="w3-dropdown-hover w3-border">
-    <button class="w3-btn w3-padding-small">Types</button>
+    <div class="w3-dropdown-hover">
+    <button class="w3-btn w3-padding-small w3-white"  style="border-bottom: 0.2vmax lightgreen solid;">Types</button>
     <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-border">
       <div class="w3-bar-item w3-button tyL" onclick="showL('ty',0)"></div>
       <div class="w3-bar-item w3-button tyL" onclick="showL('ty',1)"></div>
@@ -677,16 +684,17 @@ style="font-size: 2.5vmax;">Sunday
   
 
   <div class="w3-cell w3-center">
-    <div class="w3-btn w3-border" onclick="showL('all')">show all</div>
+    <div class="w3-btn" onclick="showL('all')" style="border-bottom: 0.2vmax lightpink solid">show all</div>
   </div>
   <div class="w3-cell w3-center">
-      <div class="w3-btn w3-border" onclick="showL('clear')">clear</div>
+      <div class="w3-btn" style="border-bottom: 0.2vmax lightgray solid" onclick="showL('clear')">clear</div>
     </div>
 </div>
-<div id="resultSum" class="sans w3-row w3-center w3-padding w3-blue" style="font-size: 2vmax;">Showing None.
+<div id="resultSum" class="sans w3-row w3-center w3-padding" style="font-size: 2vmax;
+background-color: lightgray">Showing None.
 </div> 
 
-<div id="result" class="sans w3-content w3-padding w3-border w3-border-blue" 
+<div id="result" class="sans w3-content w3-padding w3-border" 
 style="margin-bottom: 5vmax;font-size:1.8vmax;"></div>
 
 
@@ -9225,6 +9233,7 @@ function showL(order,x){
   if (order == 'all') {
     document.getElementById("resultSum").innerHTML = "Showing all sessions. Total = " + schedule.length +
     "sessions";
+    document.getElementById("resultSum").style.backgroundColor = "lightpink"
     document.getElementById("result").innerHTML = "";
     var n;
     for (n=0;n<schedule.length;n++){
@@ -9232,6 +9241,7 @@ function showL(order,x){
     }
   } else if (order =='clear') {
     document.getElementById("resultSum").innerHTML = "Showing None";
+    document.getElementById("resultSum").style.backgroundColor = "lightgrey"
     document.getElementById("result").innerHTML = "";
      
   } else if (order =='t'){
@@ -9245,6 +9255,7 @@ function showL(order,x){
     }
     document.getElementById("resultSum").innerHTML = "Showing sessions by topic. Topic = "+ topicName + 
     ". Total = "+ s.length+" sessions."
+    document.getElementById("resultSum").style.backgroundColor = "lightblue"
     s.forEach(function(item){
       showList(item)
     })
@@ -9260,6 +9271,7 @@ function showL(order,x){
     }
     document.getElementById("resultSum").innerHTML = "Showing sessions by track. Track = "+ trkName + 
     ". Total = "+ trkA.length+" sessions."
+    document.getElementById("resultSum").style.backgroundColor = "lightcoral"
     trkA.forEach(function(item){
       showList(item)
     })
@@ -9277,6 +9289,7 @@ function showL(order,x){
     document.getElementById("resultSum").innerHTML = "Showing sessions by type. Type = "+ tyName + 
     " ("+ sessionTypeDetail[x] + ")"+
     ". Total = "+ tyA.length+" sessions."
+    document.getElementById("resultSum").style.backgroundColor = "lightgreen"
     tyA.forEach(function(item){
       showList(item)
     })
