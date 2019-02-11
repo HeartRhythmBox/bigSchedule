@@ -34,8 +34,8 @@ overflow-x: auto}
 .day04 {border: 0.2vmax solid red}
 th {font-weight: bold}
 th, td {border: 0.1vmax dotted #555555}
-.colorL {width:fit-content;height: fit-content}
-.topicL {font-size:1.5vmax}
+.colorL {width:fit-content;height: fit-content;font-size: 1.1vmax;}
+.topicL, .trkL, .tyL {font-size:1.5vmax}
 
 
 </style>
@@ -53,12 +53,12 @@ make it happen by t'Thon
 <!--menu-->
 <div class="w3-bottom w3-center">
 <div class="w3-bar w3-card-4 sans w3-mobile w3-large">
-  <a href="#top" class="w3-bar-item w3-sand w3-button w3-round-large w3-border">&uArr; to top</a>
-  <a href="#Thurs" class="w3-bar-item w3-sand w3-button w3-round-large w3-border">Thursday</a>
-  <a href="#Fri" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Friday</a>
-  <a href="#Sat" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Saturday</a>
-  <a href="#Sun" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Sunday</a>
-  <a href="#scheduleList" class="w3-bar-item w3-button w3-sand w3-round-large w3-border">Schedule List</a>
+  <a href="#top" class="w3-bar-item w3-sand w3-button w3-round-large w3-border w3-padding-small">&uArr; to top</a>
+  <a href="#Thurs" class="w3-bar-item w3-sand w3-button w3-round-large w3-border w3-padding-small">Thursday</a>
+  <a href="#Fri" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">Friday</a>
+  <a href="#Sat" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">Saturday</a>
+  <a href="#Sun" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">Sunday</a>
+  <a href="#scheduleList" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">Schedule List</a>
 
 </div></div>
 
@@ -76,22 +76,23 @@ make it happen by t'Thon
 
 
 <!--color code-->
-<div id="colorCode" class="sans w3-center w3-medium">
+<div id="colorCode" class="sans w3-center" style="margin-top: 0.5vmax">
     <div class="w3-bar">
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div class="w3-bar-item colorL w3-round w3-border"></div>
-      <div id="cToggle" class="w3-bar-item w3-button w3-round w3-border" onclick="colorToggle()">
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL "></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL "></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div class="w3-bar-item w3-padding-small colorL"></div>
+      <div id="cToggle" class="w3-bar-item w3-padding-small w3-border w3-button w3-round" onclick="colorToggle()"
+      style="margin-left: 0.5vmax;font-size:1.1vmax">
         Turn OFF Colors</div>
     </div>
   
@@ -613,10 +614,11 @@ style="font-size: 2.5vmax;">Sunday
 <!--filters-->
 <div class="w3-cell-row w3-center w3-border-bottom sans" style="font-size:2vmax;margin: 5vmax 0">
     <div class="w3-cell cursive">choose your filter(s)</div>
+    <!--topic-->
     <div class="w3-cell w3-center">
-      <div class="w3-dropdown-hover">
-      <button class="w3-button w3-padding-small">Topics</button>
-      <div class="w3-dropdown-content w3-bar-block w3-border">
+      <div class="w3-dropdown-hover  w3-border">
+      <button class="w3-btn w3-padding-small">Topics</button>
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-border">
         <div class="w3-bar-item w3-button topicL" onclick="showL('t',0)"></div>
         <div class="w3-bar-item w3-button topicL" onclick="showL('t',1)"></div>
         <div class="w3-bar-item w3-button topicL" onclick="showL('t',2)"></div>
@@ -632,47 +634,61 @@ style="font-size: 2.5vmax;">Sunday
         <div class="w3-bar-item w3-button topicL" onclick="showL('t',12)"></div>
       </div>
       </div>
-  </div>
+    </div>
+
+    <!--track-->
   <div class="w3-cell w3-center">
-      <div class="w3-dropdown-hover">
-      <button class="w3-button w3-padding-small">Tracks</button>
-      <div class="w3-dropdown-content w3-bar-block w3-border">
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a></div>
-      </div>
-  </div>
-  <div class="w3-cell w3-center">
-      <div class="w3-dropdown-hover">
-      <button class="w3-button w3-padding-small">Session Types</button>
-      <div class="w3-dropdown-content w3-bar-block w3-border">
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a>
-      
+      <div class="w3-dropdown-hover w3-border">
+      <button class="w3-btn w3-padding-small">Tracks</button>
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-border">
+        <div class="w3-bar-item w3-button trkL" onclick="showL('trk',0)"></div>
+        <div class="w3-bar-item w3-button trkL" onclick="showL('trk',1)"></div>
+        <div class="w3-bar-item w3-button trkL" onclick="showL('trk',2)"></div>
       </div>
       </div>
   </div>
+
+  <!--type-->
   <div class="w3-cell w3-center">
-      <div class="w3-dropdown-hover">
-      <button class="w3-button w3-padding-small">Speakers</button>
-      <div class="w3-dropdown-content w3-bar-block w3-border">
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a></div>
-      </div>
-  </div>
-  <div class="w3-cell w3-center">
-    <div class="w3-button w3-round w3-border" onclick="showL('all')">show all</div>
-  </div>
-  <div class="w3-cell w3-center">
-      <div class="w3-button w3-round w3-border" onclick="showL('clear')">clear</div>
+    <div class="w3-dropdown-hover w3-border">
+    <button class="w3-btn w3-padding-small">Types</button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-border">
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',0)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',1)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',2)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',3)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',4)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',5)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',6)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',7)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',8)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',9)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',10)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',11)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',12)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',13)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',14)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',15)"></div>
+      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',16)"></div>
+    </div>
     </div>
 </div>
-<div id="resultSum" class="sans w3-row w3-padding w3-blue" style="font-size: 2vmax">Showing None.
+
+  
+
+  <div class="w3-cell w3-center">
+    <div class="w3-btn w3-border" onclick="showL('all')">show all</div>
+  </div>
+  <div class="w3-cell w3-center">
+      <div class="w3-btn w3-border" onclick="showL('clear')">clear</div>
+    </div>
+</div>
+<div id="resultSum" class="sans w3-row w3-center w3-padding w3-blue" style="font-size: 2vmax;">Showing None.
 </div> 
-<div id="result" class="sans w3-container w3-padding" 
-style="margin-bottom: 5vmax;border: 0.2vmax solid darkgrey;font-size:1.8vmax"></div>
+
+<div id="result" class="sans w3-content w3-padding w3-border w3-border-blue" 
+style="margin-bottom: 5vmax;font-size:1.8vmax;"></div>
+
 
 
 <script>
@@ -9163,7 +9179,7 @@ function colorToggle() {
   }
 }   
 
-//create speaker lists
+//create filtered lists
 function createList() {
   var sList = [];var i;
   for (i=0;i<schedule.length;i++){
@@ -9188,6 +9204,18 @@ function createList() {
   for (i=0;i<tList.length;i++){
     tList[i].innerHTML = topic[i];
   }
+  //track dropdown
+  var trkList = document.getElementsByClassName("trkL");
+  var i;
+  for (i=0;i<trkList.length;i++){
+    trkList[i].innerHTML = track[i] + " (" + trackD[i] + ")";
+  }
+  //type dropdown
+  var tyList = document.getElementsByClassName("tyL");
+  var i;
+  for (i=0;i<tyList.length;i++){
+    tyList[i].innerHTML = sessionType[i];
+  }
 
 }
 
@@ -9208,18 +9236,48 @@ function showL(order,x){
      
   } else if (order =='t'){
     document.getElementById("result").innerHTML = "";
-    var y = Number(x);
-    var topicName = topic[y];
+    var topicName = topic[x];
     var s = [];var n;
     for (n=0;n<schedule.length;n++){
-      if (schedule[n].Topic==topicName){
+      if (schedule[n].Topic==topicName || schedule[n].CoTopic ==topicName) {
         s.push(n)
       }
     }
-
     document.getElementById("resultSum").innerHTML = "Showing sessions by topic. Topic = "+ topicName + 
-    ". Total = "+ s.length;+" sessions."
+    ". Total = "+ s.length+" sessions."
     s.forEach(function(item){
+      showList(item)
+    })
+
+  } else if (order =='trk'){
+    document.getElementById("result").innerHTML = "";
+    var trkName = track[x];
+    var trkA = []; var n;
+    for (n=0;n<schedule.length;n++){
+      if (schedule[n].Track==trkName){
+        trkA.push(n);
+      }
+    }
+    document.getElementById("resultSum").innerHTML = "Showing sessions by track. Track = "+ trkName + 
+    ". Total = "+ trkA.length+" sessions."
+    trkA.forEach(function(item){
+      showList(item)
+    })
+  }
+
+  else if (order =='ty'){
+    document.getElementById("result").innerHTML = "";
+    var tyName = sessionType[x];
+    var tyA = []; var n;
+    for (n=0;n<schedule.length;n++){
+      if (schedule[n].Session_Type==tyName){
+        tyA.push(n);
+      }
+    }
+    document.getElementById("resultSum").innerHTML = "Showing sessions by type. Type = "+ tyName + 
+    " ("+ sessionTypeDetail[x] + ")"+
+    ". Total = "+ tyA.length+" sessions."
+    tyA.forEach(function(item){
       showList(item)
     })
   }
@@ -9245,7 +9303,7 @@ function showList(d){
   var d2 = schedule[d].Main_Title;
   var d3 = schedule[d].Date+ " "+ schedule[d].Time + '\xa0\xa0\xa0'+ "Room: " + schedule[d].Rm 
   var d4 = "Session Type: " + schedule[d].Session_Type + " - " + sessionTypeDetail[typeIndex] 
-  var d5 = "Topic: "+ schedule[d].Topic + "  "+ schedule[d].CoTopic+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
+  var d5 = "Topic: "+ schedule[d].Topic + "\xa0\xa0\xa0"+ schedule[d].CoTopic+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
   + "Track: "+ schedule[d].Track  
   var d6 = "Mods/Panels: "+ schedule[d].Mod1 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
   + schedule[d].Mod2 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'  + schedule[d].Mod3 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
