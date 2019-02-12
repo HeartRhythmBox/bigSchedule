@@ -22,11 +22,10 @@
 .slot5 {width: 15%;}
 .break3 {width: 2%;}
 .slot6 {width: 10%;}
-.myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;
-overflow-x: auto}
+.myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;}
 @media only screen and (max-width: 600px) {
-  .myTable {font-size: 1.5vmax}
-}
+  .myTable {font-size: 1.2vmax;overflow: auto}
+  }
 
 .day01 {border: 0.2vmax solid orange}
 .day02 {border: 0.2vmax solid lightskyblue}
@@ -73,8 +72,8 @@ make it happen by t'Thon
   <div class="w3-row w3-mobile" style="font-size:2.5vmax;font-weight: 900">
     <span class="w3-wide">SCHEDULE</span>
     <span class="cursive" style="font-weight: 400;color:#555555">at a glance</span><br>
-  <a href="#scheduleList" class="w3-button w3-mobile w3-border w3-round w3-light-grey sans w3-medium 
-  w3-padding-small">
+  <a href="#scheduleList" class="w3-button w3-mobile w3-border w3-round w3-light-grey sans 
+  w3-padding-small" style="font-size: 1.2vmax">
     click here for schedule in list format.
   </a>
   </div>
@@ -112,13 +111,16 @@ make it happen by t'Thon
 style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
 <div class="cursive" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
 </div>
+
 <table class="sans myTable day01">
+  <thead>
   <tr>
     <th class="room"></th><th class="slot1"></th><th class="break1"></th>
     <th class="slot2"></th><th class="slot3"></th><th class="lunch"></th>
     <th class="slot4"></th><th class="break2"></th><th class="slot5"></th>
     <th class="break3"></th><th class="slot6"></th>
-  </tr>
+  </tr></thead>
+  <tbody>
   <tr>
     <td class="room"></td><td class="slot1"></td><td class="break1"></td>
     <td class="slot2"></td><td class="slot3"></td><td class="lunch"></td>
@@ -220,7 +222,7 @@ style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
       <td class="slot2"></td><td class="slot3"></td><td class="lunch"></td>
       <td class="slot4"></td><td class="break2"></td><td class="slot5"></td>
       <td class="break3"></td><td class="slot6"></td>
-    </tr>
+    </tr></tbody>
 </table>
 
 <!--Friday-->
@@ -609,7 +611,8 @@ style="font-size: 2.5vmax;">Sunday
     <div class="w3-row w3-center sans">
       <div class="w3-row" style="font-size:2.5vmax;font-weight: 900">
       <span class="w3-wide">SCHEDULE List</span><br>
-      <a href="#aag" class="w3-button w3-border w3-round w3-light-grey sans w3-medium w3-padding-small">
+      <a href="#aag" class="w3-button w3-border w3-round w3-light-grey sans w3-padding-small"
+      style="font-size: 1.2vmax">
         click here for schedule at-a-glance.
       </a>
       </div>
