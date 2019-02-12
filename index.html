@@ -37,7 +37,6 @@ th, td {border: 0.1vmax dotted #555555}
 .colorL {width:fit-content;height: fit-content;font-size: 1.1vmax;}
 .topicL, .trkL, .tyL {font-size:1.5vmax;}
 
-
 </style>
 
 <body>
@@ -73,7 +72,7 @@ make it happen by t'Thon
 <div class="w3-row w3-center sans">
   <div class="w3-row w3-wide" style="font-size:2.5vmax;font-weight: 900">
   SCHEDULE <span class="cursive" style="font-weight: 400;color:#555555">at a glance</span><br>
-  <a href="#scheduleList" class="w3-button w3-border w3-round w3-light-grey sans w3-medium w3-padding-small"
+  <a href="#scheduleList" class="w3-button w3-mobile w3-border w3-round w3-light-grey sans w3-medium w3-padding-small"
     style="margin-left:2vmax">
     click here for schedule in list format.
   </a>
@@ -223,7 +222,6 @@ style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
     </tr>
 </table>
 
-<div id="demo"></div>
 <!--Friday-->
 <div id="Fri" class="sans w3-center w3-blue w3-text-white w3-bold" 
 style="font-size: 2.5vmax;">Friday
@@ -680,6 +678,16 @@ style="font-size: 2.5vmax;">Sunday
     </div>
     </div>
 </div>
+
+  <!--speakers-->
+  <div class="w3-cell w3-center">
+    <div class="w3-btn w3-padding-small"
+    style="border-bottom: 0.2vmax lightseagreen solid" 
+    onclick="comingSoon()")>
+    Speakers</div>
+  </div>
+
+  <!--all or none-->
 <div class="w3-cell w3-center">
     <div class="w3-btn w3-padding-small" onclick="showL('all')" style="border-bottom: 0.2vmax lightpink solid">show all</div>
   </div>
@@ -688,18 +696,13 @@ style="font-size: 2.5vmax;">Sunday
     </div>
 </div>
 
-<!--speakers filter-->
-<div class="w3-row w3-center cursive w3-padding" style="font-size:2vmax;margin:1vmax 0 0.5vmax 0">
-Speakers search: coming soon.
-<input type="text" placeholder=" search.." id="myInput" class="sans">
-</div>
 
 <div id="resultSum" class="sans w3-row w3-center w3-padding" style="font-size: 2vmax;
 background-color: lightgray">Showing None.
 </div> 
 
 <div id="result" class="sans w3-content w3-padding w3-border" 
-style="margin-bottom: 5vmax;font-size:1.8vmax;"></div>
+style="margin-bottom: 5vmax;font-size:1.8vmax;">------------------</div>
 
 
 
@@ -9029,6 +9032,11 @@ var trackD = ["Joint Session", "Junior EPs", "Sponsor"]
 window.onload = showData();
 window.onload = createList();
 
+function comingSoon(){
+  document.getElementById('resultSum').innerHTML = "coming soon"
+}
+
+
 function showData() {
   var head = document.getElementsByTagName("th");
   var tData =document.getElementsByTagName("td");
@@ -9193,23 +9201,7 @@ function colorToggle() {
 
 //create filtered lists
 function createList() {
-  var sList = [];var i;
-  for (i=0;i<schedule.length;i++){
-    sList.push(schedule[i].Spk1);
-    sList.push(schedule[i].Spk2);
-    sList.push(schedule[i].Spk3);
-    sList.push(schedule[i].Spk4);
-    sList.push(schedule[i].Spk5);
-    sList.push(schedule[i].Spk6);
-    sList.push(schedule[i].Mod1);
-    sList.push(schedule[i].Mod2);
-    sList.push(schedule[i].Mod3);
-    sList.push(schedule[i].Mod4);
-  }
-  sList = sList.filter(function(item, index){
-    return sList.indexOf(item)==index;
-  })
-  document.getElementById("demo").innerHTML = sList.length;
+  
   //topic dropdown
   var tList = document.getElementsByClassName("topicL");
   var i;
@@ -9368,6 +9360,59 @@ function showList(d){
 }
 
 
+function spkFilter(){
+  //create spk list
+  var sList = [];var i;
+  for (i=0;i<schedule.length;i++){
+    sList.push(schedule[i].Spk1);
+    sList.push(schedule[i].Spk2);
+    sList.push(schedule[i].Spk3);
+    sList.push(schedule[i].Spk4);
+    sList.push(schedule[i].Spk5);
+    sList.push(schedule[i].Spk6);
+    sList.push(schedule[i].Mod1);
+    sList.push(schedule[i].Mod2);
+    sList.push(schedule[i].Mod3);
+    sList.push(schedule[i].Mod4);
+  }
+  
+  
+  sList = sList.filter(function(item, index){
+    return sList.indexOf(item)==index;
+  })
+  sList.sort();
+  sList = sList.filter (function(item){
+    return item.valueOf() != "";
+  })
+  
+  
+  //manage input
+  var inputText, filterTxt;
+  inputText = document.getElementById("myInput");
+  filterTxt = inputText.value.toUpperCase();
+  
+
+  //search thru list
+  var list; 
+  for (list=0;list<sList.length;list++){
+    var name = sList[list];
+    
+    
+    if (name.toUpperCase().indexOf(filterTxt)>-1){
+      document.getElementById('spkUl').innerHTML = '';
+      spkShow(list);
+      }  
+  }
+
+  //show results
+  function spkShow(ind){
+  
+  var spkList = document.createElement('li');
+  var txtNode = document.createTextNode(sList[ind]);
+  spkList.appendChild(txtNode);
+  document.getElementById('spkUl').appendChild(spkList)
+  }
+}
 
 
 </script>
