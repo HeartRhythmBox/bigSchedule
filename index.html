@@ -2,6 +2,16 @@
 <html>
 <head>
     <title>APHRS Schedule Viewer</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119340815-11"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119340815-11');
+</script>
+
 </head>
         
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,6 +53,7 @@ th, td {border: 0.1vmax dotted #555555}
 .colorL {width:fit-content;height: fit-content;font-size: 1.1vmax;}
 .fBar {display: none;margin-bottom: 0.5vmax;background-color:#555555}
 .topicL, .trkL, .tyL {font-size:1.5vmax;background-color:#555555;color:#f1f2f2;padding:0.1vmax;}
+.spkBtn {cursor: pointer;font-size:1.5vmax}
 
 </style>
 
@@ -651,19 +662,19 @@ style="font-size:2vmax;margin-top:5vmax">choose your filter</div>
 
   <!--speakers-->
   <div class="w3-cell w3-center">
-    <div class="w3-btn w3-padding-small w3-white"
-    style="border-bottom: 0.2vmax lightseagreen solid" 
-    onclick="comingSoon()")>
-    Speakers</div>
+    <button class="w3-btn w3-padding-small w3-white"
+    style="border-bottom: 0.2vmax lightseagreen solid" onclick="afterClick(3)")>
+    Speakers</button>
   </div>
 
   <!--all or none-->
 <div class="w3-cell w3-center">
-    <div class="w3-btn w3-padding-small" onclick="showL('all')" style="border-bottom: 0.2vmax lightpink solid">show all</div>
+    <button class="w3-btn w3-padding-small" onclick="showL('all')" style="border-bottom: 0.2vmax lightpink solid">
+      show all</button>
   </div>
   <div class="w3-cell w3-center">
-      <div class="w3-btn w3-padding-small" style="border-bottom: 0.2vmax lightgray solid" 
-      onclick="showL('clear')">clear</div>
+      <button class="w3-btn w3-padding-small" style="border-bottom: 0.2vmax lightgray solid" 
+      onclick="showL('clear')">clear</button>
     </div>
 </div>
 
@@ -719,7 +730,14 @@ style="font-size:2vmax;margin-top:5vmax">choose your filter</div>
 </div>
 </div>
 
-
+<!--speaker-->
+<div class="fBar">
+  <div id="alphaBar" class="w3-card-4 w3-bar sans w3-mobile">
+  <span style="color:white;font-size:1.8vmax;padding-left:0.5vmax">
+    Coming soon
+    </span>  
+  </div>
+</div>
 
 <div id="resultSum" class="sans w3-row w3-center w3-padding" style="font-size: 2vmax;
 background-color: lightgray">Showing None.
@@ -9057,8 +9075,9 @@ window.onload = showData();
 window.onload = createList();
 
 function comingSoon(){
+  spkFilter();
   afterClick(-1)
-  document.getElementById('resultSum').innerHTML = "coming soon"
+  
 }
 
 
@@ -9426,9 +9445,13 @@ function showList(d){
 
 
 function spkFilter(){
-  //create spk list
-  var sList = [];var i;
+  //create unique spk list
+  var aList,sList = [];
+  afterClick(3);
+  //fullname
+  var i;
   for (i=0;i<schedule.length;i++){
+    var sList;
     sList.push(schedule[i].Spk1);
     sList.push(schedule[i].Spk2);
     sList.push(schedule[i].Spk3);
@@ -9440,8 +9463,6 @@ function spkFilter(){
     sList.push(schedule[i].Mod3);
     sList.push(schedule[i].Mod4);
   }
-  
-  
   sList = sList.filter(function(item, index){
     return sList.indexOf(item)==index;
   })
@@ -9450,34 +9471,32 @@ function spkFilter(){
     return item.valueOf() != "";
   })
   
-  
-  //manage input
-  var inputText, filterTxt;
-  inputText = document.getElementById("myInput");
-  filterTxt = inputText.value.toUpperCase();
-  
+  //alphabet
+  aList = sList.map(function(item){
+    return item.substring(0,1)
+  })
+  aList.sort();
+  aList = aList.filter(function(item, index){
+    return aList.indexOf(item)==index;
+  })
 
-  //search thru list
-  var list; 
-  for (list=0;list<sList.length;list++){
-    var name = sList[list];
-    
-    
-    if (name.toUpperCase().indexOf(filterTxt)>-1){
-      document.getElementById('spkUl').innerHTML = '';
-      spkShow(list);
-      }  
-  }
+  //remove old alpha button
+  var oldBar = document.getElementById('alphaBar');
+  oldBar.parentNode.removeChild(oldBar)
 
-  //show results
-  function spkShow(ind){
-  
-  var spkList = document.createElement('li');
-  var txtNode = document.createTextNode(sList[ind]);
-  spkList.appendChild(txtNode);
-  document.getElementById('spkUl').appendChild(spkList)
+  //alphabets to choose
+  var j;
+  for (j=0;j<aList.length;j++){
+  var btn = document.createElement('button');
+  var att = document.createAttribute("class")
+  att.value = "spkBtn";
+  btn.setAttributeNode(att);
+  var txtNode = document.createTextNode(aList[j]);
+  btn.appendChild(txtNode);
+  document.getElementById('alphaBar').appendChild(btn);
   }
-}
+  
+  }
 
 
 </script>
