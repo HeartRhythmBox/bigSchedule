@@ -25,7 +25,9 @@
 .slot6 {width: 10%;}
 .myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;}
 @media only screen and (max-width: 800px) {
-  .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;word-break: break-all}
+  .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;
+  word-break: break-all;font-size: 1.8vmax;}
+  .myTable th{line-height: 100%}
   .room {width:3%;word-break: keep-all;transform: rotate(-90deg);padding:0.2vmax}
   }
 
@@ -9073,10 +9075,10 @@ function showData() {
           start = time[i].substr(0,dash);
           end = time[i].substr(dash+1,time[i].length);
           if (dash != -1){
-          head[i].innerHTML= start + "<br />&#9830;<br />" + end;
-          head[i+11].innerHTML= start + "<br />&#9830;<br />" + end;
-          head[i+22].innerHTML= start + "<br />&#9830;<br />" + end;
-          head[i+33].innerHTML= start + "<br />&#9830;<br />" + end;
+          head[i].innerHTML= start + "<br />&#9662;<br />" + end;
+          head[i+11].innerHTML= start + "<br />&#9662;<br />" + end;
+          head[i+22].innerHTML= start + "<br />&#9662;<br />" + end;
+          head[i+33].innerHTML= start + "<br />&#9662;<br />" + end;
           }
               
         }
