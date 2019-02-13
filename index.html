@@ -6,10 +6,11 @@
         
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Abel|Satisfy" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abel|Satisfy|BenchNine" rel="stylesheet">
        
 <style>
 .sans {font-family: 'Abel', sans-serif;}
+.narrowF {font-family: 'BenchNine', sans-serif;}
 .cursive {font-family: 'Satisfy', cursive;}
 .room {width: 3%;font-weight: bold}
 .slot1 {width: 15%;}
@@ -23,10 +24,14 @@
 .break3 {width: 2%;}
 .slot6 {width: 10%;}
 .myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;}
-@media only screen and (max-width: 600px) {
-
-  .room {width: 3%;font-weight: normal;transform: rotate(-90deg)}
+@media only screen and (max-width: 800px) {
+  .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;word-break: break-all}
+  .room {width:3%;word-break: keep-all;transform: rotate(-90deg);padding:0.2vmax}
   }
+
+@media only screen and (max-width: 600px){
+  #colorCode {display: none}
+}
 
 .day01 {border: 0.2vmax solid orange}
 .day02 {border: 0.2vmax solid lightskyblue}
@@ -104,8 +109,6 @@ make it happen by t'Thon
   
 </div>
 </div>
-
-
 
 <!--thursday-->
 <div id="Thurs" class="sans w3-center w3-orange w3-text-white w3-bold" 
@@ -9061,10 +9064,27 @@ function showData() {
     //header
     var i;
     for (i=0;i<time.length;i++){
+      
+        //for mobile
+        if (screen.width<600) {
+          
+          var start, end, dash;
+          dash = time[i].indexOf('-');
+          start = time[i].substr(0,dash);
+          end = time[i].substr(dash+1,time[i].length);
+          if (dash != -1){
+          head[i].innerHTML= start + "<br />&#9830;<br />" + end;
+          head[i+11].innerHTML= start + "<br />&#9830;<br />" + end;
+          head[i+22].innerHTML= start + "<br />&#9830;<br />" + end;
+          head[i+33].innerHTML= start + "<br />&#9830;<br />" + end;
+          }
+              
+        }
+        else {
         head[i].innerHTML= time[i];
         head[i+11].innerHTML = time[i];
         head[i+22].innerHTML = time[i];
-        head[i+33].innerHTML = time[i];
+        head[i+33].innerHTML = time[i];}
     }
 
     //room
@@ -9091,25 +9111,35 @@ function showData() {
           
           index01 = allCode.indexOf(code01);
           if (index01 != -1){
-          tData[k+col].innerHTML = schedule[index01].Main_Title;
+          mobileAdj(k+col,index01)  
           clickable.push (tData[k+col]);indexL.push(index01);
           }
           index02 = allCode.indexOf(code02);
           if (index02 != -1){
-          tData[k+(17*11)+col].innerHTML = schedule[index02].Main_Title;
+          mobileAdj(k+(17*11)+col,index02)
           clickable.push (tData[k+(17*11)+col]);indexL.push(index02);
           }
           index03 = allCode.indexOf(code03);
           if (index03 != -1){
-          tData[k+(17*22)+col].innerHTML = schedule[index03].Main_Title;
+          mobileAdj(k+(17*22)+col,index03)  
           clickable.push (tData[k+(17*22)+col]);indexL.push(index03);
           }
           index04 = allCode.indexOf(code04);
           if (index04 != -1){
-          tData[k+(17*33)+col].innerHTML = schedule[index04].Main_Title;
+          mobileAdj(k+(17*33)+col,index04)
           clickable.push (tData[k+(17*33)+col]);indexL.push(index04);
           }
         }
+    
+    //for mobile show only topic not title
+    function mobileAdj(t,s){
+      if (screen.width<600){
+        tData[t].innerHTML = schedule[s].Topic + "  " + schedule[s].CoTopic
+      } else {
+        tData[t].innerHTML = schedule[s].Main_Title;
+      }
+    }
+    
     }
 
  
