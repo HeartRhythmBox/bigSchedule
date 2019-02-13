@@ -41,7 +41,8 @@
 th {font-weight: bold}
 th, td {border: 0.1vmax dotted #555555}
 .colorL {width:fit-content;height: fit-content;font-size: 1.1vmax;}
-.topicL, .trkL, .tyL {font-size:1.5vmax;}
+.fBar {display: none;margin-bottom: 0.5vmax;background-color:#555555}
+.topicL, .trkL, .tyL {font-size:1.5vmax;background-color:#555555;color:#f1f2f2;padding:0.1vmax;}
 
 </style>
 
@@ -624,72 +625,33 @@ style="font-size: 2.5vmax;">Sunday
     </div>
 </div>
 <!--filters-->
-<div class="w3-cell-row w3-center sans" style="font-size:2vmax;margin: 5vmax 0 0.5vmax 0">
-    <div class="w3-cell cursive">choose your filter(s)</div>
+<div class="w3-row w3-padding w3-center w3-border-bottom cursive" 
+style="font-size:2vmax;margin-top:5vmax">choose your filter</div>
+<div class="w3-cell-row w3-mobile w3-center sans" style="font-size:2vmax;margin-bottom:0.5vmax">
     <!--topic-->
     <div class="w3-cell w3-center">
-      <div class="w3-dropdown-hover">
-      <button class="w3-btn w3-padding-small w3-white" style="border-bottom: 0.2vmax lightblue solid;">
+      <button class="w3-btn w3-padding-small w3-white" 
+      style="border-bottom: 0.2vmax lightblue solid;" onclick="afterClick(0)">
       Topics</button>
-      <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-border">
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',0)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',1)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',2)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',3)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',4)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',5)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',6)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',7)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',8)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',9)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',10)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',11)"></div>
-        <div class="w3-bar-item w3-button topicL" onclick="showL('t',12)"></div>
-      </div>
-      </div>
     </div>
+  
 
     <!--track-->
   <div class="w3-cell w3-center">
-      <div class="w3-dropdown-hover">
-      <button class="w3-btn w3-padding-small w3-white" style="border-bottom: 0.2vmax lightcoral solid;">Tracks</button>
-      <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-border">
-        <div class="w3-bar-item w3-button trkL" onclick="showL('trk',0)"></div>
-        <div class="w3-bar-item w3-button trkL" onclick="showL('trk',1)"></div>
-        <div class="w3-bar-item w3-button trkL" onclick="showL('trk',2)"></div>
-      </div>
-      </div>
-  </div>
+      <button class="w3-btn w3-padding-small w3-white" 
+      style="border-bottom: 0.2vmax lightcoral solid;" onclick="afterClick(1)">Tracks</button>
+    </div>
 
   <!--type-->
   <div class="w3-cell w3-center">
-    <div class="w3-dropdown-hover">
-    <button class="w3-btn w3-padding-small w3-white"  style="border-bottom: 0.2vmax lightgreen solid;">Types</button>
-    <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-border">
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',0)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',1)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',2)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',3)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',4)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',5)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',6)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',7)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',8)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',9)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',10)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',11)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',12)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',13)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',14)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',15)"></div>
-      <div class="w3-bar-item w3-button tyL" onclick="showL('ty',16)"></div>
-    </div>
-    </div>
+    <button class="w3-btn w3-padding-small w3-white"  style="border-bottom: 0.2vmax lightgreen solid;"
+    onclick="afterClick(2)">Types</button>
+    
 </div>
 
   <!--speakers-->
   <div class="w3-cell w3-center">
-    <div class="w3-btn w3-padding-small"
+    <div class="w3-btn w3-padding-small w3-white"
     style="border-bottom: 0.2vmax lightseagreen solid" 
     onclick="comingSoon()")>
     Speakers</div>
@@ -700,9 +662,63 @@ style="font-size: 2.5vmax;">Sunday
     <div class="w3-btn w3-padding-small" onclick="showL('all')" style="border-bottom: 0.2vmax lightpink solid">show all</div>
   </div>
   <div class="w3-cell w3-center">
-      <div class="w3-btn w3-padding-small" style="border-bottom: 0.2vmax lightgray solid" onclick="showL('clear')">clear</div>
+      <div class="w3-btn w3-padding-small" style="border-bottom: 0.2vmax lightgray solid" 
+      onclick="showL('clear')">clear</div>
     </div>
 </div>
+
+<!--after clicked-->
+<!--topic-->
+<div class="fBar">
+<div class="w3-card-4 w3-bar sans w3-mobile">
+    <div class="w3-bar-item w3-button w3-border topicL" onclick="showL('t',0)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',1)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',2)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',3)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',4)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',5)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',6)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',7)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',8)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',9)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',10)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',11)"></div>
+    <div class="w3-bar-item w3-button topicL w3-border" onclick="showL('t',12)"></div>
+</div>
+</div>
+
+<!--Track-->
+<div class="fBar">
+<div class="w3-card-4 w3-bar sans w3-mobile">
+  <div class="w3-bar-item w3-button trkL w3-border" onclick="showL('trk',0)"></div>
+  <div class="w3-bar-item w3-button trkL w3-border" onclick="showL('trk',1)"></div>
+  <div class="w3-bar-item w3-button trkL w3-border" onclick="showL('trk',2)"></div>
+</div>
+</div>
+
+<!--type-->
+<div class="fBar">
+<div class="w3-card-4 w3-bar sans w3-mobile">
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',0)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',1)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',2)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',3)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',4)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',5)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',6)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',7)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',8)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',9)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',10)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',11)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',12)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',13)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',14)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',15)"></div>
+  <div class="w3-bar-item w3-button tyL w3-border" onclick="showL('ty',16)"></div>
+</div>
+</div>
+
 
 
 <div id="resultSum" class="sans w3-row w3-center w3-padding" style="font-size: 2vmax;
@@ -9041,6 +9057,7 @@ window.onload = showData();
 window.onload = createList();
 
 function comingSoon(){
+  afterClick(-1)
   document.getElementById('resultSum').innerHTML = "coming soon"
 }
 
@@ -9234,6 +9251,17 @@ function colorToggle() {
   }
 }   
 
+//list bar
+function afterClick(n){
+  var bar = document.getElementsByClassName('fBar');
+  var i;
+  for (i=0;i<bar.length;i++){
+    bar[i].style.display = "none"
+  }
+  if (n!=-1){
+  bar[n].style.display = "block"}
+}
+
 //create filtered lists
 function createList() {
   
@@ -9262,6 +9290,7 @@ function showL(order,x){
   var element = document.getElementById("result");
   element.scrollIntoView({behavior:"smooth", block:"start"});  
   if (order == 'all') {
+    afterClick(-1);
     document.getElementById("resultSum").innerHTML = "Showing all sessions. Total = " + schedule.length +
     "sessions";
     document.getElementById("resultSum").style.backgroundColor = "lightpink"
@@ -9271,6 +9300,7 @@ function showL(order,x){
       showList(n)
     }
   } else if (order =='clear') {
+    afterClick(-1)
     document.getElementById("resultSum").innerHTML = "Showing None";
     document.getElementById("resultSum").style.backgroundColor = "lightgrey"
     document.getElementById("result").innerHTML = "";
