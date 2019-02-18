@@ -64,6 +64,7 @@ text-align: left;}
   .mobileOnly {display: block}
   .noMobile {display:none}
 }
+#about {display: none}
 
 </style>
 
@@ -765,14 +766,22 @@ background-color: lightgray">Showing None.
 </div> 
 <div style="background-color:#f1f2f2;border-bottom: #f2f3f4 solid 5vmax" >
 <div id="result" class="sans w3-content w3-padding" 
-style="margin-bottom: 5vmax;font-size:1.8vmax;">------------------</div>
+style="margin-bottom: 5vmax;font-size:1.8vmax;"></div>
 </div>
 
 <!--bottomline-->
-<div class="w3-container w3-center w3-padding" style="background-color:#f3f3f3;margin: 8vmax 0">
-  <span class="sans w3-wide" style="font-size: 1.5vmax;color: #969696">about</span>
-  <span class="cursive w3-wide" style="font-size: 1.5vmax;color: #868686">t'thon</span>
-
+<div class="w3-container w3-center w3-padding" style="margin: 1vmax 0 5vmax 0;cursor: pointer;" 
+onmouseover="tThon(1)" onmouseout="tThon(0)">
+  <span class="sans w3-wide" style="font-size: 1.1vmax;color: #969696">about</span>
+  <span class="cursive w3-wide" style="font-size: 1.1vmax;color: #868686">t'thon</span>
+  <div id="about" class="w3-container w3-center w3-padding w3-border-top sans" 
+style="font-size:1vmax;color:#767676">
+  t'Thon is a screen name of a novice web developer, a wine enthusiast, and a cardiac electrophysiologist
+  by training. 
+  Check out t'Thon's own page at 
+  <a href="https://heartrhythmbox.github.io/main/">HeartRhythmBox</a> or at
+  <a href="https://www.facebook.com/HeartRhythmBox">FB: @HeartRhythmBox</a>
+</div>
 </div>
 
 
@@ -12932,6 +12941,11 @@ function inputFilter(){
   }
 }
 
+function tThon(x){
+  document.getElementById('about').style.display = "block"
+  if (x==0){
+  document.getElementById('about').style.display = "none";}
+  }
 
 
 
