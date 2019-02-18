@@ -54,11 +54,15 @@ th, td {border: 0.1vmax dotted #555555}
 .fBar {display: none;margin-bottom: 0.5vmax;background-color:#555555}
 .topicL, .trkL, .tyL {font-size:1.5vmax;background-color:#555555;color:#f1f2f2;padding:0.1vmax;}
 .spkBtn {cursor: pointer;font-size:1.5vmax}
-#speakerUL {width:600px;height: 50vh;margin-left: auto;margin-right: auto;overflow-y: scroll;
+#speakerUL {width:800px;height: 50vh;margin-left: auto;margin-right: auto;overflow-y: scroll;
 text-align: left;}
-
 @media only screen and (max-width: 800px){
   #speakerUL {width:auto}
+}
+.mobileOnly {display: none}
+@media only screen and (max-width: 800px){
+  .mobileOnly {display: block}
+  .noMobile {display:none}
 }
 
 </style>
@@ -68,8 +72,12 @@ text-align: left;}
 <div class="w3-center w3-content w3-padding w3-border-bottom w3-mobile">
     <span class="sans"  style="font-size: 3vmax;">APHRS 2019 Schedule</span>
     <span class="cursive" style="font-size:2.2vmax;color:dimgray"> . . Unofficial </span>
+    <div class="sans w3-wide" style="font-size:1.1vmax;color:#555555">
+        last database updated: Feb 2, 2019</div>
 </div>
-<div class="cursive w3-center w3-mobile w3-row w3-wide" style="font-size: 1.1vmax;color:darkgray;margin-bottom: 3vmax">
+
+<div class="cursive w3-center w3-mobile w3-row w3-wide" 
+style="font-size: 1.1vmax;color:darkgray;margin-bottom: 3vmax">
 make it happen by t'Thon
 </div>
 
@@ -92,8 +100,9 @@ make it happen by t'Thon
 </div></div>
 
 <!--subH1-->
+
 <div id="aag" class="w3-container w3-mobile" style="background:#f3f3f3;margin-top: 5vmax;">
-<div class="w3-row w3-mobile w3-center sans">
+  <div class="w3-row w3-mobile w3-center sans">
   <div class="w3-row w3-mobile" style="font-size:2.5vmax;font-weight: 900">
     <span class="w3-wide">SCHEDULE</span>
     <span class="cursive" style="font-weight: 400;color:#555555">at a glance</span><br>
@@ -739,23 +748,32 @@ style="font-size:2vmax;margin-top:5vmax">choose your filter</div>
 <!--speaker-->
 <div class="fBar">
   <div class="w3-card-4 w3-bar sans w3-mobile w3-center">
-  <div id="demo" style="color:white;font-size:1.8vmax;padding-left:0.5vmax">
-     Search for a speaker (lastname, firstname)
-    <input class="w3-input w3-border w3-padding" type="text" placeholder="Search for names.." 
-      id="spkSearch" onkeyup="inputFilter()" style="width:600px;margin-left: auto;margin-right: auto">
+  <div id="demo" style="color:white;font-size:1.8vmax;padding-left:0.5vmax;margin-top:0.2vmax">
+    <span class="mobileOnly">Choose a speaker. Scroll for more.</span>
+    <input class="w3-input w3-border noMobile w3-padding" type="text" 
+    placeholder="Search for: lastname, firstname (country)"  id="spkSearch" 
+    onkeyup="inputFilter()" style="width:800px;margin-left: auto;margin-right: auto">
       <ul class="w3-ul w3-margin-top" id="speakerUL">
-        
       </ul>
-    </div>
+  </div>
   </div>
 </div>
 
+<!--result sum-->
 <div id="resultSum" class="sans w3-row w3-center w3-padding" style="font-size: 2vmax;
 background-color: lightgray">Showing None.
 </div> 
-
-<div id="result" class="sans w3-content w3-padding w3-border" 
+<div style="background-color:#f1f2f2;border-bottom: #f2f3f4 solid 5vmax" >
+<div id="result" class="sans w3-content w3-padding" 
 style="margin-bottom: 5vmax;font-size:1.8vmax;">------------------</div>
+</div>
+
+<!--bottomline-->
+<div class="w3-container w3-center w3-padding" style="background-color:#f3f3f3;margin: 8vmax 0">
+  <span class="sans w3-wide" style="font-size: 1.5vmax;color: #969696">about</span>
+  <span class="cursive w3-wide" style="font-size: 1.5vmax;color: #868686">t'thon</span>
+
+</div>
 
 
 
@@ -12674,7 +12692,7 @@ function createList() {
 
 function showL(order,x){
   var element = document.getElementById("result");
-  element.scrollIntoView({behavior:"smooth", block:"start"});  
+  //element.scrollIntoView({behavior:"smooth", block:"start"});  
   if (order == 'all') {
     afterClick(-1);
     document.getElementById("resultSum").innerHTML = "Showing all sessions. Total = " + schedule.length +
@@ -12869,23 +12887,28 @@ function spkFilter(){
   }
   
   function generateSpkList(n){
+    
+    
+    
+    //check country
+    var country, k;var spkC = [];
+    for (k=0;k<spkCountry.length;k++){
+      
+      var name = spkCountry[k].Name;
+      var nameU = name.toUpperCase();
+      spkC.push(nameU)
+    }
+    var ind;
+    var sName = sList[n]; var sNameU = sName.toUpperCase();
+    ind = spkC.indexOf(sNameU)
+    if (ind != -1){
+      country = spkCountry[ind].Country;} 
+    else {country = ""}
+
     var newLi = document.createElement('li')
-    var txt = document.createTextNode(sList[n])
+    var comb = sList[n]+" ("+country+")"
+    var txt = document.createTextNode(comb)
     newLi.appendChild(txt);
-    
-    /*check country
-    var country, upper, i;
-    upper = sList[n].toUpperCase();
-    for (i=0;i<spkCountry.length;i++){
-      var nameInList = spkCountry[i].Name;
-      var nameInListUpper = nameInList.toUpperCase;
-      document.getElementById('demo').innerHTML = spkCountry[1].Country;
-      if (upper==nameInList){
-        country = spkCountry[i].Country;
-      }
-    }   */ 
-    
-    newLi.appendChild(txt);   
     document.getElementById('speakerUL').appendChild(newLi)
     newLi.style.cursor = "pointer"
     newLi.onclick = function(){showL('spk',sList[n])}
