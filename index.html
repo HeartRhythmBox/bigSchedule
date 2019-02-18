@@ -663,7 +663,7 @@ style="font-size:2vmax;margin-top:5vmax">choose your filter</div>
   <!--speakers-->
   <div class="w3-cell w3-center">
     <button class="w3-btn w3-padding-small w3-white"
-    style="border-bottom: 0.2vmax lightseagreen solid" onclick="afterClick(3)")>
+    style="border-bottom: 0.2vmax lightseagreen solid" onclick="spkFilter()")>
     Speakers</button>
   </div>
 
@@ -732,10 +732,16 @@ style="font-size:2vmax;margin-top:5vmax">choose your filter</div>
 
 <!--speaker-->
 <div class="fBar">
-  <div id="alphaBar" class="w3-card-4 w3-bar sans w3-mobile">
-  <span style="color:white;font-size:1.8vmax;padding-left:0.5vmax">
-    Coming soon
-    </span>  
+  <div id="alphaBar" class="w3-card-4 w3-bar sans w3-mobile w3-center">
+  <div style="color:white;font-size:1.8vmax;padding-left:0.5vmax" class="w3-center">
+     Search for a speaker (lastname, firstname)
+    <input class="w3-input w3-border w3-padding" type="text" placeholder="Search for names.." 
+      id="spkSearch" onkeyup="inputFilter()" style="width:600px;margin-left: auto;margin-right: auto">
+      <ul class="w3-ul w3-margin-top" id="speakerUL" 
+      style="width:600px;height: 50vh;margin-left: auto;margin-right: auto;overflow-y: scroll">
+        
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -9074,13 +9080,6 @@ var trackD = ["Joint Session", "Junior EPs", "Sponsor"]
 window.onload = showData();
 window.onload = createList();
 
-function comingSoon(){
-  spkFilter();
-  afterClick(-1)
-  
-}
-
-
 function showData() {
   var head = document.getElementsByTagName("th");
   var tData =document.getElementsByTagName("td");
@@ -9284,19 +9283,19 @@ function afterClick(n){
 //create filtered lists
 function createList() {
   
-  //topic dropdown
+  //topic list
   var tList = document.getElementsByClassName("topicL");
   var i;
   for (i=0;i<tList.length;i++){
     tList[i].innerHTML = topic[i];
   }
-  //track dropdown
+  //track list
   var trkList = document.getElementsByClassName("trkL");
   var i;
   for (i=0;i<trkList.length;i++){
     trkList[i].innerHTML = track[i] + " (" + trackD[i] + ")";
   }
-  //type dropdown
+  //type list
   var tyList = document.getElementsByClassName("tyL");
   var i;
   for (i=0;i<tyList.length;i++){
@@ -9374,6 +9373,29 @@ function showL(order,x){
       showList(item)
     })
   }
+
+  else if (order == 'spk'){
+    document.getElementById("result").innerHTML = "";
+    var spkName = x;
+    var spkA = []; var n;
+    for (n=0;n<schedule.length;n++){
+      if (schedule[n].Spk1==spkName || schedule[n].Spk2==spkName ||
+      schedule[n].Spk3==spkName || schedule[n].Spk4 ==spkName || 
+      schedule[n].Spk5==spkName || schedule[n].Spk6==spkName ||
+      schedule[n].Mod1==spkName || schedule[n].Mod2==spkName ||
+      schedule[n].Mod3==spkName || schedule[n].Mod4==spkName ) {
+        spkA.push(n)
+      }
+    }
+
+    document.getElementById("resultSum").innerHTML = "Showing sessions by speaker. Speaker = "+ spkName + 
+    ". Total = "+ spkA.length+" sessions."
+    document.getElementById("resultSum").style.backgroundColor = "lightseagreen"
+    spkA.forEach(function(item){
+      showList(item)
+    })
+  }
+
 }
 
 function showList(d){
@@ -9446,7 +9468,7 @@ function showList(d){
 
 function spkFilter(){
   //create unique spk list
-  var aList,sList = [];
+  var sList = [];
   afterClick(3);
   //fullname
   var i;
@@ -9471,32 +9493,40 @@ function spkFilter(){
     return item.valueOf() != "";
   })
   
-  //alphabet
-  aList = sList.map(function(item){
-    return item.substring(0,1)
-  })
-  aList.sort();
-  aList = aList.filter(function(item, index){
-    return aList.indexOf(item)==index;
-  })
-
-  //remove old alpha button
-  var oldBar = document.getElementById('alphaBar');
-  oldBar.parentNode.removeChild(oldBar)
-
-  //alphabets to choose
+  
+  //generate list to choose
   var j;
-  for (j=0;j<aList.length;j++){
-  var btn = document.createElement('button');
-  var att = document.createAttribute("class")
-  att.value = "spkBtn";
-  btn.setAttributeNode(att);
-  var txtNode = document.createTextNode(aList[j]);
-  btn.appendChild(txtNode);
-  document.getElementById('alphaBar').appendChild(btn);
+  for (j=0;j<sList.length;j++){
+    generateSpkList(j)
   }
   
+  function generateSpkList(n){
+    var newLi = document.createElement('li')
+    var txt = document.createTextNode(sList[n])
+    newLi.appendChild(txt);
+    document.getElementById('speakerUL').appendChild(newLi)
+    newLi.style.cursor = "pointer"
+    newLi.onclick = function(){showL('spk',sList[n])}
   }
+}
+
+function inputFilter(){
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("spkSearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("speakerUL");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    txtValue = li[i].textContent || li[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+
+
 
 
 </script>
