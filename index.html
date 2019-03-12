@@ -13906,12 +13906,11 @@ function spkFilter(){
     var sName = sList[n]; var sNameU = sName.toUpperCase();
     ind = spkC.indexOf(sNameU)
     if (ind != -1){
-      country = spkCountry[ind].Country;
-      } 
+      country = spkCountry[ind].Country;} 
     else {country = ""}
 
     var newLi = document.createElement('li')
-    var comb = spkCountry[ind].Name+" ("+country+")"
+    var comb = sList[n]+" ("+country+")"
     var txt = document.createTextNode(comb)
     newLi.appendChild(txt);
     document.getElementById('speakerUL').appendChild(newLi)
