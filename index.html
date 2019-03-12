@@ -13689,7 +13689,8 @@ function showDetail(d) {
   var typeIndex = sessionType.indexOf(schedule[d].Session_Type);
   document.getElementById("typeD").innerHTML = " - " + sessionTypeDetail[typeIndex];
   document.getElementById("topic").innerHTML = "Topic: "+ schedule[d].Topic + "  "+ schedule[d].CoTopic+" ";
-  document.getElementById("track").innerHTML = "Track: "+ schedule[d].Track;
+  document.getElementById("track").innerHTML = "Track: "+ schedule[d].Track + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
+  + "Time Allocation: " + schedule[d].time_allocation;
 
   var Mod1 = nameFormat(schedule[d].Mod1);var Mod2 = nameFormat(schedule[d].Mod2);
   var Mod3 = nameFormat(schedule[d].Mod3);var Mod4 = nameFormat(schedule[d].Mod4);
