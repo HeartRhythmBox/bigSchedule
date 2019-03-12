@@ -13690,16 +13690,42 @@ function showDetail(d) {
   document.getElementById("typeD").innerHTML = " - " + sessionTypeDetail[typeIndex];
   document.getElementById("topic").innerHTML = "Topic: "+ schedule[d].Topic + "  "+ schedule[d].CoTopic+" ";
   document.getElementById("track").innerHTML = "Track: "+ schedule[d].Track;
-  document.getElementById("mod").innerHTML = "Mods/Panels: "+ schedule[d].Mod1 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
-  + schedule[d].Mod2 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'  + schedule[d].Mod3 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + schedule[d].Mod4 ;
-     
-  document.getElementById("sub1").innerHTML = "1: " + schedule[d].SubT1 + "  " + "(" + schedule[d].Spk1 + ")";
-  document.getElementById("sub2").innerHTML = "2: " + schedule[d].SubT2 + "  " + "(" + schedule[d].Spk2 + ")";
-  document.getElementById("sub3").innerHTML = "3: " + schedule[d].SubT3 + "  " + "(" + schedule[d].Spk3 + ")";
-  document.getElementById("sub4").innerHTML = "4: " + schedule[d].SubT4 + "  " + "(" + schedule[d].Spk4 + ")";
-  document.getElementById("sub5").innerHTML = "5: " + schedule[d].SubT5 + "  " + "(" + schedule[d].Spk5 + ")";
-  document.getElementById("sub6").innerHTML = "6: " + schedule[d].SubT6 + "  " + "(" + schedule[d].Spk6 + ")";
+
+  var Mod1 = nameFormat(schedule[d].Mod1);var Mod2 = nameFormat(schedule[d].Mod2);
+  var Mod3 = nameFormat(schedule[d].Mod3);var Mod4 = nameFormat(schedule[d].Mod4);
+
+  document.getElementById("mod").innerHTML = "Mods/Panels: "+ Mod1 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
+  + Mod2 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'  + Mod3 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + Mod4 ;
+
+  var spk1 = nameFormat(schedule[d].Spk1);var spk2 = nameFormat(schedule[d].Spk2);
+  var spk3 = nameFormat(schedule[d].Spk3);var spk4 = nameFormat(schedule[d].Spk4);
+  var spk5 = nameFormat(schedule[d].Spk5);var spk6 = nameFormat(schedule[d].Spk6);
+
+  document.getElementById("sub1").innerHTML = "1: " + schedule[d].SubT1 + "  " + "(" + spk1 + ")";
+  document.getElementById("sub2").innerHTML = "2: " + schedule[d].SubT2 + "  " + "(" + spk2 + ")";
+  document.getElementById("sub3").innerHTML = "3: " + schedule[d].SubT3 + "  " + "(" + spk3 + ")";
+  document.getElementById("sub4").innerHTML = "4: " + schedule[d].SubT4 + "  " + "(" + spk4 + ")";
+  document.getElementById("sub5").innerHTML = "5: " + schedule[d].SubT5 + "  " + "(" + spk5 + ")";
+  document.getElementById("sub6").innerHTML = "6: " + schedule[d].SubT6 + "  " + "(" + spk6 + ")";
   
+  //speakers format
+  function nameFormat(n){
+    var k;var spkC = [];
+    for (k=0;k<spkCountry.length;k++){
+      
+      var newFormat = spkCountry[k].Name;
+      var newFU = newFormat.toUpperCase();
+      spkC.push(newFU)
+    }
+    var ind, newName;
+    var NameU = n.toUpperCase();
+    ind = spkC.indexOf(NameU)
+    if (ind != -1){
+      newName = spkCountry[ind].Name} 
+    else {newName = ""}
+    return newName  
+  }
+
   //check numbers of subtopics
   var subN = schedule[d].no_subTs;
   if (subN == 5) {
