@@ -21,11 +21,17 @@
 <style>
 .sans {font-family: 'Abel', sans-serif;}
 .cursive {font-family: 'Satisfy', cursive;}
-body {background: linear-gradient(to right, #310913, #530f21, #6c001b)}
+body {background-color:#530f21}
+@media only screen and (max-width: 800px){
+    .noMobile {display: none}
+}
 
 </style>
 
 <body>
+
+<!--hide first-->
+<div class="hideFirst">
 <!--title-->
 <div class="w3-row w3-center w3-padding cursive" style="font-size: 4vmax;color: white;margin-top: 3vmax;">
     Sponsor Portal
@@ -36,17 +42,19 @@ to submit the request form &nbsp;&nbsp;
 </div>
 
 <!--info-->
-<div class="w3-bar sans w3-sand" style="margin: 3vmax 1vmax;font-size: 2.2vmax">
-    <span class="w3-padding w3-wide w3-left cursive" style="margin-right: 3vmax;color: #6c001b">
-        Info</span>
-    <div class="w3-bar-item w3-btn w3-border w3-center">
+<div class="w3-cell-row sans w3-sand" 
+style="margin: 3vmax 0vmax;font-size: 2vmax;">
+    <div class="w3-cell w3-cell-middle w3-center cursive noMobile">
+        Info
+    </div>
+    <div class="w3-cell w3-btn w3-border w3-cell-middle w3-center">
         <a href="#preCongress">Precongress</a></div>
-    <div class="w3-bar-item w3-btn w3-border w3-center">
-        <a href="#lunch">Lunch Syms</a></div>
-    <div class="w3-bar-item w3-btn w3-border w3-center">
-        <a href="#ind">Industrial Syms</a></div>
-    <div class="w3-bar-item w3-btn w3-border w3-center">
-        <a href="#edu">Education Syms</a></div>
+    <div class="w3-cell w3-btn w3-border w3-cell-middle w3-center">
+        <a href="#lunch">Lunch <span class="noMobile">Sym</span></a></div>
+    <div class="w3-cell w3-btn w3-border w3-cell-middle w3-center">
+        <a href="#ind">Ind<span class="noMobile">ustrial</span> Sem</a></div>
+    <div class="w3-cell w3-btn w3-border w3-cell-middle w3-center">
+        <a href="#edu">Edu<span class="noMobile">cation</span> Sym</a></div>
 </div>
 
 
@@ -57,23 +65,188 @@ to submit the request form &nbsp;&nbsp;
 
 <!--lunch-->
 <div id="lunch" style="border-top: #969696 0.2vmax solid">
-    <div class="w3-row w3-margin w3-padding cursive" style="font-size: 2.5vmax;color: white">
+    <div class="w3-row w3-center w3-margin w3-padding cursive" style="font-size: 3.5vmax;color: white">
         Lunch Symposia</div>
-    <!--xl-->
-    <div class="w3-row w3-center w3-padding sans" style="font-size: 1.8vmax;color: #f3f3f3">
-    <span style="font-size: 2.2vmax;font-weight:900">XL</span> 2 for platinum, 1 for gold.
+    <div class="w3-row w3-center sans" style="font-size: 1.5vmax;color:#ddd">
+    <a href="https://www.centarahotelsresorts.com/mice/corporate/meeting/cgcw/" target="_blank">
+        click here for floor plan & room sizes</a>
     </div>
-    <div class="w3-white w3-content w3-center">
-    <table class="w3-table w3-white sans" style="font-size: 2vmax">
+
+    <!--xl-->
+    <div class="w3-row w3-center w3-padding sans" style="font-size: 1.8vmax;color: #f3f3f3;margin-top: 2vmax">
+    <span style="font-size: 2.2vmax;font-weight:900;color:burlywood">XL</span>: 1 for platinum, 1 for gold.
+    </div>
+    <div class="w3-white w3-content w3-center" style="margin-bottom: 3vmax">
+    <table class="w3-table w3-bordered w3-white sans" style="font-size: 2vmax">
         <tr>
             <th>Day</th><th>Room</th>
         </tr>
         <tr>
             <td>Thurs</td><td>Conventional Center (CC), Ballroom B (ballB)</td>
         </tr>
+        <tr>
+            <td>Fri</td><td>Conventional Center (CC), Ballroom B (ballB)</td>
+        </tr>
+        <tr>
+            <td>Sat</td><td>Ballroom B (ballB)</td>
+        </tr>
     </table>
     </div>
+
+    <!--L M-->
+    <div class="w3-row sans" style="margin:3vmax 0.5vmax">
+    <div class="w3-col s6 w3-mobile w3-center autoH w3-white w3-border-right">
+        <div class="w3-row w3-center w3-padding sans" 
+        style="font-size: 1.8vmax;color: #555;margin-top: 2vmax;background: transparent">
+            <span style="font-size: 2.2vmax;font-weight:900;color:burlywood">L</span>: 1 for platinum, 1 for gold.
+        </div>
+        <ul class="w3-ul w3-padding" style="font-size:2vmax">
+            <li class="w3-bold" style="background-color:#530f21;color:white">Thurs to Sat.</li>
+            <li>Ballroom A (ballA)</li>
+            <li>Ballroom C (ballC)</li>
+        </ul>    
+    </div>
+    <div class="w3-col s6 w3-mobile w3-center autoH w3-white">
+            <div class="w3-row w3-center w3-padding sans" style="font-size: 1.8vmax;color: #555;margin-top: 2vmax">
+                <span style="font-size: 2.2vmax;font-weight:900;color:burlywood">M</span>
+                : 1 for platinum, 1 for gold, 2 for silver, and 1 for bronze.
+            </div>
+            <ul class="w3-ul w3-padding" style="font-size:2vmax">
+                <li class="w3-bold" style="background-color:#530f21;color:white">Thurs to Sat.</li>
+                <li>Lotus 5/6 (L5/6)</li>
+                <li>Lotus 7 (L7)</li>
+                <li>Lotus 10 (L10)</li>
+                <li>Lotus 11 (L11)</li>
+            </ul>    
+        </div>
+    </div>
 </div>
+
+<!--ind-->
+<div id="ind" style="border-top: #969696 0.2vmax solid">
+    <div class="w3-row w3-center w3-margin w3-padding cursive" style="font-size: 3.5vmax;color: white">
+            Industrial Mini-Seminar</div>
+
+    <div class="w3-center sans" style="margin:3vmax 0.5vmax">
+        
+            <div class="w3-center w3-padding sans" 
+            style="font-size: 1.8vmax;color: #555;margin-top: 2vmax;background: transparent">
+                <span style="font-size: 2.2vmax;font-weight:900;color:burlywood">
+                    8 for platinum, 6 for gold, and 2 for sliver.</span>
+            </div>
+            <ul class="w3-ul w3-center w3-white w3-padding" style="font-size:2vmax">
+                <li class="w3-bold" style="background-color:#530f21;color:white">2 Venues, Thurs to Sat.</li>
+                <li>0830-0915</li><li>0915-1000</li>
+                <li>1315-1430</li><li>1430-1515</li>
+                <li>1515-1600</li><li>1600-1645</li>
+            </ul>    
+    </div>     
+        
+</div>
+
+<!--edu-->
+<div id="edu" style="border-top: #969696 0.2vmax solid;margin-bottom: 2vmax">
+    <div class="w3-row w3-center w3-margin w3-padding cursive" style="font-size: 3.5vmax;color: white">
+                Education Symposium</div>
+    <div class="w3-center w3-padding sans" 
+    style="font-size: 1.8vmax;color: #555;margin-top: 2vmax;background: transparent">
+        <span style="font-size: 2.2vmax;font-weight:900;color:burlywood">
+            6 for platinum, 2 for gold, 1 for sliver, and 1 for bronze.</span>
+    </div>    
+</div>
+
+<!--end page-->
+<div class="w3-row w3-center sans" style="margin: 2vmax 0;font-size: 1.2vmax;border-top: 0.1vmax solid #ddd;color:#ddd">
+    <a href="#top">to top of the page</a>
+    &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;  
+    <a href="index.html">back to the main page</a>
+</div>
+</div>
+
+<div class="showFirst w3-black" style="height:100vh;width:100vw;">
+    <div id="wine">
+    <div class="w3-row w3-center sans" style="padding-top: 5vmax;font-size:2.5vmax;line-height: 100%">
+        Name one of the grand cru chateaus of the left-bank of Bordeaux.
+        <br><span style="font-size:1.5vmax;color:#ddd">
+            (just the name. no need to put the word 'chateau'.)</span>
+    </div>
+    <div class="w3-center" style="padding: 1vmax 3vmax">
+    <input class="w3-mobile w3-center w3-border w3-padding sans" type="text" autofocus
+    placeholder="not case sensitive."  id="chateau" style="font-size: 2vmax;" >
+    <button id="wineEnter" class="w3-light-grey sans" style="font-size:1.8vmax;margin: 0.5vmax">Enter</button>
+    </div>
+    
+    <div class="w3-row w3-center sans" style="padding-top: 1vmax;font-size:2vmax">
+        <div class="w3-button w3-teal w3-round-large w3-padding-small" onclick="codeInput">I know the code.</div>
+        <div class="w3-button w3-sand w3-round-large w3-padding-small">
+            <a href="index.html" style="text-decoration:none">get me out of here.</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="code">
+    <div class="w3-row w3-center sans" style="padding-top: 5vmax;font-size:2.5vmax">
+            Enter the code
+        </div>
+        <div style="padding: 1vmax 3vmax" class="w3-center">
+        <input class="w3-center w3-border w3-padding sans" type="text" autofocus
+        placeholder="enter here..."  id="code" style="font-size: 2vmax" >
+        <button id="wineEnter" class="w3-light-grey sans" style="font-size:1.8vmax;margin: 0.5vmax">Enter</button>
+        </div>
+    
+        <div class="w3-row w3-center sans" style="padding-top: 1vmax;font-size:2vmax">
+                
+            <div class="w3-button w3-sand w3-round-large w3-padding-small">
+            <a href="index.html" style="text-decoration:none">get me out of here.</a>
+        </div>
+        </div>
+
+    </div>
+
+    
+</div>
+
 </body>
 
+
+<script>
+
+window.onload = function() {
+    if (screen.width>800){
+    autoHeight("autoH")}
+    }
+
+var wine = document.getElementById('wineEnter')
+wine.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   chateauCheck();
+  }
+});
+
+//auto height
+function autoHeight(cName){
+    var c1 = document.getElementsByClassName(cName);
+    setHeight (c1)
+    
+
+    function setHeight(c){
+    //find content height
+    var h = [];var i;
+    for (i=0;i<c.length;i++){
+        var height = c[i].offsetHeight;
+        h.push(height)
+    }
+    h.sort(function(a,b){return b-a})
+    var maxH = h[0]
+   
+    //set height
+    var j;
+    for (j=0;j<c.length;j++){
+        c[j].style.height = maxH+"px"
+    }
+    }
+}
+
+</script>
 </html>

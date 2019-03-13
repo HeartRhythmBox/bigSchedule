@@ -75,7 +75,7 @@ text-align: left;}
     <span class="sans"  style="font-size: 3vmax;">APHRS 2019 Schedule</span>
     <span class="cursive" style="font-size:2.2vmax;color:dimgray"> . . Unofficial </span>
     <div class="sans w3-wide" style="font-size:1.1vmax;color:#555555">
-        last database updated: March 12, 2019, 03:47:30 PM</div>
+        last database updated: March 12, 2019</div>
 </div>
 
 <div class="cursive w3-center w3-mobile w3-row w3-wide" 
@@ -785,6 +785,7 @@ style="margin-bottom: 5vmax;font-size:1.8vmax;">
 </div>
 </div>
 
+<div id="demo"></div>
 <!--bottomline-->
 <div class="w3-container w3-center w3-padding" style="margin: 1vmax 0 5vmax 0;cursor: pointer;" 
 onmouseover="tThon(1)" onmouseout="tThon(0)">
@@ -10218,416 +10219,164 @@ var trackD = ["Joint Session", "Junior EPs", "Sponsor"]
 
 var spkCountry = [
  {
+   "Name": "Abe, Haruhiko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Abe, Yoshihisa",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Achmad, Chaerul",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Adachi, Kazumasa",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Adi, Haryadi",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Agbayani, Michael Joseph",
+   "Country": "Philippines"
+ },
+ {
+   "Name": "Agustinus, Reynold",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Aiba, Takeshi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Aizawa, Yoshiyasu",
+   "Country": "Japan"
+ },
+ {
    "Name": "Alison, Jeffry",
    "Country": "Australia"
  },
  {
-   "Name": "Davis, Andrew M",
-   "Country": "Australia"
+   "Name": "Amarasinghe, Susitha",
+   "Country": "Sri Lanka"
  },
  {
-   "Name": "Elliott, Adrian",
-   "Country": "Australia"
+   "Name": "Amir, Muzakkir",
+   "Country": "Indonesia"
  },
  {
-   "Name": "Freedman, Ben",
-   "Country": "Australia"
+   "Name": "Anannab, Alisara",
+   "Country": "Thailand"
  },
  {
-   "Name": "Ganesan, Anand",
-   "Country": "Australia"
+   "Name": "Ando, Kenji",
+   "Country": "Japan"
  },
  {
-   "Name": "Gould, Paul",
-   "Country": "Australia"
+   "Name": "Ang, Joyce",
+   "Country": "Singapore"
  },
  {
-   "Name": "Haqqani, Haris M.",
-   "Country": "Australia"
+   "Name": "Antara, Putra",
+   "Country": "Indonesia"
  },
  {
-   "Name": "Hendriks, Jeroen",
-   "Country": "Australia"
+   "Name": "Aonuma, Kazutaka",
+   "Country": "Japan"
  },
  {
-   "Name": "Ingles, Jodie",
-   "Country": "Australia"
+   "Name": "Apiyasawat, Sirin",
+   "Country": "Thailand"
  },
  {
-   "Name": "Jacob, Benjamin",
-   "Country": "Australia"
+   "Name": "Arimoto, Takanori",
+   "Country": "Japan"
  },
  {
-   "Name": "John, Bobby",
-   "Country": "Australia"
+   "Name": "Arora, Vanita",
+   "Country": "India"
  },
  {
-   "Name": "Joseph, Stephen",
-   "Country": "Australia"
+   "Name": "Asakai, Hiroko",
+   "Country": "Japan"
  },
  {
-   "Name": "Kalman, Jonathan",
-   "Country": "Australia"
+   "Name": "Ashihara, Takashi",
+   "Country": "Japan"
  },
  {
-   "Name": "Kistler, Peter",
-   "Country": "Australia"
+   "Name": "Ashikaga, Keiichi",
+   "Country": "Japan"
  },
  {
-   "Name": "Lau, Dennis",
-   "Country": "Australia"
+   "Name": "Awan, Zahid Aslam",
+   "Country": "Pakistan"
  },
  {
-   "Name": "Linz, Dominik",
-   "Country": "Australia"
+   "Name": "Aye, Thet Lel Swe",
+   "Country": "Myanmar"
  },
  {
-   "Name": "Mahajan, Rajiv",
-   "Country": "Australia"
+   "Name": "Bae, Eun-Jung",
+   "Country": "Korea"
  },
  {
-   "Name": "Mariani, Justin",
-   "Country": "Australia"
- },
- {
-   "Name": "Mcgavigan, Andrew D.",
-   "Country": "Australia"
- },
- {
-   "Name": "Mcguire, Mark",
-   "Country": "Australia"
- },
- {
-   "Name": "Mond, Harry",
-   "Country": "Australia"
- },
- {
-   "Name": "O'Donnell, David",
-   "Country": "Australia"
- },
- {
-   "Name": "Pathak, Rajeev",
-   "Country": "Australia"
- },
- {
-   "Name": "Paul, Vincent",
-   "Country": "Australia"
- },
- {
-   "Name": "Pflaumer, Andreas",
-   "Country": "Australia"
- },
- {
-   "Name": "Phillips, Karen",
-   "Country": "Australia"
- },
- {
-   "Name": "Pouliopoulos, Jim",
-   "Country": "Australia"
- },
- {
-   "Name": "Sanders, Prashnathan",
-   "Country": "Australia"
- },
- {
-   "Name": "Saurabh, Kumar",
-   "Country": "Australia"
- },
- {
-   "Name": "Semsarian, Chris",
-   "Country": "Australia"
- },
- {
-   "Name": "Strathmore, Neil",
-   "Country": "Australia"
- },
- {
-   "Name": "Sy, Raymond",
-   "Country": "Australia"
- },
- {
-   "Name": "Thiagalingam, Aravinda",
-   "Country": "Australia"
- },
- {
-   "Name": "Thomas, Stuart",
-   "Country": "Australia"
- },
- {
-   "Name": "Wildschut, Jason",
-   "Country": "Australia"
- },
- {
-   "Name": "Wong, Christopher X.",
-   "Country": "Australia"
- },
- {
-   "Name": "Wynn, Gareth",
-   "Country": "Australia"
- },
- {
-   "Name": "Johar, Sofian",
-   "Country": "Brunei"
- },
- {
-   "Name": "Luqman, Nazar",
-   "Country": "Brunei"
- },
- {
-   "Name": "Chheav, Chantorador",
-   "Country": "Cambodia"
- },
- {
-   "Name": "Khmao, Pich Manil",
-   "Country": "Cambodia"
- },
- {
-   "Name": "Mam, Chandara",
-   "Country": "Cambodia"
- },
- {
-   "Name": "Rith, Chandara",
-   "Country": "Cambodia"
- },
- {
-   "Name": "Sem, Malen",
-   "Country": "Cambodia"
+   "Name": "Bae, Myung Hwan",
+   "Country": "Korea"
  },
  {
    "Name": "Bai, Rong",
    "Country": "China"
  },
  {
+   "Name": "Balsam, Pawel",
+   "Country": "Poland"
+ },
+ {
+   "Name": "Ban, Ji-Eun",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Bhargava, Kartikeya",
+   "Country": "India"
+ },
+ {
+   "Name": "Boddington, Dean",
+   "Country": "New Zealand"
+ },
+ {
+   "Name": "Bohora, Shomu",
+   "Country": "India"
+ },
+ {
+   "Name": "Boonyapisit, Warangkna",
+   "Country": "Thailand"
+ },
+ {
    "Name": "Cao, Kejiang",
    "Country": "China"
  },
  {
-   "Name": "Chen, Keping",
-   "Country": "China"
+   "Name": "Cha, Myung-Jin",
+   "Country": "Korea"
  },
  {
-   "Name": "Chen, Minglong",
-   "Country": "China"
+   "Name": "Cha, Tae-Joon",
+   "Country": "Korea"
  },
  {
-   "Name": "Chen, Yangxin",
-   "Country": "China"
+   "Name": "Chadha, Niti",
+   "Country": "India"
  },
  {
-   "Name": "Chu, Huimin",
-   "Country": "China"
+   "Name": "Chakraborty, Praloy",
+   "Country": "India"
  },
  {
-   "Name": "He, Lang",
-   "Country": "China"
- },
- {
-   "Name": "He, Yan",
-   "Country": "China"
- },
- {
-   "Name": "Hu, Dan",
-   "Country": "China"
- },
- {
-   "Name": "Huang, Congxin",
-   "Country": "China"
- },
- {
-   "Name": "Huang, Dejia",
-   "Country": "China"
- },
- {
-   "Name": "Huang, He",
-   "Country": "China"
- },
- {
-   "Name": "Huang, Weijian",
-   "Country": "China"
- },
- {
-   "Name": "Jiang, Chenyang",
-   "Country": "China"
- },
- {
-   "Name": "Jiang, Zhiyuan",
-   "Country": "China"
- },
- {
-   "Name": "Kou, Huijuan",
-   "Country": "China"
- },
- {
-   "Name": "Lan, Rongfang",
-   "Country": "China"
- },
- {
-   "Name": "Li, JinYi",
-   "Country": "China"
- },
- {
-   "Name": "Li, Shufeng",
-   "Country": "China"
- },
- {
-   "Name": "Li, Xiaoping",
-   "Country": "China"
- },
- {
-   "Name": "Li, Yi-Gang",
-   "Country": "China"
- },
- {
-   "Name": "Liang, Jinjun",
-   "Country": "China"
- },
- {
-   "Name": "Liu, Qiming",
-   "Country": "China"
- },
- {
-   "Name": "Liu, Tong",
-   "Country": "China"
- },
- {
-   "Name": "Liu, Xing-Peng",
-   "Country": "China"
- },
- {
-   "Name": "Liu, Yu",
-   "Country": "China"
- },
- {
-   "Name": "Ma, Chang Sheng",
-   "Country": "China"
- },
- {
-   "Name": "Ma, Wei",
-   "Country": "China"
- },
- {
-   "Name": "Niu, Guodong",
-   "Country": "China"
- },
- {
-   "Name": "Niu, Hongxia",
-   "Country": "China"
- },
- {
-   "Name": "Ruhong, Jiang",
-   "Country": "China"
- },
- {
-   "Name": "Shi, Haifeng",
-   "Country": "China"
- },
- {
-   "Name": "Su, Hao",
-   "Country": "China"
- },
- {
-   "Name": "Tang, Min",
-   "Country": "China"
- },
- {
-   "Name": "Tian, Ying",
-   "Country": "China"
- },
- {
-   "Name": "Wang, Dao W.",
-   "Country": "China"
- },
- {
-   "Name": "Wang, Hongtao",
-   "Country": "China"
- },
- {
-   "Name": "Wang, Qun-Shan",
-   "Country": "China"
- },
- {
-   "Name": "Wang, Yutang",
-   "Country": "China"
- },
- {
-   "Name": "Wei, Hua",
-   "Country": "China"
- },
- {
-   "Name": "Wen, Weiming",
-   "Country": "China"
- },
- {
-   "Name": "Wu, Gang",
-   "Country": "China"
- },
- {
-   "Name": "Wu, Liqun",
-   "Country": "China"
- },
- {
-   "Name": "Xiang, Meixiang",
-   "Country": "China"
- },
- {
-   "Name": "Xie, Shuanglun",
-   "Country": "China"
- },
- {
-   "Name": "Xu, Wei",
-   "Country": "China"
- },
- {
-   "Name": "Xue, Xiaolin",
-   "Country": "China"
- },
- {
-   "Name": "Yang, Xin-chun",
-   "Country": "China"
- },
- {
-   "Name": "Yao, Yan",
-   "Country": "China"
- },
- {
-   "Name": "Yin, Xiaomeng",
-   "Country": "China"
- },
- {
-   "Name": "Zhang, Fengxiang",
-   "Country": "China"
- },
- {
-   "Name": "Zhang, Jinchang",
-   "Country": "China"
- },
- {
-   "Name": "Zhang, Shu",
-   "Country": "China"
- },
- {
-   "Name": "Zhang, Zhong Yin",
-   "Country": "China"
- },
- {
-   "Name": "Zheng, Liangrong",
-   "Country": "China"
- },
- {
-   "Name": "Zhong, Guoqiang",
-   "Country": "China"
- },
- {
-   "Name": "Zhou, Jing",
-   "Country": "China"
- },
- {
-   "Name": "Zhou, Ying",
-   "Country": "China"
- },
- {
-   "Name": "Zou, Jiangang",
-   "Country": "China"
+   "Name": "Chakraborty, Rabindra Nath",
+   "Country": "India"
  },
  {
    "Name": "Chan, Andy Wai-Kwong",
@@ -10639,6 +10388,10 @@ var spkCountry = [
  },
  {
    "Name": "Chan, Chin Pang",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Chan, Joseph Yat Sun",
    "Country": "Hong Kong"
  },
  {
@@ -10658,120 +10411,16 @@ var spkCountry = [
    "Country": "Hong Kong"
  },
  {
-   "Name": "Chan, Joseph Yat Sun",
-   "Country": "Hong Kong"
+   "Name": "Chandanamattha, Pakorn",
+   "Country": "Thailand"
  },
  {
-   "Name": "Cheung, Li Li",
-   "Country": "Hong Kong"
+   "Name": "Chandrachamnong, Sanisara",
+   "Country": "Thailand"
  },
  {
-   "Name": "Choi, Man-Chun",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Fan, Katherine",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Fung, Wing Hong Jeffrey",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Hai, Jo Jo",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Huang, Bien-Hsien",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Ko, Cyril Yiu-Kwan",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Kwok, Sit-Yee",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Lam, Tse Fun Cathy",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Lau, Chu-Pak",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Lee, Kathy Lai Fun Kathy",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Leung, Sum Kim",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Ng, Tit Kei",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Siu, Chung Wah David",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "So, Yui-Chi",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Tse, Gary",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Tse, Hung-Fat",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Yuen, Sze Man Fiona",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Yiu, Kai-Hang",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Yu, Cheuk Man",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Yuen, Ho Chuen",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Yung, Chi Yui",
-   "Country": "Hong Kong"
- },
- {
-   "Name": "Arora, Vanita",
-   "Country": "India"
- },
- {
-   "Name": "Bhargava, Kartikeya",
-   "Country": "India"
- },
- {
-   "Name": "Bohora, Shomu",
-   "Country": "India"
- },
- {
-   "Name": "Chadha, Niti",
-   "Country": "India"
- },
- {
-   "Name": "Chakraborty, Praloy",
-   "Country": "India"
- },
- {
-   "Name": "Chakraborty, Rabindra Nath",
-   "Country": "India"
+   "Name": "Chandranegara, Agung Fabian",
+   "Country": "Indonesia"
  },
  {
    "Name": "Chandrasekaran, K.",
@@ -10782,20 +10431,188 @@ var spkCountry = [
    "Country": "India"
  },
  {
+   "Name": "Chang, Kuan-Cheng",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chang, Shih-Lin",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chantrarat, Thoranis",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Chao, Tze-Fan",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chaovalitwongse, Wanpracha",
+   "Country": "USA"
+ },
+ {
+   "Name": "Chattipakorn, Nipon",
+   "Country": "Thailand"
+ },
+ {
    "Name": "Chaturvedi, Vivek",
    "Country": "India"
+ },
+ {
+   "Name": "Chen, Jan-Yow",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chen, Jien-Jiun",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chen, Keping",
+   "Country": "China"
+ },
+ {
+   "Name": "Chen, Mien-Cheng",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chen, Minglong",
+   "Country": "China"
+ },
+ {
+   "Name": "Chen, Shih-Ann",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chen, Wen-Jone",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chen, Yangxin",
+   "Country": "China"
+ },
+ {
+   "Name": "Chen, Yi-Jen",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chen, Yung-Lung",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Cheng, Chen-Chuan",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Cheung, Li Li",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Chheav, Chantorador",
+   "Country": "Cambodia"
+ },
+ {
+   "Name": "Chia, Pow Li",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Ching, Chi Keong",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Chinushi, Masaomi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Chiou, Chuen-Wang",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chiou, Yih-Ling",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chiu, Shuenn-Nan",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Cho, Yongkeun",
+   "Country": "Korea"
  },
  {
    "Name": "Chockalingam, Priya",
    "Country": "India"
  },
  {
+   "Name": "Choi, Eue-Keun",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Choi, Jong-Il",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Choi, Man-Chun",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Choi, Ok",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Chong, Daniel",
+   "Country": "Singapore"
+ },
+ {
    "Name": "Chopra, Arun Kumar",
    "Country": "India"
  },
  {
+   "Name": "Chou, Chung-Chuan",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chu, Dung Si",
+   "Country": "Vietnam"
+ },
+ {
+   "Name": "Chu, Huimin",
+   "Country": "China"
+ },
+ {
+   "Name": "Chung, Cheng-Chih",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chung, Fa-Po",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Chungsomprasong, Paweena",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Clare, Geoffrey",
+   "Country": "New Zealand"
+ },
+ {
+   "Name": "Davaakhuu, Narantuya",
+   "Country": "Mongolia"
+ },
+ {
+   "Name": "Davis, Andrew M",
+   "Country": "Australia"
+ },
+ {
    "Name": "Dhall, Anil",
    "Country": "India"
+ },
+ {
+   "Name": "Dhillon, Santokh",
+   "Country": "Canada"
+ },
+ {
+   "Name": "Do, Van Buu Dan",
+   "Country": "Vietnam"
  },
  {
    "Name": "Dora, Santosh Kumar",
@@ -10806,388 +10623,36 @@ var spkCountry = [
    "Country": "India"
  },
  {
-   "Name": "Gupta, Anoop",
-   "Country": "India"
- },
- {
-   "Name": "Jaswal, Aparna",
-   "Country": "India"
- },
- {
-   "Name": "Jetley, Viney",
-   "Country": "India"
- },
- {
-   "Name": "Jothiraj, Kannan",
-   "Country": "India"
- },
- {
-   "Name": "Karthigesan, A M",
-   "Country": "India"
- },
- {
-   "Name": "Kataria, Vikas",
-   "Country": "India"
- },
- {
-   "Name": "Khalilullah, M.",
-   "Country": "India"
- },
- {
-   "Name": "Kler, Tarlochan Singh",
-   "Country": "India"
- },
- {
-   "Name": "Kumawat, Kapil",
-   "Country": "India"
- },
- {
-   "Name": "Lokhandwala, Yash",
-   "Country": "India"
- },
- {
-   "Name": "Majumdar, Suchit",
-   "Country": "India"
- },
- {
-   "Name": "Makkar, Jitendra",
-   "Country": "India"
- },
- {
-   "Name": "Malik, Amit Kumar",
-   "Country": "India"
- },
- {
-   "Name": "Mantravadi, Raj Kumar",
-   "Country": "India"
- },
- {
-   "Name": "Mukherjee, Samanjoy",
-   "Country": "India"
- },
- {
-   "Name": "Nabar, Ashish",
-   "Country": "India"
- },
- {
-   "Name": "Naik, Ajay",
-   "Country": "India"
- },
- {
-   "Name": "Naik, Nitish",
-   "Country": "India"
- },
- {
-   "Name": "Nair, Krishna Kumar M",
-   "Country": "India"
- },
- {
-   "Name": "Nair, Mohan",
-   "Country": "India"
- },
- {
-   "Name": "Namboodiri, Narayanan",
-   "Country": "India"
- },
- {
-   "Name": "Narasimhan, Calambur",
-   "Country": "India"
- },
- {
-   "Name": "Natarajan, K U",
-   "Country": "India"
- },
- {
-   "Name": "Padmanabhan, Deepak",
-   "Country": "India"
- },
- {
-   "Name": "Pal, Shashidhar",
-   "Country": "India"
- },
- {
-   "Name": "Pandurangi, Ulhas M.",
-   "Country": "India"
- },
- {
-   "Name": "Prabhu, Atul",
-   "Country": "India"
- },
- {
-   "Name": "Prakash, Vadagenalli S.",
-   "Country": "India"
- },
- {
-   "Name": "Rao, B. Hygriv",
-   "Country": "India"
- },
- {
-   "Name": "Rohit, Manoj Kumar",
-   "Country": "India"
- },
- {
-   "Name": "Roshan, John",
-   "Country": "India"
- },
- {
-   "Name": "Saggu, Daljeet Kaur",
-   "Country": "India"
- },
- {
-   "Name": "Sardana, Rajnish",
-   "Country": "India"
- },
- {
-   "Name": "Satish, O Sai",
-   "Country": "India"
- },
- {
-   "Name": "Saxena, Anil",
-   "Country": "India"
- },
- {
-   "Name": "Selvaraj, Raja J",
-   "Country": "India"
- },
- {
-   "Name": "Sethi, Kamal Kumar",
-   "Country": "India"
- },
- {
-   "Name": "Shankar, K Jai",
-   "Country": "India"
- },
- {
-   "Name": "Sharma, Gautam",
-   "Country": "India"
- },
- {
-   "Name": "Sharma, Rajat",
-   "Country": "India"
- },
- {
-   "Name": "Shenthar, Jayaprakash",
-   "Country": "India"
- },
- {
-   "Name": "Sikdar, Sunandan",
-   "Country": "India"
- },
- {
-   "Name": "Singh, Balbir",
-   "Country": "India"
- },
- {
-   "Name": "Singhal, Rahul",
-   "Country": "India"
- },
- {
-   "Name": "Sofat, Sunil Kumar",
-   "Country": "India"
- },
- {
-   "Name": "Sridevi, C",
-   "Country": "India"
- },
- {
-   "Name": "Suresh, Allamsetty",
-   "Country": "India"
- },
- {
-   "Name": "Talwar, K K",
-   "Country": "India"
- },
- {
-   "Name": "Thachil, Ajit",
-   "Country": "India"
- },
- {
-   "Name": "Thajudeen, Anees",
-   "Country": "India"
- },
- {
-   "Name": "Thomas, Joy",
-   "Country": "India"
- },
- {
-   "Name": "Udyavar, Ameya",
-   "Country": "India"
- },
- {
-   "Name": "Valaparambil, Ajit Kumar",
-   "Country": "India"
- },
- {
-   "Name": "Verma, Avinash",
-   "Country": "India"
- },
- {
-   "Name": "Vora, Amit",
-   "Country": "India"
- },
- {
-   "Name": "Yadav, Niraj",
-   "Country": "India"
- },
- {
-   "Name": "Yadav, Rakesh",
-   "Country": "India"
- },
- {
-   "Name": "Yaduvanshi, Amitabh",
-   "Country": "India"
- },
- {
-   "Name": "Achmad, Chaerul",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Adi, Haryadi",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Agustinus, Reynold",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Amir, Muzakkir",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Antara, Putra",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Chandranegara, Agung Fabian",
-   "Country": "Indonesia"
+   "Name": "Ebana, Yusuke",
+   "Country": "japan"
  },
  {
    "Name": "El Rasyid, Hauda",
    "Country": "Indonesia"
  },
  {
-   "Name": "Hanafy, Dickky",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Hartono, Beny",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Hermanto, Dony Yugo",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Hermawan, ",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Iqbal, Mohammad",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Maharani, Erika",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Munawar, Muhammad",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Raharjo, Sunu Budhi",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Setiadi, Benny Mulyanto",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Solihin, Iyan",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Tondas, Edo",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Yamin, Muhammad",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Yansen, Ignatius",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Yuniadi, Yoga",
-   "Country": "Indonesia"
- },
- {
-   "Name": "Glikson, Micheal",
-   "Country": "Israel"
- },
- {
-   "Name": "Rosso, Raphael",
-   "Country": "Israel"
- },
- {
-   "Name": "Viskin, Sami",
-   "Country": "Israel"
- },
- {
-   "Name": "Abe, Haruhiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Abe, Yoshihisa",
-   "Country": "Japan"
- },
- {
-   "Name": "Adachi, Kazumasa",
-   "Country": "Japan"
- },
- {
-   "Name": "Aiba, Takeshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Aizawa, Yoshiyasu",
-   "Country": "Japan"
- },
- {
-   "Name": "Ando, Kenji",
-   "Country": "Japan"
- },
- {
-   "Name": "Aonuma, Kazutaka",
-   "Country": "Japan"
- },
- {
-   "Name": "Arimoto, Takanori",
-   "Country": "Japan"
- },
- {
-   "Name": "Asakai, Hiroko",
-   "Country": "Japan"
- },
- {
-   "Name": "Ashihara, Takashi",
-   "Country": "Japan"
- },
- {
-   "Name": "Ashikaga, Keiichi",
-   "Country": "Japan"
- },
- {
-   "Name": "Chinushi, Masaomi",
-   "Country": "Japan"
- },
- {
-   "Name": "Ebana, Yusuke",
-   "Country": "japan"
+   "Name": "Elliott, Adrian",
+   "Country": "Australia"
  },
  {
    "Name": "Esato, Masahiro",
    "Country": "Japan"
+ },
+ {
+   "Name": "Fadreguilian, Erdie",
+   "Country": "Philippines"
+ },
+ {
+   "Name": "Fan, Katherine",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Feng, An-Ning",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Freedman, Ben",
+   "Country": "Australia"
  },
  {
    "Name": "Fukamizu, Seiji",
@@ -11202,24 +10667,72 @@ var spkCountry = [
    "Country": "Japan"
  },
  {
+   "Name": "Fung, Wing Hong Jeffrey",
+   "Country": "Hong Kong"
+ },
+ {
    "Name": "Furuka, Tetsushi",
    "Country": "Japan"
+ },
+ {
+   "Name": "Ganesan, Anand",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Gervacio, Giselle",
+   "Country": "Philippines"
+ },
+ {
+   "Name": "Glikson, Micheal",
+   "Country": "Israel"
+ },
+ {
+   "Name": "Gould, Paul",
+   "Country": "Australia"
  },
  {
    "Name": "Goya, Masahiko",
    "Country": "Japan"
  },
  {
+   "Name": "Gunawardena, Rohan",
+   "Country": "Sri Lanka"
+ },
+ {
+   "Name": "Gupta, Anoop",
+   "Country": "India"
+ },
+ {
    "Name": "Hachiya, Hitoshi",
    "Country": "Japan"
+ },
+ {
+   "Name": "Haddawy, Peter",
+   "Country": "Thailand"
  },
  {
    "Name": "Hagiwara, Nobuhisa",
    "Country": "Japan"
  },
  {
+   "Name": "Hai, Jo Jo",
+   "Country": "Hong Kong"
+ },
+ {
    "Name": "Hama, Yoshiyuki",
    "Country": "Japan"
+ },
+ {
+   "Name": "Han, Seongwook",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Hanafy, Dickky",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Haqqani, Haris M.",
+   "Country": "Australia"
  },
  {
    "Name": "Hara, Motoki",
@@ -11234,6 +10747,10 @@ var spkCountry = [
    "Country": "Japan"
  },
  {
+   "Name": "Hartono, Beny",
+   "Country": "Indonesia"
+ },
+ {
    "Name": "Hayashi, Kenshi",
    "Country": "Japan"
  },
@@ -11244,6 +10761,30 @@ var spkCountry = [
  {
    "Name": "Hayashi, Tatsuya",
    "Country": "Japan"
+ },
+ {
+   "Name": "He, Lang",
+   "Country": "China"
+ },
+ {
+   "Name": "He, Yan",
+   "Country": "China"
+ },
+ {
+   "Name": "Heaven, David",
+   "Country": "New Zealand"
+ },
+ {
+   "Name": "Hendriks, Jeroen",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Hermanto, Dony Yugo",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Hermawan, ",
+   "Country": "Indonesia"
  },
  {
    "Name": "Higa, Satoshi",
@@ -11266,12 +10807,96 @@ var spkCountry = [
    "Country": "Japan"
  },
  {
+   "Name": "Hongeng, Suradej",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Hood, Margaret",
+   "Country": "New Zealand"
+ },
+ {
    "Name": "Horie, Minoru",
    "Country": "Japan"
  },
  {
    "Name": "Hosaka, Yukio",
    "Country": "Japan"
+ },
+ {
+   "Name": "Hsiao, Hsiang-Chiang",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Hsieh, Jen-Che",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Hsieh, Ming-Hsiung",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Hsieh, Yu-Cheng",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Hu, Dan",
+   "Country": "China"
+ },
+ {
+   "Name": "Hu, Yu-Feng",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Huang, Bien-Hsien",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Huang, Congxin",
+   "Country": "China"
+ },
+ {
+   "Name": "Huang, Dejia",
+   "Country": "China"
+ },
+ {
+   "Name": "Huang, He",
+   "Country": "China"
+ },
+ {
+   "Name": "Huang, Jin-Long",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Huang, Shih-Yu",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Huang, Weijian",
+   "Country": "China"
+ },
+ {
+   "Name": "Huh, June",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Hung, Chung-Lieh",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Hung, Yuan",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Hussin, Azlan",
+   "Country": "Malaysia"
+ },
+ {
+   "Name": "Hyun, Dae Woo",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Hyun, Myung Chul",
+   "Country": "Korea"
  },
  {
    "Name": "Ichiki, Hitoshi",
@@ -11302,6 +10927,10 @@ var spkCountry = [
    "Country": "Japan"
  },
  {
+   "Name": "Ingles, Jodie",
+   "Country": "Australia"
+ },
+ {
    "Name": "Inoue, Hiroshi",
    "Country": "Japan"
  },
@@ -11312,6 +10941,10 @@ var spkCountry = [
  {
    "Name": "Inoue, Koichi",
    "Country": "Japan"
+ },
+ {
+   "Name": "Iqbal, Mohammad",
+   "Country": "Indonesia"
  },
  {
    "Name": "Ishikawa, Toshiyuki",
@@ -11326,8 +10959,72 @@ var spkCountry = [
    "Country": "Japan"
  },
  {
+   "Name": "Jacob, Benjamin",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Jang, Jun Kun",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Jang, Sungwon",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Jaswal, Aparna",
+   "Country": "India"
+ },
+ {
+   "Name": "Jetley, Viney",
+   "Country": "India"
+ },
+ {
+   "Name": "Jiang, Chenyang",
+   "Country": "China"
+ },
+ {
+   "Name": "Jiang, Zhiyuan",
+   "Country": "China"
+ },
+ {
+   "Name": "Jin, Eun-Sun",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Johar, Sofian",
+   "Country": "Brunei"
+ },
+ {
+   "Name": "John, Bobby",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Joseph, Stephen",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Jothiraj, Kannan",
+   "Country": "India"
+ },
+ {
+   "Name": "Joung, Boyoung",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Juang, Jyh-Ming Jimmy",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Jung, Byung Chun",
+   "Country": "Korea"
+ },
+ {
    "Name": "Kaitani, Kazuaki",
    "Country": "Japan"
+ },
+ {
+   "Name": "Kalman, Jonathan",
+   "Country": "Australia"
  },
  {
    "Name": "Kamakura, Shiro",
@@ -11346,12 +11043,24 @@ var spkCountry = [
    "Country": "Japan"
  },
  {
+   "Name": "Karthigesan, A M",
+   "Country": "India"
+ },
+ {
+   "Name": "Kataria, Vikas",
+   "Country": "India"
+ },
+ {
    "Name": "Kato, Ritsushi",
    "Country": "Japan"
  },
  {
    "Name": "Kato, Yoshiaki",
    "Country": "Japan"
+ },
+ {
+   "Name": "Kaur, Surinder",
+   "Country": "Malaysia"
  },
  {
    "Name": "Kawakami, Tohru",
@@ -11362,600 +11071,20 @@ var spkCountry = [
    "Country": "Japan"
  },
  {
-   "Name": "Kimura, Masaomi",
-   "Country": "Japan"
+   "Name": "Khalilullah, M.",
+   "Country": "India"
  },
  {
-   "Name": "Kimura, Ryusuke",
-   "Country": "Japan"
+   "Name": "Khan, Amir Hameed",
+   "Country": "Pakistan"
  },
  {
-   "Name": "Kishihara, Jun",
-   "Country": "Japan"
+   "Name": "Khmao, Pich Manil",
+   "Country": "Cambodia"
  },
  {
-   "Name": "Kiuchi, Kunihiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Kobayashi, Yoshinori",
-   "Country": "Japan"
- },
- {
-   "Name": "Kobayashi, Youichi",
-   "Country": "Japan"
- },
- {
-   "Name": "Kobori, Atsushi",
-   "Country": "Japan"
- },
- {
-   "Name": "Kohno, Ritsuko",
-   "Country": "Japan"
- },
- {
-   "Name": "Komatsu, Yuki",
-   "Country": "Japan"
- },
- {
-   "Name": "Kondo, Yusuke",
-   "Country": "Japan"
- },
- {
-   "Name": "Kosakai, Yoshio",
-   "Country": "Japan"
- },
- {
-   "Name": "Kumagai, Koichiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Kumagai, Koji",
-   "Country": "Japan"
- },
- {
-   "Name": "Kurita, Takashi",
-   "Country": "Japan"
- },
- {
-   "Name": "Kurotobi, Toshiya",
-   "Country": "Japan"
- },
- {
-   "Name": "Kusano, Kengo",
-   "Country": "Japan"
- },
- {
-   "Name": "Maeda, Akiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Maesato, Akira",
-   "Country": "Japan"
- },
- {
-   "Name": "Makita, Naomasa",
-   "Country": "Japan"
- },
- {
-   "Name": "Manaka, Tetsuyuki",
-   "Country": "Japan"
- },
- {
-   "Name": "Maruyama, Mitsunori",
-   "Country": "Japan"
- },
- {
-   "Name": "Maruyama, Toru",
-   "Country": "Japan"
- },
- {
-   "Name": "Masuda, Masaharu",
-   "Country": "Japan"
- },
- {
-   "Name": "Matsumoto, Kazuo",
-   "Country": "Japan"
- },
- {
-   "Name": "Matsuo, Seiichiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Mine, Takanao",
-   "Country": "Japan"
- },
- {
-   "Name": "Mitamura, Hideo",
-   "Country": "Japan"
- },
- {
-   "Name": "Mitsuhashi, Takeshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Miyauchi, Yasushi",
-   "Country": "Japan"
- },
- {
-   "Name": "Miyazaki, Aya",
-   "Country": "Japan"
- },
- {
-   "Name": "Miyazaki, Shinsuke",
-   "Country": "Japan"
- },
- {
-   "Name": "Miyoshi, Miwa",
-   "Country": "Japan"
- },
- {
-   "Name": "Mizumaki, Koichi",
-   "Country": "Japan"
- },
- {
-   "Name": "Mizuno, Hiroya",
-   "Country": "Japan"
- },
- {
-   "Name": "Morishima, Itsuro",
-   "Country": "Japan"
- },
- {
-   "Name": "Morita, Hiroshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Morita, Norishige",
-   "Country": "Japan"
- },
- {
-   "Name": "Mukai, Yasushi",
-   "Country": "Japan"
- },
- {
-   "Name": "Murakami, Masato",
-   "Country": "Japan"
- },
- {
-   "Name": "Murakami, Yoshimasa",
-   "Country": "Japan"
- },
- {
-   "Name": "Murakawa, Yuji",
-   "Country": "Japan"
- },
- {
-   "Name": "Murata, Hiroshige",
-   "Country": "Japan"
- },
- {
-   "Name": "Nagashima, Koichi",
-   "Country": "Japan"
- },
- {
-   "Name": "Nakahara, Shiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Nakai, Toshiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Nakano, Yukiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Nakazato, Yuji",
-   "Country": "Japan"
- },
- {
-   "Name": "Nishida, Taku",
-   "Country": "Japan"
- },
- {
-   "Name": "Nishii, Nobuhiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Nishiuchi, Suguru",
-   "Country": "Japan"
- },
- {
-   "Name": "Nishizaki, Mitsuhiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Nitta, Junichi",
-   "Country": "Japan"
- },
- {
-   "Name": "Nitta, Takashi",
-   "Country": "Japan"
- },
- {
-   "Name": "Noda, Takashi",
-   "Country": "Japan"
- },
- {
-   "Name": "Nogami, Akihiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Nozoe, Masatsugu",
-   "Country": "Japan"
- },
- {
-   "Name": "Ogano, Michio",
-   "Country": "Japan"
- },
- {
-   "Name": "Ogawa, Masahiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Ogawa, Satoshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Ohe, Masatsugu",
-   "Country": "Japan"
- },
- {
-   "Name": "Ohe, Tohru",
-   "Country": "Japan"
- },
- {
-   "Name": "Ohno, Seiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Ohsawa, Masaki",
-   "Country": "Japan"
- },
- {
-   "Name": "Okajima, Katsunori",
-   "Country": "Japan"
- },
- {
-   "Name": "Okawa, Keisuke",
-   "Country": "Japan"
- },
- {
-   "Name": "Oketani, Naoya",
-   "Country": "Japan"
- },
- {
-   "Name": "Okumura, Ken",
-   "Country": "Japan"
- },
- {
-   "Name": "Okumura, Yasuo",
-   "Country": "Japan"
- },
- {
-   "Name": "Ono, Katsushige",
-   "Country": "Japan"
- },
- {
-   "Name": "Osanai, Hiroyuki",
-   "Country": "Japan"
- },
- {
-   "Name": "Otomo, Kiyoshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Sakagami, Satoru",
-   "Country": "Japan"
- },
- {
-   "Name": "Sakai, Yoshiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Sakamoto, Shun-ichiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Sakurada, Harumizu",
-   "Country": "Japan"
- },
- {
-   "Name": "Sasaki, Takeshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Sasano, Tetsuo",
-   "Country": "Japan"
- },
- {
-   "Name": "Satomi, Kasuhiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Sekiguchi, Yukio",
-   "Country": "Japan"
- },
- {
-   "Name": "Shiba, Yuji",
-   "Country": "Japan"
- },
- {
-   "Name": "Shiga, Tsuyoshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Shimizu, Akihiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Shimizu, Wataru",
-   "Country": "Japan"
- },
- {
-   "Name": "Shizuta, Satoshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Shoda, Morio",
-   "Country": "Japan"
- },
- {
-   "Name": "Soejima, Kyoko",
-   "Country": "Japan"
- },
- {
-   "Name": "Sohara, Hiroshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Sueda, Taijiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Suenari, Kazuyoshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Sugi, Kaoru",
-   "Country": "Japan"
- },
- {
-   "Name": "Sumitomo, Naokata",
-   "Country": "Japan"
- },
- {
-   "Name": "Suzuki, Fumio",
-   "Country": "Japan"
- },
- {
-   "Name": "Suzuki, Yasushi",
-   "Country": "Japan"
- },
- {
-   "Name": "Tada, Hiroshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Takagi, Masahiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Takahashi, Kazuhiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Takahashi, Naohiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Takahashi, Yoshihide",
-   "Country": "Japan"
- },
- {
-   "Name": "Takase, Bonpei",
-   "Country": "Japan"
- },
- {
-   "Name": "Takase, Tetsuro",
-   "Country": "Japan"
- },
- {
-   "Name": "Takatsuki, Seiji",
-   "Country": "Japan"
- },
- {
-   "Name": "Takeishi, Yasuchika",
-   "Country": "Japan"
- },
- {
-   "Name": "Talib, Ahmed",
-   "Country": "Japan"
- },
- {
-   "Name": "Tanimoto, Kojiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Tanno, Kaoru",
-   "Country": "Japan"
- },
- {
-   "Name": "Tasaka, Hiroshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Toyama, Hideko",
-   "Country": "Japan"
- },
- {
-   "Name": "Tsuboi, Naoya",
-   "Country": "Japan"
- },
- {
-   "Name": "Tsuchiya, Takeshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Tsuji, Yukiomi",
-   "Country": "Japan"
- },
- {
-   "Name": "Ueda, Akiko",
-   "Country": "Japan"
- },
- {
-   "Name": "Uno, Kikuya",
-   "Country": "Japan"
- },
- {
-   "Name": "Ushinohama, Hiroya",
-   "Country": "Japan"
- },
- {
-   "Name": "Watanabe, Eiichi",
-   "Country": "Japan"
- },
- {
-   "Name": "Watanabe, Hiroshi",
-   "Country": "Japan"
- },
- {
-   "Name": "Watanabe, Yoshiyuki",
-   "Country": "Japan"
- },
- {
-   "Name": "Yamabe, Hiroshige",
-   "Country": "Japan"
- },
- {
-   "Name": "Yamada, Shinya",
-   "Country": "Japan"
- },
- {
-   "Name": "Yamada, Takashi",
-   "Country": "Japan"
- },
- {
-   "Name": "Yamaji, Hirosuke",
-   "Country": "Japan"
- },
- {
-   "Name": "Yamane, Teiichi",
-   "Country": "Japan"
- },
- {
-   "Name": "Yamashiro, Kohei",
-   "Country": "Japan"
- },
- {
-   "Name": "Yamauchi, Yasuteru",
-   "Country": "Japan"
- },
- {
-   "Name": "Yodogawa, Kenji",
-   "Country": "Japan"
- },
- {
-   "Name": "Yokoshiki, Hisashi",
-   "Country": "Japan"
- },
- {
-   "Name": "Yokoyama, Yasuhiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Yoshida, Akihiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Yoshida, Yoshinori",
-   "Country": "Japan"
- },
- {
-   "Name": "Yoshiga, Yasuhiro",
-   "Country": "Japan"
- },
- {
-   "Name": "Yoshimoto, Jun",
-   "Country": "Japan"
- },
- {
-   "Name": "Yoshitani, Kazuyasu",
-   "Country": "Japan"
- },
- {
-   "Name": "Bae, Eun-Jung",
-   "Country": "Korea"
- },
- {
-   "Name": "Bae, Myung Hwan",
-   "Country": "Korea"
- },
- {
-   "Name": "Ban, Ji-Eun",
-   "Country": "Korea"
- },
- {
-   "Name": "Cha, Myung-Jin",
-   "Country": "Korea"
- },
- {
-   "Name": "Cha, Tae-Joon",
-   "Country": "Korea"
- },
- {
-   "Name": "Cho, Yongkeun",
-   "Country": "Korea"
- },
- {
-   "Name": "Choi, Eue-Keun",
-   "Country": "Korea"
- },
- {
-   "Name": "Choi, Jong-Il",
-   "Country": "Korea"
- },
- {
-   "Name": "Choi, Ok",
-   "Country": "Korea"
- },
- {
-   "Name": "Han, Seongwook",
-   "Country": "Korea"
- },
- {
-   "Name": "Huh, June",
-   "Country": "Korea"
- },
- {
-   "Name": "Hyun, Dae Woo",
-   "Country": "Korea"
- },
- {
-   "Name": "Hyun, Myung Chul",
-   "Country": "Korea"
- },
- {
-   "Name": "Jang, Jun Kun",
-   "Country": "Korea"
- },
- {
-   "Name": "Jang, Sungwon",
-   "Country": "Korea"
- },
- {
-   "Name": "Jin, Eun-Sun",
-   "Country": "Korea"
- },
- {
-   "Name": "Joung, Boyoung",
-   "Country": "Korea"
- },
- {
-   "Name": "Jung, Byung Chun",
-   "Country": "Korea"
+   "Name": "Khurelbaatar, Mungun-Ulzil",
+   "Country": "Mongolia"
  },
  {
    "Name": "Kim, Dong-Hyeok",
@@ -11994,8 +11123,112 @@ var spkCountry = [
    "Country": "Korea"
  },
  {
+   "Name": "Kimura, Masaomi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kimura, Ryusuke",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kishihara, Jun",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kistler, Peter",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Kiuchi, Kunihiko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kler, Tarlochan Singh",
+   "Country": "India"
+ },
+ {
+   "Name": "Ko, Cyril Yiu-Kwan",
+   "Country": "Hong Kong"
+ },
+ {
    "Name": "Ko, Jum Suk",
    "Country": "Korea"
+ },
+ {
+   "Name": "Ko, Wen-Chin",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Kobayashi, Yoshinori",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kobayashi, Youichi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kobori, Atsushi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kohno, Ritsuko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kojodjojo, Pipin",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Komatsu, Yuki",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kondo, Yusuke",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kosakai, Yoshio",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kou, Huijuan",
+   "Country": "China"
+ },
+ {
+   "Name": "Kumagai, Koichiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kumagai, Koji",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kumawat, Kapil",
+   "Country": "India"
+ },
+ {
+   "Name": "Kuo, Chi-Tai",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Kuo, Jen-Yuan",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Kuo, Yi-Lan",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Kurita, Takashi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kurotobi, Toshiya",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Kusano, Kengo",
+   "Country": "Japan"
  },
  {
    "Name": "Kwak, Choong Hwan",
@@ -12006,12 +11239,48 @@ var spkCountry = [
    "Country": "Korea"
  },
  {
+   "Name": "Kwok, Sit-Yee",
+   "Country": "Hong Kong"
+ },
+ {
    "Name": "Kwon, Chang Hee",
    "Country": "Korea"
  },
  {
+   "Name": "Lai, Wen-Ter",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lam, Tse Fun Cathy",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Lan, Rongfang",
+   "Country": "China"
+ },
+ {
+   "Name": "Lane, Deirdre",
+   "Country": "United Kingdom"
+ },
+ {
+   "Name": "Lau, Chu-Pak",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Lau, Dennis",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Le, Vo Kien",
+   "Country": "Vietnam"
+ },
+ {
    "Name": "Lee, Chang-Hee",
    "Country": "Korea"
+ },
+ {
+   "Name": "Lee, Chee Wan",
+   "Country": "Singapore"
  },
  {
    "Name": "Lee, Hyun-Soo",
@@ -12026,8 +11295,20 @@ var spkCountry = [
    "Country": "Korea"
  },
  {
+   "Name": "Lee, Kathy Lai Fun Kathy",
+   "Country": "Hong Kong"
+ },
+ {
    "Name": "Lee, Ki Hong",
    "Country": "Korea"
+ },
+ {
+   "Name": "Lee, Kun-Tai",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lee, Pi-Chang",
+   "Country": "Taiwan"
  },
  {
    "Name": "Lee, Sang Hee",
@@ -12042,20 +11323,484 @@ var spkCountry = [
    "Country": "Korea"
  },
  {
+   "Name": "Lee, Ying-Hsiang",
+   "Country": "Taiwan"
+ },
+ {
    "Name": "Lee, Young Soo",
    "Country": "Korea"
+ },
+ {
+   "Name": "Leung, Sum Kim",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Lever, Nigel",
+   "Country": "New Zealand"
+ },
+ {
+   "Name": "Li, Cheng-Hung",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Li, JinYi",
+   "Country": "China"
+ },
+ {
+   "Name": "Li, Shufeng",
+   "Country": "China"
+ },
+ {
+   "Name": "Li, Xiaoping",
+   "Country": "China"
+ },
+ {
+   "Name": "Li, Yi-Gang",
+   "Country": "China"
+ },
+ {
+   "Name": "Liang, Jinjun",
+   "Country": "China"
+ },
+ {
+   "Name": "Liang, Shufen",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Liao, Jo-Nan",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Liao, Ying-Chieh",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Liew, Reginald",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Likithanasombat, Khanchit",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Lim, Eric Tien Siang",
+   "Country": "Singapore"
  },
  {
    "Name": "Lim, Hong Euy",
    "Country": "Korea"
  },
  {
+   "Name": "Lim, Paul",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Lim, Toon Wei",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Limpitikul, Worawan",
+   "Country": "USA"
+ },
+ {
+   "Name": "Lin, Jiunn-Cherng",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lin, Jiunn-Lee",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lin, Lian-Yu",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lin, Li-Jen",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lin, Ming-Chih",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lin, Shien-Fong",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lin, Wei-Shiang",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lin, Yenn-Jiang",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lin, Yung-Kuo",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Linz, Dominik",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Liu, Qiming",
+   "Country": "China"
+ },
+ {
+   "Name": "Liu, Tong",
+   "Country": "China"
+ },
+ {
+   "Name": "Liu, Xing-Peng",
+   "Country": "China"
+ },
+ {
+   "Name": "Liu, Yen-Bin",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Liu, Yu",
+   "Country": "China"
+ },
+ {
+   "Name": "Lo, Huey-Ming",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lo, Li-Wei",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Lokhandwala, Yash",
+   "Country": "India"
+ },
+ {
+   "Name": "Lu, Yen-Yu",
+   "Country": "Taiwan"
+ },
+ {
+   "Name": "Luqman, Nazar",
+   "Country": "Brunei"
+ },
+ {
+   "Name": "Lwin, Khin Oo",
+   "Country": "Myanmar"
+ },
+ {
+   "Name": "Ma, Chang Sheng",
+   "Country": "China"
+ },
+ {
+   "Name": "Ma, Soot Keng",
+   "Country": "Malaysia"
+ },
+ {
+   "Name": "Ma, Wei",
+   "Country": "China"
+ },
+ {
+   "Name": "Maeda, Akiko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Maesato, Akira",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Mahajan, Rajiv",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Maharani, Erika",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Majumdar, Suchit",
+   "Country": "India"
+ },
+ {
+   "Name": "Makita, Naomasa",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Makkar, Jitendra",
+   "Country": "India"
+ },
+ {
+   "Name": "Malik, Amit Kumar",
+   "Country": "India"
+ },
+ {
+   "Name": "Mam, Chandara",
+   "Country": "Cambodia"
+ },
+ {
+   "Name": "Manaka, Tetsuyuki",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Mantravadi, Raj Kumar",
+   "Country": "India"
+ },
+ {
+   "Name": "Mariani, Justin",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Maruyama, Mitsunori",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Maruyama, Toru",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Masuda, Masaharu",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Matsumoto, Kazuo",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Matsuo, Seiichiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Mcgavigan, Andrew D.",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Mcguire, Mark",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Mine, Takanao",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Minh, Ton That",
+   "Country": "Vietnam"
+ },
+ {
+   "Name": "Mitamura, Hideo",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Mitsuhashi, Takeshi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Miyauchi, Yasushi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Miyazaki, Aya",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Miyazaki, Shinsuke",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Miyoshi, Miwa",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Mizumaki, Koichi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Mizuno, Hiroya",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Mond, Harry",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Morishima, Itsuro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Morita, Hiroshi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Morita, Norishige",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Muhammad, Zulkeflee",
+   "Country": "Malaysia"
+ },
+ {
+   "Name": "Mukai, Yasushi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Mukherjee, Samanjoy",
+   "Country": "India"
+ },
+ {
+   "Name": "Munawar, Muhammad",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Murakami, Masato",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Murakami, Yoshimasa",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Murakawa, Yuji",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Murata, Hiroshige",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nabar, Ashish",
+   "Country": "India"
+ },
+ {
+   "Name": "Nagashima, Koichi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Naik, Ajay",
+   "Country": "India"
+ },
+ {
+   "Name": "Naik, Nitish",
+   "Country": "India"
+ },
+ {
+   "Name": "Nair, Krishna Kumar M",
+   "Country": "India"
+ },
+ {
+   "Name": "Nair, Mohan",
+   "Country": "India"
+ },
+ {
+   "Name": "Nakahara, Shiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nakai, Toshiko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nakano, Yukiko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nakazato, Yuji",
+   "Country": "Japan"
+ },
+ {
    "Name": "Nam, Gi-Byoung",
    "Country": "Korea"
  },
  {
+   "Name": "Namboodiri, Narayanan",
+   "Country": "India"
+ },
+ {
    "Name": "Namgung, June",
    "Country": "Korea"
+ },
+ {
+   "Name": "Narasimhan, Calambur",
+   "Country": "India"
+ },
+ {
+   "Name": "Natarajan, K U",
+   "Country": "India"
+ },
+ {
+   "Name": "Ng, Kheng Siang",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Ng, Tit Kei",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Ngarmukos, Tachapong",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Nguyen, Thanh Hai",
+   "Country": "Vietnam"
+ },
+ {
+   "Name": "Nishida, Taku",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nishii, Nobuhiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nishiuchi, Suguru",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nishizaki, Mitsuhiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nitta, Junichi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nitta, Takashi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Niu, Guodong",
+   "Country": "China"
+ },
+ {
+   "Name": "Niu, Hongxia",
+   "Country": "China"
+ },
+ {
+   "Name": "Noda, Takashi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nogami, Akihiko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nozoe, Masatsugu",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Nwe, Nwe",
+   "Country": "Myanmar"
+ },
+ {
+   "Name": "O'Donnell, David",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Ogano, Michio",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Ogawa, Masahiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Ogawa, Satoshi",
+   "Country": "Japan"
  },
  {
    "Name": "Oh, Il Young",
@@ -12070,12 +11815,80 @@ var spkCountry = [
    "Country": "Korea"
  },
  {
+   "Name": "Ohe, Masatsugu",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Ohe, Tohru",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Ohno, Seiko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Ohsawa, Masaki",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Okajima, Katsunori",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Okawa, Keisuke",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Oketani, Naoya",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Okumura, Ken",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Okumura, Yasuo",
+   "Country": "Japan"
+ },
+ {
    "Name": "On, Young Keun",
    "Country": "Korea"
  },
  {
+   "Name": "Ono, Katsushige",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Osanai, Hiroyuki",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Oto, Ali",
+   "Country": "Turkey"
+ },
+ {
+   "Name": "Otomo, Kiyoshi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Ozcan, Emin Evren",
+   "Country": "Turkey"
+ },
+ {
+   "Name": "Padmanabhan, Deepak",
+   "Country": "India"
+ },
+ {
    "Name": "Pak, Hui-Nam",
    "Country": "Korea"
+ },
+ {
+   "Name": "Pal, Shashidhar",
+   "Country": "India"
+ },
+ {
+   "Name": "Pandurangi, Ulhas M.",
+   "Country": "India"
  },
  {
    "Name": "Park, Hwan-Cheol",
@@ -12122,6 +11935,86 @@ var spkCountry = [
    "Country": "Korea"
  },
  {
+   "Name": "Parsertwitayakij, Narawudth",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Pathak, Rajeev",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Paul, Vincent",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Pflaumer, Andreas",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Pham, Quoc Khanh",
+   "Country": "Vietnam"
+ },
+ {
+   "Name": "Pham, Tran Linh",
+   "Country": "Vietnam"
+ },
+ {
+   "Name": "Pham, Truong Son",
+   "Country": "Vietnam"
+ },
+ {
+   "Name": "Phan, Dinh Phong",
+   "Country": "Vietnam"
+ },
+ {
+   "Name": "Phillips, Karen",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Phoolpithayadhorn, Asadayudh",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Pongbhaesaj, Piya",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Potpara, Tatjana",
+   "Country": "Serbia"
+ },
+ {
+   "Name": "Pouliopoulos, Jim",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Prabhu, Atul",
+   "Country": "India"
+ },
+ {
+   "Name": "Prakash, Vadagenalli S.",
+   "Country": "India"
+ },
+ {
+   "Name": "Pumprueg, Satchana",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Raharjo, Sunu Budhi",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Ramirez, Marcellus Francis L.",
+   "Country": "Philippines"
+ },
+ {
+   "Name": "Rao, B. Hygriv",
+   "Country": "India"
+ },
+ {
+   "Name": "Razali, Omar",
+   "Country": "Malaysia"
+ },
+ {
    "Name": "Rhee, Kyoung-Suk",
    "Country": "Korea"
  },
@@ -12130,16 +12023,156 @@ var spkCountry = [
    "Country": "Korea"
  },
  {
+   "Name": "Rith, Chandara",
+   "Country": "Cambodia"
+ },
+ {
    "Name": "Roh, Seung-Young",
    "Country": "Korea"
+ },
+ {
+   "Name": "Rohit, Manoj Kumar",
+   "Country": "India"
+ },
+ {
+   "Name": "Roshan, John",
+   "Country": "India"
+ },
+ {
+   "Name": "Rosso, Raphael",
+   "Country": "Israel"
+ },
+ {
+   "Name": "Ruhong, Jiang",
+   "Country": "China"
+ },
+ {
+   "Name": "Saggu, Daljeet Kaur",
+   "Country": "India"
+ },
+ {
+   "Name": "Sahasthas, Dujdao",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Sakagami, Satoru",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Sakai, Yoshiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Sakamoto, Shun-ichiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Sakurada, Harumizu",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Sanders, Prashnathan",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Sardana, Rajnish",
+   "Country": "India"
+ },
+ {
+   "Name": "Sasaki, Takeshi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Sasano, Tetsuo",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Satish, O Sai",
+   "Country": "India"
+ },
+ {
+   "Name": "Satomi, Kasuhiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Saurabh, Kumar",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Saxena, Anil",
+   "Country": "India"
+ },
+ {
+   "Name": "Sekiguchi, Yukio",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Selvaraj, Raja J",
+   "Country": "India"
+ },
+ {
+   "Name": "Sem, Malen",
+   "Country": "Cambodia"
+ },
+ {
+   "Name": "Semsarian, Chris",
+   "Country": "Australia"
  },
  {
    "Name": "Seo, Jeong-Wook",
    "Country": "Korea"
  },
  {
+   "Name": "Seow, Swee Chong",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Sethi, Kamal Kumar",
+   "Country": "India"
+ },
+ {
+   "Name": "Setiadi, Benny Mulyanto",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Shankar, K Jai",
+   "Country": "India"
+ },
+ {
+   "Name": "Sharma, Gautam",
+   "Country": "India"
+ },
+ {
+   "Name": "Sharma, Rajat",
+   "Country": "India"
+ },
+ {
+   "Name": "Shenthar, Jayaprakash",
+   "Country": "India"
+ },
+ {
+   "Name": "Shi, Haifeng",
+   "Country": "China"
+ },
+ {
+   "Name": "Shiba, Yuji",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Shiga, Tsuyoshi",
+   "Country": "Japan"
+ },
+ {
    "Name": "Shim, Jaemin",
    "Country": "Korea"
+ },
+ {
+   "Name": "Shimizu, Akihiko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Shimizu, Wataru",
+   "Country": "Japan"
  },
  {
    "Name": "Shin, Dae-Hee",
@@ -12158,6 +12191,54 @@ var spkCountry = [
    "Country": "Korea"
  },
  {
+   "Name": "Shizuta, Satoshi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Shoda, Morio",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Sikdar, Sunandan",
+   "Country": "India"
+ },
+ {
+   "Name": "Singh, Balbir",
+   "Country": "India"
+ },
+ {
+   "Name": "Singhal, Rahul",
+   "Country": "India"
+ },
+ {
+   "Name": "Siu, Chung Wah David",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Skinner, Jonathan",
+   "Country": "New Zealand"
+ },
+ {
+   "Name": "So, Yui-Chi",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Soejima, Kyoko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Sofat, Sunil Kumar",
+   "Country": "India"
+ },
+ {
+   "Name": "Sohara, Hiroshi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Solihin, Iyan",
+   "Country": "Indonesia"
+ },
+ {
    "Name": "Song, In Geol",
    "Country": "Korea"
  },
@@ -12166,184 +12247,112 @@ var spkCountry = [
    "Country": "Korea"
  },
  {
-   "Name": "Sung, Jung Hoon",
-   "Country": "Korea"
+   "Name": "Sridevi, C",
+   "Country": "India"
  },
  {
-   "Name": "Uhm, Jae-Sun",
-   "Country": "Korea"
- },
- {
-   "Name": "Yang, Pil-sung",
-   "Country": "Korea"
- },
- {
-   "Name": "Yoo, Chunja",
-   "Country": "Korea"
- },
- {
-   "Name": "Yoon, Namsik",
-   "Country": "Korea"
- },
- {
-   "Name": "Yu, Hee Tae",
-   "Country": "Korea"
- },
- {
-   "Name": "Hussin, Azlan",
-   "Country": "Malaysia"
- },
- {
-   "Name": "Kaur, Surinder",
-   "Country": "Malaysia"
- },
- {
-   "Name": "Ma, Soot Keng",
-   "Country": "Malaysia"
- },
- {
-   "Name": "Muhammad, Zulkeflee",
-   "Country": "Malaysia"
- },
- {
-   "Name": "Razali, Omar",
-   "Country": "Malaysia"
- },
- {
-   "Name": "Davaakhuu, Narantuya",
-   "Country": "Mongolia"
- },
- {
-   "Name": "Khurelbaatar, Mungun-Ulzil",
-   "Country": "Mongolia"
- },
- {
-   "Name": "Tseveendee, Saruul",
-   "Country": "Mongolia"
- },
- {
-   "Name": "Aye, Thet Lel Swe",
-   "Country": "Myanmar"
- },
- {
-   "Name": "Lwin, Khin Oo",
-   "Country": "Myanmar"
- },
- {
-   "Name": "Nwe, Nwe",
-   "Country": "Myanmar"
- },
- {
-   "Name": "Win, Khin Maung",
-   "Country": "Myanmar"
- },
- {
-   "Name": "Boddington, Dean",
-   "Country": "New Zealand"
- },
- {
-   "Name": "Clare, Geoffrey",
-   "Country": "New Zealand"
- },
- {
-   "Name": "Heaven, David",
-   "Country": "New Zealand"
- },
- {
-   "Name": "Hood, Margaret",
-   "Country": "New Zealand"
- },
- {
-   "Name": "Lever, Nigel",
-   "Country": "New Zealand"
- },
- {
-   "Name": "Skinner, Jonathan",
-   "Country": "New Zealand"
+   "Name": "Sriratanasathavorn, Charn",
+   "Country": "Thailand"
  },
  {
    "Name": "Stiles, Martin",
    "Country": "New Zealand"
  },
  {
-   "Name": "Awan, Zahid Aslam",
-   "Country": "Pakistan"
+   "Name": "Strathmore, Neil",
+   "Country": "Australia"
  },
  {
-   "Name": "Khan, Amir Hameed",
-   "Country": "Pakistan"
+   "Name": "Su, Hao",
+   "Country": "China"
  },
  {
-   "Name": "Agbayani, Michael Joseph",
-   "Country": "Philippines"
+   "Name": "Sueda, Taijiro",
+   "Country": "Japan"
  },
  {
-   "Name": "Fadreguilian, Erdie",
-   "Country": "Philippines"
+   "Name": "Suenari, Kazuyoshi",
+   "Country": "Japan"
  },
  {
-   "Name": "Gervacio, Giselle",
-   "Country": "Philippines"
+   "Name": "Sugi, Kaoru",
+   "Country": "Japan"
  },
  {
-   "Name": "Ramirez, Marcellus Francis L.",
-   "Country": "Philippines"
+   "Name": "Sumitomo, Naokata",
+   "Country": "Japan"
  },
  {
-   "Name": "Tolentino, Clara",
-   "Country": "Philippines"
+   "Name": "Sung, Jung Hoon",
+   "Country": "Korea"
  },
  {
-   "Name": "Ang, Joyce",
-   "Country": "Singapore"
+   "Name": "Sunsaneewitayakul, Buncha",
+   "Country": "Thailand"
  },
  {
-   "Name": "Chia, Pow Li",
-   "Country": "Singapore"
+   "Name": "Suresh, Allamsetty",
+   "Country": "India"
  },
  {
-   "Name": "Ching, Chi Keong",
-   "Country": "Singapore"
+   "Name": "Suwanagool, Arisara",
+   "Country": "Thailand"
  },
  {
-   "Name": "Chong, Daniel",
-   "Country": "Singapore"
+   "Name": "Suzuki, Fumio",
+   "Country": "Japan"
  },
  {
-   "Name": "Kojodjojo, Pipin",
-   "Country": "Singapore"
+   "Name": "Suzuki, Yasushi",
+   "Country": "Japan"
  },
  {
-   "Name": "Lee, Chee Wan",
-   "Country": "Singapore"
+   "Name": "Sy, Raymond",
+   "Country": "Australia"
  },
  {
-   "Name": "Liang, Shufen",
-   "Country": "Singapore"
+   "Name": "Tada, Hiroshi",
+   "Country": "Japan"
  },
  {
-   "Name": "Liew, Reginald",
-   "Country": "Singapore"
+   "Name": "Takagi, Masahiko",
+   "Country": "Japan"
  },
  {
-   "Name": "Lim, Eric Tien Siang",
-   "Country": "Singapore"
+   "Name": "Takahashi, Kazuhiro",
+   "Country": "Japan"
  },
  {
-   "Name": "Lim, Paul",
-   "Country": "Singapore"
+   "Name": "Takahashi, Naohiko",
+   "Country": "Japan"
  },
  {
-   "Name": "Lim, Toon Wei",
-   "Country": "Singapore"
+   "Name": "Takahashi, Yoshihide",
+   "Country": "Japan"
  },
  {
-   "Name": "Ng, Kheng Siang",
-   "Country": "Singapore"
+   "Name": "Takase, Bonpei",
+   "Country": "Japan"
  },
  {
-   "Name": "Seow, Swee Chong",
-   "Country": "Singapore"
+   "Name": "Takase, Tetsuro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Takatsuki, Seiji",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Takeishi, Yasuchika",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Talib, Ahmed",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Talwar, K K",
+   "Country": "India"
  },
  {
    "Name": "Tan, Boon Yew",
@@ -12354,240 +12363,80 @@ var spkCountry = [
    "Country": "Singapore"
  },
  {
+   "Name": "Tang, Min",
+   "Country": "China"
+ },
+ {
+   "Name": "Tanimoto, Kojiro",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Tanno, Kaoru",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Tasaka, Hiroshi",
+   "Country": "Japan"
+ },
+ {
    "Name": "Teo, Wee Siong",
    "Country": "Singapore"
  },
  {
-   "Name": "Wee Tiong, Yeo",
-   "Country": "Singapore"
+   "Name": "Thachil, Ajit",
+   "Country": "India"
  },
  {
-   "Name": "Wong, Kelvin",
-   "Country": "Singapore"
+   "Name": "Thajudeen, Anees",
+   "Country": "India"
  },
  {
-   "Name": "Yeo, Colin",
-   "Country": "Singapore"
+   "Name": "Thiagalingam, Aravinda",
+   "Country": "Australia"
  },
  {
-   "Name": "Zaw, Lin Aung",
-   "Country": "Singapore"
+   "Name": "Thomas, Joy",
+   "Country": "India"
  },
  {
-   "Name": "Amarasinghe, Susitha",
-   "Country": "Sri Lanka"
+   "Name": "Thomas, Stuart",
+   "Country": "Australia"
  },
  {
-   "Name": "Gunawardena, Rohan",
-   "Country": "Sri Lanka"
+   "Name": "Tian, Ying",
+   "Country": "China"
  },
  {
-   "Name": "Chang, Kuan-Cheng",
-   "Country": "Taiwan"
+   "Name": "Tolentino, Clara",
+   "Country": "Philippines"
  },
  {
-   "Name": "Chang, Shih-Lin",
-   "Country": "Taiwan"
+   "Name": "Ton, That Minh",
+   "Country": "Vietnam"
  },
  {
-   "Name": "Chao, Tze-Fan",
-   "Country": "Taiwan"
+   "Name": "Tondas, Edo",
+   "Country": "Indonesia"
  },
  {
-   "Name": "Chen, Jan-Yow",
-   "Country": "Taiwan"
+   "Name": "Toyama, Hideko",
+   "Country": "Japan"
  },
  {
-   "Name": "Chen, Jien-Jiun",
-   "Country": "Taiwan"
+   "Name": "Tran, Song Giang",
+   "Country": "Vietnam"
  },
  {
-   "Name": "Chen, Mien-Cheng",
-   "Country": "Taiwan"
+   "Name": "Tran, Tuan Viet",
+   "Country": "Vietnam"
  },
  {
-   "Name": "Chen, Shih-Ann",
-   "Country": "Taiwan"
+   "Name": "Tran, Van Dong",
+   "Country": "Vietnam"
  },
  {
-   "Name": "Chen, Wen-Jone",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Chen, Yi-Jen",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Chen, Yung-Lung",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Cheng, Chen-Chuan",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Chiou, Chuen-Wang",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Chiou, Yih-Ling",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Chiu, Shuenn-Nan",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Chou, Chung-Chuan",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Chung, Cheng-Chih",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Chung, Fa-Po",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Feng, An-Ning",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Hsiao, Hsiang-Chiang",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Hsieh, Jen-Che",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Hsieh, Ming-Hsiung",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Hsieh, Yu-Cheng",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Hu, Yu-Feng",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Huang, Jin-Long",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Huang, Shih-Yu",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Hung, Chung-Lieh",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Hung, Yuan",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Juang, Jyh-Ming Jimmy",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Ko, Wen-Chin",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Kuo, Chi-Tai",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Kuo, Jen-Yuan",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Kuo, Yi-Lan",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lai, Wen-Ter",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lee, Kun-Tai",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lee, Pi-Chang",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lee, Ying-Hsiang",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Li, Cheng-Hung",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Liao, Jo-Nan",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Liao, Ying-Chieh",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lin, Jiunn-Cherng",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lin, Jiunn-Lee",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lin, Lian-Yu",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lin, Li-Jen",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lin, Ming-Chih",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lin, Shien-Fong",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lin, Wei-Shiang",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lin, Yenn-Jiang",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lin, Yung-Kuo",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Liu, Yen-Bin",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lo, Huey-Ming",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lo, Li-Wei",
-   "Country": "Taiwan"
- },
- {
-   "Name": "Lu, Yen-Yu",
-   "Country": "Taiwan"
+   "Name": "Troung, Quang Khanh",
+   "Country": "Vietnam"
  },
  {
    "Name": "Tsai, Chia-Ti",
@@ -12610,16 +12459,156 @@ var spkCountry = [
    "Country": "Taiwan"
  },
  {
+   "Name": "Tse, Gary",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Tse, Hung-Fat",
+   "Country": "Hong Kong"
+ },
+ {
+   "Name": "Tseveendee, Saruul",
+   "Country": "Mongolia"
+ },
+ {
+   "Name": "Tsuboi, Naoya",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Tsuchiya, Takeshi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Tsuji, Yukiomi",
+   "Country": "Japan"
+ },
+ {
    "Name": "Tuan, Ta-Chuan",
    "Country": "Taiwan"
+ },
+ {
+   "Name": "Udyavar, Ameya",
+   "Country": "India"
+ },
+ {
+   "Name": "Ueda, Akiko",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Uhm, Jae-Sun",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Uno, Kikuya",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Ushinohama, Hiroya",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Valaparambil, Ajit Kumar",
+   "Country": "India"
+ },
+ {
+   "Name": "Van Caelenberg, Kristien",
+   "Country": "Belgium"
+ },
+ {
+   "Name": "Verma, Avinash",
+   "Country": "India"
+ },
+ {
+   "Name": "Vien, Hoang Long",
+   "Country": "Vietnam"
+ },
+ {
+   "Name": "Viskin, Sami",
+   "Country": "Israel"
+ },
+ {
+   "Name": "Vora, Amit",
+   "Country": "India"
  },
  {
    "Name": "Wang, Chun-Chieh",
    "Country": "Taiwan"
  },
  {
+   "Name": "Wang, Dao W.",
+   "Country": "China"
+ },
+ {
+   "Name": "Wang, Hongtao",
+   "Country": "China"
+ },
+ {
+   "Name": "Wang, Qun-Shan",
+   "Country": "China"
+ },
+ {
+   "Name": "Wang, Yutang",
+   "Country": "China"
+ },
+ {
+   "Name": "Watanabe, Eiichi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Watanabe, Hiroshi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Watanabe, Yoshiyuki",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Wee Tiong, Yeo",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Wei, Hua",
+   "Country": "China"
+ },
+ {
    "Name": "Wen, Ming-Shien",
    "Country": "Taiwan"
+ },
+ {
+   "Name": "Wen, Weiming",
+   "Country": "China"
+ },
+ {
+   "Name": "Wildschut, Jason",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Win, Khin Maung",
+   "Country": "Myanmar"
+ },
+ {
+   "Name": "Wisaratapong, Treechada",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Wong, Christopher X.",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Wong, Kelvin",
+   "Country": "Singapore"
+ },
+ {
+   "Name": "Wongcharoen, Wanwarang",
+   "Country": "Thailand"
+ },
+ {
+   "Name": "Wu, Gang",
+   "Country": "China"
+ },
+ {
+   "Name": "Wu, Liqun",
+   "Country": "China"
  },
  {
    "Name": "Wu, Mei-Hwan",
@@ -12628,6 +12617,86 @@ var spkCountry = [
  {
    "Name": "Wu, Tsu-Juey",
    "Country": "Taiwan"
+ },
+ {
+   "Name": "Wynn, Gareth",
+   "Country": "Australia"
+ },
+ {
+   "Name": "Xiang, Meixiang",
+   "Country": "China"
+ },
+ {
+   "Name": "Xie, Shuanglun",
+   "Country": "China"
+ },
+ {
+   "Name": "Xu, Wei",
+   "Country": "China"
+ },
+ {
+   "Name": "Xue, Xiaolin",
+   "Country": "China"
+ },
+ {
+   "Name": "Yadav, Niraj",
+   "Country": "India"
+ },
+ {
+   "Name": "Yadav, Rakesh",
+   "Country": "India"
+ },
+ {
+   "Name": "Yaduvanshi, Amitabh",
+   "Country": "India"
+ },
+ {
+   "Name": "Yamabe, Hiroshige",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Yamada, Shinya",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Yamada, Takashi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Yamaji, Hirosuke",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Yamane, Teiichi",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Yamashiro, Kohei",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Yamauchi, Yasuteru",
+   "Country": "Japan"
+ },
+ {
+   "Name": "Yamin, Muhammad",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Yang, Pil-sung",
+   "Country": "Korea"
+ },
+ {
+   "Name": "Yang, Xin-chun",
+   "Country": "China"
+ },
+ {
+   "Name": "Yansen, Ignatius",
+   "Country": "Indonesia"
+ },
+ {
+   "Name": "Yao, Yan",
+   "Country": "China"
  },
  {
    "Name": "Yeh, Hung-I",
@@ -12642,188 +12711,136 @@ var spkCountry = [
    "Country": "Taiwan"
  },
  {
-   "Name": "Anannab, Alisara",
-   "Country": "Thailand"
+   "Name": "Yeo, Colin",
+   "Country": "Singapore"
  },
  {
-   "Name": "Apiyasawat, Sirin",
-   "Country": "Thailand"
+   "Name": "Yin, Xiaomeng",
+   "Country": "China"
  },
  {
-   "Name": "Boonyapisit, Warangkna",
-   "Country": "Thailand"
+   "Name": "Yiu, Kai-Hang",
+   "Country": "Hong Kong"
  },
  {
-   "Name": "Chandanamattha, Pakorn",
-   "Country": "Thailand"
+   "Name": "Yodogawa, Kenji",
+   "Country": "Japan"
  },
  {
-   "Name": "Chandrachamnong, Sanisara",
-   "Country": "Thailand"
+   "Name": "Yokoshiki, Hisashi",
+   "Country": "Japan"
  },
  {
-   "Name": "Chantrarat, Thoranis",
-   "Country": "Thailand"
+   "Name": "Yokoyama, Yasuhiro",
+   "Country": "Japan"
  },
  {
-   "Name": "Chattipakorn, Nipon",
-   "Country": "Thailand"
+   "Name": "Yoo, Chunja",
+   "Country": "Korea"
  },
  {
-   "Name": "Chungsomprasong, Paweena",
-   "Country": "Thailand"
+   "Name": "Yoon, Namsik",
+   "Country": "Korea"
  },
  {
-   "Name": "Haddawy, Peter",
-   "Country": "Thailand"
+   "Name": "Yoshida, Akihiro",
+   "Country": "Japan"
  },
  {
-   "Name": "Hongeng, Suradej",
-   "Country": "Thailand"
+   "Name": "Yoshida, Yoshinori",
+   "Country": "Japan"
  },
  {
-   "Name": "Likithanasombat, Khanchit",
-   "Country": "Thailand"
+   "Name": "Yoshiga, Yasuhiro",
+   "Country": "Japan"
  },
  {
-   "Name": "Ngarmukos, Tachapong",
-   "Country": "Thailand"
+   "Name": "Yoshimoto, Jun",
+   "Country": "Japan"
  },
  {
-   "Name": "Parsertwitayakij, Narawudth",
-   "Country": "Thailand"
+   "Name": "Yoshitani, Kazuyasu",
+   "Country": "Japan"
  },
  {
-   "Name": "Phoolpithayadhorn, Asadayudh",
-   "Country": "Thailand"
+   "Name": "Yu, Cheuk Man",
+   "Country": "Hong Kong"
  },
  {
-   "Name": "Pongbhaesaj, Piya",
-   "Country": "Thailand"
+   "Name": "Yu, Hee Tae",
+   "Country": "Korea"
  },
  {
-   "Name": "Pumprueg, Satchana",
-   "Country": "Thailand"
+   "Name": "Yuen, Ho Chuen",
+   "Country": "Hong Kong"
  },
  {
-   "Name": "Sahasthas, Dujdao",
-   "Country": "Thailand"
+   "Name": "Yuen, Sze Man Fiona",
+   "Country": "Hong Kong"
  },
  {
-   "Name": "Sriratanasathavorn, Charn",
-   "Country": "Thailand"
+   "Name": "Yung, Chi Yui",
+   "Country": "Hong Kong"
  },
  {
-   "Name": "Sunsaneewitayakul, Buncha",
-   "Country": "Thailand"
+   "Name": "Yuniadi, Yoga",
+   "Country": "Indonesia"
  },
  {
-   "Name": "Suwanagool, Arisara",
-   "Country": "Thailand"
+   "Name": "Zaw, Lin Aung",
+   "Country": "Singapore"
  },
  {
-   "Name": "Wisaratapong, Treechada",
-   "Country": "Thailand"
+   "Name": "Zhang, Fengxiang",
+   "Country": "China"
  },
  {
-   "Name": "Wongcharoen, Wanwarang",
-   "Country": "Thailand"
+   "Name": "Zhang, Jinchang",
+   "Country": "China"
  },
  {
-   "Name": "Oto, Ali",
-   "Country": "Turkey"
+   "Name": "Zhang, Shu",
+   "Country": "China"
  },
  {
-   "Name": "Ozcan, Emin Evren",
-   "Country": "Turkey"
+   "Name": "Zhang, Zhong Yin",
+   "Country": "China"
  },
  {
-   "Name": "Chu, Dung Si",
-   "Country": "Vietnam"
+   "Name": "Zheng, Liangrong",
+   "Country": "China"
  },
  {
-   "Name": "Do, Van Buu Dan",
-   "Country": "Vietnam"
+   "Name": "Zhong, Guoqiang",
+   "Country": "China"
  },
  {
-   "Name": "Le, Vo Kien",
-   "Country": "Vietnam"
+   "Name": "Zhou, Jing",
+   "Country": "China"
  },
  {
-   "Name": "Minh, Ton That",
-   "Country": "Vietnam"
+   "Name": "Zhou, Ying",
+   "Country": "China"
  },
  {
-   "Name": "Nguyen, Thanh Hai",
-   "Country": "Vietnam"
+   "Name": "Zou, Jiangang",
+   "Country": "China"
  },
  {
-   "Name": "Pham, Quoc Khanh",
-   "Country": "Vietnam"
+   "Name": "",
+   "Country": ""
  },
  {
-   "Name": "Pham, Tran Linh",
-   "Country": "Vietnam"
+   "Name": "",
+   "Country": ""
  },
  {
-   "Name": "Pham, Truong Son",
-   "Country": "Vietnam"
+   "Name": "",
+   "Country": ""
  },
  {
-   "Name": "Phan, Dinh Phong",
-   "Country": "Vietnam"
- },
- {
-   "Name": "Ton, That Minh",
-   "Country": "Vietnam"
- },
- {
-   "Name": "Tran, Song Giang",
-   "Country": "Vietnam"
- },
- {
-   "Name": "Tran, Tuan Viet",
-   "Country": "Vietnam"
- },
- {
-   "Name": "Tran, Van Dong",
-   "Country": "Vietnam"
- },
- {
-   "Name": "Troung, Quang Khanh",
-   "Country": "Vietnam"
- },
- {
-   "Name": "Vien, Hoang Long",
-   "Country": "Vietnam"
- },
- {
-   "Name": "Chaovalitwongse, Wanpracha",
-   "Country": "USA"
- },
- {
-   "Name": "Limpitikul, Worawan",
-   "Country": "USA"
- },
- {
-   "Name": "Van Caelenberg, Kristien",
-   "Country": "Belgium"
- },
- {
-   "Name": "Dhillon, Santokh",
-   "Country": "Canada"
- },
- {
-   "Name": "Balsam, Pawel",
-   "Country": "Poland"
- },
- {
-   "Name": "Potpara, Tatjana",
-   "Country": "Serbia"
- },
- {
-   "Name": "Lane, Deirdre",
-   "Country": "United Kingdom"
+   "Name": "Name (Last, First)",
+   "Country": "Country"
  },
  {
    "Name": "Purerfellner, Helmut",
@@ -12850,7 +12867,19 @@ var spkCountry = [
    "Country": "Canada"
  },
  {
+   "Name": "Klein, George",
+   "Country": "Canada"
+ },
+ {
+   "Name": "Krahn, Adrew",
+   "Country": "Canada"
+ },
+ {
    "Name": "Lemery, Robert",
+   "Country": "Canada"
+ },
+ {
+   "Name": "Nattel, Stanley",
    "Country": "Canada"
  },
  {
@@ -12883,6 +12912,10 @@ var spkCountry = [
  },
  {
    "Name": "Hocini, Meleze",
+   "Country": "France"
+ },
+ {
+   "Name": "Jais, Pierre",
    "Country": "France"
  },
  {
@@ -12962,6 +12995,10 @@ var spkCountry = [
    "Country": "Germany"
  },
  {
+   "Name": "Schnabel, Renate",
+   "Country": "Germany"
+ },
+ {
    "Name": "Sperzel, Johannes",
    "Country": "Germany"
  },
@@ -12974,11 +13011,27 @@ var spkCountry = [
    "Country": "Greece"
  },
  {
+   "Name": "Bongiorni, Maria Garzia",
+   "Country": "Italy"
+ },
+ {
+   "Name": "Boriani, Giuseppe",
+   "Country": "Italy"
+ },
+ {
+   "Name": "Brignole, Michele",
+   "Country": "Italy"
+ },
+ {
    "Name": "Conte, Guilio",
    "Country": "Italy"
  },
  {
    "Name": "De Ponti, Roberto",
+   "Country": "Italy"
+ },
+ {
+   "Name": "Della Bella, Paolo",
    "Country": "Italy"
  },
  {
@@ -13082,6 +13135,10 @@ var spkCountry = [
    "Country": "Sweden"
  },
  {
+   "Name": "Linde, Cecilia",
+   "Country": "Sweden"
+ },
+ {
    "Name": "Auricchio, Angelo",
    "Country": "Switzerland"
  },
@@ -13107,6 +13164,10 @@ var spkCountry = [
  },
  {
    "Name": "Camm, John",
+   "Country": "United Kingdom"
+ },
+ {
+   "Name": "Casadei, Barbara",
    "Country": "United Kingdom"
  },
  {
@@ -13155,6 +13216,10 @@ var spkCountry = [
  },
  {
    "Name": "Aleong, Ryan",
+   "Country": "USA"
+ },
+ {
+   "Name": "Anderson, Mark E",
    "Country": "USA"
  },
  {
@@ -13558,10 +13623,15 @@ var spkCountry = [
    "Country": "USA"
  },
  {
+   "Name": "Zareba, Wojciech",
+   "Country": "USA"
+ },
+ {
    "Name": "Zimmerman, Frank",
    "Country": "USA"
  }
 ]
+
 
 window.onload = showData();
 window.onload = createList();
@@ -13889,19 +13959,27 @@ function showL(order,x){
 
   else if (order == 'spk'){
     document.getElementById("result").innerHTML = "";
-    var spkName = x;
+    var spkName = x.toUpperCase();
+        
     var spkA = []; var n;
     for (n=0;n<schedule.length;n++){
-      if (schedule[n].Spk1==spkName || schedule[n].Spk2==spkName ||
-      schedule[n].Spk3==spkName || schedule[n].Spk4 ==spkName || 
-      schedule[n].Spk5==spkName || schedule[n].Spk6==spkName ||
-      schedule[n].Mod1==spkName || schedule[n].Mod2==spkName ||
-      schedule[n].Mod3==spkName || schedule[n].Mod4==spkName ) {
+    
+      var spk1 = schedule[n].Spk1.toUpperCase();var spk2 = schedule[n].Spk2.toUpperCase();
+      var spk3 = schedule[n].Spk3.toUpperCase();var spk4 = schedule[n].Spk4.toUpperCase();
+      var spk5 = schedule[n].Spk5.toUpperCase();var spk6 = schedule[n].Spk6.toUpperCase();
+      var mod1 = schedule[n].Mod1.toUpperCase();var mod2 = schedule[n].Mod2.toUpperCase();
+      var mod3 = schedule[n].Mod3.toUpperCase();var mod4 = schedule[n].Mod4.toUpperCase();
+
+      if (spk1==spkName || spk2==spkName ||
+      spk3==spkName || spk4 ==spkName || 
+      spk5==spkName || spk6==spkName ||
+      mod1==spkName || mod2==spkName ||
+      mod3==spkName || mod4==spkName ) {
         spkA.push(n)
       }
     }
 
-    document.getElementById("resultSum").innerHTML = "Showing sessions by speaker. Speaker = "+ spkName + 
+    document.getElementById("resultSum").innerHTML = "Showing sessions by speaker. Speaker = "+ x + 
     ". Total = "+ spkA.length+" sessions."
     document.getElementById("resultSum").style.backgroundColor = "lightseagreen"
     spkA.forEach(function(item){
