@@ -25,6 +25,8 @@ body {background-color:#530f21}
 @media only screen and (max-width: 800px){
     .noMobile {display: none}
 }
+.hideFirst {display: none}
+#codeEnter {display: none}
 
 </style>
 
@@ -38,7 +40,9 @@ body {background-color:#530f21}
 </div>
 <div class="w3-content w3-border-top w3-center w3-padding w3-margin-top sans" style="color: #f3f3f3;font-size:2vmax">
 to submit the request form &nbsp;&nbsp; 
-<span class="w3-btn w3-khaki w3-border w3-round-large w3-padding-small w3-ripple">Click Here</span>
+<span class="w3-btn w3-khaki w3-border w3-round-large w3-padding-small w3-ripple">
+    <a href="https://form.jotform.me/sirin.apiyasawat/aphrs2019-sponsorship" target="_blank" style="text-decoration:none">
+    Click Here</a></span>
 </div>
 
 <!--info-->
@@ -118,10 +122,10 @@ style="margin: 3vmax 0vmax;font-size: 2vmax;">
                 <li>Lotus 10 (L10)</li>
                 <li>Lotus 11 (L11)</li>
             </ul>    
-        </div>
+    </div>
     </div>
 </div>
-
+<div id="demo" style="color:white"></div>
 <!--ind-->
 <div id="ind" style="border-top: #969696 0.2vmax solid">
     <div class="w3-row w3-center w3-margin w3-padding cursive" style="font-size: 3.5vmax;color: white">
@@ -137,7 +141,7 @@ style="margin: 3vmax 0vmax;font-size: 2vmax;">
             <ul class="w3-ul w3-center w3-white w3-padding" style="font-size:2vmax">
                 <li class="w3-bold" style="background-color:#530f21;color:white">2 Venues, Thurs to Sat.</li>
                 <li>0830-0915</li><li>0915-1000</li>
-                <li>1315-1430</li><li>1430-1515</li>
+                <li>1345-1430</li><li>1430-1515</li>
                 <li>1515-1600</li><li>1600-1645</li>
             </ul>    
     </div>     
@@ -166,41 +170,46 @@ style="margin: 3vmax 0vmax;font-size: 2vmax;">
 <div class="showFirst w3-black" style="height:100vh;width:100vw;">
     <div id="wine">
     <div class="w3-row w3-center sans" style="padding-top: 5vmax;font-size:2.5vmax;line-height: 100%">
-        Name one of the grand cru chateaus of the left-bank of Bordeaux.
+        Name one of the first growth (Premiers Crus) chateaus on the left-bank of Bordeaux.
         <br><span style="font-size:1.5vmax;color:#ddd">
             (just the name. no need to put the word 'chateau'.)</span>
     </div>
     <div class="w3-center" style="padding: 1vmax 3vmax">
     <input class="w3-mobile w3-center w3-border w3-padding sans" type="text" autofocus
     placeholder="not case sensitive."  id="chateau" style="font-size: 2vmax;" >
-    <button id="wineEnter" class="w3-light-grey sans" style="font-size:1.8vmax;margin: 0.5vmax">Enter</button>
+    <button id="wineEnter" class="w3-light-grey sans" 
+    style="font-size:1.8vmax;margin: 0.5vmax" onclick="chateauCheck()">
+        Submit</button>
     </div>
     
     <div class="w3-row w3-center sans" style="padding-top: 1vmax;font-size:2vmax">
-        <div class="w3-button w3-teal w3-round-large w3-padding-small" onclick="codeInput">I know the code.</div>
+        <div class="w3-button w3-teal w3-round-large w3-padding-small" onclick="codeInput()">I know the code.</div>
         <div class="w3-button w3-sand w3-round-large w3-padding-small">
             <a href="index.html" style="text-decoration:none">get me out of here.</a>
         </div>
         </div>
     </div>
+    
 
-    <div id="code">
+    <div id="codeEnter">
     <div class="w3-row w3-center sans" style="padding-top: 5vmax;font-size:2.5vmax">
             Enter the code
         </div>
         <div style="padding: 1vmax 3vmax" class="w3-center">
         <input class="w3-center w3-border w3-padding sans" type="text" autofocus
         placeholder="enter here..."  id="code" style="font-size: 2vmax" >
-        <button id="wineEnter" class="w3-light-grey sans" style="font-size:1.8vmax;margin: 0.5vmax">Enter</button>
+        <button class="w3-light-grey sans" id="codeEnterButton" style="font-size:1.8vmax;margin: 0.5vmax" onclick="checkCode()">
+            submit
+        </button>
         </div>
     
         <div class="w3-row w3-center sans" style="padding-top: 1vmax;font-size:2vmax">
                 
             <div class="w3-button w3-sand w3-round-large w3-padding-small">
             <a href="index.html" style="text-decoration:none">get me out of here.</a>
+            </div>
         </div>
-        </div>
-
+        
     </div>
 
     
@@ -212,34 +221,92 @@ style="margin: 3vmax 0vmax;font-size: 2vmax;">
 <script>
 
 window.onload = function() {
-    if (screen.width>800){
-    autoHeight("autoH")}
+    document.getElementById('code').value = ""
+    document.getElementById('chateau').value = "" 
     }
 
-var wine = document.getElementById('wineEnter')
-wine.addEventListener("keyup", function(event) {
+// Get the input field
+var inputWine = document.getElementById("chateau");
+var inputCode = document.getElementById("code")
+
+// Execute a function when the user releases a key on the keyboard
+inputWine.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
   if (event.keyCode === 13) {
-   event.preventDefault();
-   chateauCheck();
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("wineEnter").click();
   }
 });
+
+inputCode.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("codeEnterButton").click();
+  }
+});
+
+//chateau check
+function chateauCheck(){
+    var chateau = ["LAFITE", "ROTHSCHILD", "LATOUR", "MARGAUX", "MOUTON"]
+    var input = document.getElementById('chateau')
+    var answer = input.value.toUpperCase()
+    var ind = chateau.indexOf(answer)
+    if (ind!=-1){
+        letMeIn()
+    } else {
+        document.getElementById('chateau').value = "" 
+    }
+}
+
+function letMeIn(){
+    var content = document.getElementsByClassName('hideFirst')
+    var guard = document.getElementsByClassName('showFirst')
+    content[0].style.display = "block"
+    guard[0].style.display = "none"
+    if (screen.width>800){
+    autoHeight("autoH")}
+}
+
+function codeInput(){
+    document.getElementById('wine').style.display = "none"
+    document.getElementById('codeEnter').style.display = "block"
+    document.getElementById('code').focus()
+    }
+
+function checkCode(){
+    var today = new Date()
+    var correctCode = today.getMonth()+1 + today.getFullYear() + today.getDate()  
+    var answer = document.getElementById('code').value
+    
+    if (answer==correctCode){
+        letMeIn()
+    } else {
+        document.getElementById('code').value = "" 
+    }
+}
 
 //auto height
 function autoHeight(cName){
     var c1 = document.getElementsByClassName(cName);
-    setHeight (c1)
+    setHeight (cName)
     
 
-    function setHeight(c){
+    function setHeight(cName){
     //find content height
     var h = [];var i;
+    var c = document.getElementsByClassName(cName)
     for (i=0;i<c.length;i++){
         var height = c[i].offsetHeight;
         h.push(height)
     }
     h.sort(function(a,b){return b-a})
     var maxH = h[0]
-   
+    
     //set height
     var j;
     for (j=0;j<c.length;j++){
