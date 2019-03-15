@@ -215,14 +215,16 @@ style="margin: 3vmax 0vmax;font-size: 2vmax;">
     
 </div>
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdIdxZILiBjsHcG1PqGTe_jCa_xBA4Hg7f_x4mkO7hGsfZEYA/viewform?embedded=true" 
+id="gForm" marginheight="0" marginwidth="0" frameborder="0">Loading...</iframe>
 </body>
-
 
 <script>
 
 window.onload = function() {
     document.getElementById('code').value = ""
     document.getElementById('chateau').value = "" 
+    setgForm("gForm")
     }
 
 // Get the input field
@@ -313,6 +315,13 @@ function autoHeight(cName){
         c[j].style.height = maxH+"px"
     }
     }
+}
+
+function setgForm(name){
+    var w = screen.width;
+    var h = screen.height;
+    var g = document.getElementById(name)
+    g.width = w; g.height = h;
 }
 
 </script>
