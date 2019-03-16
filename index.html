@@ -13988,6 +13988,16 @@ function showData() {
     
 }
 
+// Get the modal
+var modal = document.getElementById('popUp');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
 function showDetail(d) {
   document.getElementById("popUp").style.display = "block";
   document.getElementById("code").innerHTML = schedule[d].Code;
