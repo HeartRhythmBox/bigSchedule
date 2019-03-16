@@ -767,7 +767,7 @@ cursor:pointer;" onclick="print('printable')">
   <div class="w3-card-4 w3-bar sans w3-mobile w3-center">
   <div style="color:white;font-size:1.8vmax;padding-left:0.5vmax;margin-top:0.2vmax">
     <span class="mobileOnly">Choose a speaker. Scroll for more.</span>
-    <input class="w3-input w3-border noMobile w3-padding" type="text" 
+    <input class="w3-input w3-border noMobile w3-padding" type="text" autofocus
     placeholder="Search for: lastname, firstname (country)"  id="spkSearch" 
     onkeyup="inputFilter()" style="width:800px;margin-left: auto;margin-right: auto">
       <ul class="w3-ul w3-margin-top" id="speakerUL">
@@ -14283,6 +14283,7 @@ function showList(d){
   para7.appendChild(g);para8.appendChild(h);  
   para9.appendChild(i);para10.appendChild(j);
   para11.appendChild(k);para12.appendChild(l);para13.appendChild(m)  
+  document.getElementById("resultSum").scrollIntoView({behavior: "smooth",block: "start"});
   document.getElementById("result").appendChild(para1);
   document.getElementById("result").appendChild(para2);
   document.getElementById("result").appendChild(para3);
@@ -14303,6 +14304,8 @@ function spkFilter(){
   //create unique spk list
   var sList = [];
   afterClick(3);
+  document.getElementById("spkSearch").focus();
+
   //fullname
   var i;
   for (i=0;i<schedule.length;i++){
@@ -14371,7 +14374,6 @@ function spkFilter(){
 function inputFilter(){
   var input, filter, ul, li, a, i;
   input = document.getElementById("spkSearch");
-  input.focus;
   filter = input.value.toUpperCase();
   ul = document.getElementById("speakerUL");
   li = ul.getElementsByTagName("li");
