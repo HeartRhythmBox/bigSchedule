@@ -14277,6 +14277,55 @@ function showList(d){
   var d11 = "5: " + schedule[d].SubT5 + "  " + "(" + spk5 + ")" 
   var d12 = "6: " + schedule[d].SubT6 + "  " + "(" + spk6 + ")"
 
+//check no of subtop
+  var subT = schedule[d].no_subTs;
+  if (subT==6){
+    var d7 = "1: " + schedule[d].SubT1 + "  " + "(" + spk1 + ")"
+  var d8 = "2: " + schedule[d].SubT2 + "  " + "(" + spk2 + ")" 
+  var d9 = "3: " + schedule[d].SubT3 + "  " + "(" + spk3 + ")" 
+  var d10 = "4: " + schedule[d].SubT4 + "  " + "(" + spk4 + ")" 
+  var d11 = "5: " + schedule[d].SubT5 + "  " + "(" + spk5 + ")" 
+  var d12 = "6: " + schedule[d].SubT6 + "  " + "(" + spk6 + ")"
+  } else if (subT==5){
+    var d7 = "1: " + schedule[d].SubT1 + "  " + "(" + spk1 + ")"
+  var d8 = "2: " + schedule[d].SubT2 + "  " + "(" + spk2 + ")" 
+  var d9 = "3: " + schedule[d].SubT3 + "  " + "(" + spk3 + ")" 
+  var d10 = "4: " + schedule[d].SubT4 + "  " + "(" + spk4 + ")" 
+  var d11 = "5: " + schedule[d].SubT5 + "  " + "(" + spk5 + ")" 
+  var d12 = ""
+  }
+  else if (subT==4){
+    var d7 = "1: " + schedule[d].SubT1 + "  " + "(" + spk1 + ")"
+  var d8 = "2: " + schedule[d].SubT2 + "  " + "(" + spk2 + ")" 
+  var d9 = "3: " + schedule[d].SubT3 + "  " + "(" + spk3 + ")" 
+  var d10 = "4: " + schedule[d].SubT4 + "  " + "(" + spk4 + ")" 
+  var d11 = "" 
+  var d12 = ""
+  } else if (subT==3){
+    var d7 = "1: " + schedule[d].SubT1 + "  " + "(" + spk1 + ")"
+  var d8 = "2: " + schedule[d].SubT2 + "  " + "(" + spk2 + ")" 
+  var d9 = "3: " + schedule[d].SubT3 + "  " + "(" + spk3 + ")" 
+  var d10 = "" 
+  var d11 = "" 
+  var d12 = ""
+  }
+  else if (subT==2){
+    var d7 = "1: " + schedule[d].SubT1 + "  " + "(" + spk1 + ")"
+  var d8 = "2: " + schedule[d].SubT2 + "  " + "(" + spk2 + ")" 
+  var d9 = "" 
+  var d10 = "" 
+  var d11 = "" 
+  var d12 = ""
+  }
+  else if (subT==1){
+    var d7 = "1: " + schedule[d].SubT1 + "  " + "(" + spk1 + ")"
+  var d8 = "" 
+  var d9 = "" 
+  var d10 = "" 
+  var d11 = "" 
+  var d12 = ""
+  }
+
   var a = document.createTextNode(d1);
   var b = document.createTextNode(d2);
   var c = document.createTextNode(d3);
