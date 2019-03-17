@@ -9592,6 +9592,10 @@ var spkCountry = [
       "Country": "Indonesia"
     },
     {
+      "Name": "Ackerman, Michael J.",
+      "Country": "USA"
+    },
+    {
       "Name": "Adachi, Kazumasa",
       "Country": "Japan"
     },
@@ -9616,8 +9620,24 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Akoum, Nazem",
+      "Country": "USA"
+    },
+    {
+      "Name": "Albert, Christine",
+      "Country": "USA"
+    },
+    {
+      "Name": "Aleong, Ryan",
+      "Country": "USA"
+    },
+    {
       "Name": "Alison, Jeffry",
       "Country": "Australia"
+    },
+    {
+      "Name": "Allessie, Maurits",
+      "Country": "Netherlands"
     },
     {
       "Name": "Amarasinghe, Susitha",
@@ -9632,6 +9652,10 @@ var spkCountry = [
       "Country": "Thailand"
     },
     {
+      "Name": "Anderson, Mark E",
+      "Country": "USA"
+    },
+    {
       "Name": "Ando, Kenji",
       "Country": "Japan"
     },
@@ -9642,6 +9666,10 @@ var spkCountry = [
     {
       "Name": "Antara, Putra",
       "Country": "Indonesia"
+    },
+    {
+      "Name": "Antzelevitch, Charles",
+      "Country": "USA"
     },
     {
       "Name": "Aonuma, Kazutaka",
@@ -9672,6 +9700,14 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Asirvatham, Samuel",
+      "Country": "USA"
+    },
+    {
+      "Name": "Auricchio, Angelo",
+      "Country": "Switzerland"
+    },
+    {
       "Name": "Awan, Zahid Aslam",
       "Country": "Pakistan"
     },
@@ -9696,28 +9732,120 @@ var spkCountry = [
       "Country": "Poland"
     },
     {
+      "Name": "Balsam, Pawel",
+      "Country": "Poland"
+    },
+    {
       "Name": "Ban, Ji-Eun",
       "Country": "Korea"
+    },
+    {
+      "Name": "Behr, Elijah",
+      "Country": "United Kingdom"
+    },
+    {
+      "Name": "Benditt, David G.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Bernardo, Ricardo",
+      "Country": "Portugal"
+    },
+    {
+      "Name": "Berul, Charles I.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Bezzina, Connie R.",
+      "Country": "Netherlands"
     },
     {
       "Name": "Bhargava, Kartikeya",
       "Country": "India"
     },
     {
+      "Name": "Blom, Nico",
+      "Country": "Netherlands"
+    },
+    {
+      "Name": "Blomstr�m-Lundqvist, Carina",
+      "Country": "Sweden"
+    },
+    {
       "Name": "Boddington, Dean",
       "Country": "New Zealand"
+    },
+    {
+      "Name": "Bogun, frank",
+      "Country": "USA"
     },
     {
       "Name": "Bohora, Shomu",
       "Country": "India"
     },
     {
+      "Name": "Bongiorni, Maria Garzia",
+      "Country": "Italy"
+    },
+    {
       "Name": "Boonyapisit, Warangkna",
       "Country": "Thailand"
     },
     {
+      "Name": "Borggrefe, Martin",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Boriani, Giuseppe",
+      "Country": "Italy"
+    },
+    {
+      "Name": "Brachmann, Johannes",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Brignole, Michele",
+      "Country": "Italy"
+    },
+    {
+      "Name": "Brugada, Josep T",
+      "Country": "Spain"
+    },
+    {
+      "Name": "Brugada, Pedro",
+      "Country": "Spain"
+    },
+    {
+      "Name": "Cabrera, Jose Angel",
+      "Country": "Spain"
+    },
+    {
+      "Name": "Calkins, Hugh",
+      "Country": "USA"
+    },
+    {
+      "Name": "Callans, David J",
+      "Country": "USA"
+    },
+    {
+      "Name": "Camm, John",
+      "Country": "United Kingdom"
+    },
+    {
+      "Name": "Cannom, David S.",
+      "Country": "USA"
+    },
+    {
       "Name": "Cao, Kejiang",
       "Country": "China"
+    },
+    {
+      "Name": "Casadei, Barbara",
+      "Country": "United Kingdom"
+    },
+    {
+      "Name": "Celiker, Alpay",
+      "Country": "Turkey"
     },
     {
       "Name": "Cha, Myung-Jin",
@@ -9726,6 +9854,10 @@ var spkCountry = [
     {
       "Name": "Cha, Tae-Joon",
       "Country": "Korea"
+    },
+    {
+      "Name": "Cha, Yong-Mei",
+      "Country": "USA"
     },
     {
       "Name": "Chadha, Niti",
@@ -9832,12 +9964,20 @@ var spkCountry = [
       "Country": "China"
     },
     {
+      "Name": "Chen, Lin Yee",
+      "Country": "USA"
+    },
+    {
       "Name": "Chen, Mien-Cheng",
       "Country": "Taiwan"
     },
     {
       "Name": "Chen, Minglong",
       "Country": "China"
+    },
+    {
+      "Name": "Chen, Peng-Sheng",
+      "Country": "USA"
     },
     {
       "Name": "Chen, Shih-Ann",
@@ -9896,6 +10036,10 @@ var spkCountry = [
       "Country": "Taiwan"
     },
     {
+      "Name": "Chiu-Man, Christine",
+      "Country": "Canada"
+    },
+    {
       "Name": "Cho, Yongkeun",
       "Country": "Korea"
     },
@@ -9932,12 +10076,20 @@ var spkCountry = [
       "Country": "Taiwan"
     },
     {
+      "Name": "Chu, Anthony",
+      "Country": "USA"
+    },
+    {
       "Name": "Chu, Dung Si",
       "Country": "Vietnam"
     },
     {
       "Name": "Chu, Huimin",
       "Country": "China"
+    },
+    {
+      "Name": "Chugh, Sumeet S.",
+      "Country": "USA"
     },
     {
       "Name": "Chung, Cheng-Chih",
@@ -9956,12 +10108,60 @@ var spkCountry = [
       "Country": "New Zealand"
     },
     {
+      "Name": "Conte, Guilio",
+      "Country": "Italy"
+    },
+    {
+      "Name": "Coronel, Ruben",
+      "Country": "Netherlands"
+    },
+    {
+      "Name": "Cuculich, Phillip",
+      "Country": "USA"
+    },
+    {
+      "Name": "Dagres, Nicolas",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Damiano, Ralph",
+      "Country": "USA"
+    },
+    {
+      "Name": "Daubert, James P",
+      "Country": "USA"
+    },
+    {
       "Name": "Davaakhuu, Narantuya",
       "Country": "Mongolia"
     },
     {
       "Name": "Davis, Andrew M",
       "Country": "Australia"
+    },
+    {
+      "Name": "De Ponti, Roberto",
+      "Country": "Italy"
+    },
+    {
+      "Name": "Deering, Thomas",
+      "Country": "USA"
+    },
+    {
+      "Name": "Deisenhofer, Isabel",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Della Bella, Paolo",
+      "Country": "Italy"
+    },
+    {
+      "Name": "Delnoy, Peter Paul",
+      "Country": "Netherlands"
+    },
+    {
+      "Name": "Deneke, Thomas",
+      "Country": "Germany"
     },
     {
       "Name": "Dhall, Anil",
@@ -9972,12 +10172,28 @@ var spkCountry = [
       "Country": "Canada"
     },
     {
+      "Name": "Di Biase, Luigi",
+      "Country": "USA"
+    },
+    {
+      "Name": "Dickstein, Kenneth",
+      "Country": "Norway"
+    },
+    {
       "Name": "Do, Van Buu Dan",
       "Country": "Vietnam"
     },
     {
+      "Name": "Dobrev, Dobromir",
+      "Country": "Germany"
+    },
+    {
       "Name": "Dora, Santosh Kumar",
       "Country": "India"
+    },
+    {
+      "Name": "Doshi, Shephal",
+      "Country": "USA"
     },
     {
       "Name": "Dwivedi, S K",
@@ -9988,6 +10204,10 @@ var spkCountry = [
       "Country": "japan"
     },
     {
+      "Name": "Efimov, Igor",
+      "Country": "USA"
+    },
+    {
       "Name": "El Rasyid, Hauda",
       "Country": "Indonesia"
     },
@@ -9996,8 +10216,24 @@ var spkCountry = [
       "Country": "Australia"
     },
     {
+      "Name": "Elsner, Christian",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Epstein, Andrew E.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Ernst, Sabine",
+      "Country": "United Kingdom"
+    },
+    {
       "Name": "Esato, Masahiro",
       "Country": "Japan"
+    },
+    {
+      "Name": "Ezekowitz, Michael D.",
+      "Country": "USA"
     },
     {
       "Name": "Fadreguilian, Erdie",
@@ -10006,6 +10242,10 @@ var spkCountry = [
     {
       "Name": "Fan, Katherine",
       "Country": "Hong Kong"
+    },
+    {
+      "Name": "Feld, Gregory",
+      "Country": "USA"
     },
     {
       "Name": "Feng, An-Ning",
@@ -10036,16 +10276,52 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Gaita, Florenzio",
+      "Country": "Italy"
+    },
+    {
+      "Name": "Gamboa, David",
+      "Country": "USA"
+    },
+    {
       "Name": "Ganesan, Anand",
       "Country": "Australia"
+    },
+    {
+      "Name": "Gasparini, Maurizio",
+      "Country": "Italy"
+    },
+    {
+      "Name": "Gerstenfeld, Edward P.",
+      "Country": "USA"
     },
     {
       "Name": "Gervacio, Giselle",
       "Country": "Philippines"
     },
     {
-      "Name": "Glikson, Michael",
+      "Name": "Gillis, Anne",
+      "Country": "Canada"
+    },
+    {
+      "Name": "Giugliano, Robert P.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Glikson, Micheal",
       "Country": "Israel"
+    },
+    {
+      "Name": "Glotzer, Taya",
+      "Country": "USA"
+    },
+    {
+      "Name": "Goette, Andreas",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Gold, Michael R.",
+      "Country": "USA"
     },
     {
       "Name": "Gould, Paul",
@@ -10080,6 +10356,14 @@ var spkCountry = [
       "Country": "Hong Kong"
     },
     {
+      "Name": "Haines, David",
+      "Country": "USA"
+    },
+    {
+      "Name": "Haissaguerre, Michel",
+      "Country": "France"
+    },
+    {
       "Name": "Hama, Yoshiyuki",
       "Country": "Japan"
     },
@@ -10108,6 +10392,10 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Hart, Robert G",
+      "Country": "Canada"
+    },
+    {
       "Name": "Hartono, Beny",
       "Country": "Indonesia"
     },
@@ -10124,6 +10412,10 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Hayes, David",
+      "Country": "USA"
+    },
+    {
       "Name": "He, Lang",
       "Country": "China"
     },
@@ -10134,6 +10426,14 @@ var spkCountry = [
     {
       "Name": "Heaven, David",
       "Country": "New Zealand"
+    },
+    {
+      "Name": "Hebe, Joachim",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Heidbuchel, Hein",
+      "Country": "Belgium"
     },
     {
       "Name": "Hendriks, Jeroen",
@@ -10148,12 +10448,20 @@ var spkCountry = [
       "Country": "Indonesia"
     },
     {
+      "Name": "Hessling, Gabriele",
+      "Country": "Germany"
+    },
+    {
       "Name": "Higa, Satoshi",
       "Country": "Japan"
     },
     {
       "Name": "Higuchi, Koji",
       "Country": "Japan"
+    },
+    {
+      "Name": "Hindricks, Gerhard",
+      "Country": "Germany"
     },
     {
       "Name": "Hirao, Kenzo",
@@ -10166,6 +10474,14 @@ var spkCountry = [
     {
       "Name": "Hiroshima, Kenichi",
       "Country": "Japan"
+    },
+    {
+      "Name": "Ho, Siew Yen",
+      "Country": "United Kingdom"
+    },
+    {
+      "Name": "Hocini, Meleze",
+      "Country": "France"
     },
     {
       "Name": "Hongeng, Suradej",
@@ -10230,6 +10546,10 @@ var spkCountry = [
     {
       "Name": "Huang, Shih-Yu",
       "Country": "Taiwan"
+    },
+    {
+      "Name": "Huang, Shoei K. Stephen",
+      "Country": "USA"
     },
     {
       "Name": "Huang, Weijian",
@@ -10308,8 +10628,16 @@ var spkCountry = [
       "Country": "Indonesia"
     },
     {
+      "Name": "Irwin, Marleen E.",
+      "Country": "Canada"
+    },
+    {
       "Name": "Ishikawa, Toshiyuki",
       "Country": "Japan"
+    },
+    {
+      "Name": "Israel, Carsten",
+      "Country": "Germany"
     },
     {
       "Name": "Iwasa, Atsushi",
@@ -10320,8 +10648,24 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Jackman, Sonny",
+      "Country": "USA"
+    },
+    {
+      "Name": "Jackman, Warren M.",
+      "Country": "USA"
+    },
+    {
       "Name": "Jacob, Benjamin",
       "Country": "Australia"
+    },
+    {
+      "Name": "Jais, Pierre",
+      "Country": "France"
+    },
+    {
+      "Name": "Jalife, Jos�",
+      "Country": "USA"
     },
     {
       "Name": "Jang, Jun Kun",
@@ -10360,6 +10704,10 @@ var spkCountry = [
       "Country": "Australia"
     },
     {
+      "Name": "Jongnarangsin, Krit",
+      "Country": "USA"
+    },
+    {
       "Name": "Joseph, Stephen",
       "Country": "Australia"
     },
@@ -10378,6 +10726,10 @@ var spkCountry = [
     {
       "Name": "Jung, Byung Chun",
       "Country": "Korea"
+    },
+    {
+      "Name": "Jung, Werner",
+      "Country": "Germany"
     },
     {
       "Name": "Kaitani, Kazuaki",
@@ -10424,12 +10776,20 @@ var spkCountry = [
       "Country": "Malaysia"
     },
     {
+      "Name": "Kautzner, Josef",
+      "Country": "Czech"
+    },
+    {
       "Name": "Kawakami, Tohru",
       "Country": "Japan"
     },
     {
       "Name": "Kawamura, Mitsuharu",
       "Country": "Japan"
+    },
+    {
+      "Name": "Kennergren, Charles",
+      "Country": "Sweden"
     },
     {
       "Name": "Khalilullah, M.",
@@ -10492,6 +10852,10 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Kirchof, Paullus",
+      "Country": "United Kingdom"
+    },
+    {
       "Name": "Kishihara, Jun",
       "Country": "Japan"
     },
@@ -10504,8 +10868,20 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Klein, George",
+      "Country": "Canada"
+    },
+    {
       "Name": "Kler, Tarlochan Singh",
       "Country": "India"
+    },
+    {
+      "Name": "Knight, Bradley",
+      "Country": "USA"
+    },
+    {
+      "Name": "Knollmann, Bjorn",
+      "Country": "USA"
     },
     {
       "Name": "Ko, Cyril Yiu-Kwan",
@@ -10526,6 +10902,10 @@ var spkCountry = [
     {
       "Name": "Kobayashi, Youichi",
       "Country": "Japan"
+    },
+    {
+      "Name": "Kober, Lars",
+      "Country": "Denmark"
     },
     {
       "Name": "Kobori, Atsushi",
@@ -10552,8 +10932,24 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Kottkamp, Hans",
+      "Country": "Switzerland"
+    },
+    {
       "Name": "Kou, Huijuan",
       "Country": "China"
+    },
+    {
+      "Name": "Krahn, Adrew",
+      "Country": "Canada"
+    },
+    {
+      "Name": "Kreibel, Thomas",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Kuck, Karl-Heinz",
+      "Country": "Germany"
     },
     {
       "Name": "Kumagai, Koichiro",
@@ -10592,6 +10988,14 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Kusumoto, Fred",
+      "Country": "USA"
+    },
+    {
+      "Name": "Kutyifa, Valentina",
+      "Country": "USA"
+    },
+    {
       "Name": "Kwak, Choong Hwan",
       "Country": "Korea"
     },
@@ -10610,6 +11014,10 @@ var spkCountry = [
     {
       "Name": "Lai, Wen-Ter",
       "Country": "Taiwan"
+    },
+    {
+      "Name": "Lakkireddy, Dhanunjaya",
+      "Country": "USA"
     },
     {
       "Name": "Lam, Tse Fun Cathy",
@@ -10634,6 +11042,10 @@ var spkCountry = [
     {
       "Name": "Le, Vo Kien",
       "Country": "Vietnam"
+    },
+    {
+      "Name": "Leclercq, Christophe",
+      "Country": "France"
     },
     {
       "Name": "Lee, Chang-Hee",
@@ -10692,6 +11104,18 @@ var spkCountry = [
       "Country": "Korea"
     },
     {
+      "Name": "Lemery, Robert",
+      "Country": "Canada"
+    },
+    {
+      "Name": "Lennerz, Carsten",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Letsas, Konstantinos",
+      "Country": "Greece"
+    },
+    {
       "Name": "Leung, Sum Kim",
       "Country": "Hong Kong"
     },
@@ -10702,6 +11126,10 @@ var spkCountry = [
     {
       "Name": "Li, Cheng-Hung",
       "Country": "Taiwan"
+    },
+    {
+      "Name": "Li, Jian-Ming",
+      "Country": "USA"
     },
     {
       "Name": "Li, JinYi",
@@ -10742,6 +11170,10 @@ var spkCountry = [
     {
       "Name": "Likithanasombat, Khanchit",
       "Country": "Thailand"
+    },
+    {
+      "Name": "Lim, Elaine",
+      "Country": "United Kingdom"
     },
     {
       "Name": "Lim, Eric Tien Siang",
@@ -10800,8 +11232,20 @@ var spkCountry = [
       "Country": "Taiwan"
     },
     {
+      "Name": "Linde, Cecilia",
+      "Country": "Sweden"
+    },
+    {
+      "Name": "Link, Mark S",
+      "Country": "USA"
+    },
+    {
       "Name": "Linz, Dominik",
       "Country": "Australia"
+    },
+    {
+      "Name": "Lip, Gregory YH",
+      "Country": "United Kingdom"
     },
     {
       "Name": "Liu, Qiming",
@@ -10836,8 +11280,24 @@ var spkCountry = [
       "Country": "India"
     },
     {
+      "Name": "Lopes, Renato",
+      "Country": "USA"
+    },
+    {
+      "Name": "Lorvidhaya, Peem",
+      "Country": "USA"
+    },
+    {
+      "Name": "Love, Charles J.",
+      "Country": "USA"
+    },
+    {
       "Name": "Lu, Yen-Yu",
       "Country": "Taiwan"
+    },
+    {
+      "Name": "Lunati, Maurizio Giuseppe",
+      "Country": "Italy"
     },
     {
       "Name": "Luqman, Nazar",
@@ -10900,12 +11360,24 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Mansour, Moussa C.",
+      "Country": "USA"
+    },
+    {
       "Name": "Mantravadi, Raj Kumar",
       "Country": "India"
     },
     {
+      "Name": "Marchlinski, FRANCIS E",
+      "Country": "USA"
+    },
+    {
       "Name": "Mariani, Justin",
       "Country": "Australia"
+    },
+    {
+      "Name": "Marrouche, Nassir F.",
+      "Country": "USA"
     },
     {
       "Name": "Maruyama, Mitsunori",
@@ -10934,6 +11406,14 @@ var spkCountry = [
     {
       "Name": "Mcguire, Mark",
       "Country": "Australia"
+    },
+    {
+      "Name": "Mehta, Davendra",
+      "Country": "USA"
+    },
+    {
+      "Name": "Mela, Theofanie",
+      "Country": "USA"
     },
     {
       "Name": "Mine, Takanao",
@@ -10978,6 +11458,10 @@ var spkCountry = [
     {
       "Name": "Mond, Harry",
       "Country": "Australia"
+    },
+    {
+      "Name": "Mont, Lluis",
+      "Country": "Spain"
     },
     {
       "Name": "Morishima, Itsuro",
@@ -11028,6 +11512,10 @@ var spkCountry = [
       "Country": "India"
     },
     {
+      "Name": "Nademanee, Koonlawee",
+      "Country": "USA"
+    },
+    {
       "Name": "Nagashima, Koichi",
       "Country": "Japan"
     },
@@ -11046,6 +11534,10 @@ var spkCountry = [
     {
       "Name": "Nair, Mohan",
       "Country": "India"
+    },
+    {
+      "Name": "Nakagawa, Hiroshi",
+      "Country": "USA"
     },
     {
       "Name": "Nakahara, Shiro",
@@ -11080,8 +11572,24 @@ var spkCountry = [
       "Country": "India"
     },
     {
+      "Name": "Narayan, Sanjiv M.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Natale, Andrea",
+      "Country": "USA"
+    },
+    {
       "Name": "Natarajan, K U",
       "Country": "India"
+    },
+    {
+      "Name": "Nattel, Stanley",
+      "Country": "Canada"
+    },
+    {
+      "Name": "Navarapong, Leenhapong",
+      "Country": "USA"
     },
     {
       "Name": "Ng, Kheng Siang",
@@ -11098,6 +11606,10 @@ var spkCountry = [
     {
       "Name": "Nguyen, Thanh Hai",
       "Country": "Vietnam"
+    },
+    {
+      "Name": "Nielsen, Peter Br�nnum",
+      "Country": "Denmark"
     },
     {
       "Name": "Nishida, Taku",
@@ -11146,6 +11658,10 @@ var spkCountry = [
     {
       "Name": "Nwe, Nwe",
       "Country": "Myanmar"
+    },
+    {
+      "Name": "Obias-Manno, Dulce",
+      "Country": "USA"
     },
     {
       "Name": "O'Donnell, David",
@@ -11220,6 +11736,10 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Oral, Hakan",
+      "Country": "USA"
+    },
+    {
       "Name": "Osanai, Hiroyuki",
       "Country": "Japan"
     },
@@ -11236,6 +11756,10 @@ var spkCountry = [
       "Country": "Turkey"
     },
     {
+      "Name": "Packer, Douglas L.",
+      "Country": "USA"
+    },
+    {
       "Name": "Padmanabhan, Deepak",
       "Country": "India"
     },
@@ -11250,6 +11774,10 @@ var spkCountry = [
     {
       "Name": "Pandurangi, Ulhas M.",
       "Country": "India"
+    },
+    {
+      "Name": "Pappone, Carlo",
+      "Country": "USA"
     },
     {
       "Name": "Park, Hwan-Cheol",
@@ -11296,6 +11824,10 @@ var spkCountry = [
       "Country": "Korea"
     },
     {
+      "Name": "Park, Young M.",
+      "Country": "USA"
+    },
+    {
       "Name": "Parsertwitayakij, Narawudth",
       "Country": "Thailand"
     },
@@ -11306,6 +11838,10 @@ var spkCountry = [
     {
       "Name": "Paul, Vincent",
       "Country": "Australia"
+    },
+    {
+      "Name": "Pelosi, Frank",
+      "Country": "USA"
     },
     {
       "Name": "Pflaumer, Andreas",
@@ -11336,8 +11872,16 @@ var spkCountry = [
       "Country": "Thailand"
     },
     {
+      "Name": "Po, Sunny S.",
+      "Country": "USA"
+    },
+    {
       "Name": "Pongbhaesaj, Piya",
       "Country": "Thailand"
+    },
+    {
+      "Name": "Poole, Jeanne",
+      "Country": "USA"
     },
     {
       "Name": "Potpara, Tatjana",
@@ -11356,8 +11900,24 @@ var spkCountry = [
       "Country": "India"
     },
     {
+      "Name": "Priori, Silvia G",
+      "Country": "Italy"
+    },
+    {
+      "Name": "Prutkin, Jordan",
+      "Country": "USA"
+    },
+    {
+      "Name": "Prystowsky, Eric",
+      "Country": "USA"
+    },
+    {
       "Name": "Pumprueg, Satchana",
       "Country": "Thailand"
+    },
+    {
+      "Name": "Purerfellner, Helmut",
+      "Country": "Austria"
     },
     {
       "Name": "Raharjo, Sunu Budhi",
@@ -11372,8 +11932,20 @@ var spkCountry = [
       "Country": "India"
     },
     {
+      "Name": "Raviele, Antonio",
+      "Country": "Italy"
+    },
+    {
       "Name": "Razali, Omar",
       "Country": "Malaysia"
+    },
+    {
+      "Name": "Reddy, Vivek Y.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Rehani, Madan",
+      "Country": "USA"
     },
     {
       "Name": "Rhee, Kyoung-Suk",
@@ -11388,12 +11960,24 @@ var spkCountry = [
       "Country": "Cambodia"
     },
     {
+      "Name": "Roberts, Paul",
+      "Country": "United Kingdom"
+    },
+    {
+      "Name": "Roden, Dan",
+      "Country": "USA"
+    },
+    {
       "Name": "Roh, Seung-Young",
       "Country": "Korea"
     },
     {
       "Name": "Rohit, Manoj Kumar",
       "Country": "India"
+    },
+    {
+      "Name": "Rosenthal, Lawrence",
+      "Country": "USA"
     },
     {
       "Name": "Roshan, John",
@@ -11406,6 +11990,10 @@ var spkCountry = [
     {
       "Name": "Ruhong, Jiang",
       "Country": "China"
+    },
+    {
+      "Name": "Russo, Andrea",
+      "Country": "USA"
     },
     {
       "Name": "Saggu, Daljeet Kaur",
@@ -11426,6 +12014,10 @@ var spkCountry = [
     {
       "Name": "Sakamoto, Shun-ichiro",
       "Country": "Japan"
+    },
+    {
+      "Name": "Sakena, Sanjeev",
+      "Country": "USA"
     },
     {
       "Name": "Sakurada, Harumizu",
@@ -11464,8 +12056,24 @@ var spkCountry = [
       "Country": "India"
     },
     {
+      "Name": "Schnabel, Renate",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Schwartz, Peter",
+      "Country": "Italy"
+    },
+    {
+      "Name": "Seitz, Julien",
+      "Country": "France"
+    },
+    {
       "Name": "Sekiguchi, Yukio",
       "Country": "Japan"
+    },
+    {
+      "Name": "Selcuk, Adabag",
+      "Country": "USA"
     },
     {
       "Name": "Selvaraj, Raja J",
@@ -11496,6 +12104,10 @@ var spkCountry = [
       "Country": "Indonesia"
     },
     {
+      "Name": "Shah, Dipen",
+      "Country": "Switzerland"
+    },
+    {
       "Name": "Shankar, K Jai",
       "Country": "India"
     },
@@ -11506,6 +12118,14 @@ var spkCountry = [
     {
       "Name": "Sharma, Rajat",
       "Country": "India"
+    },
+    {
+      "Name": "Shen, Win-Kuang",
+      "Country": "USA"
+    },
+    {
+      "Name": "Shenasa, Mohammad",
+      "Country": "USA"
     },
     {
       "Name": "Shenthar, Jayaprakash",
@@ -11552,6 +12172,10 @@ var spkCountry = [
       "Country": "Korea"
     },
     {
+      "Name": "Shivkumar, Kalyanam",
+      "Country": "USA"
+    },
+    {
       "Name": "Shizuta, Satoshi",
       "Country": "Japan"
     },
@@ -11562,6 +12186,10 @@ var spkCountry = [
     {
       "Name": "Sikdar, Sunandan",
       "Country": "India"
+    },
+    {
+      "Name": "Silka, Mike",
+      "Country": "USA"
     },
     {
       "Name": "Singh, Balbir",
@@ -11578,6 +12206,10 @@ var spkCountry = [
     {
       "Name": "Skinner, Jonathan",
       "Country": "New Zealand"
+    },
+    {
+      "Name": "Smitt, Jaap Jan",
+      "Country": "Netherlands"
     },
     {
       "Name": "So, Yui-Chi",
@@ -11608,12 +12240,44 @@ var spkCountry = [
       "Country": "Korea"
     },
     {
+      "Name": "Song, Susan L.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Sperzel, Johannes",
+      "Country": "Germany"
+    },
+    {
       "Name": "Sridevi, C",
       "Country": "India"
     },
     {
       "Name": "Sriratanasathavorn, Charn",
       "Country": "Thailand"
+    },
+    {
+      "Name": "Starck, Christoph",
+      "Country": "Germany"
+    },
+    {
+      "Name": "Steffel, Jan",
+      "Country": "Switzerland"
+    },
+    {
+      "Name": "Steinberg, Jonathan S.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Stephenson, Elizabeth A.",
+      "Country": "Canada"
+    },
+    {
+      "Name": "Stevenson, Lynn W.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Stevenson, William G",
+      "Country": "USA"
     },
     {
       "Name": "Stiles, Martin",
@@ -11654,6 +12318,10 @@ var spkCountry = [
     {
       "Name": "Suresh, Allamsetty",
       "Country": "India"
+    },
+    {
+      "Name": "Sutton, Richard",
+      "Country": "United Kingdom"
     },
     {
       "Name": "Suwanagool, Arisara",
@@ -11724,6 +12392,10 @@ var spkCountry = [
       "Country": "Singapore"
     },
     {
+      "Name": "Tanawuttiwat, Tanyanan",
+      "Country": "USA"
+    },
+    {
       "Name": "Tang, Min",
       "Country": "China"
     },
@@ -11752,8 +12424,20 @@ var spkCountry = [
       "Country": "India"
     },
     {
+      "Name": "Themistoclakis, Sakis",
+      "Country": "Italy"
+    },
+    {
       "Name": "Thiagalingam, Aravinda",
       "Country": "Australia"
+    },
+    {
+      "Name": "Thibault, Bernard",
+      "Country": "Canada"
+    },
+    {
+      "Name": "Tholakanahalli, Venkat N.",
+      "Country": "USA"
     },
     {
       "Name": "Thomas, Joy",
@@ -11780,6 +12464,10 @@ var spkCountry = [
       "Country": "Indonesia"
     },
     {
+      "Name": "Tondo, Claudio",
+      "Country": "Italy"
+    },
+    {
       "Name": "Toyama, Hideko",
       "Country": "Japan"
     },
@@ -11794,6 +12482,10 @@ var spkCountry = [
     {
       "Name": "Tran, Van Dong",
       "Country": "Vietnam"
+    },
+    {
+      "Name": "Trayanova, Natalia",
+      "Country": "USA"
     },
     {
       "Name": "Troung, Quang Khanh",
@@ -11818,6 +12510,10 @@ var spkCountry = [
     {
       "Name": "Tsao, Hsuan-Ming",
       "Country": "Taiwan"
+    },
+    {
+      "Name": "Tschabrunn, Cory M.",
+      "Country": "USA"
     },
     {
       "Name": "Tse, Gary",
@@ -11848,6 +12544,18 @@ var spkCountry = [
       "Country": "Taiwan"
     },
     {
+      "Name": "Tung, Roderick",
+      "Country": "USA"
+    },
+    {
+      "Name": "Turakia, Mintu",
+      "Country": "USA"
+    },
+    {
+      "Name": "Tzou, Weddy S",
+      "Country": "USA"
+    },
+    {
       "Name": "Udyavar, Ameya",
       "Country": "India"
     },
@@ -11872,8 +12580,28 @@ var spkCountry = [
       "Country": "India"
     },
     {
+      "Name": "Valderrabano, Miguel",
+      "Country": "USA"
+    },
+    {
       "Name": "Van Caelenberg, Kristien",
       "Country": "Belgium"
+    },
+    {
+      "Name": "Van Gelder, Isabelle",
+      "Country": "Netherlands"
+    },
+    {
+      "Name": "Van Hare, George F",
+      "Country": "USA"
+    },
+    {
+      "Name": "Varma, Niraj",
+      "Country": "USA"
+    },
+    {
+      "Name": "Verma, Atul",
+      "Country": "Canada"
     },
     {
       "Name": "Verma, Avinash",
@@ -11884,12 +12612,20 @@ var spkCountry = [
       "Country": "Vietnam"
     },
     {
+      "Name": "Vijayaraman, Pugazhendhi",
+      "Country": "USA"
+    },
+    {
       "Name": "Viskin, Sami",
       "Country": "Israel"
     },
     {
       "Name": "Vora, Amit",
       "Country": "India"
+    },
+    {
+      "Name": "Walsh, Eward P",
+      "Country": "USA"
     },
     {
       "Name": "Wang, Chun-Chieh",
@@ -11904,8 +12640,16 @@ var spkCountry = [
       "Country": "China"
     },
     {
+      "Name": "Wang, Paul J",
+      "Country": "USA"
+    },
+    {
       "Name": "Wang, Qun-Shan",
       "Country": "China"
+    },
+    {
+      "Name": "Wang, Xunzhang",
+      "Country": "USA"
     },
     {
       "Name": "Wang, Yutang",
@@ -11924,8 +12668,16 @@ var spkCountry = [
       "Country": "Japan"
     },
     {
+      "Name": "Wazni, Oussama",
+      "Country": "USA"
+    },
+    {
       "Name": "Wee Tiong, Yeo",
       "Country": "Singapore"
+    },
+    {
+      "Name": "Wehrens, Xander H. T.",
+      "Country": "USA"
     },
     {
       "Name": "Wei, Hua",
@@ -11940,8 +12692,20 @@ var spkCountry = [
       "Country": "China"
     },
     {
+      "Name": "Wilber, David J.",
+      "Country": "USA"
+    },
+    {
+      "Name": "Wilde, Arthur",
+      "Country": "Netherlands"
+    },
+    {
       "Name": "Wildschut, Jason",
       "Country": "Australia"
+    },
+    {
+      "Name": "Wilkoff, Bruce L.",
+      "Country": "USA"
     },
     {
       "Name": "Win, Khin Maung",
@@ -11960,8 +12724,16 @@ var spkCountry = [
       "Country": "Singapore"
     },
     {
+      "Name": "Wong, Tom",
+      "Country": "United Kingdom"
+    },
+    {
       "Name": "Wongcharoen, Wanwarang",
       "Country": "Thailand"
+    },
+    {
+      "Name": "Worley, Seth J.",
+      "Country": "USA"
     },
     {
       "Name": "Wu, Gang",
@@ -12022,6 +12794,10 @@ var spkCountry = [
     {
       "Name": "Yamada, Takashi",
       "Country": "Japan"
+    },
+    {
+      "Name": "Yamada, Takumi",
+      "Country": "USA"
     },
     {
       "Name": "Yamaji, Hirosuke",
@@ -12148,6 +12924,14 @@ var spkCountry = [
       "Country": "Indonesia"
     },
     {
+      "Name": "Zannad, Faiez",
+      "Country": "France"
+    },
+    {
+      "Name": "Zareba, Wojciech",
+      "Country": "USA"
+    },
+    {
       "Name": "Zaw, Lin Aung",
       "Country": "Singapore"
     },
@@ -12184,817 +12968,18 @@ var spkCountry = [
       "Country": "China"
     },
     {
+      "Name": "Zimmerman, Frank",
+      "Country": "USA"
+    },
+    {
       "Name": "Zou, Jiangang",
       "Country": "China"
     },
     {
-      "Name": "",
-      "Country": ""
-    },
-    {
-      "Name": "",
-      "Country": ""
-    },
-    {
-      "Name": "",
-      "Country": ""
-    },
-    {
-      "Name": "Name (Last, First)",
-      "Country": "Country"
-    },
-    {
-      "Name": "Purerfellner, Helmut",
-      "Country": "Austria"
-    },
-    {
-      "Name": "Heidbuchel, Hein",
-      "Country": "Belgium"
-    },
-    {
-      "Name": "Chiu-Man, Christine",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Gillis, Anne",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Hart, Robert G",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Irwin, Marleen E.",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Klein, George",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Krahn, Adrew",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Lemery, Robert",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Nattel, Stanley",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Stephenson, Elizabeth A.",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Thibault, Bernard",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Verma, Atul",
-      "Country": "Canada"
-    },
-    {
-      "Name": "Kautzner, Josef",
-      "Country": "Czech"
-    },
-    {
-      "Name": "Kober, Lars",
-      "Country": "Denmark"
-    },
-    {
-      "Name": "Nielsen, Peter Br�nnum",
-      "Country": "Denmark"
-    },
-    {
-      "Name": "Haissaguerre, Michel",
-      "Country": "France"
-    },
-    {
-      "Name": "Hocini, Meleze",
-      "Country": "France"
-    },
-    {
-      "Name": "Jais, Pierre",
-      "Country": "France"
-    },
-    {
-      "Name": "Leclercq, Christophe",
-      "Country": "France"
-    },
-    {
-      "Name": "Seitz, Julien",
-      "Country": "France"
-    },
-    {
-      "Name": "Zannad, Faiez",
-      "Country": "France"
-    },
-    {
-      "Name": "Borggrefe, Martin",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Brachmann, Johannes",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Dagres, Nicolas",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Deisenhofer, Isabel",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Deneke, Thomas",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Dobrev, Dobromir",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Elsner, Christian",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Goette, Andreas",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Hebe, Joachim",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Hessling, Gabriele",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Hindricks, Gerhard",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Israel, Carsten",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Jung, Werner",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Kreibel, Thomas",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Kuck, Karl-Heinz",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Lennerz, Carsten",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Schnabel, Renate",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Sperzel, Johannes",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Starck, Christoph",
-      "Country": "Germany"
-    },
-    {
-      "Name": "Letsas, Konstantinos",
-      "Country": "Greece"
-    },
-    {
-      "Name": "Bongiorni, Maria Garzia",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Boriani, Giuseppe",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Brignole, Michele",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Conte, Guilio",
-      "Country": "Italy"
-    },
-    {
-      "Name": "De Ponti, Roberto",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Della Bella, Paolo",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Gaita, Florenzio",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Gasparini, Maurizio",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Lunati, Maurizio Giuseppe",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Priori, Silvia G",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Raviele, Antonio",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Schwartz, Peter",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Themistoclakis, Sakis",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Tondo, Claudio",
-      "Country": "Italy"
-    },
-    {
-      "Name": "Allessie, Maurits",
-      "Country": "Netherlands"
-    },
-    {
-      "Name": "Bezzina, Connie R.",
-      "Country": "Netherlands"
-    },
-    {
-      "Name": "Blom, Nico",
-      "Country": "Netherlands"
-    },
-    {
-      "Name": "Coronel, Ruben",
-      "Country": "Netherlands"
-    },
-    {
-      "Name": "Delnoy, Peter Paul",
-      "Country": "Netherlands"
-    },
-    {
-      "Name": "Smitt, Jaap Jan",
-      "Country": "Netherlands"
-    },
-    {
-      "Name": "Van Gelder, Isabelle",
-      "Country": "Netherlands"
-    },
-    {
-      "Name": "Wilde, Arthur",
-      "Country": "Netherlands"
-    },
-    {
-      "Name": "Dickstein, Kenneth",
-      "Country": "Norway"
-    },
-    {
-      "Name": "Balsam, Pawel",
-      "Country": "Poland"
-    },
-    {
-      "Name": "Bernardo, Ricardo",
-      "Country": "Portugal"
-    },
-    {
-      "Name": "Brugada, Josep T",
-      "Country": "Spain"
-    },
-    {
-      "Name": "Brugada, Pedro",
-      "Country": "Spain"
-    },
-    {
-      "Name": "Cabrera, Jose Angel",
-      "Country": "Spain"
-    },
-    {
-      "Name": "Mont, Lluis",
-      "Country": "Spain"
-    },
-    {
-      "Name": "Blomstr�m-Lundqvist, Carina",
-      "Country": "Sweden"
-    },
-    {
-      "Name": "Kennergren, Charles",
-      "Country": "Sweden"
-    },
-    {
-      "Name": "Linde, Cecilia",
-      "Country": "Sweden"
-    },
-    {
-      "Name": "Auricchio, Angelo",
-      "Country": "Switzerland"
-    },
-    {
-      "Name": "Kottkamp, Hans",
-      "Country": "Switzerland"
-    },
-    {
-      "Name": "Shah, Dipen",
-      "Country": "Switzerland"
-    },
-    {
-      "Name": "Steffel, Jan",
-      "Country": "Switzerland"
-    },
-    {
-      "Name": "Celiker, Alpay",
-      "Country": "Turkey"
-    },
-    {
-      "Name": "Behr, Elijah",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Camm, John",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Casadei, Barbara",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Ernst, Sabine",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Ho, Siew Yen",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Kirchof, Paullus",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Lim, Elaine",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Lip, Gregory YH",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Roberts, Paul",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Sutton, Richard",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Wong, Tom",
-      "Country": "United Kingdom"
-    },
-    {
-      "Name": "Ackerman, Michael J.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Akoum, Nazem",
-      "Country": "USA"
-    },
-    {
-      "Name": "Albert, Christine",
-      "Country": "USA"
-    },
-    {
-      "Name": "Aleong, Ryan",
-      "Country": "USA"
-    },
-    {
-      "Name": "Anderson, Mark E",
-      "Country": "USA"
-    },
-    {
-      "Name": "Antzelevitch, Charles",
-      "Country": "USA"
-    },
-    {
-      "Name": "Asirvatham, Samuel",
-      "Country": "USA"
-    },
-    {
-      "Name": "Benditt, David G.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Berul, Charles I.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Bogun, frank",
-      "Country": "USA"
-    },
-    {
-      "Name": "Calkins, Hugh",
-      "Country": "USA"
-    },
-    {
-      "Name": "Callans, David J",
-      "Country": "USA"
-    },
-    {
-      "Name": "Cannom, David S.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Cha, Yong-Mei",
-      "Country": "USA"
-    },
-    {
-      "Name": "Chen, Lin Yee",
-      "Country": "USA"
-    },
-    {
-      "Name": "Chen, Peng-Sheng",
-      "Country": "USA"
-    },
-    {
-      "Name": "Chu, Anthony",
-      "Country": "USA"
-    },
-    {
-      "Name": "Chugh, Sumeet S.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Cuculich, Phillip",
-      "Country": "USA"
-    },
-    {
-      "Name": "Damiano, Ralph",
-      "Country": "USA"
-    },
-    {
-      "Name": "Daubert, James P",
-      "Country": "USA"
-    },
-    {
-      "Name": "Deering, Thomas",
-      "Country": "USA"
-    },
-    {
-      "Name": "Di Biase, Luigi",
-      "Country": "USA"
-    },
-    {
-      "Name": "Doshi, Shephal",
-      "Country": "USA"
-    },
-    {
-      "Name": "Efimov, Igor",
-      "Country": "USA"
-    },
-    {
-      "Name": "Epstein, Andrew E.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Ezekowitz, Michael D.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Feld, Gregory",
-      "Country": "USA"
-    },
-    {
-      "Name": "Gamboa, David",
-      "Country": "USA"
-    },
-    {
-      "Name": "Gerstenfeld, Edward P.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Giugliano, Robert P.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Glotzer, Taya",
-      "Country": "USA"
-    },
-    {
-      "Name": "Gold, Michael R.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Haines, David",
-      "Country": "USA"
-    },
-    {
-      "Name": "Hayes, David",
-      "Country": "USA"
-    },
-    {
-      "Name": "Huang, Shoei K. Stephen",
-      "Country": "USA"
-    },
-    {
-      "Name": "Jackman, Warren M.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Jackman, Sonny",
-      "Country": "USA"
-    },
-    {
-      "Name": "Jalife, Jos�",
-      "Country": "USA"
-    },
-    {
-      "Name": "Jongnarangsin, Krit",
-      "Country": "USA"
-    },
-    {
-      "Name": "Knight, Bradley",
-      "Country": "USA"
-    },
-    {
-      "Name": "Knollmann, Bjorn",
-      "Country": "USA"
-    },
-    {
-      "Name": "Kusumoto, Fred",
-      "Country": "USA"
-    },
-    {
-      "Name": "Kutyifa, Valentina",
-      "Country": "USA"
-    },
-    {
-      "Name": "Lakkireddy, Dhanunjaya",
-      "Country": "USA"
-    },
-    {
-      "Name": "Li, Jian-Ming",
-      "Country": "USA"
-    },
-    {
-      "Name": "Link, Mark S",
-      "Country": "USA"
-    },
-    {
-      "Name": "Lopes, Renato",
-      "Country": "USA"
-    },
-    {
-      "Name": "Lorvidhaya, Peem",
-      "Country": "USA"
-    },
-    {
-      "Name": "Love, Charles J.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Mansour, Moussa C.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Marchlinski, FRANCIS E",
-      "Country": "USA"
-    },
-    {
-      "Name": "Marrouche, Nassir F.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Mehta, Davendra",
-      "Country": "USA"
-    },
-    {
-      "Name": "Mela, Theofanie",
-      "Country": "USA"
-    },
-    {
-      "Name": "Nademanee, Koonlawee",
-      "Country": "USA"
-    },
-    {
-      "Name": "Nakagawa, Hiroshi",
-      "Country": "USA"
-    },
-    {
-      "Name": "Narayan, Sanjiv M.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Natale, Andrea",
-      "Country": "USA"
-    },
-    {
-      "Name": "Navarapong, Leenhapong",
-      "Country": "USA"
-    },
-    {
-      "Name": "Obias-Manno, Dulce",
-      "Country": "USA"
-    },
-    {
-      "Name": "Oral, Hakan",
-      "Country": "USA"
-    },
-    {
-      "Name": "Packer, Douglas L.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Pappone, Carlo",
-      "Country": "USA"
-    },
-    {
-      "Name": "Park, Young M.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Pelosi, Frank",
-      "Country": "USA"
-    },
-    {
-      "Name": "Po, Sunny S.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Poole, Jeanne",
-      "Country": "USA"
-    },
-    {
-      "Name": "Prutkin, Jordan",
-      "Country": "USA"
-    },
-    {
-      "Name": "Prystowsky, Eric",
-      "Country": "USA"
-    },
-    {
-      "Name": "Reddy, Vivek Y.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Rehani, Madan",
-      "Country": "USA"
-    },
-    {
-      "Name": "Roden, Dan",
-      "Country": "USA"
-    },
-    {
-      "Name": "Rosenthal, Lawrence",
-      "Country": "USA"
-    },
-    {
-      "Name": "Russo, Andrea",
-      "Country": "USA"
-    },
-    {
-      "Name": "Sakena, Sanjeev",
-      "Country": "USA"
-    },
-    {
-      "Name": "Selcuk, Adabag",
-      "Country": "USA"
-    },
-    {
-      "Name": "Shen, Win-Kuang",
-      "Country": "USA"
-    },
-    {
-      "Name": "Shenasa, Mohammad",
-      "Country": "USA"
-    },
-    {
-      "Name": "Shivkumar, Kalyanam",
-      "Country": "USA"
-    },
-    {
-      "Name": "Silka, Mike",
-      "Country": "USA"
-    },
-    {
-      "Name": "Song, Susan L.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Steinberg, Jonathan S.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Stevenson, Lynn W.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Stevenson, William G",
-      "Country": "USA"
-    },
-    {
-      "Name": "Tanawuttiwat, Tanyanan",
-      "Country": "USA"
-    },
-    {
-      "Name": "Tholakanahalli, Venkat N.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Trayanova, Natalia",
-      "Country": "USA"
-    },
-    {
-      "Name": "Tschabrunn, Cory M.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Tung, Roderick",
-      "Country": "USA"
-    },
-    {
-      "Name": "Turakia, Mintu",
-      "Country": "USA"
-    },
-    {
-      "Name": "Tzou, Weddy S",
-      "Country": "USA"
-    },
-    {
-      "Name": "Valderrabano, Miguel",
-      "Country": "USA"
-    },
-    {
-      "Name": "Van Hare, George F",
-      "Country": "USA"
-    },
-    {
-      "Name": "Varma, Niraj",
-      "Country": "USA"
-    },
-    {
-      "Name": "Vijayaraman, Pugazhendhi",
-      "Country": "USA"
-    },
-    {
-      "Name": "Walsh, Eward P",
-      "Country": "USA"
-    },
-    {
-      "Name": "Wang, Paul J",
-      "Country": "USA"
-    },
-    {
-      "Name": "Wang, Xunzhang",
-      "Country": "USA"
-    },
-    {
-      "Name": "Wazni, Oussama",
-      "Country": "USA"
-    },
-    {
-      "Name": "Wehrens, Xander H. T.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Wilber, David J.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Wilkoff, Bruce L.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Worley, Seth J.",
-      "Country": "USA"
-    },
-    {
-      "Name": "Yamada, Takumi",
-      "Country": "USA"
-    },
-    {
-      "Name": "Zareba, Wojciech",
-      "Country": "USA"
-    },
-    {
-      "Name": "Zimmerman, Frank",
-      "Country": "USA"
-    },
-    { "Name": "Thai",
-     "Country": "Thailand"}
-   ]
-   
+      "Name": "Thai",
+      "Country": "Thailand"
+    }
+   ]  
 
 function UnqSpk(){
     var i;var sList=[];

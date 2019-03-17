@@ -29,7 +29,15 @@
 <div class="w3-row w3-center cursive w3-padding" style="margin-top: 3vmax;font-size: 5vmax">
 Speaker Cross-Check
 </div>
+<div id='demo'></div>
+<table id="mainTable" class="w3-table w3-bordered sans" style="margin-top: 3vmax;font-size:2vmax">
+<tr>
+    <th>Name</th><th>Country</th>
+    <th>No of sessions</th>
+    <th>B2B</th><th>No of days</th><th>No of consecutive days</th><th>Simul sessions</th>
+</tr>
 
+</table>
 
 
 
@@ -38,6 +46,32 @@ Speaker Cross-Check
 
 <script src="manageArray.js"></script>
 <script>
+
+var table = document.getElementById('mainTable')
+window.onload = showList()
+
+function showList(){
+    var i;var n=1;
+    for (i=0;i<spkCountry.length;i++){
+        var j =n+i;
+        var name = spkCountry[i].Name;
+        var country = spkCountry[i].Country;
+        insertName(j,name,country)
+    }
+}
+
+function insertName(r,n,c){
+        var row = table.insertRow(r)
+        var cell1 = row.insertCell(0)
+        var cell2 = row.insertCell(1)
+        cell1.innerHTML = n;cell2.innerHTML = c;
+        cell1.onclick = function(){showSession(n)}
+}
+
+
+function showSession(name){
+    document.getElementById('demo').innerHTML = name
+}
 
 
 </script>
