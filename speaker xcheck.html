@@ -30,17 +30,19 @@
 Speaker Cross-Check
 </div>
 <div id='demo'></div>
+<div class="w3-responsive">
 <table id="mainTable" class="w3-table w3-bordered sans" style="margin-top: 3vmax;font-size:2vmax">
-<tr>
-    <th>Name</th><th>Country</th>
-    <th>No of sessions</th>
-    <th>No of days</th><th>No of consecutive days</th><th>Simul sessions</th><th>B2B</th>
+<tr class="w3-khaki">
+    <th><button class="w3-btn w3-border w3-round-large">Name</button></th>
+    <th><button class="w3-btn w3-border w3-round-large">Country</button></th>
+    <th><button class="w3-btn w3-border w3-round-large">No of sessions</button></th>
+    <th><button class="w3-btn w3-border w3-round-large">No of days</button></th>
+    <th><button class="w3-btn w3-border w3-round-large">No of consecutive days</button></th>
+    <th><button class="w3-btn w3-border w3-round-large">Simul sessions</button></th>
+    <th><button class="w3-btn w3-border w3-round-large">B2B</button></th>
 </tr>
-
 </table>
-
-
-
+</div>
 
 </body>
 
@@ -49,7 +51,23 @@ Speaker Cross-Check
 
 var table = document.getElementById('mainTable')
 var spkXC = []
-window.onload = showList()
+window.onload = function(){ 
+    showList()
+    buttonClick()
+}
+
+function buttonClick(){
+    var b = document.getElementsByTagName('button')
+    var i;
+    
+    b[0].onclick = function(){sort(0)}
+    b[1].onclick = function(){sort(1)}
+    b[2].onclick = function(){sort(2)}
+    b[3].onclick = function(){sort(3)}
+    b[4].onclick = function(){sort(4)}
+    b[5].onclick = function(){sort(5)}
+    b[6].onclick = function(){sort(6)}
+}
 
 function showList(){
     var i;var n=1;
@@ -62,16 +80,29 @@ function showList(){
     }
 }
 
-function insertInfo(row,name,country){
+//data onload
+function insertInfo(rowNo,name,country){
     //name and country col 0 and 1
-    var row = table.rows[row]
+    var row = table.rows[rowNo]
+    var nameU = name.toUpperCase();
     var cell0 = row.insertCell(0)
     var cell1 = row.insertCell(1)
     cell0.innerHTML = name;cell1.innerHTML = country;
-    cell0.onclick = function(){showSession(name)}
-
-    var nameU = name.toUpperCase();
-
+    
+    var spkArray = createArray(nameU);
+    //clickable if not empty
+    if (spkArray.length>0){
+        row.style.cursor = "pointer"
+        row.onclick = function(){
+        var unclick = clickToggle(nameU)
+        if (unclick){
+        showSession(nameU,rowNo)}
+        else {
+            cell0.innerHTML = name;row.style.backgroundColor = "white"
+            }
+        } 
+    }
+    
     //count session col2
     var cell2 = row.insertCell(2)
     var NoS = countSession(nameU)
@@ -106,10 +137,27 @@ function insertInfo(row,name,country){
 
     //add info to a new array
     spkXC.push({Name: name, Country: country, No_of_Sessions: NoS,No_of_Days: l, Cons_days: range,
-        simul_Session: simul, B2B: bk})
+        simul_Session: simul, B2B: bk, click: 0})
 }
 
-//count sessions and create spkArray
+//check click on speaker name
+function clickToggle(name){
+    var indexNo = locateIndex(name);var unclick;
+    if (spkXC[indexNo].click==0){
+        spkXC[indexNo].click=1;unclick=true;
+    }else {spkXC[indexNo].click=0;unclick = false}
+    return unclick;
+}
+
+function locateIndex(name){
+    var i;var indexNo;
+    for (i=0;i<spkXC.length;i++){
+        var upper = spkXC[i].Name.toUpperCase();
+        if (name == upper){indexNo=i}
+    }
+    return indexNo;
+}
+
 function countSession(nameU){
     var spkArray = createArray(nameU);
     return spkArray.length;
@@ -211,14 +259,45 @@ function b2b(spkArray){
     return b2b
 }
 
+function sort(col){
+    //Name: name, Country: country, No_of_Sessions: NoS,No_of_Days: l, Cons_days: range,
+    //simul_Session: simul, B2B: bk, click:
+    
+    // sort by country
+    if (col==1){
+        spkXC.sort(function(a, b) {
+        var nameA = a.Country.toUpperCase(); // ignore upper and lowercase
+        var nameB = b.Country.toUpperCase(); // ignore upper and lowercase
+        if (nameA < nameB) {
+            return -1;
+        }
+        if (nameA > nameB) {
+            return 1;
+        }
+
+        // names must be equal
+        return 0;
+        });
+    }
+    
+}
 
 
 
-
-function showSession(name){
-    var nameU = name.toUpperCase();
+function showSession(nameU,rowNo){
     var spkArray = createArray(nameU);
-    document.getElementById('demo').innerHTML = spkArray
+
+    //show sessions if not empty
+    if (spkArray.length>0){
+    var newDiv = document.createElement('li')
+    var setClass = document.createAttribute("class")
+    var content = document.createTextNode(spkArray)
+    newDiv.appendChild(content)
+    var currentRow = table.rows[rowNo];var cell = currentRow.cells[0]
+    currentRow.style.backgroundColor = "#f2f2f2"
+    cell.appendChild(newDiv);
+    
+    }
 }
 
 
