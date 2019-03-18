@@ -34,7 +34,7 @@ Speaker Cross-Check
 <tr>
     <th>Name</th><th>Country</th>
     <th>No of sessions</th>
-    <th>B2B</th><th>No of days</th><th>No of consecutive days</th><th>Simul sessions</th>
+    <th>No of days</th><th>No of consecutive days</th><th>Simul sessions</th><th>B2B</th>
 </tr>
 
 </table>
@@ -48,29 +48,177 @@ Speaker Cross-Check
 <script>
 
 var table = document.getElementById('mainTable')
+var spkXC = []
 window.onload = showList()
 
 function showList(){
     var i;var n=1;
     for (i=0;i<spkCountry.length;i++){
-        var j =n+i;
+        var rowNo =n+i;
         var name = spkCountry[i].Name;
         var country = spkCountry[i].Country;
-        insertName(j,name,country)
+        var row = table.insertRow(rowNo)
+        insertInfo(rowNo,name,country)
     }
 }
 
-function insertName(r,n,c){
-        var row = table.insertRow(r)
-        var cell1 = row.insertCell(0)
-        var cell2 = row.insertCell(1)
-        cell1.innerHTML = n;cell2.innerHTML = c;
-        cell1.onclick = function(){showSession(n)}
+function insertInfo(row,name,country){
+    //name and country col 0 and 1
+    var row = table.rows[row]
+    var cell0 = row.insertCell(0)
+    var cell1 = row.insertCell(1)
+    cell0.innerHTML = name;cell1.innerHTML = country;
+    cell0.onclick = function(){showSession(name)}
+
+    var nameU = name.toUpperCase();
+
+    //count session col2
+    var cell2 = row.insertCell(2)
+    var NoS = countSession(nameU)
+    cell2.innerHTML = NoS;
+
+    //unique day array
+    var spkArray = createArray(nameU);
+    var day = createDayArray(spkArray);
+    var l = day.length;
+    
+    //no of days col3
+    var cell3 = row.insertCell(3)
+    cell3.innerHTML = l
+
+    //consec days col4
+    var cell4 = row.insertCell(4);;
+    if (day.length==0){var range = "-"}
+    else {
+    var max = day[l-1];var min = day[0]
+    var range = 1 + (max-min)}
+    cell4.innerHTML = range
+
+    //simul session col5
+    var cell5 = row.insertCell(5)
+    var simul = simulS(spkArray)
+    cell5.innerHTML= simul;
+
+    //b2b col6
+    var cell6 = row.insertCell(6)
+    var bk = b2b(spkArray)
+    cell6.innerHTML = bk
+
+    //add info to a new array
+    spkXC.push({Name: name, Country: country, No_of_Sessions: NoS,No_of_Days: l, Cons_days: range,
+        simul_Session: simul, B2B: bk})
+}
+
+//count sessions and create spkArray
+function countSession(nameU){
+    var spkArray = createArray(nameU);
+    return spkArray.length;
+}
+
+function createDayArray(spkArray){
+    var day = [];var i;
+    for (i=0;i<spkArray.length;i++){
+        var newDay = spkArray[i].slice(0,2)
+        var dayNum = new Number(newDay)
+        day.push(dayNum)
+    }
+    day = day.filter(function(item, index){
+      return day.indexOf(item)==index;
+    })
+    day.sort(function(a, b){return a - b});
+    return day;
+}
+
+function createArray(nameU){
+    var i;var spkArray = [];
+    for (i=0;i<schedule.length;i++){
+        var Spk1 = schedule[i].Spk1.toUpperCase();
+        var Spk2 = schedule[i].Spk2.toUpperCase();
+        var Spk3 = schedule[i].Spk3.toUpperCase();
+        var Spk4 = schedule[i].Spk4.toUpperCase();
+        var Spk5 = schedule[i].Spk5.toUpperCase();
+        var Spk6 = schedule[i].Spk6.toUpperCase();
+        var Mod1 = schedule[i].Mod1.toUpperCase();
+        var Mod2 = schedule[i].Mod2.toUpperCase();
+        var Mod3 = schedule[i].Mod3.toUpperCase();
+        var Mod4 = schedule[i].Mod4.toUpperCase();
+        if (nameU==Spk1){spkArray.push(schedule[i].Code)}
+        if (nameU==Spk2){spkArray.push(schedule[i].Code)}
+        if (nameU==Spk3){spkArray.push(schedule[i].Code)}
+        if (nameU==Spk4){spkArray.push(schedule[i].Code)}
+        if (nameU==Spk5){spkArray.push(schedule[i].Code)}
+        if (nameU==Spk6){spkArray.push(schedule[i].Code)}
+        if (nameU==Mod1){spkArray.push(schedule[i].Code)}
+        if (nameU==Mod2){spkArray.push(schedule[i].Code)}
+        if (nameU==Mod3){spkArray.push(schedule[i].Code)}
+        if (nameU==Mod4){spkArray.push(schedule[i].Code)}
+    }
+    return spkArray;
+
+}
+
+function simulS(spkArray){
+    var dateTime = [];var i;
+    for (i=0;i<spkArray.length;i++){
+        var day = spkArray[i].slice(0,2)
+        var time = spkArray[i].slice(-1)
+        dateTime.push(day+time)
+    }
+    
+    //check duplicates
+    var rCheck = dateTime.filter(function(item, index){
+      return dateTime.indexOf(item)==index;
+    })
+    //compeare array length
+    var simul;
+    if (dateTime.length!=rCheck.length){simul = true}   
+    else {simul=false}
+
+    return simul
+}
+
+function b2b(spkArray){
+    var i;var dayArray=[];
+    for (i=0;i<spkArray.length;i++){
+        var day = spkArray[i].slice(0,2)
+        dayArray.push(day)
+    }
+    //count days
+    var a,b;var b2b=false;
+    for (a=0;a<dayArray.length;a++){
+        for (b=a+1;b<dayArray.length;b++){
+            if (dayArray[a]==dayArray[b]){
+                b2b = checkTime(a,b)
+                if (b2b){break}
+            }       
+        }
+    }
+
+    function checkTime(a,b){
+        var aTime = spkArray[a].slice(-1);
+        var bTime = spkArray[b].slice(-1);
+        var diff = Math.abs(aTime-bTime)
+        var b2b;
+        if (diff==1){
+            if (aTime==4 || bTime==4){
+                b2b=true;
+            }else {b2b=false}
+        }else {b2b=false}
+        return b2b
+    }
+
+
+    return b2b
 }
 
 
+
+
+
 function showSession(name){
-    document.getElementById('demo').innerHTML = name
+    var nameU = name.toUpperCase();
+    var spkArray = createArray(nameU);
+    document.getElementById('demo').innerHTML = spkArray
 }
 
 
