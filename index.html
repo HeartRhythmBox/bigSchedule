@@ -780,6 +780,7 @@ cursor:pointer;" onclick="print('printable')">
 <div id="printable">
 <div id="resultSum" class="sans w3-row w3-center w3-padding" style="font-size: 2vmax;
 background-color: lightgray">Showing None. 
+
 </div> 
 <!--back to mainPage after print-->
 <div id="reload" class="w3-button w3-round w3-light-grey sans">
@@ -812,6 +813,7 @@ style="font-size:1vmax;color:#767676">
 
 <script src="manageArray.js"></script>
 <script>
+
 // core data
 
 var time = ["","08:00-09:30","brk","10:00-11:00","11:00-12:00","12:00-13:30","13:30-14:30","brk","15:00-16:30","brk",
@@ -1108,7 +1110,7 @@ function createList() {
 
 function showL(order,x){
   var element = document.getElementById("result");
-  //element.scrollIntoView({behavior:"smooth", block:"start"});  
+  
   if (order == 'all') {
     afterClick(-1);
     document.getElementById("resultSum").innerHTML = "Showing all sessions. Total = " + schedule.length +
@@ -1178,6 +1180,7 @@ function showL(order,x){
 
   else if (order == 'spk'){
     document.getElementById("result").innerHTML = "";
+
     var spkName = x.toUpperCase();
         
     var spkA = []; var n;
@@ -1209,6 +1212,12 @@ function showL(order,x){
 }
 
 function showList(d){
+  //collapse fBar
+  var bar = document.getElementsByClassName('fBar')
+  for (var i=0;i<bar.length;i++){
+    bar[i].style.display = "none"
+  }
+
   var para1 = document.createElement('P');
   var para2 = document.createElement('P');
   var para3 = document.createElement('P');
@@ -1323,7 +1332,7 @@ function showList(d){
   para7.appendChild(g);para8.appendChild(h);  
   para9.appendChild(i);para10.appendChild(j);
   para11.appendChild(k);para12.appendChild(l);para13.appendChild(m)  
-  document.getElementById("resultSum").scrollIntoView({behavior: "smooth",block: "start"});
+  //document.getElementById("resultSum").scrollIntoView({behavior: "smooth",block: "start"});
   document.getElementById("result").appendChild(para1);
   document.getElementById("result").appendChild(para2);
   document.getElementById("result").appendChild(para3);

@@ -23,16 +23,20 @@
 .cursive {font-family: 'Satisfy', cursive;}
 
 
+
 </style>
 
 <body>
 <div class="w3-row w3-center cursive w3-padding" style="margin-top: 3vmax;font-size: 5vmax">
 Speaker Cross-Check
 </div>
+<div class="w3-row w3-center sans" style="font-size: 1.8vmax;color:#555">
+click on the table headings to sort
+</div>
 <div id='demo'></div>
 <div class="w3-responsive">
-<table id="mainTable" class="w3-table w3-bordered sans" style="margin-top: 3vmax;font-size:2vmax">
-<tr class="w3-khaki">
+<table id="mainTable" class="w3-table w3-bordered sans" style="margin-top: 3vmax;font-size:2vmax;">
+<tr id="tHead" class="w3-khaki">
     <th><button class="w3-btn w3-border w3-round-large">Name</button></th>
     <th><button class="w3-btn w3-border w3-round-large">Country</button></th>
     <th><button class="w3-btn w3-border w3-round-large">No of sessions</button></th>
@@ -44,6 +48,17 @@ Speaker Cross-Check
 </table>
 </div>
 
+<!--menu-->
+<div class="w3-bottom w3-center w3-mobile">
+    <div class="w3-bar w3-card-4 sans w3-mobile w3-large" style="opacity: 0.9;">
+      <a href="#top" title="to the top of the page" class="w3-bar-item w3-sand w3-button w3-round-large w3-border w3-padding-small">
+        &uArr;to top</a>
+      <a href="index.html" title="back to the main page" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">
+        main</a>
+    
+    </div>
+</div>
+
 </body>
 
 <script src="manageArray.js"></script>
@@ -51,11 +66,13 @@ Speaker Cross-Check
 
 var table = document.getElementById('mainTable')
 var spkXC = [];
-var column = ["Name", "Country","No_of_Sessions","No_of_Days","Cons_days","simul_Session","B2B","click"]
+window.onbeforeunload = function(){window.screenTop}
 window.onload = function(){ 
     showList()
     buttonClick()
 }
+
+
 
 function buttonClick(){
     var b = document.getElementsByTagName('button')
@@ -107,7 +124,7 @@ function insertInfo(rowNo,name,country){
     //count session col2
     var cell2 = row.insertCell(2)
     var NoS = countSession(nameU)
-    cell2.innerHTML = NoS;
+    cell2.innerHTML = NoS;cell2.style.textAlign = "center"
 
     //unique day array
     var spkArray = createArray(nameU);
@@ -116,25 +133,25 @@ function insertInfo(rowNo,name,country){
     
     //no of days col3
     var cell3 = row.insertCell(3)
-    cell3.innerHTML = l
+    cell3.innerHTML = l;cell3.style.textAlign = "center"
 
     //consec days col4
     var cell4 = row.insertCell(4);;
-    if (day.length==0){var range = "-"}
+    if (day.length==0){var range = 0}
     else {
     var max = day[l-1];var min = day[0]
     var range = 1 + (max-min)}
-    cell4.innerHTML = range
+    cell4.innerHTML = range;cell4.style.textAlign = "center"
 
     //simul session col5
     var cell5 = row.insertCell(5)
     var simul = simulS(spkArray)
-    cell5.innerHTML= simul;
+    cell5.innerHTML= simul;cell5.style.textAlign = "center"
 
     //b2b col6
     var cell6 = row.insertCell(6)
     var bk = b2b(spkArray)
-    cell6.innerHTML = bk
+    cell6.innerHTML = bk;cell6.style.textAlign = "center"
 
     //add info to a new array
     spkXC.push({Name: name, Country: country, No_of_Sessions: NoS,No_of_Days: l, Cons_days: range,
@@ -262,7 +279,33 @@ function b2b(spkArray){
 
 var sortIndex = [0,0,0,0,0,0]
 function sort(col){
+   //["Name", "Country","No_of_Sessions","No_of_Days","Cons_days","simul_Session","B2B","click"]
     
+    //reset click
+    for (var i=0;i<spkXC.length;i++){
+        spkXC[i].click = 0;
+    }
+
+    // sort by name
+    if (col==0){
+
+    if (sortIndex[col]==0){
+    spkXC.sort(function(a, b) {
+    var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
+    var nameB = b.Name.toUpperCase(); // ignore upper and lowercase
+    return sortAsc(nameA, nameB);
+    })
+    sortIndex[col]=1;showXC();
+    } else {
+    spkXC.sort(function(a, b) {
+    var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
+    var nameB = b.Name.toUpperCase(); // ignore upper and lowercase
+    return sortDes(nameA, nameB);
+    })
+    sortIndex[col]=0;showXC();
+    }
+    }
+
     // sort by country
     if (col==1){
 
@@ -282,6 +325,107 @@ function sort(col){
             sortIndex[col]=0;showXC();
         }
     }
+
+    // sort by No_of_Sessions
+    if (col==2){
+
+    if (sortIndex[col]==0){
+    spkXC.sort(function(a, b) {
+    var nameA = a.No_of_Sessions;
+    var nameB = b.No_of_Sessions;
+    return sortAsc(nameA, nameB);
+    })
+    sortIndex[col]=1;showXC();
+    } else {
+    spkXC.sort(function(a, b) {
+    var nameA = a.No_of_Sessions;
+    var nameB = b.No_of_Sessions; 
+    return sortDes(nameA, nameB);
+    })
+    sortIndex[col]=0;showXC();
+    }
+    }
+
+    // sort by No_of_Days
+    if (col==3){
+
+    if (sortIndex[col]==0){
+    spkXC.sort(function(a, b) {
+    var nameA = a.No_of_Days; // ignore upper and lowercase
+    var nameB = b.No_of_Days; // ignore upper and lowercase
+    return sortAsc(nameA, nameB);
+    })
+    sortIndex[col]=1;showXC();
+    } else {
+    spkXC.sort(function(a, b) {
+    var nameA = a.No_of_Days; // ignore upper and lowercase
+    var nameB = b.No_of_Days; // ignore upper and lowercase
+    return sortDes(nameA, nameB);
+    })
+    sortIndex[col]=0;showXC();
+    }
+    }
+
+    // sort by Cons_days
+    if (col==4){
+
+    if (sortIndex[col]==0){
+    spkXC.sort(function(a, b) {
+    var nameA = a.Cons_days; 
+    var nameB = b.Cons_days; 
+    return sortAsc(nameA, nameB);
+    })
+    sortIndex[col]=1;showXC();
+    } else {
+    spkXC.sort(function(a, b) {
+    var nameA = a.Cons_days; 
+    var nameB = b.Cons_days; 
+    return sortDes(nameA, nameB);
+    })
+    sortIndex[col]=0;showXC();
+    }
+    }
+
+    // sort by simul_Session
+    if (col==5){
+
+    if (sortIndex[col]==0){
+    spkXC.sort(function(a, b) {
+    var nameA = a.simul_Session; 
+    var nameB = b.simul_Session; 
+    return sortAsc(nameA, nameB);
+    })
+    sortIndex[col]=1;showXC();
+    } else {
+    spkXC.sort(function(a, b) {
+    var nameA = a.simul_Session; 
+    var nameB = b.simul_Session; 
+    return sortDes(nameA, nameB);
+    })
+    sortIndex[col]=0;showXC();
+    }
+    }
+
+    // sort by B2B
+    if (col==6){
+
+    if (sortIndex[col]==0){
+    spkXC.sort(function(a, b) {
+    var nameA = a.B2B; 
+    var nameB = b.B2B; 
+    return sortAsc(nameA, nameB);
+    })
+    sortIndex[col]=1;showXC();
+    } else {
+    spkXC.sort(function(a, b) {
+    var nameA = a.B2B; 
+    var nameB = b.B2B; 
+    return sortDes(nameA, nameB);
+    })
+    sortIndex[col]=0;showXC();
+    }
+    }
+
 }
 
 function sortAsc(nameA, nameB){
@@ -328,6 +472,25 @@ function showNewSort(rowNo){
     var cell4 = row.insertCell(4);cell4.innerHTML= spkXC[i].Cons_days;
     var cell5 = row.insertCell(5);cell5.innerHTML= spkXC[i].simul_Session;
     var cell6 = row.insertCell(6);cell6.innerHTML= spkXC[i].B2B;
+    cell2.style.textAlign = "center";cell3.style.textAlign = "center";
+    cell4.style.textAlign = "center";cell5.style.textAlign = "center";
+    cell6.style.textAlign = "center";
+
+    //showSessions
+    var nameU = spkXC[i].Name.toUpperCase();
+    var spkArray = createArray(nameU);
+    //clickable if not empty
+    if (spkArray.length>0){
+        row.style.cursor = "pointer"
+        row.onclick = function(){
+        var unclick = clickToggle(nameU)
+        if (unclick){
+        showSession(nameU,rowNo)}
+        else {
+            cell0.innerHTML = spkXC[i].Name;row.style.backgroundColor = "white"
+            }
+        } 
+    }
 }
 
 
