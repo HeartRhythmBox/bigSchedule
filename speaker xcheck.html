@@ -35,7 +35,7 @@
 <div class="w3-row w3-center cursive w3-padding" style="margin-top: 3vmax;font-size: 5vmax">
 Speaker Cross-Check
 </div>
-<div class="w3-row w3-center sans" style="font-size: 1.8vmax;color:#555">
+<div class="w3-row w3-center sans" style="font-size: 1.8vmax;color:#555" id="sortStatus">
 click on the table headings to sort up&down
 </div>
 <div id='demo'></div>
@@ -339,7 +339,7 @@ function b2b(spkArray){
     return b2b
 }
 
-var sortIndex = [0,0,0,0,0,0]
+var sortIndex = [0,0,0,0,0,0,0]
 function sort(col){
    //["Name", "Country","No_of_Sessions","No_of_Days","Cons_days","simul_Session","B2B","click"]
     
@@ -355,6 +355,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
     var nameB = b.Name.toUpperCase(); // ignore upper and lowercase
+    document.getElementById('sortStatus').innerHTML ="sorted by Name; ascending"
     return sortAsc(nameA, nameB);
     })
     sortIndex[col]=1;showXC();
@@ -362,6 +363,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
     var nameB = b.Name.toUpperCase(); // ignore upper and lowercase
+    document.getElementById('sortStatus').innerHTML ="sorted by Name; descending"
     return sortDes(nameA, nameB);
     })
     sortIndex[col]=0;showXC();
@@ -375,6 +377,7 @@ function sort(col){
             spkXC.sort(function(a, b) {
             var nameA = a.Country.toUpperCase(); // ignore upper and lowercase
             var nameB = b.Country.toUpperCase(); // ignore upper and lowercase
+            document.getElementById('sortStatus').innerHTML ="sorted by Country; ascending"
             return sortAsc(nameA, nameB);
             })
             sortIndex[col]=1;showXC();
@@ -382,6 +385,7 @@ function sort(col){
             spkXC.sort(function(a, b) {
             var nameA = a.Country.toUpperCase(); // ignore upper and lowercase
             var nameB = b.Country.toUpperCase(); // ignore upper and lowercase
+            document.getElementById('sortStatus').innerHTML ="sorted by Country; descending"
             return sortDes(nameA, nameB);
             })
             sortIndex[col]=0;showXC();
@@ -395,6 +399,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.No_of_Sessions;
     var nameB = b.No_of_Sessions;
+    document.getElementById('sortStatus').innerHTML ="sorted by No of Sessions; ascending"
     return sortAsc(nameA, nameB);
     })
     sortIndex[col]=1;showXC();
@@ -402,6 +407,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.No_of_Sessions;
     var nameB = b.No_of_Sessions; 
+    document.getElementById('sortStatus').innerHTML ="sorted by No of Sessions; descending"
     return sortDes(nameA, nameB);
     })
     sortIndex[col]=0;showXC();
@@ -413,8 +419,9 @@ function sort(col){
 
     if (sortIndex[col]==0){
     spkXC.sort(function(a, b) {
-    var nameA = a.No_of_Days; // ignore upper and lowercase
-    var nameB = b.No_of_Days; // ignore upper and lowercase
+    var nameA = a.No_of_Days; 
+    var nameB = b.No_of_Days; 
+    document.getElementById('sortStatus').innerHTML ="sorted by No of Days; ascending"
     return sortAsc(nameA, nameB);
     })
     sortIndex[col]=1;showXC();
@@ -422,6 +429,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.No_of_Days; // ignore upper and lowercase
     var nameB = b.No_of_Days; // ignore upper and lowercase
+    document.getElementById('sortStatus').innerHTML ="sorted by No of Days; descending"
     return sortDes(nameA, nameB);
     })
     sortIndex[col]=0;showXC();
@@ -434,7 +442,8 @@ function sort(col){
     if (sortIndex[col]==0){
     spkXC.sort(function(a, b) {
     var nameA = a.Cons_days; 
-    var nameB = b.Cons_days; 
+    var nameB = b.Cons_days;
+    document.getElementById('sortStatus').innerHTML ="sorted by days span; ascending" 
     return sortAsc(nameA, nameB);
     })
     sortIndex[col]=1;showXC();
@@ -442,6 +451,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.Cons_days; 
     var nameB = b.Cons_days; 
+    document.getElementById('sortStatus').innerHTML ="sorted by days span; descending"
     return sortDes(nameA, nameB);
     })
     sortIndex[col]=0;showXC();
@@ -455,6 +465,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.simul_Session; 
     var nameB = b.simul_Session; 
+    document.getElementById('sortStatus').innerHTML ="sorted by simul sessions; ascending"
     return sortAsc(nameA, nameB);
     })
     sortIndex[col]=1;showXC();
@@ -462,6 +473,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.simul_Session; 
     var nameB = b.simul_Session; 
+    document.getElementById('sortStatus').innerHTML ="sorted by simul sessions; descending"
     return sortDes(nameA, nameB);
     })
     sortIndex[col]=0;showXC();
@@ -475,6 +487,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.B2B; 
     var nameB = b.B2B; 
+    document.getElementById('sortStatus').innerHTML ="sorted by back-to-back sessions; ascending"
     return sortAsc(nameA, nameB);
     })
     sortIndex[col]=1;showXC();
@@ -482,6 +495,7 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.B2B; 
     var nameB = b.B2B; 
+    document.getElementById('sortStatus').innerHTML ="sorted by back-to-back sessions; descending"
     return sortDes(nameA, nameB);
     })
     sortIndex[col]=0;showXC();
@@ -559,17 +573,65 @@ function showNewSort(rowNo){
 function showSession(nameU,rowNo){
     var spkArray = createArray(nameU);
 
-    //show sessions if not empty
-    if (spkArray.length>0){
-    var newDiv = document.createElement('div')
-    var content = document.createTextNode(spkArray)
-    newDiv.appendChild(content)
-    var currentRow = table.rows[rowNo];var cell = currentRow.cells[0]
-    currentRow.style.backgroundColor = "#f2f2f2"
-    cell.appendChild(newDiv);
-    
+    for (var i=0;i<spkArray.length;i++){
+        var code = spkArray[i]
+        showCode(code,nameU)
+    }
+
+    function showCode(code,nameU){
+        var newDiv = document.createElement('div')
+        var index = findIndex(code)
+        var topic = schedule[index].Main_Title;
+        var role = findRole(index, nameU)
+        var detail = code + ": " + topic + " - "+ role
+        var content = document.createTextNode(detail)
+        
+        newDiv.style.fontSize = "1.5vmax";newDiv.style.paddingTop = "0.5vmax"
+        newDiv.appendChild(content);
+        var currentRow = table.rows[rowNo];var cell = currentRow.cells[0]
+        currentRow.style.backgroundColor = "#f2f2f2"
+        cell.appendChild(newDiv);
+        
     }
 }
+
+function findIndex(code){
+    //lookup code in schedule
+    for (var i=0;i<schedule.length;i++){
+        if (schedule[i].Code==code){
+            break
+        }
+    }
+    return i;
+}
+
+function findRole(i,nameU){
+    var Spk1 = schedule[i].Spk1.toUpperCase();
+    var Spk2 = schedule[i].Spk2.toUpperCase();
+    var Spk3 = schedule[i].Spk3.toUpperCase();
+    var Spk4 = schedule[i].Spk4.toUpperCase();
+    var Spk5 = schedule[i].Spk5.toUpperCase();
+    var Spk6 = schedule[i].Spk6.toUpperCase();
+    var Mod1 = schedule[i].Mod1.toUpperCase();
+    var Mod2 = schedule[i].Mod2.toUpperCase();
+    var Mod3 = schedule[i].Mod3.toUpperCase();
+    var Mod4 = schedule[i].Mod4.toUpperCase();
+    var speaker = [Spk1,Spk2,Spk3,Spk4,Spk5,Spk6]
+    var mod = [Mod1,Mod2,Mod3,Mod4]
+    var role = []
+    for (var i=0;i<speaker.length;i++){
+        if (nameU==speaker[i]){
+            role.push("speaker");break}
+    }
+    for (var i=0;i<mod.length;i++){
+        if (nameU==mod[i]){
+            role.push("moderator");break}
+    }
+    
+    return role;
+}
+
+
 
 
 </script>
