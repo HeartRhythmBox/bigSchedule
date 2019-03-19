@@ -50,7 +50,8 @@ Speaker Cross-Check
 <script>
 
 var table = document.getElementById('mainTable')
-var spkXC = []
+var spkXC = [];
+var column = ["Name", "Country","No_of_Sessions","No_of_Days","Cons_days","simul_Session","B2B","click"]
 window.onload = function(){ 
     showList()
     buttonClick()
@@ -259,29 +260,75 @@ function b2b(spkArray){
     return b2b
 }
 
+var sortIndex = [0,0,0,0,0,0]
 function sort(col){
-    //Name: name, Country: country, No_of_Sessions: NoS,No_of_Days: l, Cons_days: range,
-    //simul_Session: simul, B2B: bk, click:
     
     // sort by country
     if (col==1){
-        spkXC.sort(function(a, b) {
-        var nameA = a.Country.toUpperCase(); // ignore upper and lowercase
-        var nameB = b.Country.toUpperCase(); // ignore upper and lowercase
-        if (nameA < nameB) {
-            return -1;
-        }
-        if (nameA > nameB) {
-            return 1;
-        }
 
-        // names must be equal
-        return 0;
-        });
+        if (sortIndex[col]==0){
+            spkXC.sort(function(a, b) {
+            var nameA = a.Country.toUpperCase(); // ignore upper and lowercase
+            var nameB = b.Country.toUpperCase(); // ignore upper and lowercase
+            return sortAsc(nameA, nameB);
+            })
+            sortIndex[col]=1;showXC();
+        } else {
+            spkXC.sort(function(a, b) {
+            var nameA = a.Country.toUpperCase(); // ignore upper and lowercase
+            var nameB = b.Country.toUpperCase(); // ignore upper and lowercase
+            return sortDes(nameA, nameB);
+            })
+            sortIndex[col]=0;showXC();
+        }
     }
-    
 }
 
+function sortAsc(nameA, nameB){
+    if (nameA < nameB) {
+            return -1;}
+        if (nameA > nameB) {return 1;}
+        // names must be equal
+        return 0;
+}
+
+function sortDes(nameA, nameB){
+    if (nameB < nameA) {
+            return -1;}
+        if (nameB > nameA) {return 1;}
+        // names must be equal
+        return 0;
+}
+
+
+
+function showXC(){
+    //delete old rows
+    for(var i = table.rows.length - 1; i > 0; i--)
+    {table.deleteRow(i);}
+
+    //showing newly sorted
+    //create new row
+    var i;var n=1;
+    for (i=0;i<spkXC.length;i++){
+        var rowNo =n+i;
+        var row = table.insertRow(rowNo)
+        showNewSort(rowNo)
+    }
+}
+
+function showNewSort(rowNo){
+    //Name: name, Country: country, No_of_Sessions: NoS,No_of_Days: l, Cons_days: range,
+    //simul_Session: simul, B2B: bk
+    var row = table.rows[rowNo];var i = rowNo-1;
+    var cell0 = row.insertCell(0);cell0.innerHTML= spkXC[i].Name;
+    var cell1 = row.insertCell(1);cell1.innerHTML= spkXC[i].Country;
+    var cell2 = row.insertCell(2);cell2.innerHTML= spkXC[i].No_of_Sessions;
+    var cell3 = row.insertCell(3);cell3.innerHTML= spkXC[i].No_of_Days;
+    var cell4 = row.insertCell(4);cell4.innerHTML= spkXC[i].Cons_days;
+    var cell5 = row.insertCell(5);cell5.innerHTML= spkXC[i].simul_Session;
+    var cell6 = row.insertCell(6);cell6.innerHTML= spkXC[i].B2B;
+}
 
 
 function showSession(nameU,rowNo){
