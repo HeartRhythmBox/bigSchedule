@@ -21,8 +21,13 @@
 <style>
 .sans {font-family: 'Abel', sans-serif;}
 .cursive {font-family: 'Satisfy', cursive;}
-
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+#fakeHeader {display: none;position:fixed;top: 0;width: 100%;padding:10vmax}
+.fBtn {position: fixed}
 
 </style>
 
@@ -31,20 +36,30 @@
 Speaker Cross-Check
 </div>
 <div class="w3-row w3-center sans" style="font-size: 1.8vmax;color:#555">
-click on the table headings to sort
+click on the table headings to sort up&down
 </div>
 <div id='demo'></div>
 <div class="w3-responsive">
 <table id="mainTable" class="w3-table w3-bordered sans" style="margin-top: 3vmax;font-size:2vmax;">
-<tr id="tHead" class="w3-khaki">
-    <th><button class="w3-btn w3-border w3-round-large">Name</button></th>
-    <th><button class="w3-btn w3-border w3-round-large">Country</button></th>
-    <th><button class="w3-btn w3-border w3-round-large">No of sessions</button></th>
-    <th><button class="w3-btn w3-border w3-round-large">No of days</button></th>
-    <th><button class="w3-btn w3-border w3-round-large">No of consecutive days</button></th>
-    <th><button class="w3-btn w3-border w3-round-large">Simul sessions</button></th>
-    <th><button class="w3-btn w3-border w3-round-large">B2B</button></th>
+<tr class="w3-khaki">
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn">Name</button></th>
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn">Country</button></th>
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn">No of sessions</button></th>
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn">No of days</button></th>
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn">No of consecutive days</button></th>
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn">Simul sessions</button></th>
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn">B2B</button></th>
 </tr>
+<!--fake header-->
+<div id="fakeHeader" class="w3-row w3-padding sans w3-khaki" style="font-size:2vmax;font-weight: 900">
+    <button class="w3-btn w3-border w3-round-large fBtn">Name</button></th>
+    <button class="w3-btn w3-border w3-round-large fBtn">Country</button></th>
+    <button class="w3-btn w3-border w3-round-large fBtn">No of sessions</button></th>
+    <button class="w3-btn w3-border w3-round-large fBtn">No of days</button></th>
+    <button class="w3-btn w3-border w3-round-large fBtn">No of consecutive days</button></th>
+    <button class="w3-btn w3-border w3-round-large fBtn">Simul sessions</button></th>
+    <button class="w3-btn w3-border w3-round-large fBtn">B2B</button></th>
+</div>
 </table>
 </div>
 
@@ -72,12 +87,53 @@ window.onload = function(){
     buttonClick()
 }
 
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {
+    var colWidth = [];
+    colWidth = getColWidth();
+    fixedHeader(colWidth)
+    };
+// Get the header
+var header = document.getElementById("mainTable");
+// Get the offset position of the navbar
+var hTop = header.offsetTop;var hHt = header.offsetHeight;
+
+function fixedHeader(colWidth) {
+    if (window.pageYOffset > hTop) {
+    document.getElementById('fakeHeader').style.display = "block";
+  
+    //set height of fake header
+    document.getElementById('fakeHeader').style.height = hHt + "px"
+  
+    //set width of fake button
+    var col = document.getElementsByClassName('fBtn')
+    for (var i=0;i<col.length;i++){
+        var width = colWidth[i].toString();
+        col[i].style.left = width + "px"
+        buttonClick()
+    }
+  } else {
+    document.getElementById('fakeHeader').style.display = "none"
+    buttonClick()
+  }
+}
+
+function getColWidth(){
+    var col = document.getElementsByClassName('head')
+    var colWidth = [];
+    for (var i=0;i<col.length;i++){
+        var width = col[i].offsetLeft;
+        colWidth.push(width)
+    }
+    return colWidth
+}
+
 
 
 function buttonClick(){
-    var b = document.getElementsByTagName('button')
-    var i;
-    
+    var b = document.getElementsByClassName('realBtn');
+    var fBtn = document.getElementsByClassName('fBtn')
+        
     b[0].onclick = function(){sort(0)}
     b[1].onclick = function(){sort(1)}
     b[2].onclick = function(){sort(2)}
@@ -85,6 +141,13 @@ function buttonClick(){
     b[4].onclick = function(){sort(4)}
     b[5].onclick = function(){sort(5)}
     b[6].onclick = function(){sort(6)}
+    fBtn[0].onclick = function(){sort(0)}
+    fBtn[1].onclick = function(){sort(1)}
+    fBtn[2].onclick = function(){sort(2)}
+    fBtn[3].onclick = function(){sort(3)}
+    fBtn[4].onclick = function(){sort(4)}
+    fBtn[5].onclick = function(){sort(5)}
+    fBtn[6].onclick = function(){sort(6)}
 }
 
 function showList(){

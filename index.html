@@ -662,7 +662,7 @@ style="font-size: 2.5vmax;">Sunday
 </div>
 
 <!--filters-->
-<div class="w3-row w3-padding w3-center w3-border-bottom cursive" 
+<div id="filter" class="w3-row w3-padding w3-center w3-border-bottom cursive" 
 style="font-size:2vmax;margin-top:5vmax">choose your filter
 <span class="w3-right sans w3-hover-light-grey" style="font-size: 1.2vmax;border:#555 solid 0.1vmax;
 cursor:pointer;" onclick="print('printable')">
@@ -807,6 +807,8 @@ style="font-size:1vmax;color:#767676">
   Check out t'Thon's own page at 
   <a href="https://heartrhythmbox.github.io/main/">HeartRhythmBox</a> or at
   <a href="https://www.facebook.com/HeartRhythmBox">FB: @HeartRhythmBox</a>
+  <span>  <a href="speaker xcheck.html" style="text-decoration:none">
+  &#10004;&#10008;</a></span>
 </div>
 </div>
 
@@ -1332,7 +1334,7 @@ function showList(d){
   para7.appendChild(g);para8.appendChild(h);  
   para9.appendChild(i);para10.appendChild(j);
   para11.appendChild(k);para12.appendChild(l);para13.appendChild(m)  
-  //document.getElementById("resultSum").scrollIntoView({behavior: "smooth",block: "start"});
+  document.getElementById("filter").scrollIntoView({behavior: "smooth",block: "start"});
   document.getElementById("result").appendChild(para1);
   document.getElementById("result").appendChild(para2);
   document.getElementById("result").appendChild(para3);
