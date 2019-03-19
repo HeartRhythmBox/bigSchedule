@@ -81,7 +81,7 @@ click on the table headings to sort up&down
 
 var table = document.getElementById('mainTable')
 var spkXC = [];
-window.onbeforeunload = function(){window.screenTop}
+
 window.onload = function(){ 
     showList()
     buttonClick()
@@ -110,11 +110,10 @@ function fixedHeader(colWidth) {
     for (var i=0;i<col.length;i++){
         var width = colWidth[i].toString();
         col[i].style.left = width + "px"
-        buttonClick()
     }
   } else {
     document.getElementById('fakeHeader').style.display = "none"
-    buttonClick()
+    
   }
 }
 
