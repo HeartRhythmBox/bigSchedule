@@ -36,7 +36,6 @@
 Speaker Cross-Check
 </div>
 <div class="w3-row w3-center sans" style="font-size: 1.8vmax;color:#555" id="sortStatus">
-click on the table headings to sort up&down
 </div>
 <div id='demo'></div>
 <div class="w3-responsive">
@@ -81,6 +80,8 @@ click on the table headings to sort up&down
 
 var table = document.getElementById('mainTable')
 var spkXC = [];
+document.getElementById('sortStatus').innerHTML = "click on the table headings to sort up&down." +
+" Total faculties: " + spkCountry.length
 
 window.onload = function(){ 
     showList()
