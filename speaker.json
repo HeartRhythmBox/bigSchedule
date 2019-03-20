@@ -72,10 +72,6 @@
    "Country": "Thailand"
  },
  {
-   "Name": "Anderson, Mark E",
-   "Country": "USA"
- },
- {
    "Name": "Ando, Kenji",
    "Country": "Japan"
  },
@@ -152,10 +148,6 @@
    "Country": "Poland"
  },
  {
-   "Name": "Balsam, Pawel",
-   "Country": "Poland"
- },
- {
    "Name": "Ban, Ji-Eun",
    "Country": "Korea"
  },
@@ -204,10 +196,6 @@
    "Country": "India"
  },
  {
-   "Name": "Bongiorni, Maria Garzia",
-   "Country": "Italy"
- },
- {
    "Name": "Boonyapisit, Warangkna",
    "Country": "Thailand"
  },
@@ -216,16 +204,8 @@
    "Country": "Germany"
  },
  {
-   "Name": "Boriani, Giuseppe",
-   "Country": "Italy"
- },
- {
    "Name": "Brachmann, Johannes",
    "Country": "Germany"
- },
- {
-   "Name": "Brignole, Michele",
-   "Country": "Italy"
  },
  {
    "Name": "Brugada, Josep T",
@@ -258,10 +238,6 @@
  {
    "Name": "Cao, Kejiang",
    "Country": "China"
- },
- {
-   "Name": "Casadei, Barbara",
-   "Country": "United Kingdom"
  },
  {
    "Name": "Celiker, Alpay",
@@ -496,7 +472,7 @@
    "Country": "Taiwan"
  },
  {
-   "Name": "Chu, Anthony",
+   "Name": "Chu, Antony",
    "Country": "USA"
  },
  {
@@ -570,10 +546,6 @@
  {
    "Name": "Deisenhofer, Isabel",
    "Country": "Germany"
- },
- {
-   "Name": "Della Bella, Paolo",
-   "Country": "Italy"
  },
  {
    "Name": "Delnoy, Peter Paul",
@@ -728,7 +700,7 @@
    "Country": "USA"
  },
  {
-   "Name": "Glikson, Micheal",
+   "Name": "Glikson, Michael",
    "Country": "Israel"
  },
  {
@@ -1080,10 +1052,6 @@
    "Country": "Australia"
  },
  {
-   "Name": "Jais, Pierre",
-   "Country": "France"
- },
- {
    "Name": "Jalife, Jos�",
    "Country": "USA"
  },
@@ -1288,10 +1256,6 @@
    "Country": "Japan"
  },
  {
-   "Name": "Klein, George",
-   "Country": "Canada"
- },
- {
    "Name": "Kler, Tarlochan Singh",
    "Country": "India"
  },
@@ -1358,10 +1322,6 @@
  {
    "Name": "Kou, Huijuan",
    "Country": "China"
- },
- {
-   "Name": "Krahn, Adrew",
-   "Country": "Canada"
  },
  {
    "Name": "Kreibel, Thomas",
@@ -1650,10 +1610,6 @@
  {
    "Name": "Lin, Yung-Kuo",
    "Country": "Taiwan"
- },
- {
-   "Name": "Linde, Cecilia",
-   "Country": "Sweden"
  },
  {
    "Name": "Link, Mark S",
@@ -2002,10 +1958,6 @@
  {
    "Name": "Natarajan, K U",
    "Country": "India"
- },
- {
-   "Name": "Nattel, Stanley",
-   "Country": "Canada"
  },
  {
    "Name": "Navarapong, Leenhapong",
@@ -2474,10 +2426,6 @@
  {
    "Name": "Saxena, Anil",
    "Country": "India"
- },
- {
-   "Name": "Schnabel, Renate",
-   "Country": "Germany"
  },
  {
    "Name": "Schwartz, Peter",
@@ -3348,10 +3296,6 @@
    "Country": "France"
  },
  {
-   "Name": "Zareba, Wojciech",
-   "Country": "USA"
- },
- {
    "Name": "Zaw, Lin Aung",
    "Country": "Singapore"
  },
@@ -3394,9 +3338,5 @@
  {
    "Name": "Zou, Jiangang",
    "Country": "China"
- },
- {
-   "Name": "Thai",
-   "Country": "Thailand"
  }
 ]

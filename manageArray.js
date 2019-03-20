@@ -23,7 +23,7 @@ var schedule = [
     "Spk1": "TSE, Hung-Fat",
     "Spk2": "Verma, Atul",
     "Spk3": "Thai",
-    "Spk4": "Chu, Anthony",
+    "Spk4": "Chu, Antony",
     "Spk5": "Kojodjojo, Pipin",
     "Spk6": "",
     "Mod1": "RAZALI, Omar",
@@ -1394,7 +1394,7 @@ var schedule = [
     "Spk4": "Mehta, Davendra",
     "Spk5": "",
     "Spk6": "",
-    "Mod1": "Chu, Anthony",
+    "Mod1": "Chu, Antony",
     "Mod2": "",
     "Mod3": "",
     "Mod4": "",
@@ -5647,7 +5647,7 @@ var schedule = [
     "Spk1": "DAUBERT, James P",
     "Spk2": "Roberts, Paul",
     "Spk3": "Vijayaraman, Pugazhendhi",
-    "Spk4": "Chu, Anthony",
+    "Spk4": "Chu, Antony",
     "Spk5": "SAXENA, Anil",
     "Spk6": "AGBAYANI, Michael Joseph",
     "Mod1": "BODDINGTON, Dean",
@@ -9651,10 +9651,6 @@ var spkCountry = [
     "Country": "Thailand"
   },
   {
-    "Name": "Anderson, Mark E",
-    "Country": "USA"
-  },
-  {
     "Name": "Ando, Kenji",
     "Country": "Japan"
   },
@@ -9731,10 +9727,6 @@ var spkCountry = [
     "Country": "Poland"
   },
   {
-    "Name": "Balsam, Pawel",
-    "Country": "Poland"
-  },
-  {
     "Name": "Ban, Ji-Eun",
     "Country": "Korea"
   },
@@ -9783,10 +9775,6 @@ var spkCountry = [
     "Country": "India"
   },
   {
-    "Name": "Bongiorni, Maria Garzia",
-    "Country": "Italy"
-  },
-  {
     "Name": "Boonyapisit, Warangkna",
     "Country": "Thailand"
   },
@@ -9795,16 +9783,8 @@ var spkCountry = [
     "Country": "Germany"
   },
   {
-    "Name": "Boriani, Giuseppe",
-    "Country": "Italy"
-  },
-  {
     "Name": "Brachmann, Johannes",
     "Country": "Germany"
-  },
-  {
-    "Name": "Brignole, Michele",
-    "Country": "Italy"
   },
   {
     "Name": "Brugada, Josep T",
@@ -9837,10 +9817,6 @@ var spkCountry = [
   {
     "Name": "Cao, Kejiang",
     "Country": "China"
-  },
-  {
-    "Name": "Casadei, Barbara",
-    "Country": "United Kingdom"
   },
   {
     "Name": "Celiker, Alpay",
@@ -10075,7 +10051,7 @@ var spkCountry = [
     "Country": "Taiwan"
   },
   {
-    "Name": "Chu, Anthony",
+    "Name": "Chu, Antony",
     "Country": "USA"
   },
   {
@@ -10149,10 +10125,6 @@ var spkCountry = [
   {
     "Name": "Deisenhofer, Isabel",
     "Country": "Germany"
-  },
-  {
-    "Name": "Della Bella, Paolo",
-    "Country": "Italy"
   },
   {
     "Name": "Delnoy, Peter Paul",
@@ -10307,7 +10279,7 @@ var spkCountry = [
     "Country": "USA"
   },
   {
-    "Name": "Glikson, Micheal",
+    "Name": "Glikson, Michael",
     "Country": "Israel"
   },
   {
@@ -10659,10 +10631,6 @@ var spkCountry = [
     "Country": "Australia"
   },
   {
-    "Name": "Jais, Pierre",
-    "Country": "France"
-  },
-  {
     "Name": "Jalife, Jos�",
     "Country": "USA"
   },
@@ -10867,10 +10835,6 @@ var spkCountry = [
     "Country": "Japan"
   },
   {
-    "Name": "Klein, George",
-    "Country": "Canada"
-  },
-  {
     "Name": "Kler, Tarlochan Singh",
     "Country": "India"
   },
@@ -10937,10 +10901,6 @@ var spkCountry = [
   {
     "Name": "Kou, Huijuan",
     "Country": "China"
-  },
-  {
-    "Name": "Krahn, Adrew",
-    "Country": "Canada"
   },
   {
     "Name": "Kreibel, Thomas",
@@ -11229,10 +11189,6 @@ var spkCountry = [
   {
     "Name": "Lin, Yung-Kuo",
     "Country": "Taiwan"
-  },
-  {
-    "Name": "Linde, Cecilia",
-    "Country": "Sweden"
   },
   {
     "Name": "Link, Mark S",
@@ -11581,10 +11537,6 @@ var spkCountry = [
   {
     "Name": "Natarajan, K U",
     "Country": "India"
-  },
-  {
-    "Name": "Nattel, Stanley",
-    "Country": "Canada"
   },
   {
     "Name": "Navarapong, Leenhapong",
@@ -12053,10 +12005,6 @@ var spkCountry = [
   {
     "Name": "Saxena, Anil",
     "Country": "India"
-  },
-  {
-    "Name": "Schnabel, Renate",
-    "Country": "Germany"
   },
   {
     "Name": "Schwartz, Peter",
@@ -12927,10 +12875,6 @@ var spkCountry = [
     "Country": "France"
   },
   {
-    "Name": "Zareba, Wojciech",
-    "Country": "USA"
-  },
-  {
     "Name": "Zaw, Lin Aung",
     "Country": "Singapore"
   },
@@ -12973,12 +12917,9 @@ var spkCountry = [
   {
     "Name": "Zou, Jiangang",
     "Country": "China"
-  },
-  {
-    "Name": "Thai",
-    "Country": "Thailand"
   }
  ]
+
 
 function UnqSpk(){
     var i;var sList=[];
@@ -13003,4 +12944,17 @@ function UnqSpk(){
       return item.valueOf() != "";
     })   
     return sList; 
+}
+
+function UnqTopic(){
+  var topicList = [];
+  for (var i=0;i<schedule.length;i++){
+    topicList.push(schedule[i].Topic)
+    topicList.push(schedule[i].CoTopic)
+  }  
+
+  topicList = topicList.filter(function(item,index){
+    return topicList.indexOf(item)==index;
+  })
+
 }
