@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sessions Summnary</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119340815-11"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119340815-11');
+</script>
+
+</head>
+        
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Abel|Satisfy" rel="stylesheet">
+       
+<style>
+.sans {font-family: 'Abel', sans-serif;}
+.cursive {font-family: 'Satisfy', cursive;}
+
+
+</style>
+
+<body>
+<div class="w3-row w3-center cursive w3-padding w3-pale-red" style="font-size: 4vmax">
+Sessions Summary Report
+</div>
+<div id="totalS" class="w3-row w3-center sans" style="font-size:2vmax">
+</div>
+
+<div class="w3-row w3-center w3-mobile w3-padding" style="border: #555 solid 1vmax;">
+    <!--topic-->
+    <div class="w3-center w3-col s6 w3-mobile w3-padding w3-border-right" >
+    <table id="topic" class="w3-table w3-padding-small sans w3-bordered w3-centered" 
+    style="font-size:2vmax;">
+    <tr>
+        <th>Topics</th><th>Number of sessions</th>
+    </tr>
+    </table>
+    <div class="w3-row sans" style="font-size:1.5vmax">
+    (N/A) included education sym, lunch sym, chinese programs, and live sessions.
+    </div>
+    </div>
+
+    <!--track-->
+    <div class="w3-center w3-responsive w3-col s6 w3-mobile w3-padding">
+        <table id="track" class="w3-table w3-padding-small sans w3-bordered w3-centered" 
+        style="font-size:2vmax;">
+        <tr>
+            <th>Tracks</th><th>Number of sessions</th>
+        </tr>
+        </table>
+    </div>
+   
+
+</div>
+
+<!--type-->
+<div class="w3-row w3-padding w3-mobile" style="margin-top: 3vmax;border: #555 solid 1vmax">
+<div class="w3-center w3-responsive w3-col s6 w3-mobile w3-padding w3-border-right">
+    <table id="type" class="w3-table w3-padding-small sans w3-bordered w3-centered" 
+    style="font-size:2vmax;">
+    <tr>
+        <th>Session Types</th><th>Number of sessions</th>
+    </tr>
+    </table>
+</div>
+<div class="w3-col s6 w3-center w3-mobile w3-padding" style="font-size: 1.5vmax;">
+    <ul class="w3-ul sans w3-light-grey">
+            <li>101: basic how-to session</li>
+            <li>CM: Ceremony</li>
+            <li>CBS: Case based scenarios</li>
+            <li>CL60: Core Lectures 60mins</li>
+            <li>CL90: Core Lectures 90mins</li>
+            <li>Db: Debates</li>
+            <li>NSTO: No-slides-talk-only (Rapid-fired discussion on current controversies)</li>
+            <li>Ple: Plenary Session</li>
+            <li>SP: Special Session</li>
+            <li>VP: Viewpoints (Sharing different opinions on a topic)</li>
+            <li>RnF: Rhythm 'N Flow (Joint sessions with beverages)</li>
+            
+    </ul>
+</div>
+</div>
+
+<div id="demo"></div>
+<!--menu-->
+<div class="w3-bottom w3-center w3-mobile">
+    <div class="w3-bar w3-card-4 sans w3-mobile w3-large" style="opacity: 0.9;">
+      <a href="#top" title="to the top of the page" class="w3-bar-item w3-sand w3-button w3-round-large w3-border w3-padding-small">
+        &uArr;to top</a>
+      <a href="index.html" title="back to the main page" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">
+        main</a>
+    
+    </div>
+</div>
+
+</body>
+
+<script src="manageArray.js"></script>
+<script>
+document.getElementById('totalS').innerHTML = "Total number of sessions: "+schedule.length
+window.onload = function() {
+    showTopic();showTrack();showType();
+}
+
+function showTopic(){
+    
+    var topicArray = countTopic();
+    //check empty
+    topicArray = cleanEmpty(topicArray)
+
+    function cleanEmpty(array){
+        for (var i=0;i<array.length;i++){
+            if (array[i].topic.length==0){array[i].topic = "(N/A)"}
+        }
+        return array
+    }
+
+    //sort array
+    topicArray.sort(function(a, b) {
+    var nameA = a.topic.toUpperCase(); // ignore upper and lowercase
+    var nameB = b.topic.toUpperCase(); // ignore upper and lowercase
+    return sortAsc(nameA, nameB);
+    })
+
+
+
+    var table = document.getElementById('topic')
+    var i;var n=1;
+    for (i=0;i<topicArray.length;i++){
+        var rowNo =n+i;
+        var row = table.insertRow(rowNo)
+        var cell0 = row.insertCell(0);
+        var cell1 = row.insertCell(1)
+        cell0.innerHTML = topicArray[i].topic;
+        cell1.innerHTML = topicArray[i].count;
+    }
+
+}
+
+function showTrack(){
+    
+    var trackArray = countTrack();
+    //check empty
+    trackArray = cleanEmpty(trackArray)
+
+    function cleanEmpty(array){
+        for (var i=0;i<array.length;i++){
+            if (array[i].track.length==0){array[i].track = "(N/A)"}
+        }
+        return array
+    }
+
+    //sort array
+    trackArray.sort(function(a, b) {
+    var nameA = a.track.toUpperCase(); // ignore upper and lowercase
+    var nameB = b.track.toUpperCase(); // ignore upper and lowercase
+    return sortAsc(nameA, nameB);
+    })
+
+
+
+    var table = document.getElementById('track')
+    var i;var n=1;
+    for (i=0;i<trackArray.length;i++){
+        var rowNo =n+i;
+        var row = table.insertRow(rowNo)
+        var cell0 = row.insertCell(0);
+        var cell1 = row.insertCell(1)
+        cell0.innerHTML = trackArray[i].track;
+        cell1.innerHTML = trackArray[i].count;
+    }
+}
+
+function showType(){
+    
+    var typeArray = countType();
+    //check empty
+    typeArray = cleanEmpty(typeArray)
+
+    function cleanEmpty(array){
+        for (var i=0;i<array.length;i++){
+            if (array[i].type.length==0){array[i].type = "(N/A)"}
+        }
+        return array
+    }
+
+    //sort array
+    typeArray.sort(function(a, b) {
+    var nameA = a.type.toUpperCase(); // ignore upper and lowercase
+    var nameB = b.type.toUpperCase(); // ignore upper and lowercase
+    return sortAsc(nameA, nameB);
+    })
+
+
+
+    var table = document.getElementById('type')
+    var i;var n=1;
+    for (i=0;i<typeArray.length;i++){
+        var rowNo =n+i;
+        var row = table.insertRow(rowNo)
+        var cell0 = row.insertCell(0);
+        var cell1 = row.insertCell(1)
+        cell0.innerHTML = typeArray[i].type;
+        cell1.innerHTML = typeArray[i].count;
+    }
+}
+
+
+
+</script>
+</html>

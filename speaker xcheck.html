@@ -392,11 +392,14 @@ function sort(col){
     // sort by No_of_Sessions
     if (col==2){
 
+    //check who has no session
+    var noSess = checkNoSess();    
     if (sortIndex[col]==0){
     spkXC.sort(function(a, b) {
     var nameA = a.No_of_Sessions;
     var nameB = b.No_of_Sessions;
-    document.getElementById('sortStatus').innerHTML ="sorted by No of Sessions; ascending"
+    document.getElementById('sortStatus').innerHTML ="sorted by No of Sessions; ascending." + 
+    " Total speakers: " + spkXC.length + "; " + noSess + " have no role assigned yet."
     return sortAsc(nameA, nameB);
     })
     sortIndex[col]=1;showXC();
@@ -404,7 +407,8 @@ function sort(col){
     spkXC.sort(function(a, b) {
     var nameA = a.No_of_Sessions;
     var nameB = b.No_of_Sessions; 
-    document.getElementById('sortStatus').innerHTML ="sorted by No of Sessions; descending"
+    document.getElementById('sortStatus').innerHTML ="sorted by No of Sessions; descending" +
+    " Total speakers: " + spkXC.length + "; " + noSess + " have no role assigned yet."
     return sortDes(nameA, nameB);
     })
     sortIndex[col]=0;showXC();
@@ -501,23 +505,15 @@ function sort(col){
 
 }
 
-function sortAsc(nameA, nameB){
-    if (nameA < nameB) {
-            return -1;}
-        if (nameA > nameB) {return 1;}
-        // names must be equal
-        return 0;
+function checkNoSess(){
+    var count =0;
+    for (var i=0;i<spkXC.length;i++){
+        if (spkXC[i].No_of_Sessions==0){
+            count++
+        }
+    }
+    return count;
 }
-
-function sortDes(nameA, nameB){
-    if (nameB < nameA) {
-            return -1;}
-        if (nameB > nameA) {return 1;}
-        // names must be equal
-        return 0;
-}
-
-
 
 function showXC(){
     //delete old rows
