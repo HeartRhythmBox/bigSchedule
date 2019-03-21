@@ -1,7 +1,7 @@
 var schedule = [
   {
     "Code": "01ballA-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AF",
     "Session_Type": "CL90",
     "Track": "",
@@ -39,7 +39,7 @@ var schedule = [
   },
   {
     "Code": "01ballA-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Syn",
     "Session_Type": "CL60",
     "Track": "",
@@ -77,7 +77,7 @@ var schedule = [
   },
   {
     "Code": "01ballA-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -115,7 +115,7 @@ var schedule = [
   },
   {
     "Code": "01ballA-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Gen",
     "Session_Type": "SP",
     "Track": "",
@@ -153,7 +153,7 @@ var schedule = [
   },
   {
     "Code": "01ballA-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Gen",
     "Session_Type": "SP",
     "Track": "",
@@ -191,7 +191,7 @@ var schedule = [
   },
   {
     "Code": "01ballA-6",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "CIED",
     "Session_Type": "CL60",
     "Track": "Joint",
@@ -229,7 +229,7 @@ var schedule = [
   },
   {
     "Code": "01ballA-lunch",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -267,7 +267,7 @@ var schedule = [
   },
   {
     "Code": "01ballB-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "nonMed",
     "Session_Type": "CL90",
     "Track": "Joint",
@@ -305,7 +305,7 @@ var schedule = [
   },
   {
     "Code": "01ballB-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AF",
     "Session_Type": "VP",
     "Track": "",
@@ -343,7 +343,7 @@ var schedule = [
   },
   {
     "Code": "01ballB-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -381,7 +381,7 @@ var schedule = [
   },
   {
     "Code": "01ballB-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SCD",
     "Session_Type": "Ple",
     "Track": "",
@@ -419,7 +419,7 @@ var schedule = [
   },
   {
     "Code": "01ballB-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AF",
     "Session_Type": "CL90",
     "Track": "",
@@ -457,7 +457,7 @@ var schedule = [
   },
   {
     "Code": "01ballB-6",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SCD",
     "Session_Type": "Rn'F",
     "Track": "Joint",
@@ -495,7 +495,7 @@ var schedule = [
   },
   {
     "Code": "01ballB-lunch",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -533,7 +533,7 @@ var schedule = [
   },
   {
     "Code": "01ballC-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "CIED",
     "Session_Type": "SP",
     "Track": "",
@@ -571,7 +571,7 @@ var schedule = [
   },
   {
     "Code": "01ballC-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "CIED",
     "Session_Type": "SP",
     "Track": "",
@@ -609,7 +609,7 @@ var schedule = [
   },
   {
     "Code": "01ballC-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "CIED",
     "Session_Type": "SP",
     "Track": "",
@@ -647,7 +647,7 @@ var schedule = [
   },
   {
     "Code": "01ballC-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "CIED",
     "Session_Type": "SP",
     "Track": "",
@@ -685,7 +685,7 @@ var schedule = [
   },
   {
     "Code": "01ballC-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "CIED",
     "Session_Type": "SP",
     "Track": "",
@@ -723,7 +723,7 @@ var schedule = [
   },
   {
     "Code": "01ballC-lunch",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -761,7 +761,7 @@ var schedule = [
   },
   {
     "Code": "01CC-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "CM",
     "Track": "",
@@ -799,7 +799,7 @@ var schedule = [
   },
   {
     "Code": "01CC-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SCD",
     "Session_Type": "Ple",
     "Track": "",
@@ -837,7 +837,7 @@ var schedule = [
   },
   {
     "Code": "01CC-lunch",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -875,7 +875,7 @@ var schedule = [
   },
   {
     "Code": "01L1/2-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SVT",
     "Session_Type": "CL90",
     "Track": "",
@@ -913,7 +913,7 @@ var schedule = [
   },
   {
     "Code": "01L1/2-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SVT",
     "Session_Type": "CL60",
     "Track": "",
@@ -951,7 +951,7 @@ var schedule = [
   },
   {
     "Code": "01L1/2-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SVT",
     "Session_Type": "101",
     "Track": "",
@@ -989,7 +989,7 @@ var schedule = [
   },
   {
     "Code": "01L1/2-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SVT",
     "Session_Type": "CL60",
     "Track": "",
@@ -1027,7 +1027,7 @@ var schedule = [
   },
   {
     "Code": "01L1/2-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SVT",
     "Session_Type": "CL90",
     "Track": "",
@@ -1065,7 +1065,7 @@ var schedule = [
   },
   {
     "Code": "01L10-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SCD",
     "Session_Type": "CL90",
     "Track": "",
@@ -1103,7 +1103,7 @@ var schedule = [
   },
   {
     "Code": "01L10-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -1141,7 +1141,7 @@ var schedule = [
   },
   {
     "Code": "01L10-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -1179,7 +1179,7 @@ var schedule = [
   },
   {
     "Code": "01L10-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SCD",
     "Session_Type": "CBS",
     "Track": "",
@@ -1217,7 +1217,7 @@ var schedule = [
   },
   {
     "Code": "01L10-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "SCD",
     "Session_Type": "CL90",
     "Track": "",
@@ -1255,7 +1255,7 @@ var schedule = [
   },
   {
     "Code": "01L10-lunch",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -1293,7 +1293,7 @@ var schedule = [
   },
   {
     "Code": "01L11-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "HF",
     "Session_Type": "CL90",
     "Track": "",
@@ -1331,7 +1331,7 @@ var schedule = [
   },
   {
     "Code": "01L11-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -1369,7 +1369,7 @@ var schedule = [
   },
   {
     "Code": "01L11-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "CIED",
     "Session_Type": "CL60",
     "Track": "",
@@ -1407,7 +1407,7 @@ var schedule = [
   },
   {
     "Code": "01L11-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -1445,7 +1445,7 @@ var schedule = [
   },
   {
     "Code": "01L11-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AF",
     "Session_Type": "CL90",
     "Track": "",
@@ -1483,7 +1483,7 @@ var schedule = [
   },
   {
     "Code": "01L11-lunch",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -1521,7 +1521,7 @@ var schedule = [
   },
   {
     "Code": "01L12-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Ped",
     "Session_Type": "CL90",
     "Track": "",
@@ -1559,7 +1559,7 @@ var schedule = [
   },
   {
     "Code": "01L12-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Ped",
     "Session_Type": "CL60",
     "Track": "",
@@ -1597,7 +1597,7 @@ var schedule = [
   },
   {
     "Code": "01L12-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Ped",
     "Session_Type": "CL60",
     "Track": "",
@@ -1635,7 +1635,7 @@ var schedule = [
   },
   {
     "Code": "01L12-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -1673,7 +1673,7 @@ var schedule = [
   },
   {
     "Code": "01L12-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Ped",
     "Session_Type": "CL90",
     "Track": "",
@@ -1711,7 +1711,7 @@ var schedule = [
   },
   {
     "Code": "01L13-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "VT",
     "Session_Type": "CL90",
     "Track": "",
@@ -1749,7 +1749,7 @@ var schedule = [
   },
   {
     "Code": "01L13-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -1787,7 +1787,7 @@ var schedule = [
   },
   {
     "Code": "01L13-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -1825,7 +1825,7 @@ var schedule = [
   },
   {
     "Code": "01L13-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "",
@@ -1863,7 +1863,7 @@ var schedule = [
   },
   {
     "Code": "01L13-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AP",
     "Session_Type": "CBS",
     "Track": "",
@@ -1901,7 +1901,7 @@ var schedule = [
   },
   {
     "Code": "01L14-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "",
     "Track": "",
@@ -1939,7 +1939,7 @@ var schedule = [
   },
   {
     "Code": "01L14-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -1977,7 +1977,7 @@ var schedule = [
   },
   {
     "Code": "01L15-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -2015,7 +2015,7 @@ var schedule = [
   },
   {
     "Code": "01L15-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -2053,7 +2053,7 @@ var schedule = [
   },
   {
     "Code": "01L3/4-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "VT",
     "Session_Type": "CL90",
     "Track": "",
@@ -2091,7 +2091,7 @@ var schedule = [
   },
   {
     "Code": "01L3/4-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "VT",
     "Session_Type": "CL60",
     "Track": "",
@@ -2129,7 +2129,7 @@ var schedule = [
   },
   {
     "Code": "01L3/4-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "VT",
     "Session_Type": "101",
     "Track": "",
@@ -2167,7 +2167,7 @@ var schedule = [
   },
   {
     "Code": "01L3/4-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "VT",
     "Session_Type": "CL60",
     "Track": "",
@@ -2205,7 +2205,7 @@ var schedule = [
   },
   {
     "Code": "01L3/4-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "VT",
     "Session_Type": "CBS",
     "Track": "",
@@ -2243,7 +2243,7 @@ var schedule = [
   },
   {
     "Code": "01L5/6-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "BS",
     "Session_Type": "CL90",
     "Track": "",
@@ -2281,7 +2281,7 @@ var schedule = [
   },
   {
     "Code": "01L5/6-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "",
@@ -2319,7 +2319,7 @@ var schedule = [
   },
   {
     "Code": "01L5/6-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -2357,7 +2357,7 @@ var schedule = [
   },
   {
     "Code": "01L5/6-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "Joint",
@@ -2395,7 +2395,7 @@ var schedule = [
   },
   {
     "Code": "01L5/6-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AF",
     "Session_Type": "CL90",
     "Track": "",
@@ -2433,7 +2433,7 @@ var schedule = [
   },
   {
     "Code": "01L5/6-lunch",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -2471,7 +2471,7 @@ var schedule = [
   },
   {
     "Code": "01L7-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AP",
     "Session_Type": "CL90",
     "Track": "",
@@ -2509,7 +2509,7 @@ var schedule = [
   },
   {
     "Code": "01L7-2",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "AP",
     "Session_Type": "101",
     "Track": "",
@@ -2547,7 +2547,7 @@ var schedule = [
   },
   {
     "Code": "01L7-3",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Gen",
     "Session_Type": "CL60",
     "Track": "",
@@ -2585,7 +2585,7 @@ var schedule = [
   },
   {
     "Code": "01L7-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -2623,7 +2623,7 @@ var schedule = [
   },
   {
     "Code": "01L7-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -2661,7 +2661,7 @@ var schedule = [
   },
   {
     "Code": "01L7-lunch",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -2699,7 +2699,7 @@ var schedule = [
   },
   {
     "Code": "01L8-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Abs",
     "Session_Type": "YIA",
     "Track": "",
@@ -2737,7 +2737,7 @@ var schedule = [
   },
   {
     "Code": "01L8-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -2775,7 +2775,7 @@ var schedule = [
   },
   {
     "Code": "01L8-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -2813,7 +2813,7 @@ var schedule = [
   },
   {
     "Code": "01L9-1",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Abs",
     "Session_Type": "YIA",
     "Track": "",
@@ -2851,7 +2851,7 @@ var schedule = [
   },
   {
     "Code": "01L9-4",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -2889,7 +2889,7 @@ var schedule = [
   },
   {
     "Code": "01L9-5",
-    "Date": "10/24/2019",
+    "Date": "24-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -2927,7 +2927,7 @@ var schedule = [
   },
   {
     "Code": "02ballA-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "CL90",
     "Track": "",
@@ -2965,7 +2965,7 @@ var schedule = [
   },
   {
     "Code": "02ballA-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -3003,7 +3003,7 @@ var schedule = [
   },
   {
     "Code": "02ballA-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -3041,7 +3041,7 @@ var schedule = [
   },
   {
     "Code": "02ballA-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -3079,7 +3079,7 @@ var schedule = [
   },
   {
     "Code": "02ballA-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Gen",
     "Session_Type": "CL90",
     "Track": "",
@@ -3117,7 +3117,7 @@ var schedule = [
   },
   {
     "Code": "02ballA-lunch",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -3155,7 +3155,7 @@ var schedule = [
   },
   {
     "Code": "02ballB-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SVT",
     "Session_Type": "SP",
     "Track": "",
@@ -3193,7 +3193,7 @@ var schedule = [
   },
   {
     "Code": "02ballB-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SVT",
     "Session_Type": "SP",
     "Track": "",
@@ -3231,7 +3231,7 @@ var schedule = [
   },
   {
     "Code": "02ballB-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SVT",
     "Session_Type": "SP",
     "Track": "",
@@ -3269,7 +3269,7 @@ var schedule = [
   },
   {
     "Code": "02ballB-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Live",
     "Track": "",
@@ -3307,7 +3307,7 @@ var schedule = [
   },
   {
     "Code": "02ballB-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Live",
     "Track": "",
@@ -3345,7 +3345,7 @@ var schedule = [
   },
   {
     "Code": "02ballB-6",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "CIED",
     "Session_Type": "Rn'F",
     "Track": "Joint",
@@ -3383,7 +3383,7 @@ var schedule = [
   },
   {
     "Code": "02ballB-lunch",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -3421,7 +3421,7 @@ var schedule = [
   },
   {
     "Code": "02ballC-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "SP",
     "Track": "",
@@ -3459,7 +3459,7 @@ var schedule = [
   },
   {
     "Code": "02ballC-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -3497,7 +3497,7 @@ var schedule = [
   },
   {
     "Code": "02ballC-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Gen",
     "Session_Type": "CL60",
     "Track": "Joint",
@@ -3535,7 +3535,7 @@ var schedule = [
   },
   {
     "Code": "02ballC-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "",
@@ -3573,7 +3573,7 @@ var schedule = [
   },
   {
     "Code": "02ballC-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "VP",
     "Track": "",
@@ -3611,7 +3611,7 @@ var schedule = [
   },
   {
     "Code": "02ballC-lunch",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -3649,7 +3649,7 @@ var schedule = [
   },
   {
     "Code": "02CC-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SCD",
     "Session_Type": "CL90",
     "Track": "Joint",
@@ -3687,7 +3687,7 @@ var schedule = [
   },
   {
     "Code": "02CC-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "Ple",
     "Track": "",
@@ -3725,7 +3725,7 @@ var schedule = [
   },
   {
     "Code": "02CC-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "Ple",
     "Track": "",
@@ -3763,7 +3763,7 @@ var schedule = [
   },
   {
     "Code": "02CC-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "CIED",
     "Session_Type": "Db",
     "Track": "Joint",
@@ -3801,7 +3801,7 @@ var schedule = [
   },
   {
     "Code": "02CC-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "Db",
     "Track": "",
@@ -3839,7 +3839,7 @@ var schedule = [
   },
   {
     "Code": "02CC-lunch",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -3877,7 +3877,7 @@ var schedule = [
   },
   {
     "Code": "02L1/2-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SVT",
     "Session_Type": "CL90",
     "Track": "",
@@ -3915,7 +3915,7 @@ var schedule = [
   },
   {
     "Code": "02L1/2-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -3953,7 +3953,7 @@ var schedule = [
   },
   {
     "Code": "02L1/2-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "VT",
     "Session_Type": "CL60",
     "Track": "",
@@ -3991,7 +3991,7 @@ var schedule = [
   },
   {
     "Code": "02L1/2-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "CL90",
     "Track": "",
@@ -4029,7 +4029,7 @@ var schedule = [
   },
   {
     "Code": "02L10-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SCD",
     "Session_Type": "CL90",
     "Track": "",
@@ -4067,7 +4067,7 @@ var schedule = [
   },
   {
     "Code": "02L10-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -4105,7 +4105,7 @@ var schedule = [
   },
   {
     "Code": "02L10-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -4143,7 +4143,7 @@ var schedule = [
   },
   {
     "Code": "02L10-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -4181,7 +4181,7 @@ var schedule = [
   },
   {
     "Code": "02L10-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -4198,8 +4198,8 @@ var schedule = [
     "SubT2": "The latest update on technology and outcomes",
     "SubT3": "subQ ICD in inherited arrhythmia syndromes",
     "SubT4": "subQ ICD in cardiomyopathy",
-    "SubT5": "",
-    "SubT6": "Panel Discussion",
+    "SubT5": "Panel Discussion",
+    "SubT6": "-",
     "Spk1": "GOLD, Michael R.",
     "Spk2": "Russo, Andrea",
     "Spk3": "Knight, Bradley",
@@ -4219,7 +4219,7 @@ var schedule = [
   },
   {
     "Code": "02L10-lunch",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -4257,7 +4257,7 @@ var schedule = [
   },
   {
     "Code": "02L11-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AF",
     "Session_Type": "CBS",
     "Track": "JR",
@@ -4295,7 +4295,7 @@ var schedule = [
   },
   {
     "Code": "02L11-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "HF",
     "Session_Type": "CL60",
     "Track": "",
@@ -4333,7 +4333,7 @@ var schedule = [
   },
   {
     "Code": "02L11-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -4371,7 +4371,7 @@ var schedule = [
   },
   {
     "Code": "02L11-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Gen",
     "Session_Type": "CL60",
     "Track": "",
@@ -4409,7 +4409,7 @@ var schedule = [
   },
   {
     "Code": "02L11-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "HF",
     "Session_Type": "CBS",
     "Track": "",
@@ -4447,7 +4447,7 @@ var schedule = [
   },
   {
     "Code": "02L11-lunch",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -4485,7 +4485,7 @@ var schedule = [
   },
   {
     "Code": "02L12-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Ped",
     "Session_Type": "CL90",
     "Track": "",
@@ -4523,7 +4523,7 @@ var schedule = [
   },
   {
     "Code": "02L12-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Ped",
     "Session_Type": "CBS",
     "Track": "",
@@ -4561,7 +4561,7 @@ var schedule = [
   },
   {
     "Code": "02L12-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Ped",
     "Session_Type": "CL90",
     "Track": "",
@@ -4599,7 +4599,7 @@ var schedule = [
   },
   {
     "Code": "02L12-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Ped",
     "Session_Type": "CBS",
     "Track": "",
@@ -4637,7 +4637,7 @@ var schedule = [
   },
   {
     "Code": "02L12-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Ped",
     "Session_Type": "CL60",
     "Track": "",
@@ -4675,7 +4675,7 @@ var schedule = [
   },
   {
     "Code": "02L13-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "CIED",
     "Session_Type": "CL90",
     "Track": "",
@@ -4713,7 +4713,7 @@ var schedule = [
   },
   {
     "Code": "02L13-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "CIED",
     "Session_Type": "CL60",
     "Track": "",
@@ -4751,7 +4751,7 @@ var schedule = [
   },
   {
     "Code": "02L13-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AP",
     "Session_Type": "CL60",
     "Track": "",
@@ -4789,7 +4789,7 @@ var schedule = [
   },
   {
     "Code": "02L13-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SVT",
     "Session_Type": "CL90",
     "Track": "",
@@ -4827,7 +4827,7 @@ var schedule = [
   },
   {
     "Code": "02L13-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -4865,7 +4865,7 @@ var schedule = [
   },
   {
     "Code": "02L14-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "",
     "Track": "JR",
@@ -4903,7 +4903,7 @@ var schedule = [
   },
   {
     "Code": "02L14-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "Joint",
@@ -4941,7 +4941,7 @@ var schedule = [
   },
   {
     "Code": "02L14-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "Joint",
@@ -4979,7 +4979,7 @@ var schedule = [
   },
   {
     "Code": "02L15-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -5017,7 +5017,7 @@ var schedule = [
   },
   {
     "Code": "02L15-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -5055,7 +5055,7 @@ var schedule = [
   },
   {
     "Code": "02L3/4-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "VT",
     "Session_Type": "CL90",
     "Track": "",
@@ -5093,7 +5093,7 @@ var schedule = [
   },
   {
     "Code": "02L3/4-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "VT",
     "Session_Type": "CL60",
     "Track": "",
@@ -5131,7 +5131,7 @@ var schedule = [
   },
   {
     "Code": "02L3/4-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "VT",
     "Session_Type": "CL60",
     "Track": "",
@@ -5169,7 +5169,7 @@ var schedule = [
   },
   {
     "Code": "02L3/4-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -5207,7 +5207,7 @@ var schedule = [
   },
   {
     "Code": "02L3/4-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "VT",
     "Session_Type": "CL90",
     "Track": "",
@@ -5245,7 +5245,7 @@ var schedule = [
   },
   {
     "Code": "02L5/6-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "BS",
     "Session_Type": "CL90",
     "Track": "",
@@ -5283,7 +5283,7 @@ var schedule = [
   },
   {
     "Code": "02L5/6-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "Joint",
@@ -5321,7 +5321,7 @@ var schedule = [
   },
   {
     "Code": "02L5/6-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "",
@@ -5359,7 +5359,7 @@ var schedule = [
   },
   {
     "Code": "02L5/6-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "Joint",
@@ -5397,7 +5397,7 @@ var schedule = [
   },
   {
     "Code": "02L5/6-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "BS",
     "Session_Type": "CL90",
     "Track": "",
@@ -5435,7 +5435,7 @@ var schedule = [
   },
   {
     "Code": "02L5/6-lunch",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -5473,7 +5473,7 @@ var schedule = [
   },
   {
     "Code": "02L7-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AP",
     "Session_Type": "CL90",
     "Track": "",
@@ -5511,7 +5511,7 @@ var schedule = [
   },
   {
     "Code": "02L7-2",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "CIED",
     "Session_Type": "CL60",
     "Track": "",
@@ -5549,7 +5549,7 @@ var schedule = [
   },
   {
     "Code": "02L7-3",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "AP",
     "Session_Type": "CL60",
     "Track": "",
@@ -5587,7 +5587,7 @@ var schedule = [
   },
   {
     "Code": "02L7-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "Joint",
@@ -5625,7 +5625,7 @@ var schedule = [
   },
   {
     "Code": "02L7-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "CIED",
     "Session_Type": "CL90",
     "Track": "",
@@ -5663,7 +5663,7 @@ var schedule = [
   },
   {
     "Code": "02L7-lunch",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -5701,7 +5701,7 @@ var schedule = [
   },
   {
     "Code": "02L8-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Abs",
     "Session_Type": "YIA",
     "Track": "",
@@ -5739,7 +5739,7 @@ var schedule = [
   },
   {
     "Code": "02L8-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -5777,7 +5777,7 @@ var schedule = [
   },
   {
     "Code": "02L8-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -5815,7 +5815,7 @@ var schedule = [
   },
   {
     "Code": "02L9-1",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Abs",
     "Session_Type": "YIA",
     "Track": "",
@@ -5853,7 +5853,7 @@ var schedule = [
   },
   {
     "Code": "02L9-4",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -5891,7 +5891,7 @@ var schedule = [
   },
   {
     "Code": "02L9-5",
-    "Date": "10/25/2019",
+    "Date": "25-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -5929,7 +5929,7 @@ var schedule = [
   },
   {
     "Code": "03ballA-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "AF",
     "Session_Type": "CL90",
     "Track": "",
@@ -5967,7 +5967,7 @@ var schedule = [
   },
   {
     "Code": "03ballA-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -6005,7 +6005,7 @@ var schedule = [
   },
   {
     "Code": "03ballA-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "AF",
     "Session_Type": "101",
     "Track": "",
@@ -6043,7 +6043,7 @@ var schedule = [
   },
   {
     "Code": "03ballA-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -6081,7 +6081,7 @@ var schedule = [
   },
   {
     "Code": "03ballA-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "AF",
     "Session_Type": "CL90",
     "Track": "",
@@ -6119,7 +6119,7 @@ var schedule = [
   },
   {
     "Code": "03ballA-6",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "HF",
     "Session_Type": "Rn'F",
     "Track": "Joint",
@@ -6157,7 +6157,7 @@ var schedule = [
   },
   {
     "Code": "03ballA-lunch",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -6195,7 +6195,7 @@ var schedule = [
   },
   {
     "Code": "03ballB-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Live",
     "Track": "",
@@ -6233,7 +6233,7 @@ var schedule = [
   },
   {
     "Code": "03ballB-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Live",
     "Track": "",
@@ -6271,7 +6271,7 @@ var schedule = [
   },
   {
     "Code": "03ballB-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Live",
     "Track": "",
@@ -6309,7 +6309,7 @@ var schedule = [
   },
   {
     "Code": "03ballB-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Live",
     "Track": "",
@@ -6347,7 +6347,7 @@ var schedule = [
   },
   {
     "Code": "03ballB-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Live",
     "Track": "",
@@ -6385,7 +6385,7 @@ var schedule = [
   },
   {
     "Code": "03ballC-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SCD",
     "Session_Type": "CL90",
     "Track": "",
@@ -6423,7 +6423,7 @@ var schedule = [
   },
   {
     "Code": "03ballC-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -6461,7 +6461,7 @@ var schedule = [
   },
   {
     "Code": "03ballC-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Ped",
     "Session_Type": "CL60",
     "Track": "",
@@ -6499,7 +6499,7 @@ var schedule = [
   },
   {
     "Code": "03ballC-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -6537,7 +6537,7 @@ var schedule = [
   },
   {
     "Code": "03ballC-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "CIED",
     "Session_Type": "CBS",
     "Track": "",
@@ -6575,7 +6575,7 @@ var schedule = [
   },
   {
     "Code": "03ballC-lunch",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -6613,7 +6613,7 @@ var schedule = [
   },
   {
     "Code": "03CC-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "nonMed",
     "Session_Type": "Ple",
     "Track": "",
@@ -6622,16 +6622,16 @@ var schedule = [
     "Rm Code": "CC",
     "Rm": "Convention Center",
     "Main_Title": "Radiation Safety and Ergonomic in EP Lab ",
-    "no_subTs": 6,
+    "no_subTs": 5,
     "no Spks": 5,
     "no Mods": 4,
-    "time_allocation": "16mins/talk, 10mins discussion",
+    "time_allocation": "15+3mins/talk+QA",
     "SubT1": "The inconvenient truth of occupation health hazards in the EP lab",
     "SubT2": "Are cataract and cancers among EP/CATH lab operators a real risk?�",
     "SubT3": "How to reduce fluoroscopic time and radiation dosage in EP lab",
     "SubT4": "How to enhance ergonomic environment in EP lab",
     "SubT5": "Zero vs. Low Dose Fluoroscopy for Pediatric Ablation",
-    "SubT6": "Panels Discussion",
+    "SubT6": "-",
     "Spk1": "Haines, David",
     "Spk2": "REHANI, Madan",
     "Spk3": "KAUTZNER, Josef",
@@ -6651,7 +6651,7 @@ var schedule = [
   },
   {
     "Code": "03CC-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "nonMed",
     "Session_Type": "Ple",
     "Track": "",
@@ -6689,7 +6689,7 @@ var schedule = [
   },
   {
     "Code": "03CC-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "nonMed",
     "Session_Type": "Ple",
     "Track": "",
@@ -6727,7 +6727,7 @@ var schedule = [
   },
   {
     "Code": "03CC-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "nonMed",
     "Session_Type": "CL60",
     "Track": "",
@@ -6765,7 +6765,7 @@ var schedule = [
   },
   {
     "Code": "03CC-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "AF",
     "Session_Type": "NSTO",
     "Track": "",
@@ -6803,7 +6803,7 @@ var schedule = [
   },
   {
     "Code": "03CC-lunch",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -6841,7 +6841,7 @@ var schedule = [
   },
   {
     "Code": "03L1/4-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "CIED",
     "Session_Type": "NSTO",
     "Track": "",
@@ -6879,7 +6879,7 @@ var schedule = [
   },
   {
     "Code": "03L1/4-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "CIED",
     "Session_Type": "VP",
     "Track": "Joint",
@@ -6899,7 +6899,7 @@ var schedule = [
     "SubT5": "-",
     "SubT6": "-",
     "Spk1": "Russo, Andrea",
-    "Spk2": "MORITA, Hiroshi",
+    "Spk2": "Cho, Yongkeun",
     "Spk3": "Kober, Lars",
     "Spk4": "",
     "Spk5": "",
@@ -6917,7 +6917,7 @@ var schedule = [
   },
   {
     "Code": "03L1/4-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -6955,7 +6955,7 @@ var schedule = [
   },
   {
     "Code": "03L1/4-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "CIED",
     "Session_Type": "SP",
     "Track": "",
@@ -6993,7 +6993,7 @@ var schedule = [
   },
   {
     "Code": "03L1/4-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "CIED",
     "Session_Type": "SP",
     "Track": "",
@@ -7031,7 +7031,7 @@ var schedule = [
   },
   {
     "Code": "03L10-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Ped",
     "Session_Type": "CBS",
     "Track": "",
@@ -7069,7 +7069,7 @@ var schedule = [
   },
   {
     "Code": "03L10-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Ped",
     "Session_Type": "CL60",
     "Track": "",
@@ -7107,7 +7107,7 @@ var schedule = [
   },
   {
     "Code": "03L10-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -7145,7 +7145,7 @@ var schedule = [
   },
   {
     "Code": "03L10-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SCD",
     "Session_Type": "CL90",
     "Track": "",
@@ -7153,7 +7153,7 @@ var schedule = [
     "Time": "13:30-14:30",
     "Rm Code": "L10",
     "Rm": "Lotus 10",
-    "Main_Title": "BrS: therapeutic options (non-ablative)",
+    "Main_Title": "BrS: therapeutic options",
     "no_subTs": 6,
     "no Spks": 5,
     "no Mods": 4,
@@ -7183,7 +7183,7 @@ var schedule = [
   },
   {
     "Code": "03L10-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "VT",
     "Session_Type": "CL90",
     "Track": "",
@@ -7221,7 +7221,7 @@ var schedule = [
   },
   {
     "Code": "03L10-lunch",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -7259,7 +7259,7 @@ var schedule = [
   },
   {
     "Code": "03L11-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "VT",
     "Session_Type": "CL90",
     "Track": "",
@@ -7297,7 +7297,7 @@ var schedule = [
   },
   {
     "Code": "03L11-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "VT",
     "Session_Type": "CL60",
     "Track": "",
@@ -7335,7 +7335,7 @@ var schedule = [
   },
   {
     "Code": "03L11-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "VT",
     "Session_Type": "CL60",
     "Track": "",
@@ -7351,7 +7351,7 @@ var schedule = [
     "SubT1": "Epicardial mapping of LQTS patient",
     "SubT2": "Role of Non-invasive mapping",
     "SubT3": "Role of imaging study",
-    "SubT4": "",
+    "SubT4": "Endpoints and Outcomes",
     "SubT5": "-",
     "SubT6": "-",
     "Spk1": "YUNIADI, Yoga",
@@ -7373,7 +7373,7 @@ var schedule = [
   },
   {
     "Code": "03L11-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -7411,7 +7411,7 @@ var schedule = [
   },
   {
     "Code": "03L11-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SCD",
     "Session_Type": "CL90",
     "Track": "",
@@ -7420,20 +7420,20 @@ var schedule = [
     "Rm Code": "L11",
     "Rm": "Lotus 11",
     "Main_Title": "LQTs: Pathophysiology & Management",
-    "no_subTs": 6,
+    "no_subTs": 5,
     "no Spks": 5,
     "no Mods": 4,
-    "time_allocation": "16mins/talk, 10mins discussion",
+    "time_allocation": "15+3mins/talk+QA",
     "SubT1": "Pathophysiological substrate",
     "SubT2": "Genetype & Phenotype Correlation in congenital LQTs",
-    "SubT3": "Whom should be treated?",
-    "SubT4": "What to do when BB fails",
+    "SubT3": "LQT1 and CPVT: the similarities and dissimilarities",
+    "SubT4": "Whom should be treated and how?",
     "SubT5": "Precision medicine approach",
-    "SubT6": "Panel Discussion",
+    "SubT6": "-",
     "Spk1": "",
     "Spk2": "SHIMIZU, Wataru",
-    "Spk3": "PRIORI, Silvia G",
-    "Spk4": "",
+    "Spk3": "MORITA, Hiroshi",
+    "Spk4": "PRIORI, Silvia G",
     "Spk5": "LIMPITIKUL, Worawan",
     "Spk6": "",
     "Mod1": "",
@@ -7449,7 +7449,7 @@ var schedule = [
   },
   {
     "Code": "03L11-lunch",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -7487,7 +7487,7 @@ var schedule = [
   },
   {
     "Code": "03L12-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SVT",
     "Session_Type": "CBS",
     "Track": "JR",
@@ -7525,7 +7525,7 @@ var schedule = [
   },
   {
     "Code": "03L12-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SVT",
     "Session_Type": "CL60",
     "Track": "",
@@ -7563,7 +7563,7 @@ var schedule = [
   },
   {
     "Code": "03L12-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SVT",
     "Session_Type": "CL60",
     "Track": "",
@@ -7601,7 +7601,7 @@ var schedule = [
   },
   {
     "Code": "03L12-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -7639,7 +7639,7 @@ var schedule = [
   },
   {
     "Code": "03L12-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SVT",
     "Session_Type": "CL90",
     "Track": "",
@@ -7677,7 +7677,7 @@ var schedule = [
   },
   {
     "Code": "03L13-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -7715,7 +7715,7 @@ var schedule = [
   },
   {
     "Code": "03L13-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -7753,7 +7753,7 @@ var schedule = [
   },
   {
     "Code": "03L14-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "JR",
@@ -7791,7 +7791,7 @@ var schedule = [
   },
   {
     "Code": "03L14-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "Joint",
@@ -7829,7 +7829,7 @@ var schedule = [
   },
   {
     "Code": "03L14-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "Joint",
@@ -7867,7 +7867,7 @@ var schedule = [
   },
   {
     "Code": "03L15-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -7905,7 +7905,7 @@ var schedule = [
   },
   {
     "Code": "03L15-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "CL90",
     "Track": "",
@@ -7943,7 +7943,7 @@ var schedule = [
   },
   {
     "Code": "03L5/6-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "BS",
     "Session_Type": "CL90",
     "Track": "",
@@ -7981,7 +7981,7 @@ var schedule = [
   },
   {
     "Code": "03L5/6-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "",
@@ -8019,7 +8019,7 @@ var schedule = [
   },
   {
     "Code": "03L5/6-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "",
@@ -8057,7 +8057,7 @@ var schedule = [
   },
   {
     "Code": "03L5/6-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "",
@@ -8095,7 +8095,7 @@ var schedule = [
   },
   {
     "Code": "03L5/6-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "BS",
     "Session_Type": "CL90",
     "Track": "",
@@ -8133,7 +8133,7 @@ var schedule = [
   },
   {
     "Code": "03L5/6-lunch",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -8171,7 +8171,7 @@ var schedule = [
   },
   {
     "Code": "03L7-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Syn",
     "Session_Type": "CL90",
     "Track": "",
@@ -8209,7 +8209,7 @@ var schedule = [
   },
   {
     "Code": "03L7-2",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -8229,7 +8229,7 @@ var schedule = [
     "SubT5": "-",
     "SubT6": "-",
     "Spk1": "Wilde, Arthur",
-    "Spk2": "",
+    "Spk2": "Cho, Yongkeun",
     "Spk3": "CHOCKALINGAM, Priya",
     "Spk4": "PRIORI, Silvia G",
     "Spk5": "",
@@ -8247,7 +8247,7 @@ var schedule = [
   },
   {
     "Code": "03L7-3",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -8285,7 +8285,7 @@ var schedule = [
   },
   {
     "Code": "03L7-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -8323,7 +8323,7 @@ var schedule = [
   },
   {
     "Code": "03L7-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Gen",
     "Session_Type": "SP",
     "Track": "",
@@ -8361,7 +8361,7 @@ var schedule = [
   },
   {
     "Code": "03L7-lunch",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "",
     "Session_Type": "Lunch",
     "Track": "",
@@ -8399,7 +8399,7 @@ var schedule = [
   },
   {
     "Code": "03L8-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Abs",
     "Session_Type": "YIA",
     "Track": "",
@@ -8437,7 +8437,7 @@ var schedule = [
   },
   {
     "Code": "03L8-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -8475,7 +8475,7 @@ var schedule = [
   },
   {
     "Code": "03L8-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -8513,7 +8513,7 @@ var schedule = [
   },
   {
     "Code": "03L9-1",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Abs",
     "Session_Type": "YIA",
     "Track": "",
@@ -8551,7 +8551,7 @@ var schedule = [
   },
   {
     "Code": "03L9-4",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -8589,7 +8589,7 @@ var schedule = [
   },
   {
     "Code": "03L9-5",
-    "Date": "10/26/2019",
+    "Date": "26-10-19",
     "Topic": "Abs",
     "Session_Type": "Abs",
     "Track": "",
@@ -8627,7 +8627,7 @@ var schedule = [
   },
   {
     "Code": "04CC-1",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "SCD",
     "Session_Type": "Ple",
     "Track": "",
@@ -8665,7 +8665,7 @@ var schedule = [
   },
   {
     "Code": "04CC-2",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "SCD",
     "Session_Type": "Ple",
     "Track": "",
@@ -8703,7 +8703,7 @@ var schedule = [
   },
   {
     "Code": "04CC-3",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "",
     "Session_Type": "CM",
     "Track": "",
@@ -8741,7 +8741,7 @@ var schedule = [
   },
   {
     "Code": "04L1/4-1",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "CIED",
     "Session_Type": "CL60",
     "Track": "",
@@ -8779,7 +8779,7 @@ var schedule = [
   },
   {
     "Code": "04L1/4-2",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -8817,7 +8817,7 @@ var schedule = [
   },
   {
     "Code": "04L1/4-3",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "CIED",
     "Session_Type": "CL60",
     "Track": "",
@@ -8855,7 +8855,7 @@ var schedule = [
   },
   {
     "Code": "04L10-1",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "VT",
     "Session_Type": "CBS",
     "Track": "",
@@ -8893,7 +8893,7 @@ var schedule = [
   },
   {
     "Code": "04L10-2",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "VT",
     "Session_Type": "CL60",
     "Track": "",
@@ -8931,7 +8931,7 @@ var schedule = [
   },
   {
     "Code": "04L10-3",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "Gen",
     "Session_Type": "CL60",
     "Track": "",
@@ -8969,7 +8969,7 @@ var schedule = [
   },
   {
     "Code": "04L11-1",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "AF",
     "Session_Type": "CL90",
     "Track": "",
@@ -9007,7 +9007,7 @@ var schedule = [
   },
   {
     "Code": "04L11-2",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "AF",
     "Session_Type": "CBS",
     "Track": "JR",
@@ -9045,7 +9045,7 @@ var schedule = [
   },
   {
     "Code": "04L11-3",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "AF",
     "Session_Type": "CL60",
     "Track": "",
@@ -9083,7 +9083,7 @@ var schedule = [
   },
   {
     "Code": "04L12-1",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "CIED",
     "Session_Type": "CBS",
     "Track": "JR",
@@ -9121,7 +9121,7 @@ var schedule = [
   },
   {
     "Code": "04L12-2",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -9146,7 +9146,7 @@ var schedule = [
     "Spk4": "Thai",
     "Spk5": "",
     "Spk6": "",
-    "Mod1": "",
+    "Mod1": "Choi, Jong-Il",
     "Mod2": "",
     "Mod3": "",
     "Mod4": "",
@@ -9159,7 +9159,7 @@ var schedule = [
   },
   {
     "Code": "04L12-3",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "nonMed",
     "Session_Type": "NSTO",
     "Track": "Joint",
@@ -9197,7 +9197,7 @@ var schedule = [
   },
   {
     "Code": "04L5/6-1",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "BS",
     "Session_Type": "CL90",
     "Track": "",
@@ -9235,7 +9235,7 @@ var schedule = [
   },
   {
     "Code": "04L5/6-2",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "BS",
     "Session_Type": "CL60",
     "Track": "",
@@ -9273,7 +9273,7 @@ var schedule = [
   },
   {
     "Code": "04L5/6-3",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "SCD",
     "Session_Type": "CL60",
     "Track": "",
@@ -9311,7 +9311,7 @@ var schedule = [
   },
   {
     "Code": "04L7-1",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "AP",
     "Session_Type": "CL60",
     "Track": "",
@@ -9349,7 +9349,7 @@ var schedule = [
   },
   {
     "Code": "04L7-2",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "",
     "Session_Type": "Sponsor",
     "Track": "Spsr",
@@ -9387,7 +9387,7 @@ var schedule = [
   },
   {
     "Code": "04L7-3",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "AP",
     "Session_Type": "CL60",
     "Track": "",
@@ -9406,7 +9406,7 @@ var schedule = [
     "SubT4": "How to establish a cardiogenetic clinic",
     "SubT5": "-",
     "SubT6": "-",
-    "Spk1": "",
+    "Spk1": "Choi, Jong-Il",
     "Spk2": "",
     "Spk3": "",
     "Spk4": "CHOCKALINGAM, Priya",
@@ -9425,7 +9425,7 @@ var schedule = [
   },
   {
     "Code": "04L9-1",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "SVT",
     "Session_Type": "CL90",
     "Track": "",
@@ -9463,7 +9463,7 @@ var schedule = [
   },
   {
     "Code": "04L9-2",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "SVT",
     "Session_Type": "VP",
     "Track": "",
@@ -9501,7 +9501,7 @@ var schedule = [
   },
   {
     "Code": "04L9-3",
-    "Date": "10/27/2019",
+    "Date": "27-10-19",
     "Topic": "SVT",
     "Session_Type": "CL60",
     "Track": "",
