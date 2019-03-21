@@ -38,7 +38,7 @@ Sessions Summary Report
     <table id="topic" class="w3-table w3-padding-small sans w3-bordered w3-centered" 
     style="font-size:2vmax;">
     <tr>
-        <th>Topics</th><th>Number of sessions</th>
+        <th>Topics</th><th>Number of sessions</th><th>%</th>
     </tr>
     </table>
     <div class="w3-row sans" style="font-size:1.5vmax">
@@ -51,7 +51,7 @@ Sessions Summary Report
         <table id="track" class="w3-table w3-padding-small sans w3-bordered w3-centered" 
         style="font-size:2vmax;">
         <tr>
-            <th>Tracks</th><th>Number of sessions</th>
+            <th>Tracks</th><th>Number of sessions</th><th>%</th>
         </tr>
         </table>
     </div>
@@ -65,7 +65,7 @@ Sessions Summary Report
     <table id="type" class="w3-table w3-padding-small sans w3-bordered w3-centered" 
     style="font-size:2vmax;">
     <tr>
-        <th>Session Types</th><th>Number of sessions</th>
+        <th>Session Types</th><th>Number of sessions</th><th>%</th>
     </tr>
     </table>
 </div>
@@ -131,15 +131,20 @@ function showTopic(){
 
 
     var table = document.getElementById('topic')
-    var i;var n=1;
-    for (i=0;i<topicArray.length;i++){
+    var n=1;
+
+    for (var i=0;i<topicArray.length;i++){
         var rowNo =n+i;
         var row = table.insertRow(rowNo)
         var cell0 = row.insertCell(0);
-        var cell1 = row.insertCell(1)
+        var cell1 = row.insertCell(1);
+        var cell2 = row.insertCell(2)
         cell0.innerHTML = topicArray[i].topic;
         cell1.innerHTML = topicArray[i].count;
+        var percent = (topicArray[i].count/schedule.length)*100
+        cell2.innerHTML = percent.toFixed(2);
     }
+    
 
 }
 
@@ -172,8 +177,12 @@ function showTrack(){
         var row = table.insertRow(rowNo)
         var cell0 = row.insertCell(0);
         var cell1 = row.insertCell(1)
+        var cell2 = row.insertCell(2)
         cell0.innerHTML = trackArray[i].track;
         cell1.innerHTML = trackArray[i].count;
+        
+        var percent = (trackArray[i].count/schedule.length)*100
+        cell2.innerHTML = percent.toFixed(2);
     }
 }
 
@@ -206,8 +215,12 @@ function showType(){
         var row = table.insertRow(rowNo)
         var cell0 = row.insertCell(0);
         var cell1 = row.insertCell(1)
+        var cell2 = row.insertCell(2)
         cell0.innerHTML = typeArray[i].type;
         cell1.innerHTML = typeArray[i].count;
+        
+        var percent = (typeArray[i].count/schedule.length)*100
+        cell2.innerHTML = percent.toFixed(2);
     }
 }
 
