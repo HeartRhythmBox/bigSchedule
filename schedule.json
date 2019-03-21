@@ -1,7 +1,7 @@
 [
  {
    "Code": "01ballA-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AF",
    "Session_Type": "CL90",
    "Track": "",
@@ -30,16 +30,11 @@
    "Mod2": "Kim, Sung-Hwan",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Med management",
-   "Topics": "AF,  -Med management",
-   "rEditing": "Y"
+   "CoTopic": ""
  },
  {
    "Code": "01ballA-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Syn",
    "Session_Type": "CL60",
    "Track": "",
@@ -68,16 +63,11 @@
    "Mod2": "Thai",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Syn,  -",
-   "rEditing": "Y"
+   "CoTopic": ""
  },
  {
    "Code": "01ballA-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -106,16 +96,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Med management",
-   "Topics": "AF,  -Med management",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballA-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Gen",
    "Session_Type": "SP",
    "Track": "",
@@ -144,16 +129,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Gen,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballA-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Gen",
    "Session_Type": "SP",
    "Track": "",
@@ -182,16 +162,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Gen,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballA-6",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "CIED",
    "Session_Type": "CL60",
    "Track": "Joint",
@@ -220,16 +195,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballA-lunch",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -258,16 +228,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballB-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "nonMed",
    "Session_Type": "CL90",
    "Track": "Joint",
@@ -296,16 +261,11 @@
    "Mod2": "Thai",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "Career",
-   "Topics": "nonMed,  -Career",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballB-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AF",
    "Session_Type": "VP",
    "Track": "",
@@ -334,16 +294,11 @@
    "Mod2": "HUANG, Shoei K. Stephen",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballB-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -372,16 +327,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "Guidelines",
-   "Topics": "AF,  -Guidelines",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballB-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SCD",
    "Session_Type": "Ple",
    "Track": "",
@@ -410,16 +360,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "01ballB-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AF",
    "Session_Type": "CL90",
    "Track": "",
@@ -448,16 +393,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Med management",
-   "Topics": "AF,  -Med management",
-   "rEditing": "Y"
+   "CoTopic": ""
  },
  {
    "Code": "01ballB-6",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SCD",
    "Session_Type": "Rn'F",
    "Track": "Joint",
@@ -486,16 +426,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "VT",
-   "Subcat": "",
-   "Topics": "SCD, VT -",
-   "rEditing": ""
+   "CoTopic": "VT"
  },
  {
    "Code": "01ballB-lunch",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -524,16 +459,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballC-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "CIED",
    "Session_Type": "SP",
    "Track": "",
@@ -562,16 +492,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "y",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballC-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "CIED",
    "Session_Type": "SP",
    "Track": "",
@@ -600,16 +525,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "y",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballC-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "CIED",
    "Session_Type": "SP",
    "Track": "",
@@ -638,16 +558,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "y",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballC-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "CIED",
    "Session_Type": "SP",
    "Track": "",
@@ -676,16 +591,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "y",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballC-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "CIED",
    "Session_Type": "SP",
    "Track": "",
@@ -714,16 +624,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "y",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01ballC-lunch",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -752,16 +657,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01CC-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "CM",
    "Track": "",
@@ -790,16 +690,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01CC-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SCD",
    "Session_Type": "Ple",
    "Track": "",
@@ -828,16 +723,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "y",
-   "CoTopic": "VT",
-   "Subcat": "",
-   "Topics": "SCD, VT -",
-   "rEditing": "Y"
+   "CoTopic": "VT"
  },
  {
    "Code": "01CC-lunch",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -866,16 +756,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L1/2-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SVT",
    "Session_Type": "CL90",
    "Track": "",
@@ -904,16 +789,11 @@
    "Mod2": "KANEKO, Yoshiaki",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "AP",
-   "Subcat": "Diagnosis",
-   "Topics": "SVT, AP -Diagnosis",
-   "rEditing": ""
+   "CoTopic": "AP"
  },
  {
    "Code": "01L1/2-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SVT",
    "Session_Type": "CL60",
    "Track": "",
@@ -942,16 +822,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SVT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L1/2-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SVT",
    "Session_Type": "101",
    "Track": "",
@@ -980,16 +855,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SVT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L1/2-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SVT",
    "Session_Type": "CL60",
    "Track": "",
@@ -1018,16 +888,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Complications",
-   "Topics": "SVT,  -Complications",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L1/2-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SVT",
    "Session_Type": "CL90",
    "Track": "",
@@ -1056,16 +921,11 @@
    "Mod2": "HUANG, Shoei K. Stephen",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SVT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L10-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SCD",
    "Session_Type": "CL90",
    "Track": "",
@@ -1094,16 +954,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "01L10-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -1132,16 +987,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Diagnosis",
-   "Topics": "SCD,  -Diagnosis",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L10-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -1170,16 +1020,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "Diagnosis",
-   "Topics": "SCD, BS -Diagnosis",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "01L10-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SCD",
    "Session_Type": "CBS",
    "Track": "",
@@ -1208,16 +1053,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Diagnosis",
-   "Topics": "SCD,  -Diagnosis",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L10-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "SCD",
    "Session_Type": "CL90",
    "Track": "",
@@ -1246,16 +1086,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "01L10-lunch",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -1284,16 +1119,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L11-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "HF",
    "Session_Type": "CL90",
    "Track": "",
@@ -1314,7 +1144,7 @@
    "SubT6": "Panel Discussion",
    "Spk1": "",
    "Spk2": "Wong, Tom",
-   "Spk3": "MARROUCHE, Nassir F.",
+   "Spk3": "",
    "Spk4": "KISTLER, Peter",
    "Spk5": "Gasparini, Maurizio",
    "Spk6": "",
@@ -1322,16 +1152,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "AF",
-   "Subcat": "",
-   "Topics": "HF, AF -",
-   "rEditing": ""
+   "CoTopic": "AF"
  },
  {
    "Code": "01L11-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -1360,16 +1185,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L11-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "CIED",
    "Session_Type": "CL60",
    "Track": "",
@@ -1398,16 +1218,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Complications",
-   "Topics": "CIED,  -Complications",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L11-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -1436,16 +1251,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L11-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AF",
    "Session_Type": "CL90",
    "Track": "",
@@ -1474,16 +1284,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": "Y"
+   "CoTopic": ""
  },
  {
    "Code": "01L11-lunch",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -1512,16 +1317,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L12-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Ped",
    "Session_Type": "CL90",
    "Track": "",
@@ -1550,16 +1350,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Anatomy",
-   "Topics": "Ped,  -Anatomy",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L12-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Ped",
    "Session_Type": "CL60",
    "Track": "",
@@ -1588,16 +1383,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L12-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Ped",
    "Session_Type": "CL60",
    "Track": "",
@@ -1626,16 +1416,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L12-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -1664,16 +1449,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L12-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Ped",
    "Session_Type": "CL90",
    "Track": "",
@@ -1702,16 +1482,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L13-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "VT",
    "Session_Type": "CL90",
    "Track": "",
@@ -1740,16 +1515,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "VT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L13-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -1778,16 +1548,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": null,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L13-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -1816,16 +1581,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": null,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L13-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "BS",
    "Session_Type": "CL60",
    "Track": "",
@@ -1854,16 +1614,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "BS,  -",
-   "rEditing": "Y"
+   "CoTopic": ""
  },
  {
    "Code": "01L13-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AP",
    "Session_Type": "CBS",
    "Track": "",
@@ -1892,16 +1647,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "AP, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "01L14-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "",
    "Track": "",
@@ -1930,16 +1680,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L14-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -1968,16 +1713,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L15-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -2006,16 +1746,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L15-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -2044,16 +1779,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L3/4-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "VT",
    "Session_Type": "CL90",
    "Track": "",
@@ -2082,16 +1812,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "VT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L3/4-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "VT",
    "Session_Type": "CL60",
    "Track": "",
@@ -2120,16 +1845,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "VT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L3/4-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "VT",
    "Session_Type": "101",
    "Track": "",
@@ -2158,16 +1878,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "VT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L3/4-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "VT",
    "Session_Type": "CL60",
    "Track": "",
@@ -2196,16 +1911,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "VT, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "01L3/4-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "VT",
    "Session_Type": "CBS",
    "Track": "",
@@ -2234,16 +1944,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "VT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L5/6-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "BS",
    "Session_Type": "CL90",
    "Track": "",
@@ -2272,16 +1977,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Anatomy",
-   "Topics": "BS,  -Anatomy",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L5/6-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "BS",
    "Session_Type": "CL60",
    "Track": "",
@@ -2310,16 +2010,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "BS,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L5/6-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -2348,16 +2043,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L5/6-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "Joint",
@@ -2386,16 +2076,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "AF,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L5/6-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AF",
    "Session_Type": "CL90",
    "Track": "",
@@ -2424,16 +2109,11 @@
    "Mod2": "Thai",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "outcome",
-   "Topics": "AF,  -outcome",
-   "rEditing": "Y"
+   "CoTopic": ""
  },
  {
    "Code": "01L5/6-lunch",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -2462,16 +2142,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L7-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AP",
    "Session_Type": "CL90",
    "Track": "",
@@ -2500,16 +2175,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "AP, CIED -",
-   "rEditing": "Y"
+   "CoTopic": "CIED"
  },
  {
    "Code": "01L7-2",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "AP",
    "Session_Type": "101",
    "Track": "",
@@ -2538,16 +2208,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "AP, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "01L7-3",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Gen",
    "Session_Type": "CL60",
    "Track": "",
@@ -2576,16 +2241,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Lifestyle",
-   "Topics": "Gen,  -Lifestyle",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L7-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -2614,16 +2274,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L7-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -2652,16 +2307,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L7-lunch",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -2690,18 +2340,13 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L8-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Abs",
-   "Session_Type": "YIA",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -2710,7 +2355,7 @@
    "Main_Title": "YIA 6 abs",
    "no_subTs": 6,
    "no Spks": 6,
-   "no Mods": 4,
+   "no Mods": 3,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "",
    "SubT2": "",
@@ -2728,16 +2373,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L8-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -2766,16 +2406,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L8-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -2804,18 +2439,13 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L9-1",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Abs",
-   "Session_Type": "YIA",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -2824,7 +2454,7 @@
    "Main_Title": "YIA 6 abs",
    "no_subTs": 6,
    "no Spks": 6,
-   "no Mods": 4,
+   "no Mods": 3,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "",
    "SubT2": "",
@@ -2842,16 +2472,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L9-4",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -2880,16 +2505,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "01L9-5",
-   "Date": "24-10-19",
+   "Date": "10/24/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -2918,16 +2538,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballA-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "CL90",
    "Track": "",
@@ -2956,16 +2571,11 @@
    "Mod2": "Okumura, Yasuo",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "Mechanisms",
-   "Topics": "AF, BS -Mechanisms",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "02ballA-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -2994,16 +2604,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "AF,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballA-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -3032,16 +2637,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballA-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -3070,16 +2670,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Med management",
-   "Topics": "AF,  -Med management",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballA-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Gen",
    "Session_Type": "CL90",
    "Track": "",
@@ -3108,16 +2703,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "AP",
-   "Subcat": "",
-   "Topics": "Gen, AP -",
-   "rEditing": ""
+   "CoTopic": "AP"
  },
  {
    "Code": "02ballA-lunch",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -3146,16 +2736,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballB-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SVT",
    "Session_Type": "SP",
    "Track": "",
@@ -3184,16 +2769,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SVT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballB-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SVT",
    "Session_Type": "SP",
    "Track": "",
@@ -3222,16 +2802,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SVT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballB-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SVT",
    "Session_Type": "SP",
    "Track": "",
@@ -3260,16 +2835,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SVT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballB-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Live",
    "Track": "",
@@ -3298,16 +2868,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballB-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Live",
    "Track": "",
@@ -3336,16 +2901,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballB-6",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "CIED",
    "Session_Type": "Rn'F",
    "Track": "Joint",
@@ -3374,16 +2934,11 @@
    "Mod2": "AURICCHIO, Angelo",
    "Mod3": "Thai",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballB-lunch",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -3412,16 +2967,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballC-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "SP",
    "Track": "",
@@ -3450,16 +3000,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02ballC-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -3488,16 +3033,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": ", CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "02ballC-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Gen",
    "Session_Type": "CL60",
    "Track": "Joint",
@@ -3526,16 +3066,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "AP",
-   "Subcat": "ECG",
-   "Topics": "Gen, AP -ECG",
-   "rEditing": ""
+   "CoTopic": "AP"
  },
  {
    "Code": "02ballC-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "BS",
    "Session_Type": "CL60",
    "Track": "",
@@ -3564,16 +3099,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "SCD",
-   "Subcat": "",
-   "Topics": "BS, SCD -",
-   "rEditing": ""
+   "CoTopic": "SCD"
  },
  {
    "Code": "02ballC-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "VP",
    "Track": "",
@@ -3602,16 +3132,11 @@
    "Mod2": "Poole, Jeanne",
    "Mod3": "MARROUCHE, Nassir F.",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "Y",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "AF, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "02ballC-lunch",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -3640,16 +3165,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02CC-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SCD",
    "Session_Type": "CL90",
    "Track": "Joint",
@@ -3678,16 +3198,11 @@
    "Mod2": "SCHWARTZ, Peter",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "Gen",
-   "Subcat": "",
-   "Topics": "SCD, Gen -",
-   "rEditing": ""
+   "CoTopic": "Gen"
  },
  {
    "Code": "02CC-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "Ple",
    "Track": "",
@@ -3716,16 +3231,11 @@
    "Mod2": "Shen, Win-Kuang",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "Med management",
-   "Topics": "AF,  -Med management",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02CC-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "Ple",
    "Track": "",
@@ -3754,16 +3264,11 @@
    "Mod2": "JALIFE, Jos�",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "BS",
-   "Subcat": "Ablation",
-   "Topics": "AF, BS -Ablation",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "02CC-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "CIED",
    "Session_Type": "Db",
    "Track": "Joint",
@@ -3792,16 +3297,11 @@
    "Mod2": "CHING, Chi Keong",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "VT",
-   "Subcat": "",
-   "Topics": "CIED, VT -",
-   "rEditing": ""
+   "CoTopic": "VT"
  },
  {
    "Code": "02CC-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "Db",
    "Track": "",
@@ -3830,16 +3330,11 @@
    "Mod2": "YUNIADI, Yoga",
    "Mod3": "Heidbuchel, Hein",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "Y",
-   "CoTopic": "AF",
-   "Subcat": "",
-   "Topics": "AF, AF -",
-   "rEditing": ""
+   "CoTopic": "AF"
  },
  {
    "Code": "02CC-lunch",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -3868,16 +3363,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L1/2-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SVT",
    "Session_Type": "CL90",
    "Track": "",
@@ -3906,16 +3396,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "Anatomy",
-   "Topics": "SVT, BS -Anatomy",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "02L1/2-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -3944,16 +3429,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "Anatomy",
-   "Topics": "AF, BS -Anatomy",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "02L1/2-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "VT",
    "Session_Type": "CL60",
    "Track": "",
@@ -3982,16 +3462,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "Anatomy",
-   "Topics": "VT, BS -Anatomy",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "02L1/2-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "CL90",
    "Track": "",
@@ -4020,16 +3495,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L10-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SCD",
    "Session_Type": "CL90",
    "Track": "",
@@ -4058,16 +3528,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "02L10-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -4096,16 +3561,11 @@
    "Mod2": "AGBAYANI, Michael Joseph",
    "Mod3": "IKEDA, Takanori",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SCD,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L10-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -4134,16 +3594,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "02L10-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -4172,16 +3627,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "SCD, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "02L10-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -4210,16 +3660,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "SCD, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "02L10-lunch",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -4248,16 +3693,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L11-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AF",
    "Session_Type": "CBS",
    "Track": "JR",
@@ -4286,16 +3726,11 @@
    "Mod2": "Steffel, Jan",
    "Mod3": "PHILLIPS, Karen",
    "Mod4": "CHAO, Tze-Fan",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "AF,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L11-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "HF",
    "Session_Type": "CL60",
    "Track": "",
@@ -4324,16 +3759,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "VT",
-   "Subcat": "",
-   "Topics": "HF, VT -",
-   "rEditing": ""
+   "CoTopic": "VT"
  },
  {
    "Code": "02L11-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -4362,16 +3792,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": ", CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "02L11-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Gen",
    "Session_Type": "CL60",
    "Track": "",
@@ -4400,16 +3825,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Med management",
-   "Topics": "Gen,  -Med management",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L11-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "HF",
    "Session_Type": "CBS",
    "Track": "",
@@ -4438,16 +3858,11 @@
    "Mod2": "WEI, Hua",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "HF, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "02L11-lunch",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -4476,16 +3891,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L12-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Ped",
    "Session_Type": "CL90",
    "Track": "",
@@ -4514,16 +3924,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L12-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Ped",
    "Session_Type": "CBS",
    "Track": "",
@@ -4552,16 +3957,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L12-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Ped",
    "Session_Type": "CL90",
    "Track": "",
@@ -4590,16 +3990,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L12-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Ped",
    "Session_Type": "CBS",
    "Track": "",
@@ -4628,16 +4023,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L12-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Ped",
    "Session_Type": "CL60",
    "Track": "",
@@ -4666,16 +4056,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L13-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "CIED",
    "Session_Type": "CL90",
    "Track": "",
@@ -4704,16 +4089,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L13-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "CIED",
    "Session_Type": "CL60",
    "Track": "",
@@ -4742,16 +4122,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "CIED, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "02L13-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AP",
    "Session_Type": "CL60",
    "Track": "",
@@ -4780,23 +4155,18 @@
    "Mod2": "STARCK, Christoph",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "AP, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
-   "Code": "02L13-5",
-   "Date": "25-10-19",
+   "Code": "02L5/6-5",
+   "Date": "10/25/2019",
    "Topic": "SVT",
    "Session_Type": "CL90",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
-   "Rm Code": "L13",
-   "Rm": "Lotus 13",
+   "Rm Code": "L5/6",
+   "Rm": "Lotus 5-6",
    "Main_Title": "Atrial flutter revisited",
    "no_subTs": 6,
    "no Spks": 6,
@@ -4818,16 +4188,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SVT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L13-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -4856,16 +4221,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L14-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "",
    "Track": "JR",
@@ -4894,16 +4254,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L14-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "Joint",
@@ -4932,16 +4287,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L14-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "Joint",
@@ -4970,16 +4320,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L15-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -5008,16 +4353,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L15-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -5046,16 +4386,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L3/4-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "VT",
    "Session_Type": "CL90",
    "Track": "",
@@ -5084,16 +4419,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "VT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L3/4-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "VT",
    "Session_Type": "CL60",
    "Track": "",
@@ -5122,16 +4452,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "VT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L3/4-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "VT",
    "Session_Type": "CL60",
    "Track": "",
@@ -5160,16 +4485,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "VT,  -Ablation",
-   "rEditing": "Y"
+   "CoTopic": ""
  },
  {
    "Code": "02L3/4-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -5198,16 +4518,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L3/4-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "VT",
    "Session_Type": "CL90",
    "Track": "",
@@ -5236,16 +4551,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "VT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L5/6-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "BS",
    "Session_Type": "CL90",
    "Track": "",
@@ -5274,16 +4584,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Mechanisms",
-   "Topics": "BS,  -Mechanisms",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L5/6-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "BS",
    "Session_Type": "CL60",
    "Track": "Joint",
@@ -5312,16 +4617,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "SCD",
-   "Subcat": "",
-   "Topics": "BS, SCD -",
-   "rEditing": ""
+   "CoTopic": "SCD"
  },
  {
    "Code": "02L5/6-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "BS",
    "Session_Type": "CL60",
    "Track": "",
@@ -5350,16 +4650,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "SCD",
-   "Subcat": "Mechanisms",
-   "Topics": "BS, SCD -Mechanisms",
-   "rEditing": ""
+   "CoTopic": "SCD"
  },
  {
    "Code": "02L5/6-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "BS",
    "Session_Type": "CL60",
    "Track": "Joint",
@@ -5388,26 +4683,21 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "AF",
-   "Subcat": "",
-   "Topics": "BS, AF -",
-   "rEditing": ""
+   "CoTopic": "AF"
  },
  {
-   "Code": "02L5/6-5",
-   "Date": "25-10-19",
+   "Code": "02L1/2-4",
+   "Date": "10/25/2019",
    "Topic": "BS",
-   "Session_Type": "CL90",
+   "Session_Type": "CL60",
    "Track": "",
-   "Time Slot": "5",
-   "Time": "15:00-16:30",
-   "Rm Code": "L5/6",
-   "Rm": "Lotus 5-6",
+   "Time Slot": "4",
+   "Time": "13:30-14:30",
+   "Rm Code": "L1/2",
+   "Rm": "Lotus 1-2",
    "Main_Title": "Anatomy, Pathology, and clinical Correlation",
-   "no_subTs": 6,
-   "no Spks": 6,
+   "no_subTs": 4,
+   "no Spks": 4,
    "no Mods": 3,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "Cardiac fibroblast, atrial fibrosis, and atrial fibrillation",
@@ -5426,16 +4716,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Anatomy",
-   "Topics": "BS,  -Anatomy",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L5/6-lunch",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -5464,16 +4749,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L7-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AP",
    "Session_Type": "CL90",
    "Track": "",
@@ -5502,16 +4782,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "Gen",
-   "Subcat": "",
-   "Topics": "AP, Gen -",
-   "rEditing": ""
+   "CoTopic": "Gen"
  },
  {
    "Code": "02L7-2",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "CIED",
    "Session_Type": "CL60",
    "Track": "",
@@ -5540,16 +4815,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L7-3",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "AP",
    "Session_Type": "CL60",
    "Track": "",
@@ -5578,16 +4848,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "AP, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "02L7-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "Joint",
@@ -5616,16 +4881,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SCD,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L7-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "CIED",
    "Session_Type": "CL90",
    "Track": "",
@@ -5654,16 +4914,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L7-lunch",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -5692,18 +4947,13 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L8-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Abs",
-   "Session_Type": "YIA",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -5712,7 +4962,7 @@
    "Main_Title": "YIA 6 abs",
    "no_subTs": 6,
    "no Spks": 6,
-   "no Mods": 4,
+   "no Mods": 3,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "",
    "SubT2": "",
@@ -5730,16 +4980,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L8-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -5768,16 +5013,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L8-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -5806,18 +5046,13 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L9-1",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Abs",
-   "Session_Type": "YIA",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -5826,7 +5061,7 @@
    "Main_Title": "YIA 6 abs",
    "no_subTs": 6,
    "no Spks": 6,
-   "no Mods": 4,
+   "no Mods": 3,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "",
    "SubT2": "",
@@ -5844,16 +5079,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L9-4",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -5882,16 +5112,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "02L9-5",
-   "Date": "25-10-19",
+   "Date": "10/25/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -5920,16 +5145,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballA-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "AF",
    "Session_Type": "CL90",
    "Track": "",
@@ -5958,16 +5178,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballA-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -5996,16 +5211,11 @@
    "Mod2": "Chang, Shih-Lin",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballA-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "AF",
    "Session_Type": "101",
    "Track": "",
@@ -6034,16 +5244,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "AP",
-   "Subcat": "Med management",
-   "Topics": "AF, AP -Med management",
-   "rEditing": ""
+   "CoTopic": "AP"
  },
  {
    "Code": "03ballA-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -6072,16 +5277,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballA-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "AF",
    "Session_Type": "CL90",
    "Track": "",
@@ -6110,16 +5310,11 @@
    "Mod2": "Sanders, Prashnathan",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "Gen",
-   "Subcat": "Med management",
-   "Topics": "AF, Gen -Med management",
-   "rEditing": ""
+   "CoTopic": "Gen"
  },
  {
    "Code": "03ballA-6",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "HF",
    "Session_Type": "Rn'F",
    "Track": "Joint",
@@ -6148,16 +5343,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "HF,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballA-lunch",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -6186,16 +5376,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballB-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Live",
    "Track": "",
@@ -6224,16 +5409,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballB-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Live",
    "Track": "",
@@ -6262,16 +5442,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballB-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Live",
    "Track": "",
@@ -6300,16 +5475,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballB-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Live",
    "Track": "",
@@ -6338,16 +5508,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballB-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Live",
    "Track": "",
@@ -6376,16 +5541,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballC-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SCD",
    "Session_Type": "CL90",
    "Track": "",
@@ -6414,16 +5574,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "CIED",
-   "Subcat": "",
-   "Topics": "SCD, CIED -",
-   "rEditing": ""
+   "CoTopic": "CIED"
  },
  {
    "Code": "03ballC-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -6452,16 +5607,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballC-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Ped",
    "Session_Type": "CL60",
    "Track": "",
@@ -6490,16 +5640,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballC-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -6528,16 +5673,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballC-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "CIED",
    "Session_Type": "CBS",
    "Track": "",
@@ -6566,16 +5706,11 @@
    "Mod2": "Saksena, Sanjeev",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03ballC-lunch",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -6604,16 +5739,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03CC-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "nonMed",
    "Session_Type": "Ple",
    "Track": "",
@@ -6642,16 +5772,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Safety",
-   "Topics": "nonMed,  -Safety",
-   "rEditing": "Y"
+   "CoTopic": ""
  },
  {
    "Code": "03CC-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "nonMed",
    "Session_Type": "Ple",
    "Track": "",
@@ -6680,16 +5805,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "AF",
-   "Subcat": "Tech",
-   "Topics": "nonMed, AF -Tech",
-   "rEditing": "Y"
+   "CoTopic": "AF"
  },
  {
    "Code": "03CC-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "nonMed",
    "Session_Type": "Ple",
    "Track": "",
@@ -6718,16 +5838,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "nonMed, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "03CC-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "nonMed",
    "Session_Type": "CL60",
    "Track": "",
@@ -6756,16 +5871,11 @@
    "Mod2": "Thai",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "Tech",
-   "Topics": "nonMed,  -Tech",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03CC-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "AF",
    "Session_Type": "NSTO",
    "Track": "",
@@ -6794,16 +5904,11 @@
    "Mod2": "Thai",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03CC-lunch",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -6832,16 +5937,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L1/4-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "CIED",
    "Session_Type": "NSTO",
    "Track": "",
@@ -6870,16 +5970,11 @@
    "Mod2": "Thai",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L1/4-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "CIED",
    "Session_Type": "VP",
    "Track": "Joint",
@@ -6908,16 +6003,11 @@
    "Mod2": "Leclercq, Christophe",
    "Mod3": "HINDRICKS, Gerhard",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "SCD",
-   "Subcat": "Guidelines",
-   "Topics": "CIED, SCD -Guidelines",
-   "rEditing": ""
+   "CoTopic": "SCD"
  },
  {
    "Code": "03L1/4-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -6946,16 +6036,11 @@
    "Mod2": "NAIK, Ajay",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "SCD",
-   "Subcat": "",
-   "Topics": "AF, SCD -",
-   "rEditing": ""
+   "CoTopic": "SCD"
  },
  {
    "Code": "03L1/4-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "CIED",
    "Session_Type": "SP",
    "Track": "",
@@ -6984,16 +6069,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "Gen",
-   "Subcat": "ECG",
-   "Topics": "CIED, Gen -ECG",
-   "rEditing": ""
+   "CoTopic": "Gen"
  },
  {
    "Code": "03L1/4-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "CIED",
    "Session_Type": "SP",
    "Track": "",
@@ -7022,16 +6102,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "Y",
-   "CoTopic": "Gen",
-   "Subcat": "",
-   "Topics": "CIED, Gen -",
-   "rEditing": ""
+   "CoTopic": "Gen"
  },
  {
    "Code": "03L10-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Ped",
    "Session_Type": "CBS",
    "Track": "",
@@ -7060,16 +6135,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L10-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Ped",
    "Session_Type": "CL60",
    "Track": "",
@@ -7098,16 +6168,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Ped,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L10-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -7136,16 +6201,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "Mechanisms",
-   "Topics": "SCD, BS -Mechanisms",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "03L10-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SCD",
    "Session_Type": "CL90",
    "Track": "",
@@ -7174,16 +6234,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SCD,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L10-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "VT",
    "Session_Type": "CL90",
    "Track": "",
@@ -7212,16 +6267,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "VT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L10-lunch",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -7250,16 +6300,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L11-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "VT",
    "Session_Type": "CL90",
    "Track": "",
@@ -7288,16 +6333,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "VT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L11-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "VT",
    "Session_Type": "CL60",
    "Track": "",
@@ -7326,16 +6366,11 @@
    "Mod2": "SOEJIMA, Kyoko",
    "Mod3": "WILBER, David J.",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "VT,  -",
-   "rEditing": "Y"
+   "CoTopic": ""
  },
  {
    "Code": "03L11-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "VT",
    "Session_Type": "CL60",
    "Track": "",
@@ -7364,16 +6399,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "VT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L11-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -7402,16 +6432,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "03L11-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SCD",
    "Session_Type": "CL90",
    "Track": "",
@@ -7440,16 +6465,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "03L11-lunch",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -7478,16 +6498,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L12-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SVT",
    "Session_Type": "CBS",
    "Track": "JR",
@@ -7516,16 +6531,11 @@
    "Mod2": "Jackman, Sonny",
    "Mod3": "CHAN, Ngai-Yin",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SVT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L12-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SVT",
    "Session_Type": "CL60",
    "Track": "",
@@ -7554,16 +6564,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "SVT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L12-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SVT",
    "Session_Type": "CL60",
    "Track": "",
@@ -7592,16 +6597,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SVT,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L12-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -7630,16 +6630,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L12-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SVT",
    "Session_Type": "CL90",
    "Track": "",
@@ -7668,16 +6663,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "SVT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L13-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -7706,16 +6696,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L13-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -7744,16 +6729,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L14-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "JR",
@@ -7782,16 +6762,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L14-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "Joint",
@@ -7820,16 +6795,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L14-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "Joint",
@@ -7858,16 +6828,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L15-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -7896,16 +6861,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L15-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "CL90",
    "Track": "",
@@ -7934,16 +6894,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L5/6-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "BS",
    "Session_Type": "CL90",
    "Track": "",
@@ -7972,16 +6927,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "BS,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L5/6-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "BS",
    "Session_Type": "CL60",
    "Track": "",
@@ -8010,16 +6960,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "BS,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L5/6-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "BS",
    "Session_Type": "CL60",
    "Track": "",
@@ -8048,54 +6993,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "AF",
-   "Subcat": "",
-   "Topics": "BS, AF -",
-   "rEditing": ""
- },
- {
-   "Code": "03L5/6-4",
-   "Date": "26-10-19",
-   "Topic": "BS",
-   "Session_Type": "CL60",
-   "Track": "",
-   "Time Slot": "4",
-   "Time": "13:30-14:30",
-   "Rm Code": "L5/6",
-   "Rm": "Lotus 5-6",
-   "Main_Title": "Atrial remodelling",
-   "no_subTs": 4,
-   "no Spks": 4,
-   "no Mods": 3,
-   "time_allocation": "14+1mins/talk+QA",
-   "SubT1": "New electrophysiological evidence of progression of the AF substrate",
-   "SubT2": "Inflammatory signaling in AF",
-   "SubT3": "Mechanism of substrate progression of AF",
-   "SubT4": "The role of SK channel in atrial myopathy of metabolic syndrome",
-   "SubT5": "-",
-   "SubT6": "-",
-   "Spk1": "Shah, Dipen",
-   "Spk2": "DOBREV, Dobromir",
-   "Spk3": "JOSEPH, Stephen",
-   "Spk4": "TSAI, Wei-Chung",
-   "Spk5": "",
-   "Spk6": "",
-   "Mod1": "MAHAJAN, Rajiv",
-   "Mod2": "",
-   "Mod3": "",
-   "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "AF",
-   "Subcat": "Mechanisms",
-   "Topics": "BS, AF -Mechanisms",
-   "rEditing": ""
+   "CoTopic": "AF"
  },
  {
    "Code": "03L5/6-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "BS",
    "Session_Type": "CL90",
    "Track": "",
@@ -8103,37 +7005,65 @@
    "Time": "15:00-16:30",
    "Rm Code": "L5/6",
    "Rm": "Lotus 5-6",
-   "Main_Title": "AF Pathogenesis",
+   "Main_Title": "Fibrosis in Atrial Fibrillation",
    "no_subTs": 6,
+   "no Spks": 6,
+   "no Mods": 3,
+   "time_allocation": "14+1mins/talk+QA",
+   "SubT1": "New electrophysiological evidence of progression of the AF substrate",
+   "SubT2": "Inflammatory signaling in AF",
+   "SubT3": "Mechanism of substrate progression of AF",
+   "SubT4": "The role of SK channel in atrial myopathy of metabolic syndrome",
+   "SubT5": "Reversing the 2nd factor and fibrosis in AF (Prash Sanders)",
+   "SubT6": "The role of atrial fibriosis in guiding AF ablation, predicting outcomes, and measure responses. (Nazem Akoum)",
+   "Spk1": "Shah, Dipen",
+   "Spk2": "DOBREV, Dobromir",
+   "Spk3": "JOSEPH, Stephen",
+   "Spk4": "TSAI, Wei-Chung",
+   "Spk5": "",
+   "Spk6": "",
+   "Mod1": "MAHAJAN, Rajiv",
+   "Mod2": "MARROUCHE, Nassir F.",
+   "Mod3": "",
+   "Mod4": "",
+   "CoTopic": "AF"
+ },
+ {
+   "Code": "03L5/6-4",
+   "Date": "10/26/2019",
+   "Topic": "BS",
+   "Session_Type": "CL60",
+   "Track": "",
+   "Time Slot": "4",
+   "Time": "13:30-14:30",
+   "Rm Code": "L5/6",
+   "Rm": "Lotus 5-6",
+   "Main_Title": "New insights in AF pathogenesis",
+   "no_subTs": 4,
    "no Spks": 5,
    "no Mods": 4,
-   "time_allocation": "16mins/talk, 10mins discussion",
+   "time_allocation": "14+1mins/talk+QA",
    "SubT1": "Arrhythmogenesis of pulmonary vein cardiomyocytes",
    "SubT2": "Cellular and Molecular Mechanisms of AF in HF",
    "SubT3": "Extracellular vesicles and nucleotides in pathogenesis of atrial fibrillation and its systemic complications",
-   "SubT4": "Endo and Epicardial Dissociation",
-   "SubT5": "Factor Xa inhibitors and electrical activity in SA node and PV",
-   "SubT6": "Panel Discussion",
+   "SubT4": "Factor Xa inhibitors and electrical activity in SA node and PV",
+   "SubT5": "-",
+   "SubT6": "-",
    "Spk1": "CHEN, Yi-Jen",
    "Spk2": "DOBREV, Dobromir",
    "Spk3": "SASANO, Tetsuo",
-   "Spk4": "",
-   "Spk5": "CHENG, Chen-Chuan",
+   "Spk4": "CHENG, Chen-Chuan",
+   "Spk5": "",
    "Spk6": "",
    "Mod1": "Allessie, Maurits",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "AF",
-   "Subcat": "Mechanisms",
-   "Topics": "BS, AF -Mechanisms",
-   "rEditing": ""
+   "CoTopic": "AF"
  },
  {
    "Code": "03L5/6-lunch",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -8162,16 +7092,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L7-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Syn",
    "Session_Type": "CL90",
    "Track": "",
@@ -8200,16 +7125,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Syn,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L7-2",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -8238,16 +7158,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "03L7-3",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -8276,16 +7191,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L7-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -8314,16 +7224,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L7-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Gen",
    "Session_Type": "SP",
    "Track": "",
@@ -8352,16 +7257,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "ECG",
-   "Topics": "Gen,  -ECG",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L7-lunch",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "",
    "Session_Type": "Lunch",
    "Track": "",
@@ -8390,18 +7290,13 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L8-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session_Type": "YIA",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8410,7 +7305,7 @@
    "Main_Title": "YIA 6 abs",
    "no_subTs": 6,
    "no Spks": 6,
-   "no Mods": 4,
+   "no Mods": 3,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "",
    "SubT2": "",
@@ -8428,16 +7323,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L8-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -8466,16 +7356,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L8-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -8504,18 +7389,13 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L9-1",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Abs",
-   "Session_Type": "YIA",
+   "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "1",
    "Time": "08:00-09:30",
@@ -8524,7 +7404,7 @@
    "Main_Title": "YIA 6 abs",
    "no_subTs": 6,
    "no Spks": 6,
-   "no Mods": 4,
+   "no Mods": 3,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "",
    "SubT2": "",
@@ -8542,16 +7422,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L9-4",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -8580,16 +7455,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "03L9-5",
-   "Date": "26-10-19",
+   "Date": "10/26/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
@@ -8618,16 +7488,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "Abs,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04CC-1",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "SCD",
    "Session_Type": "Ple",
    "Track": "",
@@ -8656,16 +7521,11 @@
    "Mod2": "SHIMIZU, Wataru",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "Y",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "04CC-2",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "SCD",
    "Session_Type": "Ple",
    "Track": "",
@@ -8694,16 +7554,11 @@
    "Mod2": "ZHANG, Shu",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "BS",
-   "Subcat": "",
-   "Topics": "SCD, BS -",
-   "rEditing": ""
+   "CoTopic": "BS"
  },
  {
    "Code": "04CC-3",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "",
    "Session_Type": "CM",
    "Track": "",
@@ -8732,16 +7587,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L1/4-1",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "CIED",
    "Session_Type": "CL60",
    "Track": "",
@@ -8750,12 +7600,12 @@
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "When should AF be diagnosed? The insight from CIED recordings.",
-   "no_subTs": 6,
+   "no_subTs": 5,
    "no Spks": 4,
    "no Mods": 3,
    "time_allocation": "20mins/talk, 10mins discusssion",
    "SubT1": "Clinical significance of AHREs",
-   "SubT2": "Temporal proximity of device-detected AHRE and thromboembolic events",
+   "SubT2": "Temporal proximity of device-detected AHRE and thromboembolic events (Kirchhof P)",
    "SubT3": "Should AF be diagnosed based on AF Burden?",
    "SubT4": "When and How to treat AHREs",
    "SubT5": "Panels Discussion",
@@ -8770,16 +7620,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "Y",
-   "CoTopic": "AF",
-   "Subcat": "",
-   "Topics": "CIED, AF -",
-   "rEditing": ""
+   "CoTopic": "AF"
  },
  {
    "Code": "04L1/4-2",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -8808,16 +7653,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "Gen",
-   "Subcat": "",
-   "Topics": "AF, Gen -",
-   "rEditing": ""
+   "CoTopic": "Gen"
  },
  {
    "Code": "04L1/4-3",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "CIED",
    "Session_Type": "CL60",
    "Track": "",
@@ -8846,16 +7686,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L10-1",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "VT",
    "Session_Type": "CBS",
    "Track": "",
@@ -8884,16 +7719,11 @@
    "Mod2": "Chung, Fa-Po",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "VT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L10-2",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "VT",
    "Session_Type": "CL60",
    "Track": "",
@@ -8922,16 +7752,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "VT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L10-3",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "Gen",
    "Session_Type": "CL60",
    "Track": "",
@@ -8960,16 +7785,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "AP",
-   "Subcat": "",
-   "Topics": "Gen, AP -",
-   "rEditing": ""
+   "CoTopic": "AP"
  },
  {
    "Code": "04L11-1",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "AF",
    "Session_Type": "CL90",
    "Track": "",
@@ -8998,16 +7818,11 @@
    "Mod2": "Kusumoto, Fred",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L11-2",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "AF",
    "Session_Type": "CBS",
    "Track": "JR",
@@ -9036,16 +7851,11 @@
    "Mod2": "REDDY, Vivek Y.",
    "Mod3": "SOEJIMA, Kyoko",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "VT",
-   "Subcat": "",
-   "Topics": "AF, VT -",
-   "rEditing": ""
+   "CoTopic": "VT"
  },
  {
    "Code": "04L11-3",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "AF",
    "Session_Type": "CL60",
    "Track": "",
@@ -9074,16 +7884,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "Y",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "AF,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L12-1",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "CIED",
    "Session_Type": "CBS",
    "Track": "JR",
@@ -9112,16 +7917,11 @@
    "Mod2": "RAZALI, Omar",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "CIED,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L12-2",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -9150,16 +7950,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SCD,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L12-3",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "nonMed",
    "Session_Type": "NSTO",
    "Track": "Joint",
@@ -9188,16 +7983,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Career",
-   "Topics": "nonMed,  -Career",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L5/6-1",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "BS",
    "Session_Type": "CL90",
    "Track": "",
@@ -9226,16 +8016,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "BS,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L5/6-2",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "BS",
    "Session_Type": "CL60",
    "Track": "",
@@ -9264,16 +8049,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "BS,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L5/6-3",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "SCD",
    "Session_Type": "CL60",
    "Track": "",
@@ -9302,16 +8082,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "SCD,  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L7-1",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "AP",
    "Session_Type": "CL60",
    "Track": "",
@@ -9340,16 +8115,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "AF",
-   "Subcat": "Ablation",
-   "Topics": "AP, AF -Ablation",
-   "rEditing": ""
+   "CoTopic": "AF"
  },
  {
    "Code": "04L7-2",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "",
    "Session_Type": "Sponsor",
    "Track": "Spsr",
@@ -9378,16 +8148,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": ",  -",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L7-3",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "AP",
    "Session_Type": "CL60",
    "Track": "",
@@ -9416,16 +8181,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "SCD",
-   "Subcat": "",
-   "Topics": "AP, SCD -",
-   "rEditing": ""
+   "CoTopic": "SCD"
  },
  {
    "Code": "04L9-1",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "SVT",
    "Session_Type": "CL90",
    "Track": "",
@@ -9454,16 +8214,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 90,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "SVT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L9-2",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "SVT",
    "Session_Type": "VP",
    "Track": "",
@@ -9492,16 +8247,11 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "Ablation",
-   "Topics": "SVT,  -Ablation",
-   "rEditing": ""
+   "CoTopic": ""
  },
  {
    "Code": "04L9-3",
-   "Date": "27-10-19",
+   "Date": "10/27/2019",
    "Topic": "SVT",
    "Session_Type": "CL60",
    "Track": "",
@@ -9530,12 +8280,7 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": 60,
-   "Highlight": "",
-   "CoTopic": "Gen",
-   "Subcat": "ECG",
-   "Topics": "SVT, Gen -ECG",
-   "rEditing": ""
+   "CoTopic": "Gen"
  },
  {
    "Code": "",
@@ -9568,11 +8313,6 @@
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
-   "Mins": null,
-   "Highlight": "",
-   "CoTopic": "",
-   "Subcat": "",
-   "Topics": "",
-   "rEditing": ""
+   "CoTopic": ""
  }
 ]
