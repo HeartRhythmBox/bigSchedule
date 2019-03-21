@@ -31,6 +31,7 @@ Sessions Summary Report
 </div>
 <div id="totalS" class="w3-row w3-center sans" style="font-size:2vmax">
 </div>
+<div id="demo"></div>
 
 <div class="w3-row w3-center w3-mobile w3-padding" style="border: #555 solid 1vmax;">
     <!--topic-->
@@ -87,7 +88,6 @@ Sessions Summary Report
 </div>
 </div>
 
-<div id="demo"></div>
 <!--menu-->
 <div class="w3-bottom w3-center w3-mobile">
     <div class="w3-bar w3-card-4 sans w3-mobile w3-large" style="opacity: 0.9;">
@@ -101,12 +101,28 @@ Sessions Summary Report
 
 </body>
 
-<script src="manageArray.js"></script>
+<script type="text/javascript"  src="manageArray.js"></script>
+
 <script>
 document.getElementById('totalS').innerHTML = "Total number of sessions: "+schedule.length
 window.onload = function() {
     showTopic();showTrack();showType();
 }
+
+var request;
+if (window.XMLHttpRequest){
+    request = new XMLHttpRequest();
+}else {
+    request = new ActiveXObject("Microsoft.XMLHTTP")
+}
+request.open('GET','https://github.com/HeartRhythmBox/bigSchedule/blob/master/speaker.json')
+request.onreadystatechange = function() {
+    if (request.readyState == 4 && request.status == 200) {
+      var item = JSON.parse(request.response);
+      console.log(item)}
+    }
+request.send();
+
 
 function showTopic(){
     
