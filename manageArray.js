@@ -8317,7 +8317,6 @@ var schedule = [
  }
 ]
 
-
 var spkCountry = [
  {
    "Name": "Abe, Haruhiko",
