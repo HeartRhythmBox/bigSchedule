@@ -128,7 +128,7 @@ make it happen by t'Thon
   </a>
   </div>
 </div>
-
+<div id="demo"></div>
 
 <!--topic color-->
 <div id="colorCode" class="sans w3-center" style="margin-top: 0.5vmax">
@@ -790,7 +790,7 @@ background-color: lightgray">Showing None.
 </div> 
 <!--back to mainPage after print-->
 <div id="reload" class="w3-button w3-round w3-light-grey sans">
-   Back to the main page
+   Home
 </div>
 
 <div style="background-color:#f1f2f2;border-bottom: #f2f3f4 solid 5vmax" >
@@ -848,10 +848,10 @@ var track =["Joint","JR","Spsr"]
 var trackD = ["Joint Session", "Junior EPs", "Sponsor"]
 
 
-window.onload = showData();
+window.onload = showData(true);
 window.onload = createList();
 
-function showData() {
+function showData(topicOn) {
   var head = document.getElementsByTagName("th");
   var tData =document.getElementsByTagName("td");
   var row = document.getElementsByTagName("tr");
@@ -955,17 +955,53 @@ function showData() {
 
  
 
-    //manage active cells
+    //manage active cells + color
     clickable.forEach(function(item,index){
       item.style.cursor = "pointer";
       var mainIndex = indexL[index];
       item.onclick = function(){ showDetail(mainIndex)};
-      var t = schedule[mainIndex].Topic;
-      var cIndex = topic.indexOf(t);
-      item.style.backgroundColor = topicColor[cIndex];
-    }) 
-    
+      if (topicOn){
+        item.style.backgroundImage = "none"
+        var t = schedule[mainIndex].Topic;
+        var cIndex = topic.indexOf(t);var color;
+          if (cIndex==-1){color = "white"}
+          else {color = topicColor[cIndex];}
+          item.style.backgroundColor = color}
+      else {
+        //check completion
+
+        var totalSpk = schedule[mainIndex].noSpks;var totalMod = schedule[mainIndex].noMods;
+
+        //count mods  
+        var mod=0;
+        if (schedule[mainIndex].Mod1.length>1){mod++}
+        if (schedule[mainIndex].Mod2.length>1){mod++}
+        if (schedule[mainIndex].Mod3.length>1){mod++}
+        if (schedule[mainIndex].Mod4.length>1){mod++}
+
+        //count spk
+        var spk=0;
+        if (schedule[mainIndex].Spk1.length>1){spk++}
+        if (schedule[mainIndex].Spk2.length>1){spk++}
+        if (schedule[mainIndex].Spk3.length>1){spk++}
+        if (schedule[mainIndex].Spk4.length>1){spk++}
+        if (schedule[mainIndex].Spk5.length>1){spk++}
+        if (schedule[mainIndex].Spk6.length>1){spk++}
+
+        var x = 50*(mod/totalMod); var y = 100-(50*(spk/totalSpk))
+        //if (x>50){x=50}
+        //if (y>100){y=100}
+        var x1= x+1;var y1=y-1;
+        item.style.backgroundImage = "linear-gradient(to right, Beige "+x+"%, white "+x1+"%, white 49.9%, lightgrey 50%, white 50.1%, white "+y1+"%, Lavender "+y+"%)"
+      }
+    }
+    ) 
+
+
+
+
 }
+
 
 // Get the modal
 var modal = document.getElementById('popUp');
@@ -1063,23 +1099,23 @@ function nameFormat(n){
     return newName  
   }
 
+//topic color toggle
 var colorful = 1;
 function colorToggle() {
   if (colorful ==1){
-    var tData =document.getElementsByTagName("td");
-    colorful = 0;
+    colorful=0;
     document.getElementById("cToggle").innerHTML ="Turn On Colors";
-    var i;
-    for (i=0;i<tData.length;i++){
-      tData[i].style.backgroundColor ="white";
-    }
+    showData(false);
+    
   } 
   else {
-    colorful = 1;
+    colorful=1;
     document.getElementById("cToggle").innerHTML ="Turn OFF Colors";
-    showData();
+    showData(true);
   }
 }   
+
+
 
 //list bar
 function afterClick(n){
