@@ -1023,7 +1023,7 @@ function showDetail(d) {
   document.getElementById("type").innerHTML = "Session Type: " + schedule[d].Session_Type;
   var typeIndex = sessionType.indexOf(schedule[d].Session_Type);
   document.getElementById("typeD").innerHTML = " - " + sessionTypeDetail[typeIndex];
-  document.getElementById("topic").innerHTML = "Topic: "+ schedule[d].Topic + "  "+ schedule[d].CoTopic+" ";
+  document.getElementById("topic").innerHTML = "Topic: "+ schedule[d].Topic + "  "+ schedule[d].CoTopic+" " + schedule[d].CoTopic2+" ";
   document.getElementById("track").innerHTML = "Track: "+ schedule[d].Track + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
   + "Time Allocation: " + schedule[d].time_allocation;
 
@@ -1176,7 +1176,7 @@ function showL(order,x){
     var topicName = topic[x];
     var s = [];var n;
     for (n=0;n<schedule.length;n++){
-      if (schedule[n].Topic==topicName || schedule[n].CoTopic ==topicName) {
+      if (schedule[n].Topic==topicName || schedule[n].CoTopic || schedule[n].CoTopic2 ==topicName) {
         s.push(n)
       }
     }
@@ -1287,7 +1287,8 @@ function showList(d){
   var d2 = schedule[d].Main_Title;
   var d3 = schedule[d].Date+ " "+ schedule[d].Time + '\xa0\xa0\xa0'+ "Room: " + schedule[d].Rm 
   var d4 = "Session Type: " + schedule[d].Session_Type + " - " + sessionTypeDetail[typeIndex] 
-  var d5 = "Topic: "+ schedule[d].Topic + "\xa0\xa0\xa0"+ schedule[d].CoTopic+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
+  var d5 = "Topic: "+ schedule[d].Topic + "\xa0\xa0\xa0"+ schedule[d].CoTopic+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0'
+  + schedule[d].CoTopic2+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
   + "Track: "+ schedule[d].Track + "\xa0\xa0\xa0\xa0\xa0\xa0\xa0"+ "Time allocation: " + schedule[d].time_allocation 
   var d6 = "Mods/Panels: "+ Mod1 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
   + Mod2 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'  + Mod3 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' 
