@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>restricted access -- Speakers X-check</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119340815-11"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119340815-11');
+</script>
+
+</head>
+        
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Abel|Satisfy" rel="stylesheet">
+       
+<style>
+.sans {font-family: 'Abel', sans-serif;}
+.cursive {font-family: 'Satisfy', cursive;}
+
+#fakeHeader {display: none;position:fixed;top: 0;width: 100%;padding:10vmax}
+.fBtn {position: fixed}
+
+</style>
+
+<body>
+<div class="w3-row w3-center cursive w3-padding" style="margin-top: 3vmax;font-size: 5vmax">
+Speaker Cross-Check
+</div>
+<div class="w3-row w3-center sans" style="font-size: 1.8vmax;color:#555" id="sortStatus">
+</div>
+<div id='demo'></div>
+<div class="w3-responsive">
+<table id="mainTable" class="w3-table w3-bordered sans" style="margin-top: 3vmax;font-size:2vmax;">
+<tr class="w3-khaki">
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn">Name</button></th>
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn">Country</button></th>
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn w3-center">Invitation Ready</button></th>
+    <th class="head"><button class="w3-btn w3-border w3-round-large realBtn w3-center">Invitation Status</button></th>
+</tr>
+<!--fake header-->
+<div id="fakeHeader" class="w3-row w3-padding sans w3-khaki" style="font-size:2vmax;font-weight: 900">
+    <button class="w3-btn w3-border w3-round-large fBtn">Name</button></th>
+    <button class="w3-btn w3-border w3-round-large fBtn">Country</button></th>
+    <button class="w3-btn w3-border w3-round-large fBtn w3-center">Invitation Ready</button></th>
+    <button class="w3-btn w3-border w3-round-large fBtn w3-center">Invitation Status</button></th>
+    
+</div>
+</table>
+</div>
+
+<!--menu-->
+<div class="w3-bottom w3-center w3-mobile">
+    <div class="w3-bar w3-card-4 sans w3-mobile w3-large" style="opacity: 0.9;">
+      <a href="#top" title="to the top of the page" class="w3-bar-item w3-sand w3-button w3-round-large w3-border w3-padding-small">
+        &uArr;to top</a>
+      <a href="index.html" title="back to the main page" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">
+        main</a>
+      <a href="speaker xcheck.html" title="back to the main xcheck" class="w3-bar-item w3-button w3-sand w3-round-large w3-border w3-padding-small">
+        xck-main</a>
+    
+    </div>
+</div>
+
+</body>
+
+<script src="manageArray.js"></script>
+<script>
+
+var table = document.getElementById('mainTable')
+var spkXC = [];
+document.getElementById('sortStatus').innerHTML = "click on the table headings to sort up&down." +
+" Total faculties: " + spkCountry.length
+
+window.onload = function(){ 
+    showList()
+    buttonClick()
+}
+
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {
+    var colWidth = [];
+    colWidth = getColWidth();
+    fixedHeader(colWidth)
+    };
+// Get the header
+var header = document.getElementById("mainTable");
+// Get the offset position of the navbar
+var hTop = header.offsetTop;var hHt = header.offsetHeight;
+
+function fixedHeader(colWidth) {
+    if (window.pageYOffset > hTop) {
+    document.getElementById('fakeHeader').style.display = "block";
+  
+    //set height of fake header
+    document.getElementById('fakeHeader').style.height = hHt + "px"
+  
+    //set width of fake button
+    var col = document.getElementsByClassName('fBtn')
+    for (var i=0;i<col.length;i++){
+        var width = colWidth[i].toString();
+        col[i].style.left = width + "px"
+    }
+  } else {
+    document.getElementById('fakeHeader').style.display = "none"
+    
+  }
+}
+
+function getColWidth(){
+    var col = document.getElementsByClassName('head')
+    var colWidth = [];
+    for (var i=0;i<col.length;i++){
+        var width = col[i].offsetLeft;
+        colWidth.push(width)
+    }
+    return colWidth
+}
+
+
+
+function buttonClick(){
+    var b = document.getElementsByClassName('realBtn');
+    var fBtn = document.getElementsByClassName('fBtn')
+        
+    b[0].onclick = function(){sort(0)}
+    b[1].onclick = function(){sort(1)}
+    b[2].onclick = function(){sort(2)}
+    b[3].onclick = function(){sort(3)}
+    
+    fBtn[0].onclick = function(){sort(0)}
+    fBtn[1].onclick = function(){sort(1)}
+    fBtn[2].onclick = function(){sort(2)}
+    fBtn[3].onclick = function(){sort(3)}
+    
+}
+
+function showList(){
+    var i;var n=1;
+    for (i=0;i<spkCountry.length;i++){
+        var rowNo =n+i;
+        var name = spkCountry[i].Name;
+        var country = spkCountry[i].Country;
+        var rdy = spkCountry[i].InvRdy;
+        var cfrm = spkCountry[i].InvCfrm;
+        var row = table.insertRow(rowNo)
+        insertInfo(rowNo,name,country,rdy,cfrm)
+    }
+}
+
+//data onload
+function insertInfo(rowNo,name,country,rdy,cfrm){
+    //name and country col 0 and 1
+    var row = table.rows[rowNo]
+    var nameU = name.toUpperCase();
+    var cell0 = row.insertCell(0)
+    var cell1 = row.insertCell(1)
+    var cell2 = row.insertCell(2)
+    var cell3 = row.insertCell(3)
+    cell0.innerHTML = name;cell1.innerHTML = country;
+    cell2.innerHTML = rdy;cell3.innerHTML = cfrm;
+    cell2.style.textAlign = "center";cell3.style.textAlign = "center";
+    
+        
+    //add info to a new array
+    spkXC.push({Name: name, Country: country, rdy: rdy, cfrm: cfrm})
+}
+
+
+var sortIndex = [0,0,0,0]
+function sort(col){
+   //[{Name: name, Country: country, rdy: rdy, cfrm: crfm}]
+    
+    // sort by name
+    if (col==0){
+
+    if (sortIndex[col]==0){
+    spkXC.sort(function(a, b) {
+    var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
+    var nameB = b.Name.toUpperCase(); // ignore upper and lowercase
+    document.getElementById('sortStatus').innerHTML ="sorted by Name; ascending"
+    return sortAsc(nameA, nameB);
+    })
+    sortIndex[col]=1;showXC();
+    } else {
+    spkXC.sort(function(a, b) {
+    var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
+    var nameB = b.Name.toUpperCase(); // ignore upper and lowercase
+    document.getElementById('sortStatus').innerHTML ="sorted by Name; descending"
+    return sortDes(nameA, nameB);
+    })
+    sortIndex[col]=0;showXC();
+    }
+    }
+
+    // sort by country
+    if (col==1){
+
+        if (sortIndex[col]==0){
+            spkXC.sort(function(a, b) {
+            var nameA = a.Country.toUpperCase(); // ignore upper and lowercase
+            var nameB = b.Country.toUpperCase(); // ignore upper and lowercase
+            document.getElementById('sortStatus').innerHTML ="sorted by Country; ascending"
+            return sortAsc(nameA, nameB);
+            })
+            sortIndex[col]=1;showXC();
+        } else {
+            spkXC.sort(function(a, b) {
+            var nameA = a.Country.toUpperCase(); // ignore upper and lowercase
+            var nameB = b.Country.toUpperCase(); // ignore upper and lowercase
+            document.getElementById('sortStatus').innerHTML ="sorted by Country; descending"
+            return sortDes(nameA, nameB);
+            })
+            sortIndex[col]=0;showXC();
+        }
+    }
+
+    // sort by ready
+    if (col==2){
+
+    if (sortIndex[col]==0){
+    spkXC.sort(function(a, b) {
+    var nameA = a.rdy.toUpperCase();
+    var nameB = b.rdy.toUpperCase();
+    document.getElementById('sortStatus').innerHTML ="sorted by Invitation ready status; ascending" 
+    return sortAsc(nameA, nameB);
+    })
+    sortIndex[col]=1;showXC();
+    } else {
+    spkXC.sort(function(a, b) {
+    var nameA = a.rdy.toUpperCase();
+    var nameB = b.rdy.toUpperCase();
+    document.getElementById('sortStatus').innerHTML ="sorted by Invitation ready status; descending" 
+    return sortDes(nameA, nameB);
+    })
+    sortIndex[col]=0;showXC();
+    }
+    }
+
+    // sort by confrm
+    if (col==3){
+
+    if (sortIndex[col]==0){
+    spkXC.sort(function(a, b) {
+    var nameA = a.cfrm.toUpperCase(); 
+    var nameB = b.cfrm.toUpperCase(); 
+    document.getElementById('sortStatus').innerHTML ="sorted by Invitation confirmation status; ascending"
+    return sortAsc(nameA, nameB);
+    })
+    sortIndex[col]=1;showXC();
+    } else {
+    spkXC.sort(function(a, b) {
+    var nameA = a.cfrm.toUpperCase(); 
+    var nameB = b.cfrm.toUpperCase(); 
+    document.getElementById('sortStatus').innerHTML ="sorted by Invitation confirmation status; descending"
+    return sortDes(nameA, nameB);
+    })
+    sortIndex[col]=0;showXC();
+    }
+    }
+
+}
+
+
+function showXC(){
+    //delete old rows
+    for(var i = table.rows.length - 1; i > 0; i--)
+    {table.deleteRow(i);}
+
+    //showing newly sorted
+    //create new row
+    var i;var n=1;
+    for (i=0;i<spkXC.length;i++){
+        var rowNo =n+i;
+        var row = table.insertRow(rowNo)
+        showNewSort(rowNo)
+    }
+}
+
+function showNewSort(rowNo){
+    
+    var row = table.rows[rowNo];var i = rowNo-1;
+    var cell0 = row.insertCell(0);cell0.innerHTML= spkXC[i].Name;
+    var cell1 = row.insertCell(1);cell1.innerHTML= spkXC[i].Country;
+    var cell2 = row.insertCell(2);cell2.innerHTML= spkXC[i].rdy;
+    var cell3 = row.insertCell(3);cell3.innerHTML= spkXC[i].cfrm;
+    cell2.style.textAlign = "center"
+    cell3.style.textAlign = "center"
+    
+}
+
+
+
+
+</script>
+</html>
