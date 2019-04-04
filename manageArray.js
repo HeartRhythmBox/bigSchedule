@@ -3176,7 +3176,7 @@ var schedule = [
    "noSpks": 1,
    "noMods": 3,
    "time_allocation": "",
-   "SubT1": "Anatomical Definition of the Different Forms of AVNRT",
+   "SubT1": "Anatomical Definition and Ablation of the Different Forms of AVNRT",
    "SubT2": "",
    "SubT3": "",
    "SubT4": "",
@@ -3517,15 +3517,15 @@ var schedule = [
    "noMods": 3,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "How to choose the lead(s) and access site(s) at the first implantation of a cardiac pacing device.",
-   "SubT2": "Antibiotic treatment for pacemaker infection",
+   "SubT2": "Management of pocket hematoma and infection",
    "SubT3": "How to properly suture and place the lead(s) inside the pocket",
-   "SubT4": "Management of pocket hematoma (Arisara)",
+   "SubT4": "Indication of lead extraction for non-infected cardiac rhythm devices: recalled lead, abandoned lead, and lead exchange",
    "SubT5": "-",
    "SubT6": "-",
    "Spk1": "Aleong, Ryan",
    "Spk2": "KARTHIGESAN, A M",
    "Spk3": "HSIAO, Hsiang-Chiang",
-   "Spk4": "Thai",
+   "Spk4": "Jongnarangsin, Krit",
    "Spk5": "",
    "Spk6": "",
    "Mod1": "STRATHMORE, Neil",
@@ -3584,7 +3584,7 @@ var schedule = [
    "noSpks": 1,
    "noMods": 3,
    "time_allocation": "",
-   "SubT1": "Targeting the Atrial End of the Four Slow Pathways",
+   "SubT1": "Anatomical Definition and Ablation of the Different Forms of AVNRT",
    "SubT2": "",
    "SubT3": "",
    "SubT4": "",
@@ -3925,14 +3925,14 @@ var schedule = [
    "noMods": 3,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "Necessary equipment and setup for lead extraction procedure",
-   "SubT2": "Entry site approach",
-   "SubT3": "Indication of lead extraction for non-infected cardiac rhythm devices: recalled lead, abandoned lead, and lead exchange",
+   "SubT2": "Ideal assistant for lead extraction (Arissara)",
+   "SubT3": "Entry site approach",
    "SubT4": "Special considerations of lead extraction for pediatric patients",
    "SubT5": "-",
    "SubT6": "-",
    "Spk1": "Goya, Masahiko",
-   "Spk2": "LEVER, Nigel",
-   "Spk3": "Jongnarangsin, Krit",
+   "Spk2": "Thai",
+   "Spk3": "LEVER, Nigel",
    "Spk4": "SHODA, Morio",
    "Spk5": "",
    "Spk6": "",
@@ -8534,6 +8534,7 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
+
 
 var spkCountry = [
  {
