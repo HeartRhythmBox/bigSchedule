@@ -41,9 +41,13 @@
     
   }
 #Thurs, #Fri, #Sat, #Sun {font-size: 2.5vmax}
+#title, #topic, #dateTimeRm {font-size: 2vmax}
+#code {font-size: 1.5vmax} 
+#fac {font-size: 1.9vmax;}
 @media only screen and (max-width: 800px){
     #colorCode {display: none}
     #Thurs, #Fri, #Sat, #Sun {font-size: 3.5vmax;font-weight:550}
+    #code, #title, #topic, #dateTimeRm, #fac {font-size: 2.2vmax}
     .slot1 {width: 39%;}
     .break1 {width: 1%;}
     .slot2 {width: 26%;}
@@ -655,8 +659,8 @@ style="margin-top: 0.2vmax">Thursday
     <div class="w3-teal w3-container w3-mobile">
       <span onclick="document.getElementById('popUp').style.display='none'" 
         class="w3-button w3-display-topright">&times;</span>
-      <div id="code" style="font-size: 1.5vmax;color: #ddd"></div>
-      <div style="font-size:1.5vmax" class="w3-border-bottom">
+      <div id="code" style="color: #ddd"></div>
+      <div id="dateTimeRm" class="w3-border-bottom">
       <span id="date"></span>&nbsp;&nbsp;
       <span id="time"></span>&nbsp;&nbsp;&nbsp;
       <span id="room"></span>&nbsp;&nbsp;&nbsp;
@@ -664,11 +668,11 @@ style="margin-top: 0.2vmax">Thursday
           <span id="type"></span><span id="typeD"></span></div>
       </div> 
       
-      <div id="title" style="font-weight:bold;font-size:2vmax;margin-top:0.5vmax"></div>
+      <div id="title" style="font-weight:bold;margin-top:0.5vmax"></div>
       <div style="font-size:1.5vmax">
       <span id="topic"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="track"></span></div>
       
-      <div class="w3-container w3-padding w3-white" style="font-size: 1.5vmax;margin-top: 0.5vmax">
+      <div id="fac" class="w3-container w3-padding w3-white" style="margin-top: 0.5vmax">
       <div id="mod"></div>
       <div id="sub1"></div>
       <div id="sub2"></div>
