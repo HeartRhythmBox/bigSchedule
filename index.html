@@ -891,27 +891,11 @@ function showData(topicOn) {
     var i;
     for (i=0;i<time.length;i++){
       
-        //for mobile
-        //if (screen.width<600) {
-          //
-          //var start, end, dash;
-          //dash = time[i].indexOf('-');
-          //start = time[i].substr(0,dash);
-          //end = time[i].substr(dash+1,time[i].length);
-          //if (dash != -1){
-          //head[i].innerHTML= start + "<br />&#9662;<br />" + end;
-          //head[i+11].innerHTML= start + "<br />&#9662;<br />" + end;
-          /head[i+22].innerHTML= start + "<br />&#9662;<br />" + end;
-          //head[i+33].innerHTML= start + "<br />&#9662;<br />" + end;
-          //}
-            //  
-        //}
-        //else {
         head[i].innerHTML= time[i];
         head[i+11].innerHTML = time[i];
         head[i+22].innerHTML = time[i];
         head[i+33].innerHTML = time[i];
-    //}
+    
     }
 
     //room
