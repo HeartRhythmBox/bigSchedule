@@ -35,9 +35,9 @@
 .slot6 {width: 10%;}
 .myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;}
 @media only screen and (max-width: 800px) {
-  .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;font-size: 2.2vmax;}
-  .myTable th{line-height: 100%}
-  .room {width:3%;transform: rotate(-90deg);padding:0.2vmax}
+  .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;font-size: 2.3vmax;}
+  .myTable th{line-height: 100%;font-size: 2.1vmax;}
+  .room {width:3%;transform: rotate(-90deg);padding:0.2vmax;font-size: 2.1vmax;}
     
   }
 #Thurs, #Fri, #Sat, #Sun {font-size: 2.5vmax}
@@ -48,7 +48,7 @@
     .break1 {width: 1%;}
     .slot2 {width: 26%;}
     .slot3 {width: 26%;}
-    .lunch {width: 5%;font-size: 2vmax}
+    .lunch {width: 5%;font-size: 1.8vmax}
     .slot4 {width: 27%;display:none}
     .break2 {width: 1%;display:none}
     .slot5 {width: 40.5%;display:none}
@@ -934,13 +934,19 @@ function showData(topicOn) {
     var i;
     for (i=0;i<time.length;i++){
         if (screen.width<600 && time[i]=="brk"){
-          if (time[i]=="brk"){
             head[i].innerHTML= "";
             head[i+11].innerHTML = "";
             head[i+22].innerHTML = "";
             head[i+33].innerHTML = "";    
-          }
-        } else {
+          
+        } 
+        else if (screen.width<600 && time[i]=="12:00-13:30"){
+            head[i].innerHTML= "L";
+            head[i+11].innerHTML = "L";
+            head[i+22].innerHTML = "L";
+            head[i+33].innerHTML = "L";   }
+        
+        else {
         head[i].innerHTML= time[i];
         head[i+11].innerHTML = time[i];
         head[i+22].innerHTML = time[i];
@@ -992,13 +998,16 @@ function showData(topicOn) {
           }
         }
     
-    //for mobile show title length <40
+    //for mobile show title length <40 and last 2 string for lunch
     function mobileAdj(t,s){
       var title = schedule[s].Main_Title
       if (screen.width<600){
-        //check title length
-        if (title.length>40)
-          {var newTitle = title.slice(0,40) + "..."; tData[t].innerHTML = newTitle;}
+        //check title length and content
+        if (title.indexOf("Lunch")!= -1){
+          var newTitle = title.slice(-2);tData[t].innerHTML = newTitle;
+        }
+        else if (title.length>35)
+          {var newTitle = title.slice(0,35) + "..."; tData[t].innerHTML = newTitle;}
         else {tData[t].innerHTML = title}
       } else {
         tData[t].innerHTML = title;
