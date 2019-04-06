@@ -43,11 +43,11 @@
 
 @media only screen and (max-width: 800px){
     #colorCode {display: none}
-    .slot1 {width: 40.5%;}
+    .slot1 {width: 39%;}
     .break1 {width: 1%;}
-    .slot2 {width: 27%;}
-    .slot3 {width: 27%;}
-    .lunch {width: 1%;display:none}
+    .slot2 {width: 26%;}
+    .slot3 {width: 26%;}
+    .lunch {width: 5%;font-size: 2vmax}
     .slot4 {width: 27%;display:none}
     .break2 {width: 1%;display:none}
     .slot5 {width: 40.5%;display:none}
@@ -59,7 +59,9 @@
 .day02 {border: 0.2vmax solid lightskyblue}
 .day03 {border: 0.2vmax solid purple}
 .day04 {border: 0.2vmax solid red}
-.amPm {background-color:white;color: black}
+.am {background-color:black;font-weight:600}
+.pm {background-color:transparent}
+.am, .pm {cursor: pointer;}
 th {font-weight: bold}
 th, td {border: 0.1vmax dotted #555555}
 .colorL {width:fit-content;height: fit-content;font-size: 1.1vmax;}
@@ -137,7 +139,7 @@ make it happen by t'Thon
   <div class="w3-row w3-mobile" style="font-size:2.5vmax;font-weight: 900">
     <span class="w3-wide">SCHEDULE</span>
     <span class="cursive" style="font-weight: 400;color:#555555">at a glance</span><br>
-  <a href="#scheduleList" class="w3-button w3-mobile w3-border w3-round w3-light-grey sans 
+  <a href="#scheduleList" class="w3-button w3-border w3-round w3-light-grey sans 
   w3-padding-small" style="font-size: 1.2vmax">
     click here for schedule in list format.
   </a>
@@ -173,9 +175,9 @@ make it happen by t'Thon
 <div id="Thurs" class="sans w3-center w3-orange w3-text-white w3-bold" 
 style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
 <div class="cursive noMobile" style="font-size:1.5vmax;color:#f2f3f4">Click on the topic to see more detail.</div>
-<div class="mobileOnly sans w3-padding" style="font-size: 2vmax">
-     <span class="w3-badge amPm" onclick="amPmToggle()">AM</span>                                    
-    <span class="w3-badge amPm" onclick="amPmToggle()">PM</span>                                                                   
+<div class="mobileOnly sans" style="font-size: 2.2vmax;padding: 0.5vmax">
+    <span class="w3-button w3-round-large w3-padding-small am" onclick="amPmToggle(0,'a')">AM</span>                                    
+    <span class="w3-button w3-round-large w3-padding-small pm" onclick="amPmToggle(0,'p')">PM</span>                                                                   
 </div>
 </div>
 
@@ -296,9 +298,9 @@ style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
 <div id="Fri" class="sans w3-center w3-blue w3-text-white w3-bold" 
 style="font-size: 2.5vmax;">Friday
 <div class="cursive noMobile" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
-<div class="mobileOnly sans w3-padding" style="font-size: 2vmax">
-     <span class="w3-badge amPm" onclick="amPmToggle()">AM</span>                                    
-    <span class="w3-badge amPm" onclick="amPmToggle()">PM</span>                                                                   
+<div class="mobileOnly sans" style="font-size: 2vmax;padding: 0.5vmax">
+     <span class="w3-button w3-round-large w3-padding-small am" onclick="amPmToggle(1,'a')">AM</span>                                    
+    <span class="w3-button w3-round-large w3-padding-small pm" onclick="amPmToggle(1,'p')">PM</span>                                                                   
 </div>
 </div>
 <table class="sans myTable day02">
@@ -416,9 +418,9 @@ style="font-size: 2.5vmax;">Friday
 <div id="Sat" class="sans w3-center w3-purple w3-text-white w3-bold" 
 style="font-size: 2.5vmax;">Saturday
 <div class="cursive noMobile" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
-    <div class="mobileOnly sans w3-padding" style="font-size: 2vmax">
-     <span class="w3-badge amPm" onclick="amPmToggle()">AM</span>                                    
-    <span class="w3-badge amPm" onclick="amPmToggle()">PM</span>                                                                   
+    <div class="mobileOnly sans" style="font-size: 2vmax;padding: 0.5vmax">
+     <span class="w3-button w3-round-large w3-padding-small am" onclick="amPmToggle(2,'a')">AM</span>                                    
+    <span class="w3-button w3-round-large w3-padding-small pm" onclick="amPmToggle(2,'p')">PM</span>                                                                   
 </div>
 </div>
 <table class="sans myTable day03">
@@ -877,32 +879,39 @@ var trackD = ["Joint Session", "Junior EPs", "Sponsor"]
 
 window.onload = function() {
     showData(true);createList();
-    if (screen.width<800){
-        amPmToggle()
-    }
-}
+  }
 
-var AP = 'am'
-function amPmToggle() {
-    var amSlot = ['slot1', 'break1', 'slot2', 'slot3']  
+//AM PM for mobile <800
+function amPmToggle(day,time) {
+    var amSlot = ['slot1', 'break1', 'slot2', 'slot3','lunch']  
     var pmSlot = ['slot4', 'break2', 'slot5', 'break3', 'slot6']
-    var badge = document.getElementsByClassName('amPm')
-    if (AP =='am'){
-        badge[0].style.backgroundColor = "black";badge[0].style.color = "white"
-        badge[1].style.backgroundColor = "white";badge[0].style.color = "black"
-        AP = 'pm'
-        for (var i=0; i<amSlot.length;i++){
-            amSlot[i].style.display = "block"
-            pmSlot[i].style.display = "none"
+    var am = document.getElementsByClassName('am');
+    var pm = document.getElementsByClassName('pm');
+    var startSlot = day*18;var endSlot = startSlot+18;
+      
+    if (time=='p') {
+      for (var i=0;i<pmSlot.length;i++){
+        var showSlot = document.getElementsByClassName(pmSlot[i]);
+        var hideSlot = document.getElementsByClassName(amSlot[i]);
+        for (var j=startSlot;j<endSlot;j++){
+          showSlot[j].style.display = "table-cell"
+          hideSlot[j].style.display = "none"
         }
+      }
+      pm[day].style.backgroundColor = "black";pm[day].style.fontWeight = "600"
+      am[day].style.backgroundColor = "transparent";am[day].style.fontWeight = "400"
+
     } else {
-        badge[1].style.backgroundColor = "black";badge[1].style.color = "white"
-        badge[0].style.backgroundColor = "white";badge[0].style.color = "black"
-        AP = 'am'
-        for (var i=0; i<amSlot.length;i++){
-            pmSlot[i].style.display = "block"
-            amSlot[i].style.display = "none"
+      for (var i=0;i<pmSlot.length;i++){
+        var showSlot = document.getElementsByClassName(amSlot[i]);
+        var hideSlot = document.getElementsByClassName(pmSlot[i]);
+        for (var j=startSlot;j<endSlot;j++){
+          showSlot[j].style.display = "table-cell"
+          hideSlot[j].style.display = "none"
         }
+      pm[day].style.backgroundColor = "transparent";pm[day].style.fontWeight = "400"
+      am[day].style.backgroundColor = "black";am[day].style.fontWeight = "600"
+      }
     }
 }
 
@@ -926,12 +935,19 @@ function showData(topicOn) {
     //header
     var i;
     for (i=0;i<time.length;i++){
-      
+        if (screen.width<600 && time[i]=="brk"){
+          if (time[i]=="brk"){
+            head[i].innerHTML= "";
+            head[i+11].innerHTML = "";
+            head[i+22].innerHTML = "";
+            head[i+33].innerHTML = "";    
+          }
+        } else {
         head[i].innerHTML= time[i];
         head[i+11].innerHTML = time[i];
         head[i+22].innerHTML = time[i];
         head[i+33].innerHTML = time[i];
-    
+        }
     }
 
     //room
