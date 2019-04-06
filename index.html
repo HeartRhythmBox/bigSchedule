@@ -38,20 +38,21 @@
   .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;font-size: 1.8vmax;}
   .myTable th{line-height: 100%}
   .room {width:3%;transform: rotate(-90deg);padding:0.2vmax}
+    
+  }
+
+@media only screen and (max-width: 600px){
+    #colorCode {display: none}
     .slot1 {width: 40.5%;}
     .break1 {width: 1%;}
     .slot2 {width: 27%;}
     .slot3 {width: 27%;}
     .lunch {width: 1%;}
-    .slot4 {width: 27%;}
-    .break2 {width: 1%;}
-    .slot5 {width: 40.5%;}
-    .break3 {width: 1%;}
-    .slot6 {width: 27%;}
-  }
-
-@media only screen and (max-width: 600px){
-  #colorCode {display: none}
+    .slot4 {width: 27%;display:none}
+    .break2 {width: 1%;display:none}
+    .slot5 {width: 40.5%;display:none}
+    .break3 {width: 1%;display:none}
+    .slot6 {width: 27%;display:none}
 }
 
 .day01 {border: 0.2vmax solid orange}
@@ -951,16 +952,16 @@ function showData(topicOn) {
           }
         }
     
-    //for mobile show only topic not title
+    //for mobile show title length <30
     function mobileAdj(t,s){
+      var title = schedule[s].Main_Title
       if (screen.width<600){
-        //check if topic is empty
-        var topic = schedule[s].Topic;
-        if (topic!="")
-          {tData[t].innerHTML = schedule[s].Topic + "  " + schedule[s].CoTopic}
-        else {tData[t].innerHTML = schedule[s].Track}
+        //check title length
+        if (title.length>30)
+          {var newTitle = title.slice(0,30) + "..."; tData[t].innerHTML = newTitle;}
+        else {tData[t].innerHTML = title}
       } else {
-        tData[t].innerHTML = schedule[s].Main_Title;
+        tData[t].innerHTML = title;
       }
     }
     
