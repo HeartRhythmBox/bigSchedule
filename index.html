@@ -59,7 +59,7 @@
 .day02 {border: 0.2vmax solid lightskyblue}
 .day03 {border: 0.2vmax solid purple}
 .day04 {border: 0.2vmax solid red}
-.amPm {background-color:white;border:none}
+.amPm {background-color:white;border:none;color: black}
 th {font-weight: bold}
 th, td {border: 0.1vmax dotted #555555}
 .colorL {width:fit-content;height: fit-content;font-size: 1.1vmax;}
@@ -173,9 +173,9 @@ make it happen by t'Thon
 <div id="Thurs" class="sans w3-center w3-orange w3-text-white w3-bold" 
 style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
 <div class="cursive noMobile" style="font-size:1.5vmax;color:#f2f3f4">Click on the topic to see more detail.</div>
-<div class="mobileOnly sans" style="font-size: 2vmax>
-     <div class="w3-badge amPm">AM</div>                                    
-    <div class="w3-badge amPm">PM</div>                                                                   
+<div class="mobileOnly sans" style="font-size: 2vmax">
+     <span class="w3-badge amPm">AM</span>                                    
+    <span class="w3-badge amPm">PM</span>                                                                   
 </div>
 </div>
 
@@ -892,25 +892,26 @@ function showData(topicOn) {
     for (i=0;i<time.length;i++){
       
         //for mobile
-        if (screen.width<600) {
-          
-          var start, end, dash;
-          dash = time[i].indexOf('-');
-          start = time[i].substr(0,dash);
-          end = time[i].substr(dash+1,time[i].length);
-          if (dash != -1){
-          head[i].innerHTML= start + "<br />&#9662;<br />" + end;
-          head[i+11].innerHTML= start + "<br />&#9662;<br />" + end;
-          head[i+22].innerHTML= start + "<br />&#9662;<br />" + end;
-          head[i+33].innerHTML= start + "<br />&#9662;<br />" + end;
-          }
-              
-        }
-        else {
+        //if (screen.width<600) {
+          //
+          //var start, end, dash;
+          //dash = time[i].indexOf('-');
+          //start = time[i].substr(0,dash);
+          //end = time[i].substr(dash+1,time[i].length);
+          //if (dash != -1){
+          //head[i].innerHTML= start + "<br />&#9662;<br />" + end;
+          //head[i+11].innerHTML= start + "<br />&#9662;<br />" + end;
+          /head[i+22].innerHTML= start + "<br />&#9662;<br />" + end;
+          //head[i+33].innerHTML= start + "<br />&#9662;<br />" + end;
+          //}
+            //  
+        //}
+        //else {
         head[i].innerHTML= time[i];
         head[i+11].innerHTML = time[i];
         head[i+22].innerHTML = time[i];
-        head[i+33].innerHTML = time[i];}
+        head[i+33].innerHTML = time[i];
+    //}
     }
 
     //room
