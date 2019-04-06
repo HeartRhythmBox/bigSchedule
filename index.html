@@ -35,7 +35,7 @@
 .slot6 {width: 10%;}
 .myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;}
 @media only screen and (max-width: 800px) {
-  .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;font-size: 2.2vmax;}
+  .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;font-size: 2.5vmax;}
   .myTable th{line-height: 100%}
   .room {width:3%;transform: rotate(-90deg);padding:0.2vmax}
     
@@ -417,7 +417,7 @@ style="font-size: 2.5vmax;">Friday
 style="font-size: 2.5vmax;">Saturday
 <div class="cursive noMobile" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
     <div class="mobileOnly sans w3-padding" style="font-size: 2vmax">
-     <span class="w3-badge amPm" style="font-weight:600;color:white;background-color:black">AM</span>                                    
+     <span class="w3-badge amPm">AM</span>                                    
     <span class="w3-badge amPm">PM</span>                                                                   
 </div>
 </div>
@@ -875,9 +875,36 @@ var sessionTypeDetail = ["101 in 1hr (basic how-to session)",
 var track =["Joint","JR","Spsr"]
 var trackD = ["Joint Session", "Junior EPs", "Sponsor"]
 
+window.onload = function() {
+    showData(true);createList();
+    if (screen.width<800){
+        amPmToggle()
+    }
+}
 
-window.onload = showData(true);
-window.onload = createList();
+var AP = 'am'
+function amPmToggle {
+    var amSlot = ['slot1', 'break1', 'slot2', 'slot3']  
+    var pmSlot = ['slot4', 'break2', 'slot5', 'break3', 'slot6']
+    var badge = document.getElementsByClassName('amPm')
+    if (AP =='am'){
+        badge[0].style.backgroundColor = "black";badge[0].style.color = "white"
+        badge[1].style.backgroundColor = "white";badge[0].style.color = "black"
+        AP = 'pm'
+        for (var i=0; i<amSlot.length;i++){
+            amSlot[i].style.display = "block"
+            pmSlot[i].style.display = "none"
+        }
+    } else {
+        badge[1].style.backgroundColor = "black";badge[1].style.color = "white"
+        badge[0].style.backgroundColor = "white";badge[0].style.color = "black"
+        AP = 'am'
+        for (var i=0; i<amSlot.length;i++){
+            pmSlot[i].style.display = "block"
+            amSlot[i].style.display = "none"
+        }
+    }
+}
 
 function showData(topicOn) {
   var head = document.getElementsByTagName("th");
@@ -951,13 +978,13 @@ function showData(topicOn) {
           }
         }
     
-    //for mobile show title length <30
+    //for mobile show title length <40
     function mobileAdj(t,s){
       var title = schedule[s].Main_Title
       if (screen.width<600){
         //check title length
-        if (title.length>30)
-          {var newTitle = title.slice(0,30) + "..."; tData[t].innerHTML = newTitle;}
+        if (title.length>40)
+          {var newTitle = title.slice(0,40) + "..."; tData[t].innerHTML = newTitle;}
         else {tData[t].innerHTML = title}
       } else {
         tData[t].innerHTML = title;
@@ -1189,7 +1216,7 @@ function showL(order,x){
     var topicName = topic[x];
     var s = [];var n;
     for (n=0;n<schedule.length;n++){
-      if (schedule[n].Topic==topicName || schedule[n].CoTopic || schedule[n].CoTopic2 ==topicName) {
+      if (schedule[n].Topic==topicName || schedule[n].CoTopic==topicName || schedule[n].CoTopic2 ==topicName) {
         s.push(n)
       }
     }
