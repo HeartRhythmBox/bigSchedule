@@ -40,9 +40,10 @@
   .room {width:3%;transform: rotate(-90deg);padding:0.2vmax}
     
   }
-
+#Thurs, #Fri, #Sat, #Sun {font-size: 2.5vmax}
 @media only screen and (max-width: 800px){
     #colorCode {display: none}
+    #Thurs, #Fri, #Sat, #Sun {font-size: 3vmax}
     .slot1 {width: 39%;}
     .break1 {width: 1%;}
     .slot2 {width: 26%;}
@@ -61,7 +62,7 @@
 .day04 {border: 0.2vmax solid red}
 .am {background-color:black;font-weight:600}
 .pm {background-color:transparent}
-.am, .pm {cursor: pointer;}
+.am, .pm {cursor: pointer;font-size:2.2vmax}
 th {font-weight: bold}
 th, td {border: 0.1vmax dotted #555555}
 .colorL {width:fit-content;height: fit-content;font-size: 1.1vmax;}
@@ -173,11 +174,11 @@ make it happen by t'Thon
 
 <!--thursday-->
 <div id="Thurs" class="sans w3-center w3-orange w3-text-white w3-bold" 
-style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
+style="margin-top: 0.2vmax">Thursday
 <div class="cursive noMobile" style="font-size:1.5vmax;color:#f2f3f4">Click on the topic to see more detail.</div>
 <div class="mobileOnly sans" style="font-size: 2.2vmax;padding: 0.5vmax">
-    <span class="w3-button w3-round-large w3-padding-small am" onclick="amPmToggle(0,'a')">AM</span>                                    
-    <span class="w3-button w3-round-large w3-padding-small pm" onclick="amPmToggle(0,'p')">PM</span>                                                                   
+    <span class="w3-badge w3-round-large w3-padding-small am" onclick="amPmToggle(0,'a')">AM</span>                                    
+    <span class="w3-badge w3-round-large w3-padding-small pm" onclick="amPmToggle(0,'p')">PM</span>                                                                   
 </div>
 </div>
 
@@ -295,12 +296,11 @@ style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
 </table>
 
 <!--Friday-->
-<div id="Fri" class="sans w3-center w3-blue w3-text-white w3-bold" 
-style="font-size: 2.5vmax;">Friday
+<div id="Fri" class="sans w3-center w3-blue w3-text-white w3-bold">Friday
 <div class="cursive noMobile" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
 <div class="mobileOnly sans" style="font-size: 2vmax;padding: 0.5vmax">
-     <span class="w3-button w3-round-large w3-padding-small am" onclick="amPmToggle(1,'a')">AM</span>                                    
-    <span class="w3-button w3-round-large w3-padding-small pm" onclick="amPmToggle(1,'p')">PM</span>                                                                   
+     <span class="w3-badge w3-round-large w3-padding-small am" onclick="amPmToggle(1,'a')">AM</span>                                    
+    <span class="w3-badge w3-round-large w3-padding-small pm" onclick="amPmToggle(1,'p')">PM</span>                                                                   
 </div>
 </div>
 <table class="sans myTable day02">
@@ -415,12 +415,11 @@ style="font-size: 2.5vmax;">Friday
 </table>
 
 <!--Sat-->
-<div id="Sat" class="sans w3-center w3-purple w3-text-white w3-bold" 
-style="font-size: 2.5vmax;">Saturday
+<div id="Sat" class="sans w3-center w3-purple w3-text-white w3-bold">Saturday
 <div class="cursive noMobile" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
     <div class="mobileOnly sans" style="font-size: 2vmax;padding: 0.5vmax">
-     <span class="w3-button w3-round-large w3-padding-small am" onclick="amPmToggle(2,'a')">AM</span>                                    
-    <span class="w3-button w3-round-large w3-padding-small pm" onclick="amPmToggle(2,'p')">PM</span>                                                                   
+     <span class="w3-badge w3-round-large w3-padding-small am" onclick="amPmToggle(2,'a')">AM</span>                                    
+    <span class="w3-badge w3-round-large w3-padding-small pm" onclick="amPmToggle(2,'p')">PM</span>                                                                   
 </div>
 </div>
 <table class="sans myTable day03">
@@ -535,8 +534,7 @@ style="font-size: 2.5vmax;">Saturday
 </table>
 
 <!--Sun-->
-<div id="Sun" class="sans w3-center w3-red w3-text-white w3-bold" 
-style="font-size: 2.5vmax;">Sunday
+<div id="Sun" class="sans w3-center w3-red w3-text-white w3-bold">Sunday
 <div class="cursive noMobile" style="font-size:1.5vmax;color:#ddd">Click on the topic to see more detail.</div>
 
 </div>
@@ -888,7 +886,7 @@ function amPmToggle(day,time) {
     var am = document.getElementsByClassName('am');
     var pm = document.getElementsByClassName('pm');
     var startSlot = day*18;var endSlot = startSlot+18;
-      
+ 
     if (time=='p') {
       for (var i=0;i<pmSlot.length;i++){
         var showSlot = document.getElementsByClassName(pmSlot[i]);
@@ -898,8 +896,8 @@ function amPmToggle(day,time) {
           hideSlot[j].style.display = "none"
         }
       }
-      pm[day].style.backgroundColor = "black";pm[day].style.fontWeight = "600"
-      am[day].style.backgroundColor = "transparent";am[day].style.fontWeight = "400"
+      pm[day].style.backgroundColor = "black";pm[day].style.fontWeight = "600";
+      am[day].style.backgroundColor = "transparent";am[day].style.fontWeight = "400";
 
     } else {
       for (var i=0;i<pmSlot.length;i++){
@@ -909,8 +907,8 @@ function amPmToggle(day,time) {
           showSlot[j].style.display = "table-cell"
           hideSlot[j].style.display = "none"
         }
-      pm[day].style.backgroundColor = "transparent";pm[day].style.fontWeight = "400"
-      am[day].style.backgroundColor = "black";am[day].style.fontWeight = "600"
+      pm[day].style.backgroundColor = "transparent";pm[day].style.fontWeight = "400";
+      am[day].style.backgroundColor = "black";am[day].style.fontWeight = "600";
       }
     }
 }
