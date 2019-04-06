@@ -35,7 +35,7 @@
 .slot6 {width: 10%;}
 .myTable {font-size: 1.2vmax;border-collapse: collapse;margin-bottom: 5vmax;text-align: center;}
 @media only screen and (max-width: 800px) {
-  .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;font-size: 2vmax;}
+  .myTable {font-family: 'BenchNine', sans-serif;table-layout: fixed;font-size: 2.2vmax;}
   .myTable th{line-height: 100%}
   .room {width:3%;transform: rotate(-90deg);padding:0.2vmax}
     
@@ -59,6 +59,7 @@
 .day02 {border: 0.2vmax solid lightskyblue}
 .day03 {border: 0.2vmax solid purple}
 .day04 {border: 0.2vmax solid red}
+.amPm {background-color:white;border:none}
 th {font-weight: bold}
 th, td {border: 0.1vmax dotted #555555}
 .colorL {width:fit-content;height: fit-content;font-size: 1.1vmax;}
@@ -171,7 +172,11 @@ make it happen by t'Thon
 <!--thursday-->
 <div id="Thurs" class="sans w3-center w3-orange w3-text-white w3-bold" 
 style="font-size: 2.5vmax;margin-top: 0.2vmax">Thursday
-<div class="cursive" style="font-size:1.5vmax;color:#f2f3f4">Click on the topic to see more detail.</div>
+<div class="cursive noMobile" style="font-size:1.5vmax;color:#f2f3f4">Click on the topic to see more detail.</div>
+<div class="mobileOnly sans" style="font-size: 2vmax>
+     <div class="w3-badge amPm">AM</div>                                    
+    <div class="w3-badge amPm">PM</div>                                                                   
+</div>
 </div>
 
 <table class="sans myTable day01">
