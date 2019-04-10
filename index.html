@@ -1495,7 +1495,7 @@ function spkFilter(){
     ind = spkC.indexOf(sNameU)
     if (ind != -1){
       country = spkCountry[ind].Country;
-      var newName = spkCountry[ind].Name} 
+      var newName = spkCountry[ind].Name.toUpperCase()} 
     else {country = "";var newName = sName}
 
     var newLi = document.createElement('li')

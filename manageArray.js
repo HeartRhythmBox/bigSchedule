@@ -15652,16 +15652,16 @@ function UnqSpk(){
     var i;var sList=[];
     for (i=0;i<schedule.length;i++){
       
-      sList.push(schedule[i].Spk1);
-      sList.push(schedule[i].Spk2);
-      sList.push(schedule[i].Spk3);
-      sList.push(schedule[i].Spk4);
-      sList.push(schedule[i].Spk5);
-      sList.push(schedule[i].Spk6);
-      sList.push(schedule[i].Mod1);
-      sList.push(schedule[i].Mod2);
-      sList.push(schedule[i].Mod3);
-      sList.push(schedule[i].Mod4);
+      sList.push(schedule[i].Spk1.toUpperCase());
+      sList.push(schedule[i].Spk2.toUpperCase());
+      sList.push(schedule[i].Spk3.toUpperCase());
+      sList.push(schedule[i].Spk4.toUpperCase());
+      sList.push(schedule[i].Spk5.toUpperCase());
+      sList.push(schedule[i].Spk6.toUpperCase());
+      sList.push(schedule[i].Mod1.toUpperCase());
+      sList.push(schedule[i].Mod2.toUpperCase());
+      sList.push(schedule[i].Mod3.toUpperCase());
+      sList.push(schedule[i].Mod4.toUpperCase());
     }
     sList = sList.filter(function(item, index){
       return sList.indexOf(item)==index;
