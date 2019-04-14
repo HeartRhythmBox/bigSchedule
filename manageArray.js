@@ -2679,7 +2679,7 @@ var schedule = [
    "Spk5": "",
    "Spk6": "",
    "Mod1": "PRYSTOWSKY, Eric",
-   "Mod2": "",
+   "Mod2": "DOSHI, Shephal",
    "Mod3": "PHILLIPS, Karen",
    "Mod4": "CHAO, Tze-Fan",
    "CoTopic": "",
@@ -8296,7 +8296,6 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
-
 var spkCountry = [
  {
    "Name": "Abe, Haruhiko",
