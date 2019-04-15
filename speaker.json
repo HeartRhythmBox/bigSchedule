@@ -661,7 +661,7 @@
    "Country": "Hong Kong",
    "email": "chankk5@ha.org.hk",
    "in list": "95",
-   "In schedule": "#N/A",
+   "In schedule": "359",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -913,8 +913,8 @@
    "Country": "South Africa",
    "email": "ashley.chin@uct.ac.za",
    "in list": "611",
-   "In schedule": "#N/A",
-   "InvRdy": "N",
+   "In schedule": "358",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -1044,12 +1044,12 @@
    "InvCfrm": ""
  },
  {
-   "Name": "Chu, Anthony",
+   "Name": "Chu, Antony",
    "Country": "United States",
    "email": "",
-   "in list": "714",
-   "In schedule": "#N/A",
-   "InvRdy": "N",
+   "in list": "#N/A",
+   "In schedule": "51",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -2110,7 +2110,7 @@
    "Country": "Malaysia",
    "email": "azlan@ijn.com.my",
    "in list": "396",
-   "In schedule": "#N/A",
+   "In schedule": "357",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -2425,7 +2425,7 @@
    "Country": "South Korea",
    "email": "cby6908@yuhs.ac",
    "in list": "453",
-   "In schedule": "#N/A",
+   "In schedule": "360",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -4693,7 +4693,7 @@
    "Country": "India",
    "email": "deepak.padmanabhan@gmail.com",
    "in list": "155",
-   "In schedule": "#N/A",
+   "In schedule": "365",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -5080,7 +5080,7 @@
    "Country": "Cambodia",
    "email": "rithchandara9999@gmail.com",
    "in list": "43",
-   "In schedule": "#N/A",
+   "In schedule": "361",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -5251,7 +5251,7 @@
    "Country": "Australia",
    "email": "westpennant@gmail.com",
    "in list": "29",
-   "In schedule": "#N/A",
+   "In schedule": "364",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -5521,7 +5521,7 @@
    "Country": "India",
    "email": "sunandansikdar@gmail.com",
    "in list": "173",
-   "In schedule": "#N/A",
+   "In schedule": "363",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -5954,7 +5954,7 @@
    "email": "teru.takigawa@gmail.com",
    "in list": "608",
    "In schedule": "352",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -6520,7 +6520,7 @@
    "Country": "China",
    "email": "wht506@126.com",
    "in list": "72",
-   "In schedule": "#N/A",
+   "In schedule": "356",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -6691,8 +6691,8 @@
    "Country": "Australia",
    "email": "c.wong@adelaide.edu.au",
    "in list": "36",
-   "In schedule": "#N/A",
-   "InvRdy": "N",
+   "In schedule": "362",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
