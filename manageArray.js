@@ -1001,7 +1001,7 @@ var schedule = [
    "noMods": 2,
    "time_allocation": "25+5mins/talk+QA",
    "SubT1": "Sudden Unexplained Death Syndrome: The Odyssey from the Unknown to the Right Ventricle",
-   "SubT2": "Evolution of Ablation � From DC shocks to particle therapy",
+   "SubT2": "Evolution of Ablation: From DC shocks to particle therapy",
    "SubT3": "",
    "SubT4": "",
    "SubT5": "",
@@ -1995,7 +1995,7 @@ var schedule = [
    "Spk1": "Kirchof, Paullus",
    "Spk2": "LANE, Deirdre",
    "Spk3": "Goette, Andreas",
-   "Spk4": "EZEKOWITZ, Michael D.",
+   "Spk4": "",
    "Spk5": "Steffel, Jan",
    "Spk6": "DOSHI, Shephal",
    "Mod1": "",
@@ -8330,7 +8330,6 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
-
 var spkCountry = [
  {
    "Name": "Abe, Haruhiko",
