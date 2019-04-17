@@ -519,7 +519,7 @@ var schedule = [
    "Time": "10:00-11:00",
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
-   "Main_Title": "Syncope 2019: What's new and notable? (Mod: Bancha)",
+   "Main_Title": "Syncope 2019: What's new and notable?",
    "no_subTs": 4,
    "noSpks": 3,
    "noMods": 3,
@@ -537,7 +537,7 @@ var schedule = [
    "Spk5": "",
    "Spk6": "",
    "Mod1": "KOHNO, Ritsuko",
-   "Mod2": "Thai",
+   "Mod2": "Sunsaneewitayakul, Buncha",
    "Mod3": "",
    "Mod4": "",
    "CoTopic": "",
@@ -2457,7 +2457,7 @@ var schedule = [
    "Time": "16:45-17:45",
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
-   "Main_Title": "The \"MAD\" (Mitral annular disjuction) arrhythmic syndrome (Joint with Imaging) (Mod2: Rungroj K.)",
+   "Main_Title": "The \"MAD\" (Mitral annular disjuction) arrhythmic syndrome (Joint with Thai Cardiac Imaging Society) (Mod2: Rungroj K.)",
    "no_subTs": 4,
    "noSpks": 4,
    "noMods": 3,
@@ -4539,7 +4539,7 @@ var schedule = [
    "SubT1": "Worldwide oral anticoagulation prescription registry: results from INTERAF",
    "SubT2": "Discontinuation of anticoagulants after AF ablation: lesson learned from the registry",
    "SubT3": "Cardiovascular outcomes of AF patients: results from Fushimi registry",
-   "SubT4": "COOL AF",
+   "SubT4": "COOL AF (Ajbodin)",
    "SubT5": "Real-world guidelines adherence for AF management: results from CODE-AF registry",
    "SubT6": "-",
    "Spk1": "POTPARA, Tatjana",
@@ -5211,7 +5211,7 @@ var schedule = [
    "Time": "16:45-17:45",
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
-   "Main_Title": "Post TAVR Cardiac Conduction Abnormalities (Joint session with intervention)",
+   "Main_Title": "Post TAVR Cardiac Conduction Abnormalities (Joint session with CIAT)",
    "no_subTs": 4,
    "noSpks": 4,
    "noMods": 3,
@@ -7319,7 +7319,7 @@ var schedule = [
    "Time": "15:00-16:30",
    "Rm Code": "CC",
    "Rm": "Convention Center",
-   "Main_Title": "Controversies in AF Ablation (TEE, ablation strategy, eso protection, anesthesia, OAC discont, AFL + PVI, and etc.)(mod2: Charn)",
+   "Main_Title": "Controversies in AF Ablation (TEE, ablation strategy, eso protection, anesthesia, OAC discont, AFL + PVI, and etc.)",
    "no_subTs": 5,
    "noSpks": 5,
    "noMods": 2,
@@ -7337,7 +7337,7 @@ var schedule = [
    "Spk5": "KUCK, Karl-Heinz",
    "Spk6": "",
    "Mod1": "HUANG, Congxin",
-   "Mod2": "Thai",
+   "Mod2": "Sriratanasathavorn, Charn",
    "Mod3": "",
    "Mod4": "",
    "CoTopic": "",
@@ -8466,6 +8466,7 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
+
 var spkCountry = [
  {
    "Name": "Abe, Haruhiko",
