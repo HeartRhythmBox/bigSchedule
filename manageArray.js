@@ -10573,7 +10573,7 @@ var spkCountry = [
    "184": ""
  },
  {
-   "Name": "Glikson, Micheal",
+   "Name": "Glikson, Michael",
    "Country": "Israel",
    "Email": "mglikson@szmc.org.il",
    "in list": 183,
@@ -15601,7 +15601,7 @@ var spkCountry = [
    "184": ""
  },
  {
-   "Name": "Sakena, Sanjeev",
+   "Name": "Saksena, Sanjeev",
    "Country": "United States",
    "Email": "cmenj@aol.com",
    "in list": 602,
