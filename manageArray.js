@@ -5263,7 +5263,7 @@ var schedule = [
    "Spk5": "Roberts, Paul",
    "Spk6": "Cannom, David S.",
    "Mod1": "Chan, Andy Wai-Kwong",
-   "Mod2": "",
+   "Mod2": "Prutkin, Jordan",
    "Mod3": "",
    "Mod4": "",
    "CoTopic": "CIED",
@@ -7737,13 +7737,13 @@ var schedule = [
    "SubT3": "Ablation of VT in Chagas cardiomyopathy (Saenz, LC)",
    "SubT4": "Ablation of VT in myocardial tuberculosis",
    "SubT5": "VT in sarcoidosis: an interesting case",
-   "SubT6": "VT in HCM: Better to do 'IT' now than later (Asadayudh)",
+   "SubT6": "VT in HCM: Better to do 'IT' now than later",
    "Spk1": "AONUMA, Kazutaka",
    "Spk2": "Kaneshiro, Takashi",
    "Spk3": "",
    "Spk4": "Saggu, Daljeet Kaur",
    "Spk5": "So, Yui-Chi",
-   "Spk6": "",
+   "Spk6": "Phoolpithayadhorn, Asadayudh",
    "Mod1": "JOHN, Bobby",
    "Mod2": "",
    "Mod3": "",
@@ -8398,8 +8398,6 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
-
-
 var spkCountry = [
  {
    "Name": "Abe, Haruhiko",
