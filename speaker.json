@@ -3854,9 +3854,9 @@
    "Country": "United States",
    "Email": "jianmingli924@gmail.com",
    "in list": "387",
-   "In schedule": 0,
+   "In schedule": 500,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -6114,7 +6114,7 @@
    "Country": "Thailand",
    "Email": "sharmilasehli@gmail.com",
    "in list": "613",
-   "In schedule": 0,
+   "In schedule": 498,
    "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -6954,8 +6954,8 @@
    "Country": "United States",
    "Email": "ttanawuttiwat@gmail.com",
    "in list": "697",
-   "In schedule": 0,
-   "Accept": "0",
+   "In schedule": 499,
+   "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
  },
