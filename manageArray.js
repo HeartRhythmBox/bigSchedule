@@ -6503,7 +6503,7 @@ var schedule = [
    "Time": "12:00-13:30",
    "Rm Code": "L7",
    "Rm": "Lotus 7",
-   "Main_Title": "Available",
+   "Main_Title": "Lunch Sym M - MDT",
    "no_subTs": 0,
    "noSpks": 0,
    "noMods": 0,
@@ -8330,6 +8330,7 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
+
 var spkCountry = [
  {
    "Name": "Abe, Haruhiko",
