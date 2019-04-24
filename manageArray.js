@@ -6998,7 +6998,7 @@ var schedule = [
    "Spk6": "",
    "Mod1": "Mariani, Justin",
    "Mod2": "",
-   "Mod3": "",
+   "Mod3": "Jongnarangsin, Krit",
    "Mod4": "Gillis, Anne",
    "CoTopic": "HF",
    "CoTopic2": "Ped"
@@ -7480,15 +7480,15 @@ var schedule = [
    "CoTopic2": ""
  },
  {
-   "Code": "03L8-5",
+   "Code": "03L14-5",
    "Date": "10/26/2019",
    "Topic": "Abs",
    "Session_Type": "Abs",
    "Track": "",
    "Time Slot": "5",
    "Time": "15:00-16:30",
-   "Rm Code": "L8",
-   "Rm": "Lotus 8",
+   "Rm Code": "L14",
+   "Rm": "Lotus 14",
    "Main_Title": "6 abs (AF)",
    "no_subTs": 6,
    "noSpks": 0,
