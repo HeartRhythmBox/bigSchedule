@@ -1008,7 +1008,10 @@ function showData(topicOn) {
       if (screen.width<600){
         //check title length and content
         if (title.indexOf("Lunch")!= -1){
-          var newTitle = title.slice(-2);tData[t].innerHTML = newTitle;
+          var newTitle = title.slice(-3);tData[t].innerHTML = newTitle;
+        }
+        else if (title.indexOf("Available")!= -1){
+          var newTitle = "avail";tData[t].innerHTML = newTitle;tData[t].style.fontSize = "1vmax"
         }
         else if (title.length>35)
           {var newTitle = title.slice(0,35) + "..."; tData[t].innerHTML = newTitle;}
