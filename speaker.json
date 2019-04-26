@@ -2846,7 +2846,7 @@
    "in list": 286,
    "In schedule": 199,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -5476,7 +5476,7 @@
    "in list": 549,
    "In schedule": 338,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -5786,7 +5786,7 @@
    "in list": 580,
    "In schedule": 354,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
