@@ -5381,7 +5381,7 @@ var schedule = [
    "Time": "08:00-09:30",
    "Rm Code": "L12",
    "Rm": "Lotus 12",
-   "Main_Title": "Junior EP Session: What do I do now?",
+   "Main_Title": "Junior EP Session: Interesting SVT cases",
    "no_subTs": 6,
    "noSpks": 6,
    "noMods": 4,
@@ -7094,7 +7094,7 @@ var schedule = [
    "SubT6": "Cost-effectiveness and clinical effectiveness of risk factor management in AF",
    "Spk1": "JOSEPH, Stephen",
    "Spk2": "LINZ, Dominik",
-   "Spk3": "SMITT, Jaap Jan",
+   "Spk3": "Smit, Jaap Jan",
    "Spk4": "Heidbuchel, Hein",
    "Spk5": "Prutkin, Jordan",
    "Spk6": "PATHAK, Rajeev",
@@ -8215,7 +8215,7 @@ var schedule = [
    "SubT5": "-",
    "SubT6": "-",
    "Spk1": "Natale, Andrea",
-   "Spk2": "SMITT, Jaap Jan",
+   "Spk2": "Smit, Jaap Jan",
    "Spk3": "Hocini, Meleze",
    "Spk4": "MARROUCHE, Nassir F.",
    "Spk5": "",
@@ -8330,7 +8330,6 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
-
 var spkCountry = [
  {
    "Name": "Abe, Haruhiko",
@@ -14783,11 +14782,11 @@ var spkCountry = [
    "InvCfrm": ""
  },
  {
-   "Name": "Smitt, Jaap Jan",
+   "Name": "Smit, Jaap Jan",
    "Country": "Netherlands",
    "Email": "j.j.j.smit@isala.nl",
    "in list": 647,
-   "In schedule": 396,
+   "In schedule": 498,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14797,7 +14796,7 @@ var spkCountry = [
    "Country": "Hong Kong",
    "Email": "bobbymed@netvigator.com",
    "in list": 648,
-   "In schedule": 397,
+   "In schedule": 396,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -14807,7 +14806,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "kyoko@cpnet.med.keio.ac.jp; skyoko@ks.kyorin-u.ac.jp",
    "in list": 649,
-   "In schedule": 398,
+   "In schedule": 397,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14857,7 +14856,7 @@ var spkCountry = [
    "Country": "South Korea",
    "Email": "mksong52@gmail.com",
    "in list": 654,
-   "In schedule": 399,
+   "In schedule": 398,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -14867,7 +14866,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "song@usc.edu",
    "in list": 655,
-   "In schedule": 400,
+   "In schedule": 399,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14897,7 +14896,7 @@ var spkCountry = [
    "Country": "Thailand",
    "Email": "sicsh@mahidol.ac.th, charn.sri@mahidol.ac.th",
    "in list": 658,
-   "In schedule": 401,
+   "In schedule": 400,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -14907,7 +14906,7 @@ var spkCountry = [
    "Country": "Germany",
    "Email": "starck@dhzb.de",
    "in list": 659,
-   "In schedule": 402,
+   "In schedule": 401,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14917,7 +14916,7 @@ var spkCountry = [
    "Country": "Switzerland",
    "Email": "j.steffel@gmx.ch",
    "in list": 660,
-   "In schedule": 403,
+   "In schedule": 402,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14927,7 +14926,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "jsteinberg@smgnj.com",
    "in list": 661,
-   "In schedule": 404,
+   "In schedule": 403,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14947,7 +14946,7 @@ var spkCountry = [
    "Country": "New Zealand",
    "Email": "martin.stiles@waikatodhb.health.nz",
    "in list": 663,
-   "In schedule": 405,
+   "In schedule": 404,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14957,7 +14956,7 @@ var spkCountry = [
    "Country": "Australia",
    "Email": "Neil.strathmore@mh.org.au",
    "in list": 664,
-   "In schedule": 406,
+   "In schedule": 405,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15007,7 +15006,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "sueda@hiroshima-u.ac.jp",
    "in list": 669,
-   "In schedule": 407,
+   "In schedule": 406,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15067,7 +15066,7 @@ var spkCountry = [
    "Country": "Thailand",
    "Email": "bunchasw@gmail.com",
    "in list": 675,
-   "In schedule": 408,
+   "In schedule": 407,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15077,7 +15076,7 @@ var spkCountry = [
    "Country": "India",
    "Email": "a.sureshdm@yahoo.com",
    "in list": 676,
-   "In schedule": 409,
+   "In schedule": 408,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15087,7 +15086,7 @@ var spkCountry = [
    "Country": "United Kingdom",
    "Email": "r.sutton@imperial.ac.uk",
    "in list": 677,
-   "In schedule": 410,
+   "In schedule": 409,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15097,7 +15096,7 @@ var spkCountry = [
    "Country": "Thailand",
    "Email": "aucardi@gmail.com",
    "in list": 678,
-   "In schedule": 411,
+   "In schedule": 410,
    "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15127,7 +15126,7 @@ var spkCountry = [
    "Country": "Australia",
    "Email": "raymond.sy01@gmail.com",
    "in list": 681,
-   "In schedule": 412,
+   "In schedule": 411,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15137,7 +15136,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "htada2003@yahoo.co.jp",
    "in list": 682,
-   "In schedule": 413,
+   "In schedule": 412,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15147,7 +15146,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "m7424580@msic.med.osaka-cu.ac.jp",
    "in list": 683,
-   "In schedule": 414,
+   "In schedule": 413,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15167,7 +15166,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "takanao@oita-u.ac.jp",
    "in list": 685,
-   "In schedule": 415,
+   "In schedule": 414,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15187,7 +15186,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "dui15772004@yahoo.co.jp",
    "in list": 687,
-   "In schedule": 416,
+   "In schedule": 415,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15227,7 +15226,7 @@ var spkCountry = [
    "Country": "France",
    "Email": "teru.takigawa@gmail.com",
    "in list": 691,
-   "In schedule": 417,
+   "In schedule": 416,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15237,7 +15236,7 @@ var spkCountry = [
    "Country": "Iraq / Japan",
    "Email": "doc.ahmed1981@gmail.com; ahmed@asahikawa-med.ac.jp",
    "in list": 692,
-   "In schedule": 418,
+   "In schedule": 417,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15247,7 +15246,7 @@ var spkCountry = [
    "Country": "India",
    "Email": "kktalwar@hotmail.com",
    "in list": 693,
-   "In schedule": 419,
+   "In schedule": 418,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15287,7 +15286,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "ttanawuttiwat@gmail.com",
    "in list": 697,
-   "In schedule": 420,
+   "In schedule": 419,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15347,7 +15346,7 @@ var spkCountry = [
    "Country": "Singapore",
    "Email": "teo.wee.siong@singhealth.com.sg; wswkiliteo@gmail.com",
    "in list": 703,
-   "In schedule": 421,
+   "In schedule": 420,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15367,7 +15366,7 @@ var spkCountry = [
    "Country": "India",
    "Email": "dranees2001@yahoo.com",
    "in list": 705,
-   "In schedule": 423,
+   "In schedule": 422,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15407,7 +15406,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "thola001@umn.edu",
    "in list": 709,
-   "In schedule": 424,
+   "In schedule": 423,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15427,7 +15426,7 @@ var spkCountry = [
    "Country": "Australia",
    "Email": "stuart.thomas@sydney.edu.au",
    "in list": 711,
-   "In schedule": 425,
+   "In schedule": 424,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15467,7 +15466,7 @@ var spkCountry = [
    "Country": "Italy",
    "Email": "Claudio.Tondo@cardiologicomonzino.it",
    "in list": 715,
-   "In schedule": 426,
+   "In schedule": 425,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15517,7 +15516,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "ntrayanova@jhu.edu",
    "in list": 720,
-   "In schedule": 427,
+   "In schedule": 426,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15537,7 +15536,7 @@ var spkCountry = [
    "Country": "Taiwan",
    "Email": "cttsai1999@gmail.com",
    "in list": 722,
-   "In schedule": 428,
+   "In schedule": 427,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15557,7 +15556,7 @@ var spkCountry = [
    "Country": "Taiwan",
    "Email": "azygo91@gmail.com ",
    "in list": 724,
-   "In schedule": 429,
+   "In schedule": 428,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15567,7 +15566,7 @@ var spkCountry = [
    "Country": "Taiwan",
    "Email": "wenchintsai38@gmail.com",
    "in list": 725,
-   "In schedule": 430,
+   "In schedule": 429,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15577,7 +15576,7 @@ var spkCountry = [
    "Country": "Taiwan",
    "Email": "hmtsao@ymuh.ym.edu.tw",
    "in list": 726,
-   "In schedule": 431,
+   "In schedule": 430,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15587,7 +15586,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "Cory.Tschabrunn@uphs.upenn.edu",
    "in list": 727,
-   "In schedule": 432,
+   "In schedule": 431,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15607,7 +15606,7 @@ var spkCountry = [
    "Country": "Hong Kong",
    "Email": "hftse@hku.hk",
    "in list": 729,
-   "In schedule": 433,
+   "In schedule": 432,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15667,7 +15666,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "",
    "in list": 735,
-   "In schedule": 434,
+   "In schedule": 433,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15677,7 +15676,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "mintu@stanford.edu",
    "in list": 736,
-   "In schedule": 435,
+   "In schedule": 434,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15707,7 +15706,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "akiko.ut23@gmail.com",
    "in list": 739,
-   "In schedule": 436,
+   "In schedule": 435,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15757,7 +15756,7 @@ var spkCountry = [
    "Country": "India",
    "Email": "ajitkumarvk@yahoo.com",
    "in list": 744,
-   "In schedule": 437,
+   "In schedule": 436,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15777,7 +15776,7 @@ var spkCountry = [
    "Country": "Netherlands",
    "Email": "i.c.van.gelder@umcg.nl",
    "in list": 746,
-   "In schedule": 438,
+   "In schedule": 437,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15787,7 +15786,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "vanhare@wustl.edu",
    "in list": 747,
-   "In schedule": 439,
+   "In schedule": 438,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15797,7 +15796,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "varman@ccf.org",
    "in list": 748,
-   "In schedule": 440,
+   "In schedule": 439,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15817,7 +15816,7 @@ var spkCountry = [
    "Country": "Canada",
    "Email": "atul.verma@utoronto.ca",
    "in list": 750,
-   "In schedule": 441,
+   "In schedule": 440,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15847,7 +15846,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "rthomas2@geisinger.edu",
    "in list": 753,
-   "In schedule": 442,
+   "In schedule": 441,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15867,7 +15866,7 @@ var spkCountry = [
    "Country": "India",
    "Email": "amvora@hotmail.com",
    "in list": 755,
-   "In schedule": 443,
+   "In schedule": 442,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15887,7 +15886,7 @@ var spkCountry = [
    "Country": "Taiwan",
    "Email": "chcwang@ms17.hinet.net",
    "in list": 757,
-   "In schedule": 444,
+   "In schedule": 443,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15897,7 +15896,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "wht506@126.com",
    "in list": 758,
-   "In schedule": 445,
+   "In schedule": 444,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15917,7 +15916,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "pjwang@stanford.edu",
    "in list": 760,
-   "In schedule": 446,
+   "In schedule": 445,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15927,7 +15926,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "Xunzhang.Wang@cshs.org",
    "in list": 761,
-   "In schedule": 447,
+   "In schedule": 446,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15947,7 +15946,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "enwatan@mtj.biglobe.ne.jp",
    "in list": 763,
-   "In schedule": 448,
+   "In schedule": 447,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15957,7 +15956,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "hiroshiwatanabe@med.niigata-u.ac.jp",
    "in list": 764,
-   "In schedule": 449,
+   "In schedule": 448,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15977,7 +15976,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "Waznio@ccf.org",
    "in list": 766,
-   "In schedule": 450,
+   "In schedule": 449,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15987,7 +15986,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "Wehrens@Bcm.Edu",
    "in list": 767,
-   "In schedule": 451,
+   "In schedule": 450,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15997,7 +15996,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "drhua@vip.sina.com",
    "in list": 768,
-   "In schedule": 452,
+   "In schedule": 451,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16007,7 +16006,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "md_mawei@hotmail.com",
    "in list": 769,
-   "In schedule": 453,
+   "In schedule": 452,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16017,7 +16016,7 @@ var spkCountry = [
    "Country": "Taiwan",
    "Email": "wenms123@gmail.com",
    "in list": 770,
-   "In schedule": 454,
+   "In schedule": 453,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16037,7 +16036,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "dwilber@lumc.edu",
    "in list": 772,
-   "In schedule": 455,
+   "In schedule": 454,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16047,7 +16046,7 @@ var spkCountry = [
    "Country": "Netherlands",
    "Email": "a.a.wilde@amc.uva.nl",
    "in list": 773,
-   "In schedule": 456,
+   "In schedule": 455,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16057,7 +16056,7 @@ var spkCountry = [
    "Country": "Australia",
    "Email": "jason.w@internode.on.net",
    "in list": 774,
-   "In schedule": 457,
+   "In schedule": 456,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16067,7 +16066,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "wilkofb@ccf.org",
    "in list": 775,
-   "In schedule": 458,
+   "In schedule": 457,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16077,7 +16076,7 @@ var spkCountry = [
    "Country": "Myanmar",
    "Email": "kmwmdy@gmail.com",
    "in list": 776,
-   "In schedule": 459,
+   "In schedule": 458,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16087,7 +16086,7 @@ var spkCountry = [
    "Country": "Thailand",
    "Email": "arjbordin@gmail.com",
    "in list": 777,
-   "In schedule": 460,
+   "In schedule": 459,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16097,7 +16096,7 @@ var spkCountry = [
    "Country": "Thailand",
    "Email": "noinananoi@hotmail.com",
    "in list": 778,
-   "In schedule": 461,
+   "In schedule": 460,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16117,7 +16116,7 @@ var spkCountry = [
    "Country": "Australia",
    "Email": "c.wong@adelaide.edu.au",
    "in list": 780,
-   "In schedule": 462,
+   "In schedule": 461,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16127,7 +16126,7 @@ var spkCountry = [
    "Country": "Singapore",
    "Email": "kelvin.wong.c.k@singhealth.com.sg, mr.kckwong@googlemail.com",
    "in list": 781,
-   "In schedule": 463,
+   "In schedule": 462,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16137,7 +16136,7 @@ var spkCountry = [
    "Country": "United Kingdom",
    "Email": "tom.wong@imperial.ac.uk",
    "in list": 782,
-   "In schedule": 464,
+   "In schedule": 463,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16147,7 +16146,7 @@ var spkCountry = [
    "Country": "Thailand",
    "Email": "bwanwarang@yahoo.com",
    "in list": 783,
-   "In schedule": 465,
+   "In schedule": 464,
    "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16157,7 +16156,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "seth@mcworley.com",
    "in list": 784,
-   "In schedule": 466,
+   "In schedule": 465,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16207,7 +16206,7 @@ var spkCountry = [
    "Country": "Australia",
    "Email": "Gareth.wynn@mh.org.au",
    "in list": 789,
-   "In schedule": 467,
+   "In schedule": 466,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16227,7 +16226,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "xieshuanglun@sina.com",
    "in list": 791,
-   "In schedule": 468,
+   "In schedule": 467,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16277,7 +16276,7 @@ var spkCountry = [
    "Country": "India",
    "Email": "amitabhy@gmail.com",
    "in list": 796,
-   "In schedule": 469,
+   "In schedule": 468,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16287,7 +16286,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "yyamabe@kumamoto-u.ac.jp",
    "in list": 797,
-   "In schedule": 470,
+   "In schedule": 469,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16297,7 +16296,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "smyyamada0124@yahoo.co.jp",
    "in list": 798,
-   "In schedule": 471,
+   "In schedule": 470,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16307,7 +16306,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "zukkie@aurora.dti.ne.jp",
    "in list": 799,
-   "In schedule": 472,
+   "In schedule": 471,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16317,7 +16316,7 @@ var spkCountry = [
    "Country": "United States",
    "Email": "takumi-y@fb4.so-net.ne.jp",
    "in list": 800,
-   "In schedule": 473,
+   "In schedule": 472,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16337,7 +16336,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "tyamane@jikei.ac.jp, yamanet1@aol.com\n",
    "in list": 802,
-   "In schedule": 474,
+   "In schedule": 473,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16367,7 +16366,7 @@ var spkCountry = [
    "Country": "Indonesia",
    "Email": "muhyam511@gmail.com",
    "in list": 805,
-   "In schedule": 475,
+   "In schedule": 474,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16397,7 +16396,7 @@ var spkCountry = [
    "Country": "South Korea",
    "Email": "psyang01@cha.ac.kr",
    "in list": 808,
-   "In schedule": 476,
+   "In schedule": 475,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16417,7 +16416,7 @@ var spkCountry = [
    "Country": "Indonesia",
    "Email": "ignatius.yansen@me.com",
    "in list": 810,
-   "In schedule": 477,
+   "In schedule": 476,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16427,7 +16426,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "ianyao@263.net.cn",
    "in list": 811,
-   "In schedule": 478,
+   "In schedule": 477,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16437,7 +16436,7 @@ var spkCountry = [
    "Country": "Taiwan",
    "Email": "hungi.yeh@msa.hinet.net",
    "in list": 812,
-   "In schedule": 479,
+   "In schedule": 478,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16457,7 +16456,7 @@ var spkCountry = [
    "Country": "Taiwan",
    "Email": "yeongshinn@cgmh.org.tw",
    "in list": 814,
-   "In schedule": 480,
+   "In schedule": 479,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16467,7 +16466,7 @@ var spkCountry = [
    "Country": "Singapore",
    "Email": "colin_yeo@cgh.com.sg",
    "in list": 815,
-   "In schedule": 481,
+   "In schedule": 480,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16487,7 +16486,7 @@ var spkCountry = [
    "Country": "Hong Kong",
    "Email": "khkyiu@hotmail.com",
    "in list": 817,
-   "In schedule": 482,
+   "In schedule": 481,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16507,7 +16506,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "yokoshh@med.hokudai.ac.jp",
    "in list": 819,
-   "In schedule": 483,
+   "In schedule": 482,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16517,7 +16516,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "yhy@me.com",
    "in list": 820,
-   "In schedule": 484,
+   "In schedule": 483,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16527,7 +16526,7 @@ var spkCountry = [
    "Country": "South Korea",
    "Email": "ycj69@hanmail.net",
    "in list": 821,
-   "In schedule": 485,
+   "In schedule": 484,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16537,7 +16536,7 @@ var spkCountry = [
    "Country": "South Korea",
    "Email": "NSAIDs77@hitel.net",
    "in list": 822,
-   "In schedule": 486,
+   "In schedule": 485,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16557,7 +16556,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "yoshida-g@cira.kyoto-u.ac.jp",
    "in list": 824,
-   "In schedule": 487,
+   "In schedule": 486,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16587,7 +16586,7 @@ var spkCountry = [
    "Country": "Japan",
    "Email": "kazuyasu.y@gmail.com",
    "in list": 827,
-   "In schedule": 488,
+   "In schedule": 487,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16597,7 +16596,7 @@ var spkCountry = [
    "Country": "Hong Kong",
    "Email": "professorcmyu@gmail.com; cmyu@hkbh.org.hk",
    "in list": 828,
-   "In schedule": 489,
+   "In schedule": 488,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16627,7 +16626,7 @@ var spkCountry = [
    "Country": "Hong Kong",
    "Email": "fiona_sze@yahoo.com.hk",
    "in list": 831,
-   "In schedule": 490,
+   "In schedule": 489,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16637,7 +16636,7 @@ var spkCountry = [
    "Country": "Hong Kong",
    "Email": "drfatyung@hotmail.com",
    "in list": 832,
-   "In schedule": 491,
+   "In schedule": 490,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16647,7 +16646,7 @@ var spkCountry = [
    "Country": "Indonesia",
    "Email": "yogayun@yahoo.com",
    "in list": 833,
-   "In schedule": 492,
+   "In schedule": 491,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16667,7 +16666,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "njzfx6@163.com",
    "in list": 835,
-   "In schedule": 493,
+   "In schedule": 492,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16677,7 +16676,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "18507711127@163.com",
    "in list": 836,
-   "In schedule": 494,
+   "In schedule": 493,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16687,7 +16686,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "zsfuwai@vip.163.com",
    "in list": 837,
-   "In schedule": 495,
+   "In schedule": 494,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16707,7 +16706,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "523704316@qq.com",
    "in list": 839,
-   "In schedule": 496,
+   "In schedule": 495,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16727,7 +16726,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "645920840@qq.com",
    "in list": 841,
-   "In schedule": 497,
+   "In schedule": 496,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16757,7 +16756,7 @@ var spkCountry = [
    "Country": "China",
    "Email": "jgzou@njmu.edu.cn",
    "in list": 844,
-   "In schedule": 498,
+   "In schedule": 497,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
