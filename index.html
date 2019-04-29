@@ -94,7 +94,7 @@ text-align: left;}
     <span class="sans"  style="font-size: 3vmax;">APHRS 2019 Schedule</span>
     <span class="cursive" style="font-size:2.2vmax;color:dimgray"> . . Unofficial </span>
     <div class="sans w3-wide" style="font-size:1.1vmax;color:#555555">
-        last database updated: April 28, 2019</div>
+        last database updated: April 29, 2019</div>
 </div>
 
 <div class="cursive w3-center w3-mobile w3-row w3-wide" 
@@ -1031,13 +1031,25 @@ function showData(topicOn) {
       var mainIndex = indexL[index];
       item.onclick = function(){ showDetail(mainIndex)};
       if (topicOn){
-        item.style.backgroundImage = "none"
+        item.style.backgroundImage = 'none';
         var t = schedule[mainIndex].Topic;
+        var tr = schedule[mainIndex].Track;
         var cIndex = topic.indexOf(t);var color;
-          if (cIndex==-1){color = "white"}
-          else {color = topicColor[cIndex];}
-          item.style.backgroundColor = color}
+                  
+         if (cIndex==-1){color = "white"}
+            else {
+              if (tr=="Spsr"){
+                item.style.border = "0.2vmax dotted #555";
+              } 
+              color = topicColor[cIndex];
+              item.style.backgroundColor = color
+            
+          }  
+          
+        }
+
       else {
+        item.style.backgroundImage = "none";item.style.backgroundColor="white"
         //check completion
 
         var totalSpk = schedule[mainIndex].noSpks;var totalMod = schedule[mainIndex].noMods;
