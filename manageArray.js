@@ -15767,7 +15767,7 @@ var spkCountry = [
  {
    "Name": "Tung, Roderick",
    "Country": "United States",
-   "Email": "",
+   "Email": "Rodericktung@uchicago.edu",
    "in list": 735,
    "In schedule": 432,
    "Accept": "0",
@@ -16865,6 +16865,7 @@ var spkCountry = [
    "InvCfrm": ""
  }
 ]
+
 function sortAsc(nameA, nameB){
   if (nameA < nameB) {
           return -1;}
