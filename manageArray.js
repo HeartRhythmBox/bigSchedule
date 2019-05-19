@@ -9460,9 +9460,9 @@ var spkCountry = [
    "Name": "Chan, Joseph Yat Sun",
    "Country": "Hong Kong",
    "in list": 74,
-   "In schedule": 0,
+   "In schedule": 514,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -9550,9 +9550,9 @@ var spkCountry = [
    "Name": "Chang, Dong",
    "Country": "China",
    "in list": 84,
-   "In schedule": 0,
+   "In schedule": 506,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -9640,9 +9640,9 @@ var spkCountry = [
    "Name": "Chen, Lin",
    "Country": "China",
    "in list": 94,
-   "In schedule": 0,
+   "In schedule": 501,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -9669,7 +9669,7 @@ var spkCountry = [
    "in list": 97,
    "In schedule": 70,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -9759,7 +9759,7 @@ var spkCountry = [
    "in list": 107,
    "In schedule": 77,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -9982,9 +9982,9 @@ var spkCountry = [
    "Name": "Cui, Kaijun",
    "Country": "China",
    "in list": 132,
-   "In schedule": 0,
+   "In schedule": 523,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -10261,9 +10261,9 @@ var spkCountry = [
    "Name": "Fan, Jie",
    "Country": "China",
    "in list": 163,
-   "In schedule": 0,
+   "In schedule": 517,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -10279,9 +10279,9 @@ var spkCountry = [
    "Name": "Fang, Xianhong",
    "Country": "China",
    "in list": 165,
-   "In schedule": 0,
+   "In schedule": 511,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -10315,9 +10315,9 @@ var spkCountry = [
    "Name": "Fu, Hua",
    "Country": "China",
    "in list": 169,
-   "In schedule": 0,
+   "In schedule": 528,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -12106,9 +12106,9 @@ var spkCountry = [
    "Name": "Lee, Chee Wan",
    "Country": "Singapore",
    "in list": 368,
-   "In schedule": 0,
+   "In schedule": 504,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -12268,9 +12268,9 @@ var spkCountry = [
    "Name": "Li, Guruo",
    "Country": "China",
    "in list": 386,
-   "In schedule": 0,
+   "In schedule": 520,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -12313,9 +12313,9 @@ var spkCountry = [
    "Name": "Li, Yaodong",
    "Country": "China",
    "in list": 391,
-   "In schedule": 0,
+   "In schedule": 505,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -12547,9 +12547,9 @@ var spkCountry = [
    "Name": "Liu, Xinbing",
    "Country": "China",
    "in list": 417,
-   "In schedule": 0,
+   "In schedule": 516,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -12565,9 +12565,9 @@ var spkCountry = [
    "Name": "Liu, Yen-Bin",
    "Country": "Taiwan",
    "in list": 419,
-   "In schedule": 0,
+   "In schedule": 521,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -12619,9 +12619,9 @@ var spkCountry = [
    "Name": "Long, Deyong",
    "Country": "China",
    "in list": 425,
-   "In schedule": 0,
+   "In schedule": 522,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -14779,27 +14779,27 @@ var spkCountry = [
    "Name": "Su, Lan",
    "Country": "China",
    "in list": 665,
-   "In schedule": 0,
+   "In schedule": 513,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
    "Name": "Su, Xi",
    "Country": "China",
    "in list": 666,
-   "In schedule": 0,
+   "In schedule": 510,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
    "Name": "Su, Yangang",
    "Country": "China",
    "in list": 667,
-   "In schedule": 0,
+   "In schedule": 498,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -14842,9 +14842,9 @@ var spkCountry = [
    "Name": "Sun, Qi",
    "Country": "China",
    "in list": 672,
-   "In schedule": 0,
+   "In schedule": 525,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -15031,9 +15031,9 @@ var spkCountry = [
    "Name": "Tam, Weng Chio",
    "Country": "China",
    "in list": 693,
-   "In schedule": 0,
+   "In schedule": 509,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -15067,9 +15067,9 @@ var spkCountry = [
    "Name": "Tang, Baopeng",
    "Country": "China",
    "in list": 697,
-   "In schedule": 0,
+   "In schedule": 502,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -15616,9 +15616,9 @@ var spkCountry = [
    "Name": "Wang, Jinfeng",
    "Country": "China",
    "in list": 758,
-   "In schedule": 0,
+   "In schedule": 499,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -15643,9 +15643,9 @@ var spkCountry = [
    "Name": "Wang, Yutang",
    "Country": "China",
    "in list": 761,
-   "In schedule": 0,
+   "In schedule": 508,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -15895,7 +15895,7 @@ var spkCountry = [
    "Name": "Xia, Yunlong",
    "Country": "China",
    "in list": 789,
-   "In schedule": 0,
+   "In schedule": 527,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -15913,18 +15913,18 @@ var spkCountry = [
    "Name": "Xu, Wei",
    "Country": "China",
    "in list": 791,
-   "In schedule": 0,
+   "In schedule": 518,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
    "Name": "Xue, Xiaolin",
    "Country": "China",
    "in list": 792,
-   "In schedule": 0,
+   "In schedule": 503,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -16039,18 +16039,18 @@ var spkCountry = [
    "Name": "Yan, Ji",
    "Country": "China",
    "in list": 805,
-   "In schedule": 0,
+   "In schedule": 497,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
    "Name": "Yang, Bing",
    "Country": "China",
    "in list": 806,
-   "In schedule": 0,
+   "In schedule": 526,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -16066,9 +16066,9 @@ var spkCountry = [
    "Name": "Yang, Xin-chun",
    "Country": "China",
    "in list": 808,
-   "In schedule": 0,
+   "In schedule": 507,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -16327,9 +16327,9 @@ var spkCountry = [
    "Name": "Zhang, Xianzhang",
    "Country": "China",
    "in list": 837,
-   "In schedule": 0,
+   "In schedule": 524,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -16345,9 +16345,9 @@ var spkCountry = [
    "Name": "Zheng, Liangrong",
    "Country": "China",
    "in list": 839,
-   "In schedule": 0,
+   "In schedule": 500,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -16363,9 +16363,9 @@ var spkCountry = [
    "Name": "Zhong, Jinquan",
    "Country": "China",
    "in list": 841,
-   "In schedule": 0,
+   "In schedule": 512,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
