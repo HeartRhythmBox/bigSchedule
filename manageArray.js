@@ -5478,11 +5478,45 @@ var schedule = [
    "Date": "10/25/2019",
    "Topic": "",
    "Session_Type": "",
-   "Track": "Joint",
+   "Track": "JR",
    "Time Slot": "6",
    "Time": "16:45-17:45",
    "Rm Code": "ballA",
    "Rm": "Ballroom A",
+   "Main_Title": "Quiz show",
+   "no_subTs": 0,
+   "noSpks": 0,
+   "noMods": 0,
+   "time_allocation": "",
+   "SubT1": "",
+   "SubT2": "",
+   "SubT3": "",
+   "SubT4": "",
+   "SubT5": "",
+   "SubT6": "",
+   "Spk1": "",
+   "Spk2": "",
+   "Spk3": "",
+   "Spk4": "",
+   "Spk5": "",
+   "Spk6": "",
+   "Mod1": "CHA, Myung-Jin",
+   "Mod2": "Rungpradubvong, Voravut",
+   "Mod3": "",
+   "Mod4": "",
+   "CoTopic": "",
+   "CoTopic2": ""
+ },
+ {
+   "Code": "02ballC-6",
+   "Date": "10/25/2019",
+   "Topic": "",
+   "Session_Type": "",
+   "Track": "Joint",
+   "Time Slot": "6",
+   "Time": "16:45-17:45",
+   "Rm Code": "ballC",
+   "Rm": "Ballroom C",
    "Main_Title": "APHRS Immersion Program",
    "no_subTs": 0,
    "noSpks": 0,
@@ -8806,7 +8840,6 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
-
 var spkCountry = [
  {
    "Name": "Abe, Haruhiko",
@@ -9462,7 +9495,7 @@ var spkCountry = [
    "in list": 74,
    "In schedule": 514,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -9984,7 +10017,7 @@ var spkCountry = [
    "in list": 132,
    "In schedule": 523,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -10263,7 +10296,7 @@ var spkCountry = [
    "in list": 163,
    "In schedule": 517,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -10317,7 +10350,7 @@ var spkCountry = [
    "in list": 169,
    "In schedule": 528,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -12270,7 +12303,7 @@ var spkCountry = [
    "in list": 386,
    "In schedule": 520,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -12549,7 +12582,7 @@ var spkCountry = [
    "in list": 417,
    "In schedule": 516,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -12567,7 +12600,7 @@ var spkCountry = [
    "in list": 419,
    "In schedule": 521,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -12621,7 +12654,7 @@ var spkCountry = [
    "in list": 425,
    "In schedule": 522,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -14781,7 +14814,7 @@ var spkCountry = [
    "in list": 665,
    "In schedule": 513,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -14844,7 +14877,7 @@ var spkCountry = [
    "in list": 672,
    "In schedule": 525,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -15915,7 +15948,7 @@ var spkCountry = [
    "in list": 791,
    "In schedule": 518,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -16050,7 +16083,7 @@ var spkCountry = [
    "in list": 806,
    "In schedule": 526,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -16329,7 +16362,7 @@ var spkCountry = [
    "in list": 837,
    "In schedule": 524,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {

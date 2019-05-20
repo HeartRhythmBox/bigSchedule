@@ -653,7 +653,7 @@
    "in list": 74,
    "In schedule": 514,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -1175,7 +1175,7 @@
    "in list": 132,
    "In schedule": 523,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -1454,7 +1454,7 @@
    "in list": 163,
    "In schedule": 517,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -1508,7 +1508,7 @@
    "in list": 169,
    "In schedule": 528,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -3461,7 +3461,7 @@
    "in list": 386,
    "In schedule": 520,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -3740,7 +3740,7 @@
    "in list": 417,
    "In schedule": 516,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -3758,7 +3758,7 @@
    "in list": 419,
    "In schedule": 521,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -3812,7 +3812,7 @@
    "in list": 425,
    "In schedule": 522,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -5972,7 +5972,7 @@
    "in list": 665,
    "In schedule": 513,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -6035,7 +6035,7 @@
    "in list": 672,
    "In schedule": 525,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -7106,7 +7106,7 @@
    "in list": 791,
    "In schedule": 518,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -7241,7 +7241,7 @@
    "in list": 806,
    "In schedule": 526,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -7520,7 +7520,7 @@
    "in list": 837,
    "In schedule": 524,
    "Accept": "0",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
