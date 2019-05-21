@@ -102,7 +102,7 @@ var schedule = [
    "CoTopic2": ""
  },
  {
-   "Code": "01L15-1",
+   "Code": "01L1/2-1",
    "Date": "10/24/2019",
    "Topic": "SVT",
    "Session_Type": "CL90",
