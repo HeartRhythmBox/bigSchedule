@@ -923,7 +923,7 @@
    "in list": 104,
    "In schedule": 75,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -1290,7 +1290,7 @@
    "Name": "Dhillon, Santokh",
    "Country": "Canada",
    "in list": 145,
-   "In schedule": 0,
+   "In schedule": 572,
    "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""

@@ -1036,18 +1036,18 @@ var schedule = [
    "time_allocation": "11+1mins/talk+QA",
    "SubT1": "Localize the focus of AT from past history and ECG.",
    "SubT2": "Electrophysiological characteristics of focal AT",
-   "SubT3": "Strategy and Tools for Mapping",
+   "SubT3": "Atrial Tachycardias after AF Ablation: how to approach (Chugh, Aman)",
    "SubT4": "Marshall bundle reentry: how to approach",
    "SubT5": "Potential complications from AT ablation",
    "SubT6": "-",
    "Spk1": "CHANDRASEKARAN, K.",
    "Spk2": "KISTLER, Peter",
-   "Spk3": "Pham, Tran Linh",
+   "Spk3": "",
    "Spk4": "Maruyama, Mitsunori",
    "Spk5": "Yoshitani, Kazuyasu",
    "Spk6": "",
    "Mod1": "Hung, Yuan",
-   "Mod2": "",
+   "Mod2": "Pham, Tran Linh",
    "Mod3": "",
    "Mod4": "",
    "CoTopic": "",
@@ -3106,7 +3106,7 @@ var schedule = [
    "Main_Title": "Device Therapy of Heart Failure (Chinese Program; supported by CSPE and CSA)",
    "no_subTs": 6,
    "noSpks": 6,
-   "noMods": 3,
+   "noMods": 4,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "Does Left ventricular MultiPoint� pacing improve hemodynamic response?",
    "SubT2": "Adaptive CRT: Experiences from China",
@@ -3222,7 +3222,7 @@ var schedule = [
    "Spk4": "",
    "Spk5": "",
    "Spk6": "",
-   "Mod1": "CABRERA, Jose Angel",
+   "Mod1": "",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
@@ -3376,10 +3376,10 @@ var schedule = [
    "Rm Code": "L12",
    "Rm": "Lotus 12",
    "Main_Title": "Remote monitoring: challenges and opportunities",
-   "no_subTs": 4,
-   "noSpks": 4,
-   "noMods": 3,
-   "time_allocation": "14+1mins/talk+QA",
+   "no_subTs": 5,
+   "noSpks": 5,
+   "noMods": 4,
+   "time_allocation": "11+1mins/talk+QA",
    "SubT1": "Remote monitoring in clinical practice: US persepctive (Suneet Mittal)",
    "SubT2": "Utility of home monitoring for CIEDs in Asia-Pacific region",
    "SubT3": "The true impact of remote monitoring on CV outcomes",
@@ -5654,7 +5654,7 @@ var schedule = [
    "Rm Code": "L1/4",
    "Rm": "Lotus 1-4",
    "Main_Title": "Controversies in device therapy (MPP, CCM, His pacing, AVN abl+CRT, Optimal AVD, single PPM vs leadless)",
-   "no_subTs": 0,
+   "no_subTs": 6,
    "noSpks": 6,
    "noMods": 2,
    "time_allocation": "Open Discussions",
@@ -6248,7 +6248,7 @@ var schedule = [
    "Spk4": "",
    "Spk5": "",
    "Spk6": "",
-   "Mod1": "",
+   "Mod1": "TSAI, Chia-Ti",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
@@ -7660,7 +7660,7 @@ var schedule = [
    "Rm Code": "CC",
    "Rm": "Convention Center",
    "Main_Title": "Controversies in AF Ablation (TEE, ablation strategy, eso protection, anesthesia, OAC discont, AFL + PVI, and etc.)",
-   "no_subTs": 0,
+   "no_subTs": 6,
    "noSpks": 6,
    "noMods": 2,
    "time_allocation": "Open Discussions",
@@ -8840,6 +8840,7 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
+
 var spkCountry = [
  {
    "Name": "Abe, Haruhiko",
@@ -9765,7 +9766,7 @@ var spkCountry = [
    "in list": 104,
    "In schedule": 75,
    "Accept": "Accept",
-   "InvRdy": "Y",
+   "InvRdy": "N",
    "InvCfrm": ""
  },
  {
@@ -10132,7 +10133,7 @@ var spkCountry = [
    "Name": "Dhillon, Santokh",
    "Country": "Canada",
    "in list": 145,
-   "In schedule": 0,
+   "In schedule": 572,
    "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16429,6 +16430,7 @@ var spkCountry = [
    "InvCfrm": ""
  }
 ]
+
 function sortAsc(nameA, nameB){
   if (nameA < nameB) {
           return -1;}
