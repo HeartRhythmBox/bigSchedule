@@ -354,7 +354,7 @@
    "Name": "Chheav, Chantorador",
    "Country": "Cambodia",
    "in list": 41,
-   "In schedule": 0,
+   "In schedule": 596,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -453,7 +453,7 @@
    "Name": "Chen, Yangxin",
    "Country": "China",
    "in list": 52,
-   "In schedule": 0,
+   "In schedule": 597,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -570,7 +570,7 @@
    "Name": "Jiang, Zhiyuan",
    "Country": "China",
    "in list": 65,
-   "In schedule": 0,
+   "In schedule": 598,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -579,7 +579,7 @@
    "Name": "Kou, Huijuan",
    "Country": "China",
    "in list": 66,
-   "In schedule": 0,
+   "In schedule": 599,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -588,7 +588,7 @@
    "Name": "Lan, Rongfang",
    "Country": "China",
    "in list": 67,
-   "In schedule": 0,
+   "In schedule": 600,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -651,7 +651,7 @@
    "Name": "Liu, Tong",
    "Country": "China",
    "in list": 74,
-   "In schedule": 0,
+   "In schedule": 601,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -678,7 +678,7 @@
    "Name": "Liu, Yu",
    "Country": "China",
    "in list": 77,
-   "In schedule": 0,
+   "In schedule": 602,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -714,7 +714,7 @@
    "Name": "Niu, Hongxia",
    "Country": "China",
    "in list": 81,
-   "In schedule": 0,
+   "In schedule": 603,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1047,7 +1047,7 @@
    "Name": "Chan, Chin Pang Gary",
    "Country": "Hong Kong",
    "in list": 118,
-   "In schedule": 0,
+   "In schedule": 512,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1083,7 +1083,7 @@
    "Name": "Chan, Raymond HW",
    "Country": "Hong Kong",
    "in list": 122,
-   "In schedule": 0,
+   "In schedule": 604,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1155,7 +1155,7 @@
    "Name": "Lam, Tse Fun Cathy",
    "Country": "Hong Kong",
    "in list": 130,
-   "In schedule": 0,
+   "In schedule": 605,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1227,7 +1227,7 @@
    "Name": "Tse, Gary",
    "Country": "Hong Kong",
    "in list": 138,
-   "In schedule": 0,
+   "In schedule": 606,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1272,7 +1272,7 @@
    "Name": "Yuen, Ho Chuen",
    "Country": "Hong Kong",
    "in list": 143,
-   "In schedule": 0,
+   "In schedule": 607,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1371,7 +1371,7 @@
    "Name": "Chopra, Arun Kumar",
    "Country": "India",
    "in list": 154,
-   "In schedule": 0,
+   "In schedule": 608,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1380,7 +1380,7 @@
    "Name": "Dhall, Anil",
    "Country": "India",
    "in list": 155,
-   "In schedule": 0,
+   "In schedule": 609,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1470,7 +1470,7 @@
    "Name": "Kler, Tarlochan Singh",
    "Country": "India",
    "in list": 165,
-   "In schedule": 0,
+   "In schedule": 610,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1488,7 +1488,7 @@
    "Name": "Lokhandwala, Yash",
    "Country": "India",
    "in list": 167,
-   "In schedule": 0,
+   "In schedule": 611,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1542,7 +1542,7 @@
    "Name": "Nabar, Ashish",
    "Country": "India",
    "in list": 173,
-   "In schedule": 0,
+   "In schedule": 612,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1569,7 +1569,7 @@
    "Name": "Nair, Krishna Kumar M",
    "Country": "India",
    "in list": 176,
-   "In schedule": 0,
+   "In schedule": 613,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1623,7 +1623,7 @@
    "Name": "Pal, Shashidhar",
    "Country": "India",
    "in list": 182,
-   "In schedule": 0,
+   "In schedule": 614,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1704,7 +1704,7 @@
    "Name": "Satish, O Sai",
    "Country": "India",
    "in list": 191,
-   "In schedule": 0,
+   "In schedule": 628,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -1740,7 +1740,7 @@
    "Name": "Shankar, K Jai",
    "Country": "India",
    "in list": 195,
-   "In schedule": 0,
+   "In schedule": 629,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -2397,7 +2397,7 @@
    "Name": "Hiroshima, Kenichi",
    "Country": "Japan",
    "in list": 268,
-   "In schedule": 0,
+   "In schedule": 617,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -2415,7 +2415,7 @@
    "Name": "Hosaka, Yukio",
    "Country": "Japan",
    "in list": 270,
-   "In schedule": 0,
+   "In schedule": 618,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -2478,7 +2478,7 @@
    "Name": "Inden, Yasuya",
    "Country": "Japan",
    "in list": 277,
-   "In schedule": 0,
+   "In schedule": 619,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -2496,7 +2496,7 @@
    "Name": "Inoue, Keiji",
    "Country": "Japan",
    "in list": 279,
-   "In schedule": 0,
+   "In schedule": 620,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -2541,7 +2541,7 @@
    "Name": "Kaitani, Kazuaki",
    "Country": "Japan",
    "in list": 284,
-   "In schedule": 0,
+   "In schedule": 621,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -2991,7 +2991,7 @@
    "Name": "Murata, Hiroshige",
    "Country": "Japan",
    "in list": 334,
-   "In schedule": 0,
+   "In schedule": 630,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -3585,7 +3585,7 @@
    "Name": "Tsuji, Yukiomi",
    "Country": "Japan",
    "in list": 400,
-   "In schedule": 0,
+   "In schedule": 631,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -3792,7 +3792,7 @@
    "Name": "Kaur, Surinder",
    "Country": "Malaysia",
    "in list": 423,
-   "In schedule": 0,
+   "In schedule": 633,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4260,7 +4260,7 @@
    "Name": "Choi, Young",
    "Country": "South Korea",
    "in list": 475,
-   "In schedule": 0,
+   "In schedule": 622,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4314,7 +4314,7 @@
    "Name": "Jin, Eun-Sun",
    "Country": "South Korea",
    "in list": 481,
-   "In schedule": 0,
+   "In schedule": 623,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4341,7 +4341,7 @@
    "Name": "Kim, Dong-Hyeok",
    "Country": "South Korea",
    "in list": 484,
-   "In schedule": 0,
+   "In schedule": 624,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4359,7 +4359,7 @@
    "Name": "Kim, Jin-Seok",
    "Country": "South Korea",
    "in list": 486,
-   "In schedule": 0,
+   "In schedule": 625,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4377,7 +4377,7 @@
    "Name": "Kim, Jun",
    "Country": "South Korea",
    "in list": 488,
-   "In schedule": 0,
+   "In schedule": 627,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4431,7 +4431,7 @@
    "Name": "Ko, Jum Suk",
    "Country": "South Korea",
    "in list": 494,
-   "In schedule": 0,
+   "In schedule": 634,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4512,7 +4512,7 @@
    "Name": "Lee, Sang Hee",
    "Country": "South Korea",
    "in list": 503,
-   "In schedule": 0,
+   "In schedule": 635,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4593,7 +4593,7 @@
    "Name": "Oh, Yong Seog",
    "Country": "South Korea",
    "in list": 512,
-   "In schedule": 0,
+   "In schedule": 626,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4647,7 +4647,7 @@
    "Name": "Park, Jin-Kyu",
    "Country": "South Korea",
    "in list": 518,
-   "In schedule": 0,
+   "In schedule": 636,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -4818,7 +4818,7 @@
    "Name": "Chang, Kuan-Cheng",
    "Country": "Taiwan",
    "in list": 537,
-   "In schedule": 0,
+   "In schedule": 632,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -5151,7 +5151,7 @@
    "Name": "Lin, Li-Jen",
    "Country": "Taiwan",
    "in list": 574,
-   "In schedule": 0,
+   "In schedule": 637,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -5736,7 +5736,7 @@
    "Name": "Do, Van Buu Dan",
    "Country": "Vietnam",
    "in list": 639,
-   "In schedule": 0,
+   "In schedule": 615,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -5826,7 +5826,7 @@
    "Name": "Tran, Tuan Viet",
    "Country": "Vietnam",
    "in list": 649,
-   "In schedule": 0,
+   "In schedule": 616,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""

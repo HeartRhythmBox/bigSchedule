@@ -46,7 +46,7 @@ var schedule = [
    "Main_Title": "How to read, write, review, and enjoy a research paper: an editor perspective (APHRS/EHRA/HRS) (Mod2: Arintaya)",
    "no_subTs": 6,
    "noSpks": 6,
-   "noMods": 3,
+   "noMods": 4,
    "time_allocation": "13mins/talk, 12mins discussion",
    "SubT1": "How to be a good writer.",
    "SubT2": "What editors do and don't like to see in papers.",
@@ -198,7 +198,7 @@ var schedule = [
    "Spk6": "Gasparini, Maurizio",
    "Mod1": "Anannab, Alisara",
    "Mod2": "Yung, Chi Yui",
-   "Mod3": "",
+   "Mod3": "Choi, Young",
    "Mod4": "",
    "CoTopic": "AF",
    "CoTopic2": ""
@@ -808,7 +808,7 @@ var schedule = [
    "Spk4": "SATOMI, Kasuhiro",
    "Spk5": "",
    "Spk6": "",
-   "Mod1": "",
+   "Mod1": "Hiroshima, Kenichi",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
@@ -905,7 +905,7 @@ var schedule = [
    "SubT5": "",
    "SubT6": "",
    "Spk1": "Wang, Chun-Chieh",
-   "Spk2": "Lee, Chee Wan",
+   "Spk2": "Lin, Li-Jen",
    "Spk3": "Li, Yaodong",
    "Spk4": "",
    "Spk5": "",
@@ -1082,7 +1082,7 @@ var schedule = [
    "Spk6": "",
    "Mod1": "Hung, Yuan",
    "Mod2": "Pham, Tran Linh",
-   "Mod3": "Lokhandwala, Yash",
+   "Mod3": "",
    "Mod4": "",
    "CoTopic": "",
    "CoTopic2": ""
@@ -2136,7 +2136,7 @@ var schedule = [
    "Spk6": "DOSHI, Shephal",
    "Mod1": "Hayashi, Kentaro",
    "Mod2": "Lee, Ki Hong",
-   "Mod3": "",
+   "Mod3": "Jin, Eun-Sun",
    "Mod4": "",
    "CoTopic": "",
    "CoTopic2": ""
@@ -3087,7 +3087,7 @@ var schedule = [
    "Spk5": "Wisaratapong, Treechada",
    "Spk6": "Suresh, Allamsetty",
    "Mod1": "Pal, Shashidhar",
-   "Mod2": "",
+   "Mod2": "Tsuji, Yukiomi",
    "Mod3": "",
    "Mod4": "",
    "CoTopic": "",
@@ -3665,7 +3665,7 @@ var schedule = [
    "Spk5": "",
    "Spk6": "",
    "Mod1": "Hu, Dan",
-   "Mod2": "",
+   "Mod2": "Murata, Hiroshige",
    "Mod3": "",
    "Mod4": "",
    "CoTopic": "SCD",
@@ -3868,8 +3868,8 @@ var schedule = [
    "Spk4": "STEINBERG, Jonathan S.",
    "Spk5": "",
    "Spk6": "",
-   "Mod1": "",
-   "Mod2": "",
+   "Mod1": "Shankar, K Jai",
+   "Mod2": "Ko, Jum Suk",
    "Mod3": "",
    "Mod4": "",
    "CoTopic": "AP",
@@ -3904,7 +3904,7 @@ var schedule = [
    "Spk6": "",
    "Mod1": "Sehli, Sharmilar",
    "Mod2": "Mehta, Davendra",
-   "Mod3": "",
+   "Mod3": "Park, Jin-Kyu",
    "Mod4": "",
    "CoTopic": "AP",
    "CoTopic2": "AF"
@@ -4074,7 +4074,7 @@ var schedule = [
    "Spk6": "",
    "Mod1": "IKEDA, Takanori",
    "Mod2": "Arora, Vanita",
-   "Mod3": "",
+   "Mod3": "Chang, Kuan-Cheng",
    "Mod4": "",
    "CoTopic": "",
    "CoTopic2": ""
@@ -4108,7 +4108,7 @@ var schedule = [
    "Spk6": "",
    "Mod1": "STARCK, Christoph",
    "Mod2": "Chan, Chi Wo",
-   "Mod3": "",
+   "Mod3": "Kim, Jun",
    "Mod4": "",
    "CoTopic": "CIED",
    "CoTopic2": ""
@@ -4140,7 +4140,7 @@ var schedule = [
    "Spk4": "CHEN, Mien-Cheng",
    "Spk5": "",
    "Spk6": "",
-   "Mod1": "",
+   "Mod1": "Murata, Hiroshige",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
@@ -4786,7 +4786,7 @@ var schedule = [
    "Spk4": "MARCHLINSKI, FRANCIS E",
    "Spk5": "",
    "Spk6": "",
-   "Mod1": "",
+   "Mod1": "Satish, O Sai",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
@@ -5058,7 +5058,7 @@ var schedule = [
    "Spk4": "BORGGREFE, Martin",
    "Spk5": "Jiang, Chenyang",
    "Spk6": "Damiano, Ralph",
-   "Mod1": "",
+   "Mod1": "Lee, Sang Hee",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
@@ -5285,13 +5285,13 @@ var schedule = [
    "noMods": 4,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "Non-invasive cardiac radioablation: a 10-min outpatient ablation",
-   "SubT2": "Non-invasive 3D mapping system for VT ablation",
+   "SubT2": "Feasibility of remote magnetic navigation system for VT ablation",
    "SubT3": "Stereotactic radio surgery for VT: bail out procedure after failed catheter ablation",
    "SubT4": "Role of 3F catheter in mapping and ablating VT",
    "SubT5": "Role of bipolar ablation for VT ",
    "SubT6": "What's on the pipeline?",
    "Spk1": "CUCULICH, Phillip",
-   "Spk2": "",
+   "Spk2": "Oh, Yong Seog",
    "Spk3": "KAUTZNER, Josef",
    "Spk4": "Badhwar, Nitish",
    "Spk5": "Saman, Nazarian",
@@ -5332,8 +5332,8 @@ var schedule = [
    "Spk6": "Fukaya, Hidehira",
    "Mod1": "Nabar, Ashish",
    "Mod2": "Wong, Christopher X.",
-   "Mod3": "",
-   "Mod4": "",
+   "Mod3": "Inoue, Keiji",
+   "Mod4": "Lee, Chee Wan",
    "CoTopic": "",
    "CoTopic2": ""
  },
@@ -5603,7 +5603,7 @@ var schedule = [
    "Spk5": "Roberts, Paul",
    "Spk6": "Cannom, David S.",
    "Mod1": "Chan, Andy Wai-Kwong",
-   "Mod2": "Prutkin, Jordan",
+   "Mod2": "Kim, Dong-Hyeok",
    "Mod3": "",
    "Mod4": "",
    "CoTopic": "CIED",
@@ -5976,7 +5976,7 @@ var schedule = [
    "Spk4": "Rosenthal, Lawrence",
    "Spk5": "Kutyifa, Valentina",
    "Spk6": "Kishihara, Jun",
-   "Mod1": "",
+   "Mod1": "Kaur, Surinder",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
@@ -6454,7 +6454,7 @@ var schedule = [
    "Spk6": "",
    "Mod1": "MANSOUR, Moussa C.",
    "Mod2": "Matsuo, Seiichiro",
-   "Mod3": "",
+   "Mod3": "Do, Van Buu Dan",
    "Mod4": "",
    "CoTopic": "AF",
    "CoTopic2": ""
@@ -6656,7 +6656,7 @@ var schedule = [
    "Spk4": "SASANO, Tetsuo",
    "Spk5": "Liu, Tong",
    "Spk6": "",
-   "Mod1": "",
+   "Mod1": "Kim, Jin-Seok",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
@@ -7134,7 +7134,7 @@ var schedule = [
    "Spk6": "",
    "Mod1": "Liu, Xing-Peng",
    "Mod2": "Lip, Gregory YH",
-   "Mod3": "",
+   "Mod3": "Kaitani, Kazuaki",
    "Mod4": "",
    "CoTopic": "AP",
    "CoTopic2": ""
@@ -7322,7 +7322,7 @@ var schedule = [
    "Main_Title": "New insights in AF pathogenesis",
    "no_subTs": 4,
    "noSpks": 4,
-   "noMods": 4,
+   "noMods": 2,
    "time_allocation": "14+1mins/talk+QA",
    "SubT1": "Arrhythmogenesis of pulmonary vein cardiomyocytes",
    "SubT2": "Cellular and Molecular Mechanisms of AF in HF",
@@ -8016,7 +8016,7 @@ var schedule = [
    "Spk4": "NOGAMI, Akihiko",
    "Spk5": "YAO, Yan",
    "Spk6": "AONUMA, Kazutaka",
-   "Mod1": "",
+   "Mod1": "Inden, Yasuya",
    "Mod2": "",
    "Mod3": "",
    "Mod4": "",
@@ -8221,8 +8221,8 @@ var schedule = [
    "Spk5": "So, Yui-Chi",
    "Spk6": "Phoolpithayadhorn, Asadayudh",
    "Mod1": "JOHN, Bobby",
-   "Mod2": "",
-   "Mod3": "",
+   "Mod2": "Tran, Tuan Viet",
+   "Mod3": "Hosaka, Yukio",
    "Mod4": "",
    "CoTopic": "",
    "CoTopic2": ""
@@ -8515,13 +8515,13 @@ var schedule = [
    "noMods": 3,
    "time_allocation": "18+2mins/talk+QA",
    "SubT1": "Cellular electrophysiology and arrhythmia mechanisms",
-   "SubT2": "EP procedural related issues (complications/radiation/sterility)",
+   "SubT2": "SVT maneuvers: What do I need to do",
    "SubT3": "Tips and Tricks in interpreting ECG, EGM, and device tracings",
    "SubT4": "",
    "SubT5": "-",
    "SubT6": "-",
    "Spk1": "Chong, Daniel",
-   "Spk2": "",
+   "Spk2": "Lokhandwala, Yash",
    "Spk3": "Jaswal, Aparna",
    "Spk4": "",
    "Spk5": "",
@@ -8840,6 +8840,7 @@ var schedule = [
    "CoTopic2": ""
  }
 ]
+
 var spkCountry = [
  {
    "Name": "Alison, Jeffry",
@@ -9196,7 +9197,7 @@ var spkCountry = [
    "Name": "Chheav, Chantorador",
    "Country": "Cambodia",
    "in list": 41,
-   "In schedule": 0,
+   "In schedule": 596,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9295,7 +9296,7 @@ var spkCountry = [
    "Name": "Chen, Yangxin",
    "Country": "China",
    "in list": 52,
-   "In schedule": 0,
+   "In schedule": 597,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9412,7 +9413,7 @@ var spkCountry = [
    "Name": "Jiang, Zhiyuan",
    "Country": "China",
    "in list": 65,
-   "In schedule": 0,
+   "In schedule": 598,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9421,7 +9422,7 @@ var spkCountry = [
    "Name": "Kou, Huijuan",
    "Country": "China",
    "in list": 66,
-   "In schedule": 0,
+   "In schedule": 599,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9430,7 +9431,7 @@ var spkCountry = [
    "Name": "Lan, Rongfang",
    "Country": "China",
    "in list": 67,
-   "In schedule": 0,
+   "In schedule": 600,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9493,7 +9494,7 @@ var spkCountry = [
    "Name": "Liu, Tong",
    "Country": "China",
    "in list": 74,
-   "In schedule": 0,
+   "In schedule": 601,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9520,7 +9521,7 @@ var spkCountry = [
    "Name": "Liu, Yu",
    "Country": "China",
    "in list": 77,
-   "In schedule": 0,
+   "In schedule": 602,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9556,7 +9557,7 @@ var spkCountry = [
    "Name": "Niu, Hongxia",
    "Country": "China",
    "in list": 81,
-   "In schedule": 0,
+   "In schedule": 603,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9889,7 +9890,7 @@ var spkCountry = [
    "Name": "Chan, Chin Pang Gary",
    "Country": "Hong Kong",
    "in list": 118,
-   "In schedule": 0,
+   "In schedule": 512,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9925,7 +9926,7 @@ var spkCountry = [
    "Name": "Chan, Raymond HW",
    "Country": "Hong Kong",
    "in list": 122,
-   "In schedule": 0,
+   "In schedule": 604,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -9997,7 +9998,7 @@ var spkCountry = [
    "Name": "Lam, Tse Fun Cathy",
    "Country": "Hong Kong",
    "in list": 130,
-   "In schedule": 0,
+   "In schedule": 605,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10069,7 +10070,7 @@ var spkCountry = [
    "Name": "Tse, Gary",
    "Country": "Hong Kong",
    "in list": 138,
-   "In schedule": 0,
+   "In schedule": 606,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10114,7 +10115,7 @@ var spkCountry = [
    "Name": "Yuen, Ho Chuen",
    "Country": "Hong Kong",
    "in list": 143,
-   "In schedule": 0,
+   "In schedule": 607,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10213,7 +10214,7 @@ var spkCountry = [
    "Name": "Chopra, Arun Kumar",
    "Country": "India",
    "in list": 154,
-   "In schedule": 0,
+   "In schedule": 608,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10222,7 +10223,7 @@ var spkCountry = [
    "Name": "Dhall, Anil",
    "Country": "India",
    "in list": 155,
-   "In schedule": 0,
+   "In schedule": 609,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10312,7 +10313,7 @@ var spkCountry = [
    "Name": "Kler, Tarlochan Singh",
    "Country": "India",
    "in list": 165,
-   "In schedule": 0,
+   "In schedule": 610,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10330,7 +10331,7 @@ var spkCountry = [
    "Name": "Lokhandwala, Yash",
    "Country": "India",
    "in list": 167,
-   "In schedule": 0,
+   "In schedule": 611,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10384,7 +10385,7 @@ var spkCountry = [
    "Name": "Nabar, Ashish",
    "Country": "India",
    "in list": 173,
-   "In schedule": 0,
+   "In schedule": 612,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10411,7 +10412,7 @@ var spkCountry = [
    "Name": "Nair, Krishna Kumar M",
    "Country": "India",
    "in list": 176,
-   "In schedule": 0,
+   "In schedule": 613,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10465,7 +10466,7 @@ var spkCountry = [
    "Name": "Pal, Shashidhar",
    "Country": "India",
    "in list": 182,
-   "In schedule": 0,
+   "In schedule": 614,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10546,7 +10547,7 @@ var spkCountry = [
    "Name": "Satish, O Sai",
    "Country": "India",
    "in list": 191,
-   "In schedule": 0,
+   "In schedule": 628,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -10582,7 +10583,7 @@ var spkCountry = [
    "Name": "Shankar, K Jai",
    "Country": "India",
    "in list": 195,
-   "In schedule": 0,
+   "In schedule": 629,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -11239,7 +11240,7 @@ var spkCountry = [
    "Name": "Hiroshima, Kenichi",
    "Country": "Japan",
    "in list": 268,
-   "In schedule": 0,
+   "In schedule": 617,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -11257,7 +11258,7 @@ var spkCountry = [
    "Name": "Hosaka, Yukio",
    "Country": "Japan",
    "in list": 270,
-   "In schedule": 0,
+   "In schedule": 618,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -11320,7 +11321,7 @@ var spkCountry = [
    "Name": "Inden, Yasuya",
    "Country": "Japan",
    "in list": 277,
-   "In schedule": 0,
+   "In schedule": 619,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -11338,7 +11339,7 @@ var spkCountry = [
    "Name": "Inoue, Keiji",
    "Country": "Japan",
    "in list": 279,
-   "In schedule": 0,
+   "In schedule": 620,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -11383,7 +11384,7 @@ var spkCountry = [
    "Name": "Kaitani, Kazuaki",
    "Country": "Japan",
    "in list": 284,
-   "In schedule": 0,
+   "In schedule": 621,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -11833,7 +11834,7 @@ var spkCountry = [
    "Name": "Murata, Hiroshige",
    "Country": "Japan",
    "in list": 334,
-   "In schedule": 0,
+   "In schedule": 630,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -12427,7 +12428,7 @@ var spkCountry = [
    "Name": "Tsuji, Yukiomi",
    "Country": "Japan",
    "in list": 400,
-   "In schedule": 0,
+   "In schedule": 631,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -12634,7 +12635,7 @@ var spkCountry = [
    "Name": "Kaur, Surinder",
    "Country": "Malaysia",
    "in list": 423,
-   "In schedule": 0,
+   "In schedule": 633,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13102,7 +13103,7 @@ var spkCountry = [
    "Name": "Choi, Young",
    "Country": "South Korea",
    "in list": 475,
-   "In schedule": 0,
+   "In schedule": 622,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13156,7 +13157,7 @@ var spkCountry = [
    "Name": "Jin, Eun-Sun",
    "Country": "South Korea",
    "in list": 481,
-   "In schedule": 0,
+   "In schedule": 623,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13183,7 +13184,7 @@ var spkCountry = [
    "Name": "Kim, Dong-Hyeok",
    "Country": "South Korea",
    "in list": 484,
-   "In schedule": 0,
+   "In schedule": 624,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13201,7 +13202,7 @@ var spkCountry = [
    "Name": "Kim, Jin-Seok",
    "Country": "South Korea",
    "in list": 486,
-   "In schedule": 0,
+   "In schedule": 625,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13219,7 +13220,7 @@ var spkCountry = [
    "Name": "Kim, Jun",
    "Country": "South Korea",
    "in list": 488,
-   "In schedule": 0,
+   "In schedule": 627,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13273,7 +13274,7 @@ var spkCountry = [
    "Name": "Ko, Jum Suk",
    "Country": "South Korea",
    "in list": 494,
-   "In schedule": 0,
+   "In schedule": 634,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13354,7 +13355,7 @@ var spkCountry = [
    "Name": "Lee, Sang Hee",
    "Country": "South Korea",
    "in list": 503,
-   "In schedule": 0,
+   "In schedule": 635,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13435,7 +13436,7 @@ var spkCountry = [
    "Name": "Oh, Yong Seog",
    "Country": "South Korea",
    "in list": 512,
-   "In schedule": 0,
+   "In schedule": 626,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13489,7 +13490,7 @@ var spkCountry = [
    "Name": "Park, Jin-Kyu",
    "Country": "South Korea",
    "in list": 518,
-   "In schedule": 0,
+   "In schedule": 636,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13660,7 +13661,7 @@ var spkCountry = [
    "Name": "Chang, Kuan-Cheng",
    "Country": "Taiwan",
    "in list": 537,
-   "In schedule": 0,
+   "In schedule": 632,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -13993,7 +13994,7 @@ var spkCountry = [
    "Name": "Lin, Li-Jen",
    "Country": "Taiwan",
    "in list": 574,
-   "In schedule": 0,
+   "In schedule": 637,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -14578,7 +14579,7 @@ var spkCountry = [
    "Name": "Do, Van Buu Dan",
    "Country": "Vietnam",
    "in list": 639,
-   "In schedule": 0,
+   "In schedule": 615,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -14668,7 +14669,7 @@ var spkCountry = [
    "Name": "Tran, Tuan Viet",
    "Country": "Vietnam",
    "in list": 649,
-   "In schedule": 0,
+   "In schedule": 616,
    "Accept": "Accept",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -16573,7 +16574,6 @@ var spkCountry = [
    "InvCfrm": ""
  }
 ]
-
 function sortAsc(nameA, nameB){
   if (nameA < nameB) {
           return -1;}
