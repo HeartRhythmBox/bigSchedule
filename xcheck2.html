@@ -73,13 +73,39 @@ Speaker Cross-Check
 
 var table = document.getElementById('mainTable')
 var spkXC = [];
-document.getElementById('sortStatus').innerHTML = "click on the table headings to sort up&down." +
-" Total faculties: " + spkCountry.length
+
 
 window.onload = function(){ 
     showList()
     buttonClick()
 }
+
+//count accept and invRdy
+var accept = countAccept();
+var inv = countInv();
+
+function countAccept(){
+    var n=0;
+    for (var i=0;i<spkCountry.length;i++){
+        if (spkCountry[i].Accept=="Accept"){
+            n++
+        }
+    }
+    return n;
+}
+
+function countInv(){
+    var n=0;
+    for (var i=0;i<spkCountry.length;i++){
+        if (spkCountry[i].InvRdy=="Y"){
+            n++
+        }
+    }
+    return n;
+}
+
+document.getElementById('sortStatus').innerHTML = "click on the table headings to sort up&down." +
+" Total faculties: " + spkCountry.length + ", " + accept + " accepted invitation, " + inv + " are ready to be invited."
 
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {
