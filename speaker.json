@@ -5513,7 +5513,7 @@
    "in list": 614,
    "In schedule": 289,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -7728,6 +7728,87 @@
    "In schedule": 634,
    "Accept": "Accept",
    "InvRdy": "N",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Soontornmanokati, Natcha",
+   "Country": "Thailand",
+   "in list": 861,
+   "In schedule": 742,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Sriprom, Chatyapha ",
+   "Country": "Thailand",
+   "in list": 862,
+   "In schedule": 743,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Topaiboon, Paleerat ",
+   "Country": "Thailand",
+   "in list": 863,
+   "In schedule": 744,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Nantsupawat, Teerapat ",
+   "Country": "Thailand",
+   "in list": 864,
+   "In schedule": 745,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "See, Oraporn",
+   "Country": "Thailand",
+   "in list": 865,
+   "In schedule": 746,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Tangcharoen, Tarinee",
+   "Country": "Thailand",
+   "in list": 866,
+   "In schedule": 747,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Boonbaichaiyapruck, Sarana",
+   "Country": "Thailand",
+   "in list": 867,
+   "In schedule": 748,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Sritara, Piyamitr",
+   "Country": "Thailand",
+   "in list": 868,
+   "In schedule": 749,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Phrommintikul, Arintaya",
+   "Country": "Thailand",
+   "in list": 869,
+   "In schedule": 750,
+   "Accept": "Accept",
+   "InvRdy": "Y",
    "InvCfrm": ""
  }
 ]
