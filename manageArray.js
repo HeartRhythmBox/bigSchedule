@@ -9358,7 +9358,7 @@ var spkCountry = [
    "in list": 55,
    "In schedule": 142,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -9376,7 +9376,7 @@ var spkCountry = [
    "in list": 57,
    "In schedule": 147,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -12832,7 +12832,7 @@ var spkCountry = [
    "in list": 441,
    "In schedule": 30,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -13795,7 +13795,7 @@ var spkCountry = [
    "in list": 548,
    "In schedule": 98,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -13822,7 +13822,7 @@ var spkCountry = [
    "in list": 551,
    "In schedule": 111,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -14236,7 +14236,7 @@ var spkCountry = [
    "in list": 597,
    "In schedule": 739,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -14362,7 +14362,7 @@ var spkCountry = [
    "in list": 611,
    "In schedule": 740,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -14452,7 +14452,7 @@ var spkCountry = [
    "in list": 621,
    "In schedule": 442,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -14470,7 +14470,7 @@ var spkCountry = [
    "in list": 623,
    "In schedule": 737,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -14587,7 +14587,7 @@ var spkCountry = [
    "in list": 636,
    "In schedule": 738,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -15460,7 +15460,7 @@ var spkCountry = [
    "in list": 733,
    "In schedule": 38,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
