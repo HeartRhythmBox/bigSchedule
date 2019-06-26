@@ -4523,7 +4523,7 @@
    "in list": 504,
    "In schedule": 340,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -4793,7 +4793,7 @@
    "in list": 534,
    "In schedule": 734,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -5403,7 +5403,7 @@
    "Name": "Chandrachamnong, Sanisara",
    "Country": "Thailand",
    "in list": 602,
-   "In schedule": 0,
+   "In schedule": 752,
    "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
@@ -7317,12 +7317,12 @@
    "InvCfrm": ""
  },
  {
-   "Name": "Navarapong, Leehapong",
+   "Name": "Navarapong, Leenhapong",
    "Country": "United States",
    "in list": 815,
-   "In schedule": 0,
+   "In schedule": 753,
    "Accept": "0",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
