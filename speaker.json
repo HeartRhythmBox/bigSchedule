@@ -48,18 +48,18 @@
    "Name": "Jiampo, Panyapat",
    "Country": "Thailand",
    "in list": "669",
-   "In schedule": 0,
+   "In schedule": 762,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
    "Name": "Katekangplu, Peerapat",
    "Country": "Thailand",
    "in list": "673",
-   "In schedule": 0,
+   "In schedule": 759,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -76,7 +76,7 @@
    "Country": "United Kingdom",
    "in list": "750",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -84,9 +84,9 @@
    "Name": "Antzelevitch, Charles",
    "Country": "United States",
    "in list": "759",
-   "In schedule": 0,
-   "Accept": "#REF!",
-   "InvRdy": "N",
+   "In schedule": 760,
+   "Accept": "0",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -94,7 +94,7 @@
    "Country": "United States",
    "in list": "768",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -103,7 +103,7 @@
    "Country": "United States",
    "in list": "771",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -112,7 +112,7 @@
    "Country": "United States",
    "in list": "786",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -121,7 +121,7 @@
    "Country": "United States",
    "in list": "795",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -130,7 +130,7 @@
    "Country": "United States",
    "in list": "805",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -139,7 +139,7 @@
    "Country": "United States",
    "in list": "814",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -148,7 +148,7 @@
    "Country": "United States",
    "in list": "828",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -157,7 +157,7 @@
    "Country": "United States",
    "in list": "831",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -166,7 +166,7 @@
    "Country": "United States",
    "in list": "834",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -175,7 +175,7 @@
    "Country": "United States",
    "in list": "843",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -184,7 +184,7 @@
    "Country": "United States",
    "in list": "857",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -193,7 +193,7 @@
    "Country": "United States",
    "in list": "858",
    "In schedule": 0,
-   "Accept": "#REF!",
+   "Accept": "0",
    "InvRdy": "N",
    "InvCfrm": ""
  },
@@ -7871,6 +7871,24 @@
    "in list": "#N/A",
    "In schedule": 758,
    "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Antzelevitch, Charles",
+   "Country": "United States",
+   "in list": "759",
+   "In schedule": 760,
+   "Accept": "0",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Jirasirirojanakorn, Kriengkrai",
+   "Country": "Thailand",
+   "in list": "610",
+   "In schedule": 761,
+   "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
  }
