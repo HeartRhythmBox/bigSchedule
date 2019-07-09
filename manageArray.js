@@ -6439,7 +6439,7 @@ var schedule = [
    "no_subTs": 4,
    "noSpks": 4,
    "noMods": 4,
-   "time_allocation": "",
+   "time_allocation": "10 mins/talk + 5 mins rebuttal",
    "SubT1": "ICD for aborted cardiac arrest CPVT: Pros",
    "SubT2": "ICD for aborted cardiac arrest CPVT: Cons",
    "SubT3": "ICD in pediatric DCM as primary prevention; adult guidelines is helpful? : Pros",
@@ -8018,7 +8018,7 @@ var schedule = [
    "Spk6": "",
    "Mod1": "Lim, Toon Wei",
    "Mod2": "YAMANE, Teiichi",
-   "Mod3": "Yamauchi, Yasuteru",
+   "Mod3": "",
    "Mod4": "Feld, Gregory",
    "CoTopic": "AF",
    "CoTopic2": ""
