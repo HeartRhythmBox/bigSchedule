@@ -2329,7 +2329,7 @@ var schedule = [
    "SubT1": "Tips and Tricks from the expert",
    "SubT2": "Atypical AVNRT using the variants of slow pathways",
    "SubT3": "Differentiation of atrial tachycardia from other long RP tachycardias by electrocardiographic characteristics",
-   "SubT4": "Sinoatrial reentrant tachycardia: an interesting case",
+   "SubT4": "Sinoatrial conduction and sinoatrial reentrant tachycardia",
    "SubT5": "Is it AT or atypical AVNRT?",
    "SubT6": "Interesting case",
    "Spk1": "HUANG, Shoei K. Stephen",
