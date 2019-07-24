@@ -4005,7 +4005,7 @@ var schedule = [
    "Spk5": "",
    "Spk6": "",
    "Mod1": "IKEDA, Takanori",
-   "Mod2": "",
+   "Mod2": "Pattanaprichakul, Supalerk",
    "Mod3": "",
    "Mod4": "",
    "CoTopic": "",
@@ -5590,16 +5590,16 @@ var schedule = [
    "noSpks": 4,
    "noMods": 3,
    "time_allocation": "14+1mins/talk+QA",
-   "SubT1": "How to predict and prevent: the perspective from interventionists",
+   "SubT1": "How to predict and prevent conduction abnormalities from TAVR: the perspective from interventionists",
    "SubT2": "Indications for pacemaker and CRT.",
    "SubT3": "New LBBB after TAVR: should I be worried?",
    "SubT4": "What do I do in real world practice? ",
    "SubT5": "-",
    "SubT6": "-",
-   "Spk1": "Thai",
+   "Spk1": "Chandavimol, Mann",
    "Spk2": "Aleong, Ryan",
    "Spk3": "Leclercq, Christophe",
-   "Spk4": "Thai",
+   "Spk4": "Wongpraparut, Nattawut",
    "Spk5": "",
    "Spk6": "",
    "Mod1": "SEOW, Swee Chong",
@@ -7863,7 +7863,7 @@ var schedule = [
    "Time": "15:00-16:30",
    "Rm Code": "ballC",
    "Rm": "Ballroom C",
-   "Main_Title": "Thinking out loud: the latest CLAIMS, CONCEPTS, and CONTEROVERSIES in cardiac electrophysiology",
+   "Main_Title": "Thinking out loud: the latest CLAIMS, CONCEPTS, and CONTEROVERSIES in cardiac electrophysiology (mod2: Aj. Kiatchai)",
    "no_subTs": 4,
    "noSpks": 4,
    "noMods": 2,
@@ -17221,9 +17221,35 @@ var spkCountry = [
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
+ },
+ {
+   "Name": "Pattanaprichakul, Supalerk",
+   "Country": "Thailand",
+   "in list": "694",
+   "In schedule": 761,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Chandavimol, Mann",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 762,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Wongpraparut, Nattawut",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 763,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
+   "InvCfrm": ""
  }
 ]
-
 function sortAsc(nameA, nameB){
   if (nameA < nameB) {
           return -1;}

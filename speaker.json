@@ -8107,5 +8107,32 @@
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
+ },
+ {
+   "Name": "Pattanaprichakul, Supalerk",
+   "Country": "Thailand",
+   "in list": "694",
+   "In schedule": 761,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Chandavimol, Mann",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 762,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Wongpraparut, Nattawut",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 763,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
+   "InvCfrm": ""
  }
 ]
