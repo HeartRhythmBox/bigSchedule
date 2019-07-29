@@ -8125,5 +8125,14 @@
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
+ },
+ {
+   "Name": "Suwanwela, Nijasri",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 762,
+   "Accept": "#N/A",
+   "InvRdy": "N",
+   "InvCfrm": ""
  }
 ]
