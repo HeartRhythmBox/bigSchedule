@@ -8150,7 +8150,43 @@
    "in list": "877",
    "In schedule": 767,
    "Accept": "#N/A",
-   "InvRdy": "N",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Kasemsarn, Choosak",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 768,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Sakboon, Boonsap ",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 769,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Jetwanna, Paradorn ",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 770,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Sakiyalak, Pranya ",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 771,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
    "InvCfrm": ""
  }
 ]
