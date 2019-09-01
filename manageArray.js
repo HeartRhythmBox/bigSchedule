@@ -2152,22 +2152,22 @@ var schedule = [
    "Rm Code": "ballB",
    "Rm": "Ballroom B",
    "Main_Title": "Anticoagulation Managements in fragile AF patients",
-   "no_subTs": 5,
-   "noSpks": 5,
+   "no_subTs": 6,
+   "noSpks": 6,
    "noMods": 4,
-   "time_allocation": "15+3mins/talk+QA",
+   "time_allocation": "14+1mins/talk+QA",
    "SubT1": "elderly with renal failure",
    "SubT2": "Associated CAD or PAD",
    "SubT3": "Recent major bleeding",
    "SubT4": "OAC in patients with liver disease",
    "SubT5": "Role of LAAO in Fragile Patients",
-   "SubT6": "-",
+   "SubT6": "AF during acute illness",
    "Spk1": "LANE, Deirdre",
    "Spk2": "Goette, Andreas",
    "Spk3": "Shin, Dae-Hee",
    "Spk4": "Steffel, Jan",
    "Spk5": "DOSHI, Shephal",
-   "Spk6": "",
+   "Spk6": "CHAO, Tze-Fan",
    "Mod1": "Hayashi, Kentaro",
    "Mod2": "Jin, Eun-Sun",
    "Mod3": "ANGCHAISUKSIRI, Pantep",
@@ -17367,6 +17367,7 @@ var spkCountry = [
    "InvCfrm": ""
  }
 ]
+
 function sortAsc(nameA, nameB){
   if (nameA < nameB) {
           return -1;}
