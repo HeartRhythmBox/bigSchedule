@@ -1748,7 +1748,7 @@ var schedule = [
    "noSpks": 2,
    "noMods": 1,
    "time_allocation": "25mins/talk, 10mins discussion",
-   "SubT1": "Progress in Management of Long QT Syndrome: from iPS to Clinical",
+   "SubT1": "Long QT Syndrome: Toward Precision Medicine",
    "SubT2": "Genetic variation and drug-induced QT prolongation",
    "SubT3": "Panel Discussions",
    "SubT4": "-",
