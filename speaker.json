@@ -185,7 +185,7 @@
    "in list": "666",
    "In schedule": 734,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -239,7 +239,7 @@
    "in list": "668",
    "In schedule": 735,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -1085,7 +1085,7 @@
    "in list": "624",
    "In schedule": 2,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -2822,7 +2822,7 @@
    "in list": "683",
    "In schedule": 738,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -3191,7 +3191,7 @@
    "in list": "687",
    "In schedule": 739,
    "Accept": "Accept",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -6498,7 +6498,7 @@
    "InvCfrm": ""
  },
  {
-   "Name": "Tam Tsz Kin, Mark",
+   "Name": "Tam, Tsz Kin Mark",
    "Country": "Hong Kong",
    "in list": "#N/A",
    "In schedule": 725,
@@ -8060,7 +8060,7 @@
    "in list": "#N/A",
    "In schedule": 756,
    "Accept": "#N/A",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
