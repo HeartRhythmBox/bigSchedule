@@ -8240,7 +8240,7 @@
    "in list": "#N/A",
    "In schedule": 778,
    "Accept": "#N/A",
-   "InvRdy": "N",
+   "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
@@ -8249,7 +8249,16 @@
    "in list": "#N/A",
    "In schedule": 779,
    "Accept": "#N/A",
-   "InvRdy": "N",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Yamagata, Kenichiro",
+   "Country": "Japan",
+   "in list": "#N/A",
+   "In schedule": 780,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
    "InvCfrm": ""
  }
 ]
