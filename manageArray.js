@@ -7903,7 +7903,7 @@ var schedule = [
    "noMods": 2,
    "time_allocation": "20+2mins/talk+QA",
    "SubT1": "Thirty-second definition of AF should be revised.",
-   "SubT2": "Quinidine is safe and effective in Coronary Heart Disease.",
+   "SubT2": "Quinidine-responsive Polymorphic VT in Coronary Heart Disease. ",
    "SubT3": "In the era of precision medicine, clinical manifestations still matter the most.",
    "SubT4": "All EP catheres should be reused and reusable.",
    "SubT5": "-",
