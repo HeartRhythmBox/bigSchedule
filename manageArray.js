@@ -2952,7 +2952,7 @@ var schedule = [
    "Spk6": "",
    "Mod1": "TEO, Wee Siong",
    "Mod2": "Poole, Jeanne",
-   "Mod3": "MARROUCHE, Nassir F.",
+   "Mod3": "",
    "Mod4": "",
    "CoTopic": "CIED",
    "CoTopic2": ""
@@ -4644,7 +4644,7 @@ var schedule = [
    "SubT4": "What should be the appropriate endpoints for AF ablation?",
    "SubT5": "Catheter ablation of AF: Lessons from LGE-MRI",
    "SubT6": "-",
-   "Spk1": "MARROUCHE, Nassir F.",
+   "Spk1": "Wanna, Bassam",
    "Spk2": "Poole, Jeanne",
    "Spk3": "Verma, Atul",
    "Spk4": "CHEN, Shih-An",
@@ -8084,7 +8084,7 @@ var schedule = [
    "Spk4": "TSAI, Wei-Chung",
    "Spk5": "Sanders, Prashnathan",
    "Spk6": "Akoum, Nazem",
-   "Mod1": "MARROUCHE, Nassir F.",
+   "Mod1": "Wanna, Bassam",
    "Mod2": "HARADA, Masahide",
    "Mod3": "",
    "Mod4": "",
@@ -17371,6 +17371,15 @@ var spkCountry = [
    "Country": "Thailand",
    "in list": "#N/A",
    "In schedule": 781,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Wanna, Bassam",
+   "Country": "United States",
+   "in list": "#N/A",
+   "In schedule": 782,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
