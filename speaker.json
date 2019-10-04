@@ -7263,11 +7263,11 @@
    "InvCfrm": ""
  },
  {
-   "Name": "Wiwatworapan, Werapan",
+   "Name": "Wiwatworapan, Weerapan",
    "Country": "Thailand",
-   "in list": "727",
+   "in list": "#N/A",
    "In schedule": 653,
-   "Accept": "Accept",
+   "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
  },
@@ -8266,6 +8266,15 @@
    "Country": "United States",
    "in list": "#N/A",
    "In schedule": 782,
+   "Accept": "#N/A",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Wimonsophonkitti, Raiwin",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 783,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
