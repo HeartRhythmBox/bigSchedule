@@ -3118,7 +3118,7 @@ var schedule = [
    "Spk2": "Yu, Hee Tae",
    "Spk3": "Tam, Tsz Kin Mark",
    "Spk4": "Wei, Koh Kok",
-   "Spk5": "",
+   "Spk5": "Limprasert, Sarawuth",
    "Spk6": "",
    "Mod1": "DOSHI, Shephal",
    "Mod2": "PHILLIPS, Karen",
