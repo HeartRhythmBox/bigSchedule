@@ -1000,7 +1000,7 @@ var schedule = [
    "noSpks": 4,
    "noMods": 3,
    "time_allocation": "14+1mins/talk+QA",
-   "SubT1": "AF ",
+   "SubT1": "AF and Renal Function",
    "SubT2": "AF Ablation",
    "SubT3": "LAAO",
    "SubT4": "Regional Differences",
@@ -3216,7 +3216,7 @@ var schedule = [
    "SubT4": "Educational collaboration with Adult EP docs",
    "SubT5": "How to establish continuous education in PedEP",
    "SubT6": "International Collaboration with PACES",
-   "Spk1": "Sem, Malen",
+   "Spk1": "",
    "Spk2": "Samion, Hasri",
    "Spk3": "Tsao, Sabrina",
    "Spk4": "Kanjanuthai, Supaluck",
@@ -9315,7 +9315,7 @@ var spkCountry = [
    "Name": "Antzelevitch, Charles",
    "Country": "United States",
    "in list": "751",
-   "In schedule": 727,
+   "In schedule": 726,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -9324,7 +9324,7 @@ var spkCountry = [
    "Name": "Antzelevitch, Charles",
    "Country": "United States",
    "in list": "751",
-   "In schedule": 727,
+   "In schedule": 726,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -9342,7 +9342,7 @@ var spkCountry = [
    "Name": "Apiyasawat, Sirin",
    "Country": "Thailand",
    "in list": "668",
-   "In schedule": 730,
+   "In schedule": 729,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -9621,7 +9621,7 @@ var spkCountry = [
    "Name": "Boonrat, Sura",
    "Country": "Thailand",
    "in list": "601",
-   "In schedule": 723,
+   "In schedule": 722,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -9630,7 +9630,7 @@ var spkCountry = [
    "Name": "Boonyapisit, Warangkna",
    "Country": "Thailand",
    "in list": "672",
-   "In schedule": 731,
+   "In schedule": 730,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -9972,7 +9972,7 @@ var spkCountry = [
    "Name": "Chantrarat, Thoranis",
    "Country": "Thailand",
    "in list": "675",
-   "In schedule": 732,
+   "In schedule": 731,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -10242,7 +10242,7 @@ var spkCountry = [
    "Name": "Choi, Kee-Joon",
    "Country": "South Korea",
    "in list": "531",
-   "In schedule": 717,
+   "In schedule": 716,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -10260,7 +10260,7 @@ var spkCountry = [
    "Name": "Choi, Ok",
    "Country": "South Korea",
    "in list": "532",
-   "In schedule": 712,
+   "In schedule": 711,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -10647,7 +10647,7 @@ var spkCountry = [
    "Name": "Ellenbogen, Kenneth",
    "Country": "United States",
    "in list": "779",
-   "In schedule": 714,
+   "In schedule": 713,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -11025,7 +11025,7 @@ var spkCountry = [
    "Name": "Graesner, Jan",
    "Country": "Germany",
    "in list": "141",
-   "In schedule": 713,
+   "In schedule": 712,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -11412,7 +11412,7 @@ var spkCountry = [
    "Name": "How, Ann Kee",
    "Country": "Malaysia",
    "in list": "#N/A",
-   "In schedule": 720,
+   "In schedule": 719,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -11736,7 +11736,7 @@ var spkCountry = [
    "Name": "Jiampo, Panyapat",
    "Country": "Thailand",
    "in list": "680",
-   "In schedule": 729,
+   "In schedule": 728,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -11763,7 +11763,7 @@ var spkCountry = [
    "Name": "Jirasirirojanakorn, Kriengkrai",
    "Country": "Thailand",
    "in list": "610",
-   "In schedule": 728,
+   "In schedule": 727,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -11862,7 +11862,7 @@ var spkCountry = [
    "Name": "Jung, Wonyoung",
    "Country": "Korea",
    "in list": "470",
-   "In schedule": 736,
+   "In schedule": 735,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -11916,7 +11916,7 @@ var spkCountry = [
    "Name": "Kanjanuthai, Supaluck",
    "Country": "Thailand",
    "in list": "683",
-   "In schedule": 733,
+   "In schedule": 732,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -11943,7 +11943,7 @@ var spkCountry = [
    "Name": "Katekangplu, Peerapat",
    "Country": "Thailand",
    "in list": "686",
-   "In schedule": 726,
+   "In schedule": 725,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -12276,7 +12276,7 @@ var spkCountry = [
    "Name": "Khongpatanayothin, Apichai",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 734,
+   "In schedule": 733,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -12366,7 +12366,7 @@ var spkCountry = [
    "Name": "Kunawut, Parinya",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 725,
+   "In schedule": 724,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -13032,7 +13032,7 @@ var spkCountry = [
    "Name": "Lohawijarn, Watchara",
    "Country": "Thailand",
    "in list": "690",
-   "In schedule": 716,
+   "In schedule": 715,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -13743,7 +13743,7 @@ var spkCountry = [
    "Name": "Narayanan, Kumar",
    "Country": "India",
    "in list": "218",
-   "In schedule": 722,
+   "In schedule": 721,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14211,7 +14211,7 @@ var spkCountry = [
    "Name": "Park, Young M.",
    "Country": "United States",
    "in list": "821",
-   "In schedule": 711,
+   "In schedule": 710,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14220,7 +14220,7 @@ var spkCountry = [
    "Name": "Park, Young M.",
    "Country": "United States",
    "in list": "821",
-   "In schedule": 711,
+   "In schedule": 710,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14355,7 +14355,7 @@ var spkCountry = [
    "Name": "Pokawattana, Apichai",
    "Country": "Thailand",
    "in list": "623",
-   "In schedule": 724,
+   "In schedule": 723,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14454,7 +14454,7 @@ var spkCountry = [
    "Name": "Pumprueg, Satchana",
    "Country": "Thailand",
    "in list": "700",
-   "In schedule": 756,
+   "In schedule": 755,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14688,7 +14688,7 @@ var spkCountry = [
    "Name": "Nazarian, Saman",
    "Country": "United States",
    "in list": "#N/A",
-   "In schedule": 769,
+   "In schedule": 768,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14847,19 +14847,10 @@ var spkCountry = [
    "InvCfrm": ""
  },
  {
-   "Name": "Sem, Malen",
-   "Country": "Cambodia",
-   "in list": "46",
-   "In schedule": 519,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
    "Name": "Semsarian, Chris",
    "Country": "Australia",
    "in list": "31",
-   "In schedule": 520,
+   "In schedule": 519,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14868,7 +14859,7 @@ var spkCountry = [
    "Name": "Seow, Swee Chong",
    "Country": "Singapore",
    "in list": "517",
-   "In schedule": 521,
+   "In schedule": 520,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14877,7 +14868,7 @@ var spkCountry = [
    "Name": "Sethi, Kamal Kumar",
    "Country": "India",
    "in list": "231",
-   "In schedule": 522,
+   "In schedule": 521,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14886,7 +14877,7 @@ var spkCountry = [
    "Name": "Setiadi, Benny Mulyanto",
    "Country": "Indonesia",
    "in list": "266",
-   "In schedule": 523,
+   "In schedule": 522,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14895,7 +14886,7 @@ var spkCountry = [
    "Name": "Shah, Dipen",
    "Country": "Switzerland",
    "in list": "611",
-   "In schedule": 524,
+   "In schedule": 523,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14904,7 +14895,7 @@ var spkCountry = [
    "Name": "Shankar, K Jai",
    "Country": "India",
    "in list": "232",
-   "In schedule": 525,
+   "In schedule": 524,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14913,7 +14904,7 @@ var spkCountry = [
    "Name": "Sharma, Rajat",
    "Country": "India",
    "in list": "234",
-   "In schedule": 526,
+   "In schedule": 525,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14931,7 +14922,7 @@ var spkCountry = [
    "Name": "Shen, Win-Kuang",
    "Country": "United States",
    "in list": "836",
-   "In schedule": 527,
+   "In schedule": 526,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14940,6 +14931,15 @@ var spkCountry = [
    "Name": "Shen, Win-Kuang",
    "Country": "United States",
    "in list": "836",
+   "In schedule": 526,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Shenasa, Mohammad",
+   "Country": "United States",
+   "in list": "837",
    "In schedule": 527,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -14949,16 +14949,7 @@ var spkCountry = [
    "Name": "Shenasa, Mohammad",
    "Country": "United States",
    "in list": "837",
-   "In schedule": 528,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Shenasa, Mohammad",
-   "Country": "United States",
-   "in list": "837",
-   "In schedule": 528,
+   "In schedule": 527,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14967,7 +14958,7 @@ var spkCountry = [
    "Name": "Shenthar, Jayaprakash",
    "Country": "India",
    "in list": "236",
-   "In schedule": 529,
+   "In schedule": 528,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14976,7 +14967,7 @@ var spkCountry = [
    "Name": "Shiba, Yuji",
    "Country": "Japan",
    "in list": "419",
-   "In schedule": 530,
+   "In schedule": 529,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14985,7 +14976,7 @@ var spkCountry = [
    "Name": "Shim, Jaemin",
    "Country": "South Korea",
    "in list": "589",
-   "In schedule": 531,
+   "In schedule": 530,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -14994,7 +14985,7 @@ var spkCountry = [
    "Name": "Shimizu, Akihiko",
    "Country": "Japan",
    "in list": "420",
-   "In schedule": 532,
+   "In schedule": 531,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15003,7 +14994,7 @@ var spkCountry = [
    "Name": "Shimizu, Wataru",
    "Country": "Japan",
    "in list": "423",
-   "In schedule": 533,
+   "In schedule": 532,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15012,7 +15003,7 @@ var spkCountry = [
    "Name": "Shin, Dae-Hee",
    "Country": "South Korea",
    "in list": "590",
-   "In schedule": 534,
+   "In schedule": 533,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15021,7 +15012,7 @@ var spkCountry = [
    "Name": "Shin, Dong-Gu",
    "Country": "South Korea",
    "in list": "591",
-   "In schedule": 535,
+   "In schedule": 534,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15030,7 +15021,7 @@ var spkCountry = [
    "Name": "Shin, Seung Yong",
    "Country": "South Korea",
    "in list": "592",
-   "In schedule": 536,
+   "In schedule": 535,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15039,6 +15030,15 @@ var spkCountry = [
    "Name": "Shinlapawittayathorn, Krekwit",
    "Country": "Thailand",
    "in list": "708",
+   "In schedule": 536,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Shivkumar, Kalyanam",
+   "Country": "United States",
+   "in list": "838",
    "In schedule": 537,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15048,16 +15048,7 @@ var spkCountry = [
    "Name": "Shivkumar, Kalyanam",
    "Country": "United States",
    "in list": "838",
-   "In schedule": 538,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Shivkumar, Kalyanam",
-   "Country": "United States",
-   "in list": "838",
-   "In schedule": 538,
+   "In schedule": 537,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15066,7 +15057,7 @@ var spkCountry = [
    "Name": "Shizuta, Satoshi",
    "Country": "Japan",
    "in list": "424",
-   "In schedule": 539,
+   "In schedule": 538,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15075,7 +15066,7 @@ var spkCountry = [
    "Name": "Shoda, Morio",
    "Country": "Japan",
    "in list": "425",
-   "In schedule": 540,
+   "In schedule": 539,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15084,6 +15075,15 @@ var spkCountry = [
    "Name": "Sikdar, Sunandan",
    "Country": "India",
    "in list": "237",
+   "In schedule": 540,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Silka, Michael",
+   "Country": "United States",
+   "in list": "839",
    "In schedule": 541,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15093,16 +15093,7 @@ var spkCountry = [
    "Name": "Silka, Michael",
    "Country": "United States",
    "in list": "839",
-   "In schedule": 542,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Silka, Michael",
-   "Country": "United States",
-   "in list": "839",
-   "In schedule": 542,
+   "In schedule": 541,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15111,7 +15102,7 @@ var spkCountry = [
    "Name": "Singh, Balbir",
    "Country": "India",
    "in list": "238",
-   "In schedule": 543,
+   "In schedule": 542,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15120,7 +15111,7 @@ var spkCountry = [
    "Name": "Singhal, Rahul",
    "Country": "India",
    "in list": "239",
-   "In schedule": 544,
+   "In schedule": 543,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15129,7 +15120,7 @@ var spkCountry = [
    "Name": "Sitthisook, Surapun",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 715,
+   "In schedule": 714,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15138,7 +15129,7 @@ var spkCountry = [
    "Name": "Skinner, Jonathan",
    "Country": "New Zealand",
    "in list": "498",
-   "In schedule": 545,
+   "In schedule": 544,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15147,7 +15138,7 @@ var spkCountry = [
    "Name": "Smit, Jaap Jan",
    "Country": "Netherlands",
    "in list": "490",
-   "In schedule": 546,
+   "In schedule": 545,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15156,7 +15147,7 @@ var spkCountry = [
    "Name": "So, Yui-Chi",
    "Country": "Hong Kong",
    "in list": "173",
-   "In schedule": 547,
+   "In schedule": 546,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15165,7 +15156,7 @@ var spkCountry = [
    "Name": "Soejima, Kyoko",
    "Country": "Japan",
    "in list": "428",
-   "In schedule": 548,
+   "In schedule": 547,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15174,7 +15165,7 @@ var spkCountry = [
    "Name": "Solihin, Iyan",
    "Country": "Indonesia",
    "in list": "267",
-   "In schedule": 549,
+   "In schedule": 548,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15183,7 +15174,7 @@ var spkCountry = [
    "Name": "Song, In Geol",
    "Country": "South Korea",
    "in list": "594",
-   "In schedule": 550,
+   "In schedule": 549,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15192,7 +15183,7 @@ var spkCountry = [
    "Name": "Song, Mi-Kyoung",
    "Country": "South Korea",
    "in list": "595",
-   "In schedule": 551,
+   "In schedule": 550,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15201,7 +15192,7 @@ var spkCountry = [
    "Name": "Song, Susan L.",
    "Country": "United States",
    "in list": "840",
-   "In schedule": 552,
+   "In schedule": 551,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15210,7 +15201,7 @@ var spkCountry = [
    "Name": "Soontornmanokati, Natcha",
    "Country": "Thailand",
    "in list": "711",
-   "In schedule": 553,
+   "In schedule": 552,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15219,7 +15210,7 @@ var spkCountry = [
    "Name": "Sridevi, C",
    "Country": "India",
    "in list": "240",
-   "In schedule": 554,
+   "In schedule": 553,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15228,7 +15219,7 @@ var spkCountry = [
    "Name": "Sriprom, Chatyapha ",
    "Country": "Thailand",
    "in list": "712",
-   "In schedule": 555,
+   "In schedule": 554,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15237,7 +15228,7 @@ var spkCountry = [
    "Name": "Sriratanasathavorn, Charn",
    "Country": "Thailand",
    "in list": "713",
-   "In schedule": 556,
+   "In schedule": 555,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15246,7 +15237,7 @@ var spkCountry = [
    "Name": "Sritara, Piyamitr",
    "Country": "Thailand",
    "in list": "715",
-   "In schedule": 557,
+   "In schedule": 556,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15255,7 +15246,7 @@ var spkCountry = [
    "Name": "Starck, Christoph",
    "Country": "Germany",
    "in list": "149",
-   "In schedule": 558,
+   "In schedule": 557,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15264,7 +15255,7 @@ var spkCountry = [
    "Name": "Steffel, Jan",
    "Country": "Switzerland",
    "in list": "612",
-   "In schedule": 559,
+   "In schedule": 558,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15273,7 +15264,7 @@ var spkCountry = [
    "Name": "Steinberg, Jonathan S.",
    "Country": "United States",
    "in list": "841",
-   "In schedule": 560,
+   "In schedule": 559,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15282,7 +15273,7 @@ var spkCountry = [
    "Name": "Stiles, Martin",
    "Country": "New Zealand",
    "in list": "499",
-   "In schedule": 561,
+   "In schedule": 560,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15291,6 +15282,15 @@ var spkCountry = [
    "Name": "Strathmore, Neil",
    "Country": "Australia",
    "in list": "32",
+   "In schedule": 561,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Su, Lan",
+   "Country": "China",
+   "in list": "100",
    "In schedule": 562,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15300,16 +15300,7 @@ var spkCountry = [
    "Name": "Su, Lan",
    "Country": "China",
    "in list": "100",
-   "In schedule": 563,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Su, Lan",
-   "Country": "China",
-   "in list": "100",
-   "In schedule": 563,
+   "In schedule": 562,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15318,7 +15309,7 @@ var spkCountry = [
    "Name": "Su, Yangang",
    "Country": "China",
    "in list": "84",
-   "In schedule": 564,
+   "In schedule": 563,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15327,7 +15318,7 @@ var spkCountry = [
    "Name": "Su, Yangang",
    "Country": "China",
    "in list": "84",
-   "In schedule": 564,
+   "In schedule": 563,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15336,7 +15327,7 @@ var spkCountry = [
    "Name": "Sueda, Taijiro",
    "Country": "Japan",
    "in list": "429",
-   "In schedule": 565,
+   "In schedule": 564,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15345,7 +15336,7 @@ var spkCountry = [
    "Name": "Suenari, Kazuyoshi",
    "Country": "Japan",
    "in list": "430",
-   "In schedule": 566,
+   "In schedule": 565,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15354,6 +15345,15 @@ var spkCountry = [
    "Name": "Sumitomo, Naokata",
    "Country": "Japan",
    "in list": "431",
+   "In schedule": 566,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Sun, Qi",
+   "Country": "China",
+   "in list": "102",
    "In schedule": 567,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15363,15 +15363,15 @@ var spkCountry = [
    "Name": "Sun, Qi",
    "Country": "China",
    "in list": "102",
-   "In schedule": 568,
+   "In schedule": 567,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
-   "Name": "Sun, Qi",
-   "Country": "China",
-   "in list": "102",
+   "Name": "Sundaram, Sri",
+   "Country": "United States",
+   "in list": "842",
    "In schedule": 568,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15381,16 +15381,7 @@ var spkCountry = [
    "Name": "Sundaram, Sri",
    "Country": "United States",
    "in list": "842",
-   "In schedule": 569,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Sundaram, Sri",
-   "Country": "United States",
-   "in list": "842",
-   "In schedule": 569,
+   "In schedule": 568,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15399,7 +15390,7 @@ var spkCountry = [
    "Name": "Sunsaneewitayakul, Buncha",
    "Country": "Thailand",
    "in list": "716",
-   "In schedule": 570,
+   "In schedule": 569,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15408,6 +15399,15 @@ var spkCountry = [
    "Name": "Suresh, Allamsetty",
    "Country": "India",
    "in list": "241",
+   "In schedule": 570,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Sutton, Richard",
+   "Country": "United Kingdom",
+   "in list": "744",
    "In schedule": 571,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15417,16 +15417,7 @@ var spkCountry = [
    "Name": "Sutton, Richard",
    "Country": "United Kingdom",
    "in list": "744",
-   "In schedule": 572,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Sutton, Richard",
-   "Country": "United Kingdom",
-   "in list": "744",
-   "In schedule": 572,
+   "In schedule": 571,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15435,7 +15426,7 @@ var spkCountry = [
    "Name": "Suwanagool, Arisara",
    "Country": "Thailand",
    "in list": "717",
-   "In schedule": 573,
+   "In schedule": 572,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15444,7 +15435,7 @@ var spkCountry = [
    "Name": "Suzuki, Yasushi",
    "Country": "Japan",
    "in list": "432",
-   "In schedule": 574,
+   "In schedule": 573,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15453,7 +15444,7 @@ var spkCountry = [
    "Name": "Sy, Raymond",
    "Country": "Australia",
    "in list": "33",
-   "In schedule": 575,
+   "In schedule": 574,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15462,7 +15453,7 @@ var spkCountry = [
    "Name": "Tada, Hiroshi",
    "Country": "Japan",
    "in list": "433",
-   "In schedule": 576,
+   "In schedule": 575,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15471,7 +15462,7 @@ var spkCountry = [
    "Name": "Takagi, Masahiko",
    "Country": "Japan",
    "in list": "434",
-   "In schedule": 577,
+   "In schedule": 576,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15480,7 +15471,7 @@ var spkCountry = [
    "Name": "Takahashi, Kazuhiro",
    "Country": "Japan",
    "in list": "435",
-   "In schedule": 578,
+   "In schedule": 577,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15489,7 +15480,7 @@ var spkCountry = [
    "Name": "Takahashi, Naohiko",
    "Country": "Japan",
    "in list": "436",
-   "In schedule": 579,
+   "In schedule": 578,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15498,7 +15489,7 @@ var spkCountry = [
    "Name": "Takahashi, Yoshihide",
    "Country": "Japan",
    "in list": "437",
-   "In schedule": 580,
+   "In schedule": 579,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15507,7 +15498,7 @@ var spkCountry = [
    "Name": "Takase, Bonpei",
    "Country": "Japan",
    "in list": "438",
-   "In schedule": 581,
+   "In schedule": 580,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15516,7 +15507,7 @@ var spkCountry = [
    "Name": "Takase, Tetsuro",
    "Country": "Japan",
    "in list": "439",
-   "In schedule": 582,
+   "In schedule": 581,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15525,7 +15516,7 @@ var spkCountry = [
    "Name": "Takatsuki, Seiji",
    "Country": "Japan",
    "in list": "440",
-   "In schedule": 583,
+   "In schedule": 582,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15534,7 +15525,7 @@ var spkCountry = [
    "Name": "Takeishi, Yasuchika",
    "Country": "Japan",
    "in list": "441",
-   "In schedule": 584,
+   "In schedule": 583,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15543,7 +15534,7 @@ var spkCountry = [
    "Name": "Takigawa, Masateru",
    "Country": "France",
    "in list": "131",
-   "In schedule": 585,
+   "In schedule": 584,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15552,7 +15543,7 @@ var spkCountry = [
    "Name": "Talib, Ahmed",
    "Country": "Iraq / Japan",
    "in list": "272",
-   "In schedule": 586,
+   "In schedule": 585,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15561,7 +15552,7 @@ var spkCountry = [
    "Name": "Talwar, K K",
    "Country": "India",
    "in list": "242",
-   "In schedule": 587,
+   "In schedule": 586,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15570,7 +15561,7 @@ var spkCountry = [
    "Name": "Tam, Tsz Kin Mark",
    "Country": "Hong Kong",
    "in list": "#N/A",
-   "In schedule": 721,
+   "In schedule": 720,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15579,6 +15570,15 @@ var spkCountry = [
    "Name": "Tan, Vern Hsen",
    "Country": "Singapore",
    "in list": "518",
+   "In schedule": 587,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Tanawuttiwat, Tanyanan",
+   "Country": "United States",
+   "in list": "844",
    "In schedule": 588,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15588,15 +15588,15 @@ var spkCountry = [
    "Name": "Tanawuttiwat, Tanyanan",
    "Country": "United States",
    "in list": "844",
-   "In schedule": 589,
+   "In schedule": 588,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
-   "Name": "Tanawuttiwat, Tanyanan",
-   "Country": "United States",
-   "in list": "844",
+   "Name": "Tang, Baopeng",
+   "Country": "China",
+   "in list": "103",
    "In schedule": 589,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15606,15 +15606,15 @@ var spkCountry = [
    "Name": "Tang, Baopeng",
    "Country": "China",
    "in list": "103",
-   "In schedule": 590,
+   "In schedule": 589,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
-   "Name": "Tang, Baopeng",
-   "Country": "China",
-   "in list": "103",
+   "Name": "Tangcharoen, Tarinee",
+   "Country": "Thailand",
+   "in list": "718",
    "In schedule": 590,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15624,16 +15624,7 @@ var spkCountry = [
    "Name": "Tangcharoen, Tarinee",
    "Country": "Thailand",
    "in list": "718",
-   "In schedule": 591,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Tangcharoen, Tarinee",
-   "Country": "Thailand",
-   "in list": "718",
-   "In schedule": 591,
+   "In schedule": 590,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15642,7 +15633,7 @@ var spkCountry = [
    "Name": "Tanimoto, Kojiro",
    "Country": "Japan",
    "in list": "442",
-   "In schedule": 592,
+   "In schedule": 591,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15651,7 +15642,7 @@ var spkCountry = [
    "Name": "Tanno, Kaoru",
    "Country": "Japan",
    "in list": "443",
-   "In schedule": 593,
+   "In schedule": 592,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15660,7 +15651,7 @@ var spkCountry = [
    "Name": "Tasaka, Hiroshi",
    "Country": "Japan",
    "in list": "444",
-   "In schedule": 594,
+   "In schedule": 593,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15669,7 +15660,7 @@ var spkCountry = [
    "Name": "Tat, Koh Keng",
    "Country": "Malaysia",
    "in list": "426",
-   "In schedule": 719,
+   "In schedule": 718,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15678,7 +15669,7 @@ var spkCountry = [
    "Name": "Teo, Wee Siong",
    "Country": "Singapore",
    "in list": "519",
-   "In schedule": 595,
+   "In schedule": 594,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15687,7 +15678,7 @@ var spkCountry = [
    "Name": "Thachil, Ajit",
    "Country": "India",
    "in list": "243",
-   "In schedule": 596,
+   "In schedule": 595,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15696,6 +15687,15 @@ var spkCountry = [
    "Name": "Thajudeen, Anees",
    "Country": "India",
    "in list": "244",
+   "In schedule": 597,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Tholakanahalli, Venkat N.",
+   "Country": "United States",
+   "in list": "845",
    "In schedule": 598,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15705,16 +15705,7 @@ var spkCountry = [
    "Name": "Tholakanahalli, Venkat N.",
    "Country": "United States",
    "in list": "845",
-   "In schedule": 599,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Tholakanahalli, Venkat N.",
-   "Country": "United States",
-   "in list": "845",
-   "In schedule": 599,
+   "In schedule": 598,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15723,7 +15714,7 @@ var spkCountry = [
    "Name": "Thomas, Joy",
    "Country": "India",
    "in list": "245",
-   "In schedule": 600,
+   "In schedule": 599,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15732,7 +15723,7 @@ var spkCountry = [
    "Name": "Thomas, Stuart",
    "Country": "Australia",
    "in list": "35",
-   "In schedule": 601,
+   "In schedule": 600,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15741,6 +15732,15 @@ var spkCountry = [
    "Name": "Tondo, Claudio",
    "Country": "Italy",
    "in list": "283",
+   "In schedule": 601,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Topaiboon, Paleerat ",
+   "Country": "Thailand",
+   "in list": "719",
    "In schedule": 602,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15750,15 +15750,15 @@ var spkCountry = [
    "Name": "Topaiboon, Paleerat ",
    "Country": "Thailand",
    "in list": "719",
-   "In schedule": 603,
+   "In schedule": 602,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
-   "Name": "Topaiboon, Paleerat ",
-   "Country": "Thailand",
-   "in list": "719",
+   "Name": "Towbin, Jeff",
+   "Country": "United States",
+   "in list": "846",
    "In schedule": 603,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15768,16 +15768,7 @@ var spkCountry = [
    "Name": "Towbin, Jeff",
    "Country": "United States",
    "in list": "846",
-   "In schedule": 604,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Towbin, Jeff",
-   "Country": "United States",
-   "in list": "846",
-   "In schedule": 604,
+   "In schedule": 603,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15786,7 +15777,7 @@ var spkCountry = [
    "Name": "Toyama, Hideko",
    "Country": "Japan",
    "in list": "445",
-   "In schedule": 605,
+   "In schedule": 604,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15795,6 +15786,15 @@ var spkCountry = [
    "Name": "Tran, Tuan Viet",
    "Country": "Vietnam",
    "in list": "873",
+   "In schedule": 605,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Trayanova, Natalia",
+   "Country": "United States",
+   "in list": "847",
    "In schedule": 606,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15804,16 +15804,7 @@ var spkCountry = [
    "Name": "Trayanova, Natalia",
    "Country": "United States",
    "in list": "847",
-   "In schedule": 607,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Trayanova, Natalia",
-   "Country": "United States",
-   "in list": "847",
-   "In schedule": 607,
+   "In schedule": 606,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15822,7 +15813,7 @@ var spkCountry = [
    "Name": "Troung, Quang Khanh",
    "Country": "Vietnam",
    "in list": "874",
-   "In schedule": 608,
+   "In schedule": 607,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15831,7 +15822,7 @@ var spkCountry = [
    "Name": "Tsai, Chia-Ti",
    "Country": "Taiwan",
    "in list": "652",
-   "In schedule": 609,
+   "In schedule": 608,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15840,7 +15831,7 @@ var spkCountry = [
    "Name": "Tsai, Wei-Chung",
    "Country": "Taiwan",
    "in list": "653",
-   "In schedule": 610,
+   "In schedule": 609,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15849,7 +15840,7 @@ var spkCountry = [
    "Name": "Tsai, Wen-Chin",
    "Country": "Taiwan",
    "in list": "654",
-   "In schedule": 611,
+   "In schedule": 610,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15858,7 +15849,7 @@ var spkCountry = [
    "Name": "Tsao, Hsuan-Ming",
    "Country": "Taiwan",
    "in list": "655",
-   "In schedule": 612,
+   "In schedule": 611,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15876,7 +15867,7 @@ var spkCountry = [
    "Name": "Tschabrunn, Cory M.",
    "Country": "United States",
    "in list": "848",
-   "In schedule": 613,
+   "In schedule": 612,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15885,7 +15876,7 @@ var spkCountry = [
    "Name": "Tschabrunn, Cory M.",
    "Country": "United States",
    "in list": "848",
-   "In schedule": 613,
+   "In schedule": 612,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15894,7 +15885,7 @@ var spkCountry = [
    "Name": "Tse, Gary",
    "Country": "Hong Kong",
    "in list": "175",
-   "In schedule": 614,
+   "In schedule": 613,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15903,7 +15894,7 @@ var spkCountry = [
    "Name": "Tse, Hung-Fat",
    "Country": "Hong Kong",
    "in list": "176",
-   "In schedule": 615,
+   "In schedule": 614,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15912,7 +15903,7 @@ var spkCountry = [
    "Name": "Tseveendee, Saruul",
    "Country": "Mongolia",
    "in list": "478",
-   "In schedule": 616,
+   "In schedule": 615,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15921,7 +15912,7 @@ var spkCountry = [
    "Name": "Tsuji, Yukiomi",
    "Country": "Japan",
    "in list": "446",
-   "In schedule": 617,
+   "In schedule": 616,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15930,6 +15921,15 @@ var spkCountry = [
    "Name": "Tuan, Ta-Chuan",
    "Country": "Taiwan",
    "in list": "656",
+   "In schedule": 617,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Turakhia, Mintu",
+   "Country": "United States",
+   "in list": "849",
    "In schedule": 618,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -15939,16 +15939,7 @@ var spkCountry = [
    "Name": "Turakhia, Mintu",
    "Country": "United States",
    "in list": "849",
-   "In schedule": 619,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Turakhia, Mintu",
-   "Country": "United States",
-   "in list": "849",
-   "In schedule": 619,
+   "In schedule": 618,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15966,7 +15957,7 @@ var spkCountry = [
    "Name": "Udyavar, Ameya",
    "Country": "India",
    "in list": "246",
-   "In schedule": 620,
+   "In schedule": 619,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15975,7 +15966,7 @@ var spkCountry = [
    "Name": "Ueda, Akiko",
    "Country": "Japan",
    "in list": "447",
-   "In schedule": 621,
+   "In schedule": 620,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15984,7 +15975,7 @@ var spkCountry = [
    "Name": "Uerojanaangkul, Preecha",
    "Country": "Thailand",
    "in list": "721",
-   "In schedule": 622,
+   "In schedule": 621,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -15993,7 +15984,7 @@ var spkCountry = [
    "Name": "Uhm, Jae-Sun",
    "Country": "South Korea",
    "in list": "596",
-   "In schedule": 623,
+   "In schedule": 622,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16002,7 +15993,7 @@ var spkCountry = [
    "Name": "Valaparambil, Ajit Kumar",
    "Country": "India",
    "in list": "247",
-   "In schedule": 624,
+   "In schedule": 623,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16020,6 +16011,15 @@ var spkCountry = [
    "Name": "Van Gelder, Isabelle",
    "Country": "Netherlands",
    "in list": "491",
+   "In schedule": 624,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Van Hare, George F",
+   "Country": "United States",
+   "in list": "850",
    "In schedule": 625,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16029,15 +16029,15 @@ var spkCountry = [
    "Name": "Van Hare, George F",
    "Country": "United States",
    "in list": "850",
-   "In schedule": 626,
+   "In schedule": 625,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
-   "Name": "Van Hare, George F",
+   "Name": "Varma, Niraj",
    "Country": "United States",
-   "in list": "850",
+   "in list": "851",
    "In schedule": 626,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16047,16 +16047,7 @@ var spkCountry = [
    "Name": "Varma, Niraj",
    "Country": "United States",
    "in list": "851",
-   "In schedule": 627,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Varma, Niraj",
-   "Country": "United States",
-   "in list": "851",
-   "In schedule": 627,
+   "In schedule": 626,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16065,7 +16056,7 @@ var spkCountry = [
    "Name": "Vasavakul, Taweekiat",
    "Country": "Thailand",
    "in list": "722",
-   "In schedule": 628,
+   "In schedule": 627,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16074,7 +16065,7 @@ var spkCountry = [
    "Name": "Verma, Atul",
    "Country": "Canada",
    "in list": "59",
-   "In schedule": 629,
+   "In schedule": 628,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16083,6 +16074,15 @@ var spkCountry = [
    "Name": "Vien, Hoang Long",
    "Country": "Vietnam",
    "in list": "875",
+   "In schedule": 629,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Vijayaraman, Pugazhendhi",
+   "Country": "United States",
+   "in list": "852",
    "In schedule": 630,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16092,16 +16092,7 @@ var spkCountry = [
    "Name": "Vijayaraman, Pugazhendhi",
    "Country": "United States",
    "in list": "852",
-   "In schedule": 631,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Vijayaraman, Pugazhendhi",
-   "Country": "United States",
-   "in list": "852",
-   "In schedule": 631,
+   "In schedule": 630,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16110,6 +16101,15 @@ var spkCountry = [
    "Name": "Vora, Amit",
    "Country": "India",
    "in list": "248",
+   "In schedule": 631,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Walsh, Edward P",
+   "Country": "United States",
+   "in list": "853",
    "In schedule": 632,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16119,16 +16119,7 @@ var spkCountry = [
    "Name": "Walsh, Edward P",
    "Country": "United States",
    "in list": "853",
-   "In schedule": 633,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Walsh, Edward P",
-   "Country": "United States",
-   "in list": "853",
-   "In schedule": 633,
+   "In schedule": 632,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16137,7 +16128,7 @@ var spkCountry = [
    "Name": "Wang, Chun-Chieh",
    "Country": "Taiwan",
    "in list": "658",
-   "In schedule": 634,
+   "In schedule": 633,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16146,7 +16137,7 @@ var spkCountry = [
    "Name": "Wang, Hong-Tao",
    "Country": "China",
    "in list": "104",
-   "In schedule": 635,
+   "In schedule": 634,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16155,7 +16146,7 @@ var spkCountry = [
    "Name": "Wang, Jinfeng",
    "Country": "China",
    "in list": "90",
-   "In schedule": 636,
+   "In schedule": 635,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16164,6 +16155,15 @@ var spkCountry = [
    "Name": "Wang, Paul J",
    "Country": "United States",
    "in list": "854",
+   "In schedule": 636,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Wang, Xunzhang",
+   "Country": "United States",
+   "in list": "855",
    "In schedule": 637,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16173,16 +16173,7 @@ var spkCountry = [
    "Name": "Wang, Xunzhang",
    "Country": "United States",
    "in list": "855",
-   "In schedule": 638,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Wang, Xunzhang",
-   "Country": "United States",
-   "in list": "855",
-   "In schedule": 638,
+   "In schedule": 637,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16191,7 +16182,7 @@ var spkCountry = [
    "Name": "Wang, Yutang",
    "Country": "China",
    "in list": "91",
-   "In schedule": 639,
+   "In schedule": 638,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16200,7 +16191,7 @@ var spkCountry = [
    "Name": "Wang, Yutang",
    "Country": "China",
    "in list": "91",
-   "In schedule": 639,
+   "In schedule": 638,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16209,7 +16200,7 @@ var spkCountry = [
    "Name": "Watanabe, Eiichi",
    "Country": "Japan",
    "in list": "450",
-   "In schedule": 640,
+   "In schedule": 639,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16218,6 +16209,15 @@ var spkCountry = [
    "Name": "Watanabe, Hiroshi",
    "Country": "Japan",
    "in list": "451",
+   "In schedule": 640,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Wazni, Oussama",
+   "Country": "United States",
+   "in list": "856",
    "In schedule": 641,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16227,15 +16227,15 @@ var spkCountry = [
    "Name": "Wazni, Oussama",
    "Country": "United States",
    "in list": "856",
-   "In schedule": 642,
+   "In schedule": 641,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
  },
  {
-   "Name": "Wazni, Oussama",
+   "Name": "Wehrens, Xander H. T.",
    "Country": "United States",
-   "in list": "856",
+   "in list": "859",
    "In schedule": 642,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16245,16 +16245,7 @@ var spkCountry = [
    "Name": "Wehrens, Xander H. T.",
    "Country": "United States",
    "in list": "859",
-   "In schedule": 643,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Wehrens, Xander H. T.",
-   "Country": "United States",
-   "in list": "859",
-   "In schedule": 643,
+   "In schedule": 642,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16263,7 +16254,7 @@ var spkCountry = [
    "Name": "Wei, Hua",
    "Country": "China",
    "in list": "106",
-   "In schedule": 644,
+   "In schedule": 643,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16272,7 +16263,7 @@ var spkCountry = [
    "Name": "Wei, Koh Kok",
    "Country": "Malaysia",
    "in list": "427",
-   "In schedule": 718,
+   "In schedule": 717,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16281,7 +16272,7 @@ var spkCountry = [
    "Name": "Wei, Ma",
    "Country": "China",
    "in list": "107",
-   "In schedule": 645,
+   "In schedule": 644,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16290,6 +16281,15 @@ var spkCountry = [
    "Name": "Wen, Ming-Shien",
    "Country": "Taiwan",
    "in list": "660",
+   "In schedule": 645,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Wilber, David J.",
+   "Country": "United States",
+   "in list": "860",
    "In schedule": 646,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16299,16 +16299,7 @@ var spkCountry = [
    "Name": "Wilber, David J.",
    "Country": "United States",
    "in list": "860",
-   "In schedule": 647,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Wilber, David J.",
-   "Country": "United States",
-   "in list": "860",
-   "In schedule": 647,
+   "In schedule": 646,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16317,7 +16308,7 @@ var spkCountry = [
    "Name": "Wilde, Arthur",
    "Country": "Netherlands",
    "in list": "492",
-   "In schedule": 648,
+   "In schedule": 647,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16326,6 +16317,15 @@ var spkCountry = [
    "Name": "Wildschut, Jason",
    "Country": "Australia",
    "in list": "36",
+   "In schedule": 648,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Wilkoff, Bruce L.",
+   "Country": "United States",
+   "in list": "861",
    "In schedule": 649,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16335,16 +16335,7 @@ var spkCountry = [
    "Name": "Wilkoff, Bruce L.",
    "Country": "United States",
    "in list": "861",
-   "In schedule": 650,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Wilkoff, Bruce L.",
-   "Country": "United States",
-   "in list": "861",
-   "In schedule": 650,
+   "In schedule": 649,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16353,7 +16344,7 @@ var spkCountry = [
    "Name": "Win, Khin Maung",
    "Country": "Myanmar",
    "in list": "483",
-   "In schedule": 651,
+   "In schedule": 650,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16362,7 +16353,7 @@ var spkCountry = [
    "Name": "Winijkul, Arjbordin",
    "Country": "Thailand",
    "in list": "723",
-   "In schedule": 735,
+   "In schedule": 734,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16371,7 +16362,7 @@ var spkCountry = [
    "Name": "Wisaratapong, Treechada",
    "Country": "Thailand",
    "in list": "725",
-   "In schedule": 652,
+   "In schedule": 651,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16380,7 +16371,7 @@ var spkCountry = [
    "Name": "Wiwatworapan, Weerapan",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 653,
+   "In schedule": 652,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16389,7 +16380,7 @@ var spkCountry = [
    "Name": "Wong, Christopher X.",
    "Country": "Australia",
    "in list": "37",
-   "In schedule": 654,
+   "In schedule": 653,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16398,6 +16389,15 @@ var spkCountry = [
    "Name": "Wong, Kelvin",
    "Country": "Singapore",
    "in list": "520",
+   "In schedule": 654,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Wong, Tom",
+   "Country": "United Kingdom",
+   "in list": "745",
    "In schedule": 655,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16407,16 +16407,7 @@ var spkCountry = [
    "Name": "Wong, Tom",
    "Country": "United Kingdom",
    "in list": "745",
-   "In schedule": 656,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Wong, Tom",
-   "Country": "United Kingdom",
-   "in list": "745",
-   "In schedule": 656,
+   "In schedule": 655,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16425,6 +16416,15 @@ var spkCountry = [
    "Name": "Wongcharoen, Wanwarang",
    "Country": "Thailand",
    "in list": "728",
+   "In schedule": 656,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Worley, Seth J.",
+   "Country": "United States",
+   "in list": "862",
    "In schedule": 657,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16434,16 +16434,7 @@ var spkCountry = [
    "Name": "Worley, Seth J.",
    "Country": "United States",
    "in list": "862",
-   "In schedule": 658,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Worley, Seth J.",
-   "Country": "United States",
-   "in list": "862",
-   "In schedule": 658,
+   "In schedule": 657,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16452,7 +16443,7 @@ var spkCountry = [
    "Name": "Wu, Mei-Hwan",
    "Country": "Taiwan",
    "in list": "661",
-   "In schedule": 659,
+   "In schedule": 658,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16461,7 +16452,7 @@ var spkCountry = [
    "Name": "Wynn, Gareth",
    "Country": "Australia",
    "in list": "38",
-   "In schedule": 660,
+   "In schedule": 659,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16470,7 +16461,7 @@ var spkCountry = [
    "Name": "Xia, Yunlong",
    "Country": "China",
    "in list": "108",
-   "In schedule": 661,
+   "In schedule": 660,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16479,7 +16470,7 @@ var spkCountry = [
    "Name": "Xie, Shuanglun",
    "Country": "China",
    "in list": "110",
-   "In schedule": 662,
+   "In schedule": 661,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16488,7 +16479,7 @@ var spkCountry = [
    "Name": "Xu, Wei",
    "Country": "China",
    "in list": "99",
-   "In schedule": 663,
+   "In schedule": 662,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16497,7 +16488,7 @@ var spkCountry = [
    "Name": "Xu, Wei",
    "Country": "China",
    "in list": "99",
-   "In schedule": 663,
+   "In schedule": 662,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16506,7 +16497,7 @@ var spkCountry = [
    "Name": "Xue, Xiaolin",
    "Country": "China",
    "in list": "111",
-   "In schedule": 664,
+   "In schedule": 663,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16515,7 +16506,7 @@ var spkCountry = [
    "Name": "Yadav, Niraj",
    "Country": "India",
    "in list": "249",
-   "In schedule": 665,
+   "In schedule": 664,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16524,7 +16515,7 @@ var spkCountry = [
    "Name": "Yadav, Rakesh",
    "Country": "India",
    "in list": "250",
-   "In schedule": 666,
+   "In schedule": 665,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16533,7 +16524,7 @@ var spkCountry = [
    "Name": "Yaduvanshi, Amitabh",
    "Country": "India",
    "in list": "251",
-   "In schedule": 667,
+   "In schedule": 666,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16542,7 +16533,7 @@ var spkCountry = [
    "Name": "Yamabe, Hiroshige",
    "Country": "Japan",
    "in list": "452",
-   "In schedule": 668,
+   "In schedule": 667,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16551,7 +16542,7 @@ var spkCountry = [
    "Name": "Yamada, Shinya",
    "Country": "Japan",
    "in list": "453",
-   "In schedule": 669,
+   "In schedule": 668,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16560,6 +16551,15 @@ var spkCountry = [
    "Name": "Yamada, Takashi",
    "Country": "Japan",
    "in list": "454",
+   "In schedule": 669,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Yamada, Takumi",
+   "Country": "United States",
+   "in list": "863",
    "In schedule": 670,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16569,16 +16569,7 @@ var spkCountry = [
    "Name": "Yamada, Takumi",
    "Country": "United States",
    "in list": "863",
-   "In schedule": 671,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Yamada, Takumi",
-   "Country": "United States",
-   "in list": "863",
-   "In schedule": 671,
+   "In schedule": 670,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16587,7 +16578,7 @@ var spkCountry = [
    "Name": "Yamaji, Hirosuke",
    "Country": "Japan",
    "in list": "455",
-   "In schedule": 672,
+   "In schedule": 671,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16596,7 +16587,7 @@ var spkCountry = [
    "Name": "Yamane, Teiichi",
    "Country": "Japan",
    "in list": "456",
-   "In schedule": 673,
+   "In schedule": 672,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16605,7 +16596,7 @@ var spkCountry = [
    "Name": "Yamashiro, Kohei",
    "Country": "Japan",
    "in list": "458",
-   "In schedule": 674,
+   "In schedule": 673,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16614,16 +16605,16 @@ var spkCountry = [
    "Name": "Yamin, Muhammad",
    "Country": "Indonesia",
    "in list": "268",
+   "In schedule": 674,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Yan, Ji",
+   "Country": "China",
+   "in list": "101",
    "In schedule": 675,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Yan, Ji",
-   "Country": "China",
-   "in list": "101",
-   "In schedule": 676,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16632,7 +16623,7 @@ var spkCountry = [
    "Name": "Yan, Ji",
    "Country": "China",
    "in list": "101",
-   "In schedule": 676,
+   "In schedule": 675,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16641,7 +16632,7 @@ var spkCountry = [
    "Name": "Yang, Bing",
    "Country": "China",
    "in list": "112",
-   "In schedule": 677,
+   "In schedule": 676,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16650,7 +16641,7 @@ var spkCountry = [
    "Name": "Yang, Bing",
    "Country": "China",
    "in list": "112",
-   "In schedule": 677,
+   "In schedule": 676,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16659,7 +16650,7 @@ var spkCountry = [
    "Name": "Yang, Pil-sung",
    "Country": "South Korea",
    "in list": "597",
-   "In schedule": 678,
+   "In schedule": 677,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16668,7 +16659,7 @@ var spkCountry = [
    "Name": "Yang, Xin-chun",
    "Country": "China",
    "in list": "113",
-   "In schedule": 679,
+   "In schedule": 678,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16677,7 +16668,7 @@ var spkCountry = [
    "Name": "Yansen, Ignatius",
    "Country": "Indonesia",
    "in list": "269",
-   "In schedule": 680,
+   "In schedule": 679,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16686,7 +16677,7 @@ var spkCountry = [
    "Name": "Yao, Yan",
    "Country": "China",
    "in list": "114",
-   "In schedule": 681,
+   "In schedule": 680,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16695,7 +16686,7 @@ var spkCountry = [
    "Name": "Yeh, Hung-I",
    "Country": "Taiwan",
    "in list": "662",
-   "In schedule": 682,
+   "In schedule": 681,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16704,7 +16695,7 @@ var spkCountry = [
    "Name": "Yeh, Kuan-Hung",
    "Country": "Taiwan",
    "in list": "663",
-   "In schedule": 683,
+   "In schedule": 682,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16713,7 +16704,7 @@ var spkCountry = [
    "Name": "Yeh, Yung-Hsin",
    "Country": "Taiwan",
    "in list": "664",
-   "In schedule": 684,
+   "In schedule": 683,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16722,7 +16713,7 @@ var spkCountry = [
    "Name": "Yeo, Colin",
    "Country": "Singapore",
    "in list": "521",
-   "In schedule": 685,
+   "In schedule": 684,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16731,7 +16722,7 @@ var spkCountry = [
    "Name": "Yiu, Kai-Hang",
    "Country": "Hong Kong",
    "in list": "177",
-   "In schedule": 686,
+   "In schedule": 685,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16740,7 +16731,7 @@ var spkCountry = [
    "Name": "Yodogawa, Kenji",
    "Country": "Japan",
    "in list": "460",
-   "In schedule": 687,
+   "In schedule": 686,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16749,7 +16740,7 @@ var spkCountry = [
    "Name": "Yokoshiki, Hisashi",
    "Country": "Japan",
    "in list": "462",
-   "In schedule": 688,
+   "In schedule": 687,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16758,7 +16749,7 @@ var spkCountry = [
    "Name": "Yokoyama, Yasuhiro",
    "Country": "Japan",
    "in list": "463",
-   "In schedule": 689,
+   "In schedule": 688,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16767,7 +16758,7 @@ var spkCountry = [
    "Name": "Yoo, Chun-ja",
    "Country": "South Korea",
    "in list": "598",
-   "In schedule": 690,
+   "In schedule": 689,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16776,7 +16767,7 @@ var spkCountry = [
    "Name": "Yoon, Namsik",
    "Country": "South Korea",
    "in list": "599",
-   "In schedule": 691,
+   "In schedule": 690,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16785,7 +16776,7 @@ var spkCountry = [
    "Name": "Yoshida, Akihiro",
    "Country": "Japan",
    "in list": "464",
-   "In schedule": 692,
+   "In schedule": 691,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16794,7 +16785,7 @@ var spkCountry = [
    "Name": "Yoshida, Yoshinori",
    "Country": "Japan",
    "in list": "465",
-   "In schedule": 693,
+   "In schedule": 692,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16803,7 +16794,7 @@ var spkCountry = [
    "Name": "Yoshiga, Yasuhiro",
    "Country": "Japan",
    "in list": "466",
-   "In schedule": 694,
+   "In schedule": 693,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16812,7 +16803,7 @@ var spkCountry = [
    "Name": "Yoshimoto, Jun",
    "Country": "Japan",
    "in list": "468",
-   "In schedule": 695,
+   "In schedule": 694,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16821,7 +16812,7 @@ var spkCountry = [
    "Name": "Yoshitani, Kazuyasu",
    "Country": "Japan",
    "in list": "469",
-   "In schedule": 696,
+   "In schedule": 695,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16830,7 +16821,7 @@ var spkCountry = [
    "Name": "Yu, Hee Tae",
    "Country": "South Korea",
    "in list": "600",
-   "In schedule": 697,
+   "In schedule": 696,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16839,7 +16830,7 @@ var spkCountry = [
    "Name": "Yuen, Ho Chuen",
    "Country": "Hong Kong",
    "in list": "179",
-   "In schedule": 698,
+   "In schedule": 697,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16848,7 +16839,7 @@ var spkCountry = [
    "Name": "Yuen, Sze Man Fiona",
    "Country": "Hong Kong",
    "in list": "181",
-   "In schedule": 699,
+   "In schedule": 698,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16857,7 +16848,7 @@ var spkCountry = [
    "Name": "Yung, Chi Yui",
    "Country": "Hong Kong",
    "in list": "182",
-   "In schedule": 700,
+   "In schedule": 699,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16866,7 +16857,7 @@ var spkCountry = [
    "Name": "Yuniadi, Yoga",
    "Country": "Indonesia",
    "in list": "270",
-   "In schedule": 701,
+   "In schedule": 700,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16875,7 +16866,7 @@ var spkCountry = [
    "Name": "Zhang, Fengxiang",
    "Country": "China",
    "in list": "115",
-   "In schedule": 702,
+   "In schedule": 701,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16884,7 +16875,7 @@ var spkCountry = [
    "Name": "Zhang, Jingchang",
    "Country": "China",
    "in list": "116",
-   "In schedule": 703,
+   "In schedule": 702,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16893,7 +16884,7 @@ var spkCountry = [
    "Name": "Zhang, Shu",
    "Country": "China",
    "in list": "117",
-   "In schedule": 704,
+   "In schedule": 703,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16902,7 +16893,7 @@ var spkCountry = [
    "Name": "Zhang, Xianzhang",
    "Country": "China",
    "in list": "109",
-   "In schedule": 705,
+   "In schedule": 704,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16911,6 +16902,15 @@ var spkCountry = [
    "Name": "Zhang, Zhong Yin",
    "Country": "China",
    "in list": "118",
+   "In schedule": 705,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Zheng, Liangrong",
+   "Country": "China",
+   "in list": "119",
    "In schedule": 706,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16920,16 +16920,7 @@ var spkCountry = [
    "Name": "Zheng, Liangrong",
    "Country": "China",
    "in list": "119",
-   "In schedule": 707,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Zheng, Liangrong",
-   "Country": "China",
-   "in list": "119",
-   "In schedule": 707,
+   "In schedule": 706,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16938,6 +16929,15 @@ var spkCountry = [
    "Name": "Zhong, Guoqiang",
    "Country": "China",
    "in list": "120",
+   "In schedule": 707,
+   "Accept": "Accept",
+   "InvRdy": "Y",
+   "InvCfrm": ""
+ },
+ {
+   "Name": "Zhong, Jinquan",
+   "Country": "China",
+   "in list": "121",
    "In schedule": 708,
    "Accept": "Accept",
    "InvRdy": "Y",
@@ -16947,16 +16947,7 @@ var spkCountry = [
    "Name": "Zhong, Jinquan",
    "Country": "China",
    "in list": "121",
-   "In schedule": 709,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Zhong, Jinquan",
-   "Country": "China",
-   "in list": "121",
-   "In schedule": 709,
+   "In schedule": 708,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16983,7 +16974,7 @@ var spkCountry = [
    "Name": "Zou, Jiangang",
    "Country": "China",
    "in list": "122",
-   "In schedule": 710,
+   "In schedule": 709,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -16992,7 +16983,7 @@ var spkCountry = [
    "Name": "Pornnimitthum, Napawan",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 737,
+   "In schedule": 736,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17001,7 +16992,7 @@ var spkCountry = [
    "Name": "Kang, Ki-Woon",
    "Country": "Korea",
    "in list": "#N/A",
-   "In schedule": 738,
+   "In schedule": 737,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17010,7 +17001,7 @@ var spkCountry = [
    "Name": "Pattanaprichakul, Supalerk",
    "Country": "Thailand",
    "in list": "694",
-   "In schedule": 739,
+   "In schedule": 738,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17019,7 +17010,7 @@ var spkCountry = [
    "Name": "Chandavimol, Mann",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 740,
+   "In schedule": 739,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17028,7 +17019,7 @@ var spkCountry = [
    "Name": "Wongpraparut, Nattawut",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 741,
+   "In schedule": 740,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17037,7 +17028,7 @@ var spkCountry = [
    "Name": "Suwanwela, Nijasri",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 742,
+   "In schedule": 741,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17046,7 +17037,7 @@ var spkCountry = [
    "Name": "ANGCHAISUKSIRI, Pantep",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 743,
+   "In schedule": 742,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17055,7 +17046,7 @@ var spkCountry = [
    "Name": "Dhanachai, Mantana",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 744,
+   "In schedule": 743,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17064,7 +17055,7 @@ var spkCountry = [
    "Name": "Assavahanrit, Jarin",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 745,
+   "In schedule": 744,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17073,7 +17064,7 @@ var spkCountry = [
    "Name": "Khmao, Pichmanil",
    "Country": "Cambodia",
    "in list": "#N/A",
-   "In schedule": 746,
+   "In schedule": 745,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17082,7 +17073,7 @@ var spkCountry = [
    "Name": "Ouyang, Feifang",
    "Country": "China",
    "in list": "#N/A",
-   "In schedule": 747,
+   "In schedule": 746,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17091,7 +17082,7 @@ var spkCountry = [
    "Name": "Silva, Jennifer",
    "Country": "United States",
    "in list": "#N/A",
-   "In schedule": 748,
+   "In schedule": 747,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17100,7 +17091,7 @@ var spkCountry = [
    "Name": "Methachittiphan, Nilubon",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 749,
+   "In schedule": 748,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17109,7 +17100,7 @@ var spkCountry = [
    "Name": "Bhuripanyo, Kiertijai",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 750,
+   "In schedule": 749,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17118,7 +17109,7 @@ var spkCountry = [
    "Name": "Kim, Sung-Soon",
    "Country": "Korea",
    "in list": "#N/A",
-   "In schedule": 751,
+   "In schedule": 750,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17127,7 +17118,7 @@ var spkCountry = [
    "Name": "Bunsiricomchai, Paisan",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 752,
+   "In schedule": 751,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17136,7 +17127,7 @@ var spkCountry = [
    "Name": "Sukitpunyaroj, Damrong",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 753,
+   "In schedule": 752,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17145,7 +17136,7 @@ var spkCountry = [
    "Name": "Rattanajaruskul, Nattapun",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 754,
+   "In schedule": 753,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17154,7 +17145,7 @@ var spkCountry = [
    "Name": "Teerawongsakul, Padoemwut",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 755,
+   "In schedule": 754,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17163,7 +17154,7 @@ var spkCountry = [
    "Name": "Hwang, Chun",
    "Country": "United States",
    "in list": "#N/A",
-   "In schedule": 757,
+   "In schedule": 756,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17172,7 +17163,7 @@ var spkCountry = [
    "Name": "Chaiyaroj, Suchart",
    "Country": "Thailand",
    "in list": "877",
-   "In schedule": 758,
+   "In schedule": 757,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17181,7 +17172,7 @@ var spkCountry = [
    "Name": "Kasemsarn, Choosak",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 759,
+   "In schedule": 758,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17190,7 +17181,7 @@ var spkCountry = [
    "Name": "Sakboon, Boonsap ",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 760,
+   "In schedule": 759,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17199,7 +17190,7 @@ var spkCountry = [
    "Name": "Jetwanna, Paradorn ",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 761,
+   "In schedule": 760,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17208,7 +17199,7 @@ var spkCountry = [
    "Name": "Sakiyalak, Pranya ",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 762,
+   "In schedule": 761,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17217,7 +17208,7 @@ var spkCountry = [
    "Name": "Limprasert, Sarawuth",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 763,
+   "In schedule": 762,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17226,7 +17217,7 @@ var spkCountry = [
    "Name": "Kittichamroen, Natchayathipk ",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 764,
+   "In schedule": 763,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17235,7 +17226,7 @@ var spkCountry = [
    "Name": "Huntrakul, Anurut",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 765,
+   "In schedule": 764,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17244,7 +17235,7 @@ var spkCountry = [
    "Name": "Leelapatana, Pattranee",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 766,
+   "In schedule": 765,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17253,7 +17244,7 @@ var spkCountry = [
    "Name": "Swasdimanont, Janejira",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 767,
+   "In schedule": 766,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17262,7 +17253,7 @@ var spkCountry = [
    "Name": "Hasija, Pradeep",
    "Country": "India",
    "in list": "#N/A",
-   "In schedule": 768,
+   "In schedule": 767,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17271,7 +17262,7 @@ var spkCountry = [
    "Name": "Mangrum, Michael",
    "Country": "United States",
    "in list": "#N/A",
-   "In schedule": 770,
+   "In schedule": 769,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17280,7 +17271,7 @@ var spkCountry = [
    "Name": "Kuo, Chi-Tai",
    "Country": "Taiwan",
    "in list": "561",
-   "In schedule": 771,
+   "In schedule": 770,
    "Accept": "0",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17289,7 +17280,7 @@ var spkCountry = [
    "Name": "Chheav, Chantorador",
    "Country": "Cambodia",
    "in list": "43",
-   "In schedule": 772,
+   "In schedule": 771,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17298,7 +17289,7 @@ var spkCountry = [
    "Name": "Te, Abigail Louise",
    "Country": "Philippines",
    "in list": "#N/A",
-   "In schedule": 773,
+   "In schedule": 772,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17307,7 +17298,7 @@ var spkCountry = [
    "Name": "Xiang, Meixiang",
    "Country": "China",
    "in list": "#N/A",
-   "In schedule": 774,
+   "In schedule": 773,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17316,7 +17307,7 @@ var spkCountry = [
    "Name": "Xiaohan, Fan",
    "Country": "China",
    "in list": "#N/A",
-   "In schedule": 775,
+   "In schedule": 774,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17325,7 +17316,7 @@ var spkCountry = [
    "Name": "Yamagata, Kenichiro",
    "Country": "Japan",
    "in list": "#N/A",
-   "In schedule": 776,
+   "In schedule": 775,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17334,7 +17325,7 @@ var spkCountry = [
    "Name": "Viskin, Samuel",
    "Country": "Israel",
    "in list": "#N/A",
-   "In schedule": 777,
+   "In schedule": 776,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17343,7 +17334,7 @@ var spkCountry = [
    "Name": "Rosso, Raphael",
    "Country": "Israel",
    "in list": "#N/A",
-   "In schedule": 778,
+   "In schedule": 777,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17352,7 +17343,7 @@ var spkCountry = [
    "Name": "Samion, Hasri",
    "Country": "Malaysia",
    "in list": "#N/A",
-   "In schedule": 779,
+   "In schedule": 778,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17361,7 +17352,7 @@ var spkCountry = [
    "Name": "Bhuiyan, Zahurul",
    "Country": "Switzerland",
    "in list": "#N/A",
-   "In schedule": 780,
+   "In schedule": 779,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17370,7 +17361,7 @@ var spkCountry = [
    "Name": "Soongsawang, Jarupim",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 781,
+   "In schedule": 780,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17379,7 +17370,7 @@ var spkCountry = [
    "Name": "Wanna, Bassam",
    "Country": "United States",
    "in list": "#N/A",
-   "In schedule": 782,
+   "In schedule": 781,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
@@ -17388,7 +17379,7 @@ var spkCountry = [
    "Name": "Wimonsophonkitti, Raiwin",
    "Country": "Thailand",
    "in list": "#N/A",
-   "In schedule": 783,
+   "In schedule": 782,
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
