@@ -8269,5 +8269,14 @@
    "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
+ },
+ {
+   "Name": "Khunkhial, Nalinas",
+   "Country": "Thailand",
+   "in list": "#N/A",
+   "In schedule": 783,
+   "Accept": "#N/A",
+   "InvRdy": "N",
+   "InvCfrm": ""
  }
 ]
