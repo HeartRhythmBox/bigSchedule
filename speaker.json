@@ -900,20 +900,11 @@
    "InvCfrm": ""
  },
  {
-   "Name": "Chelu, Mihali",
+   "Name": "Chelu, Mihail",
    "Country": "United States",
-   "in list": "764",
+   "in list": "#N/A",
    "In schedule": 84,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Chelu, Mihali",
-   "Country": "United States",
-   "in list": "764",
-   "In schedule": 84,
-   "Accept": "Accept",
+   "Accept": "#N/A",
    "InvRdy": "Y",
    "InvCfrm": ""
  },
