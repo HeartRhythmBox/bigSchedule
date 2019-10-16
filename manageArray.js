@@ -8356,7 +8356,7 @@ var schedule = [
    "Spk4": "TSE, Hung-Fat",
    "Spk5": "",
    "Spk6": "",
-   "Mod1": "ZHANG, Shu",
+   "Mod1": "",
    "Mod2": "Ngarmukos, Tachapong",
    "Mod3": "",
    "Mod4": "",
@@ -16849,15 +16849,6 @@ var spkCountry = [
    "Country": "China",
    "in list": "116",
    "In schedule": 700,
-   "Accept": "Accept",
-   "InvRdy": "Y",
-   "InvCfrm": ""
- },
- {
-   "Name": "Zhang, Shu",
-   "Country": "China",
-   "in list": "117",
-   "In schedule": 701,
    "Accept": "Accept",
    "InvRdy": "Y",
    "InvCfrm": ""
